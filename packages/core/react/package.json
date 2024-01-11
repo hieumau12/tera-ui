@@ -1,6 +1,6 @@
 {
   "name": "@tera-ui/react",
-  "version": "2.2.10",
+  "version": "1.0.0",
   "description": "🚀 Beautiful and modern React UI library.",
   "author": "Junior Garcia <jrgarciadev@gmail.com>",
   "homepage": "https://nextui.org",
@@ -23,11 +23,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hieumau12/nextui-tera.git",
+    "url": "git+https://github.com/hieumau12/tera-ui.git",
     "directory": "packages/core/react"
   },
   "bugs": {
-    "url": "https://github.com/hieumau12/nextui-tera/issues"
+    "url": "https://github.com/hieumau12/tera-ui/issues"
   },
   "scripts": {
     "prebuild": "node src/scripts/prebuild.js",

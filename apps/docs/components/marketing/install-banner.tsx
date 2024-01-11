@@ -84,7 +84,7 @@ export const InstallBanner = () => {
               isExternal
               as={Link}
               className="text-sm"
-              href="https://github.com/hieumau12/nextui-tera"
+              href="https://github.com/hieumau12/tera-ui"
               radius="full"
               size="md"
               startContent={<GithubIcon />}
@@ -93,7 +93,7 @@ export const InstallBanner = () => {
                 trackEvent("InstallBanner - Github", {
                   action: "press",
                   category: "landing-page",
-                  data: "https://github.com/hieumau12/nextui-tera",
+                  data: "https://github.com/hieumau12/tera-ui",
                 });
               }}
             >

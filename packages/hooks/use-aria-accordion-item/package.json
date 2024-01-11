@@ -1,6 +1,6 @@
 {
   "name": "@tera-ui/use-aria-accordion-item",
-  "version": "2.0.7",
+  "version": "1.0.0",
   "description": "Internal impl for react aria accordion item",
   "keywords": [
     "use-aria-accordion-item"
@@ -18,11 +18,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hieumau12/nextui-tera.git",
+    "url": "git+https://github.com/hieumau12/tera-ui.git",
     "directory": "packages/hooks/use-aria-accordion-item"
   },
   "bugs": {
-    "url": "https://github.com/hieumau12/nextui-tera/issues"
+    "url": "https://github.com/hieumau12/tera-ui/issues"
   },
   "scripts": {
     "build": "tsup src --dts",

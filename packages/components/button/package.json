@@ -1,6 +1,6 @@
 {
   "name": "@tera-ui/button",
-  "version": "2.0.26",
+  "version": "1.0.0",
   "description": "Buttons allow users to perform actions and choose with a single tap.",
   "keywords": [
     "button"
@@ -18,11 +18,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hieumau12/nextui-tera.git",
+    "url": "git+https://github.com/hieumau12/tera-ui.git",
     "directory": "packages/components/button"
   },
   "bugs": {
-    "url": "https://github.com/hieumau12/nextui-tera/issues"
+    "url": "https://github.com/hieumau12/tera-ui/issues"
   },
   "scripts": {
     "build": "tsup src --dts",
@@ -37,8 +37,8 @@
     "react": ">=18",
     "react-dom": ">=18",
     "framer-motion": ">=4.0.0",
-    "@tera-ui/theme": ">=2.1.0",
-    "@tera-ui/system": ">=2.0.0"
+    "@tera-ui/theme": ">=1.0.0",
+    "@tera-ui/system": ">=1.0.0"
   },
   "dependencies": {
     "@tera-ui/shared-utils": "workspace:*",

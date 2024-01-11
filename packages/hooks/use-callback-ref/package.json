@@ -1,6 +1,6 @@
 {
   "name": "@tera-ui/use-callback-ref",
-  "version": "2.0.4",
+  "version": "1.0.0",
   "description": "React hook to persist any value between renders, but keeps it up-to-date if it changes.",
   "keywords": [
     "use-callback-ref"
@@ -18,11 +18,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hieumau12/nextui-tera.git",
+    "url": "git+https://github.com/hieumau12/tera-ui.git",
     "directory": "packages/hooks/use-callback-ref"
   },
   "bugs": {
-    "url": "https://github.com/hieumau12/nextui-tera/issues"
+    "url": "https://github.com/hieumau12/tera-ui/issues"
   },
   "scripts": {
     "build": "tsup src --dts",

@@ -1,6 +1,6 @@
 {
   "name": "@tera-ui/react-utils",
-  "version": "2.0.10",
+  "version": "1.0.0",
   "description": "A set of utilities for react on client side",
   "keywords": [
     "react-utils"
@@ -18,11 +18,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hieumau12/nextui-tera.git",
+    "url": "git+https://github.com/hieumau12/tera-ui.git",
     "directory": "packages/utilities/react-utils"
   },
   "bugs": {
-    "url": "https://github.com/hieumau12/nextui-tera/issues"
+    "url": "https://github.com/hieumau12/tera-ui/issues"
   },
   "scripts": {
     "build": "tsup src --dts",

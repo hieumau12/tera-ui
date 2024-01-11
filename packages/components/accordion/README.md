@@ -15,10 +15,10 @@ npm i @tera-ui/accordion
 ## Contribution
 
 Yes please! See the
-[contributing guidelines](https://github.com/hieumau12/nextui-tera/blob/master/CONTRIBUTING.md)
+[contributing guidelines](https://github.com/hieumau12/tera-ui/blob/master/CONTRIBUTING.md)
 for details.
 
 ## Licence
 
 This project is licensed under the terms of the
-[MIT license](https://github.com/hieumau12/nextui-tera/blob/master/LICENSE).
+[MIT license](https://github.com/hieumau12/tera-ui/blob/master/LICENSE).

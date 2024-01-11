@@ -27,7 +27,7 @@ export default function App() {
     <Link
       isExternal
       showAnchorIcon
-      href="https://github.com/hieumau12/nextui-tera"
+      href="https://github.com/hieumau12/tera-ui"
       anchorIcon={<AnchorIcon />}
     >
       Custom Icon

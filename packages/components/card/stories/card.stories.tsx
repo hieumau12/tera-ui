@@ -118,7 +118,7 @@ const WithFooterTemplate = (args: CardProps) => (
       <p>Make beautiful websites regardless of your design experience.</p>
     </CardBody>
     <CardFooter>
-      <Link isExternal showAnchorIcon href="https://github.com/hieumau12/nextui-tera">
+      <Link isExternal showAnchorIcon href="https://github.com/hieumau12/tera-ui">
         Visit source code on GitHub.
       </Link>
     </CardFooter>

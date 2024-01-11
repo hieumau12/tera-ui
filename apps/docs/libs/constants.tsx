@@ -22,7 +22,7 @@ export const communityAccounts = [
     title: "Github",
     description: "To report bugs, request features and contribute to the project.",
     icon: <GithubIcon className="text-[#333] dark:text-[#E7E7E7]" size={32} />,
-    href: "https://github.com/hieumau12/nextui-tera",
+    href: "https://github.com/hieumau12/tera-ui",
     isExternal: true,
   },
 ];

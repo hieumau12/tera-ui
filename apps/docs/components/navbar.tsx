@@ -266,10 +266,8 @@ export const Navbar: FC<NavbarProps> = ({children, routes, mobileRoutes = [], sl
             isExternal
             aria-label="Github"
             className="p-1"
-            href="https://github.com/hieumau12/nextui-tera"
-            onClick={() =>
-              handlePressNavbarItem("Github", "https://github.com/hieumau12/nextui-tera")
-            }
+            href="https://github.com/hieumau12/tera-ui"
+            onClick={() => handlePressNavbarItem("Github", "https://github.com/hieumau12/tera-ui")}
           >
             <GithubIcon className="text-default-600 dark:text-default-500" />
           </Link>

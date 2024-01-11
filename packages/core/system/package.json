@@ -1,6 +1,6 @@
 {
   "name": "@tera-ui/system",
-  "version": "2.0.15",
+  "version": "1.0.0",
   "description": "NextUI system primitives",
   "keywords": [
     "system"
@@ -18,11 +18,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hieumau12/nextui-tera.git",
+    "url": "git+https://github.com/hieumau12/tera-ui.git",
     "directory": "packages/core/system"
   },
   "bugs": {
-    "url": "https://github.com/hieumau12/nextui-tera/issues"
+    "url": "https://github.com/hieumau12/tera-ui/issues"
   },
   "scripts": {
     "build": "tsup src !src/extend-variants.d.ts --dts",

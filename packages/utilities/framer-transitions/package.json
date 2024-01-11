@@ -1,6 +1,6 @@
 {
   "name": "@tera-ui/framer-transitions",
-  "version": "2.0.15",
+  "version": "1.0.0",
   "description": "A set of framer motion transitions for react",
   "keywords": [
     "framer-transitions"
@@ -18,11 +18,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hieumau12/nextui-tera.git",
+    "url": "git+https://github.com/hieumau12/tera-ui.git",
     "directory": "packages/utilities/framer-transitions"
   },
   "bugs": {
-    "url": "https://github.com/hieumau12/nextui-tera/issues"
+    "url": "https://github.com/hieumau12/tera-ui/issues"
   },
   "scripts": {
     "build": "tsup src --dts",

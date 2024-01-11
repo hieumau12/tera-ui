@@ -1,6 +1,6 @@
 {
   "name": "@tera-ui/popover",
-  "version": "2.1.15",
+  "version": "1.0.0",
   "description": "A popover is an overlay element positioned relative to a trigger.",
   "keywords": [
     "popover"
@@ -8,7 +8,7 @@
   "author": "Junior Garcia <jrgarciadev@gmail.com>",
   "homepage": "https://nextui.org",
   "license": "MIT",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
   "sideEffects": false,
   "files": [
     "dist"
@@ -18,11 +18,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hieumau12/nextui-tera.git",
+    "url": "git+https://github.com/hieumau12/tera-ui.git",
     "directory": "packages/components/popover"
   },
   "bugs": {
-    "url": "https://github.com/hieumau12/nextui-tera/issues"
+    "url": "https://github.com/hieumau12/tera-ui/issues"
   },
   "scripts": {
     "build": "tsup src --dts",
@@ -37,8 +37,8 @@
     "react": ">=18",
     "react-dom": ">=18",
     "framer-motion": ">=4.0.0",
-    "@tera-ui/theme": ">=2.1.0",
-    "@tera-ui/system": ">=2.0.0"
+    "@tera-ui/theme": ">=1.0.0",
+    "@tera-ui/system": ">=1.0.0"
   },
   "dependencies": {
     "@tera-ui/aria-utils": "workspace:*",
@@ -57,15 +57,15 @@
     "@react-types/button": "^3.9.0",
     "react-remove-scroll": "^2.5.6"
   },
-  "devDependencies": {
-    "@tera-ui/theme": "workspace:*",
-    "@tera-ui/system": "workspace:*",
-    "@tera-ui/input": "workspace:*",
-    "@tera-ui/card": "workspace:*",
-    "framer-motion": "^10.16.4",
-    "clean-package": "2.2.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
-  },
-  "clean-package": "../../../clean-package.config.json"
+  "clean-package": "../../../clean-package.config.json",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  }
 }

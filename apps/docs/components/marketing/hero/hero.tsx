@@ -84,7 +84,7 @@ export const Hero = () => {
             isExternal
             as={Link}
             className="w-full md:w-auto"
-            href="https://github.com/hieumau12/nextui-tera"
+            href="https://github.com/hieumau12/tera-ui"
             radius="full"
             size="lg"
             startContent={<GithubIcon />}
@@ -94,7 +94,7 @@ export const Hero = () => {
                 name: "Github",
                 action: "click",
                 category: "landing-page",
-                data: "https://github.com/hieumau12/nextui-tera",
+                data: "https://github.com/hieumau12/tera-ui",
               });
             }}
           >

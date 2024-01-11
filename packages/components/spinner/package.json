@@ -1,6 +1,6 @@
 {
   "name": "@tera-ui/spinner",
-  "version": "2.0.24",
+  "version": "1.0.0",
   "description": "Loaders express an unspecified wait time or display the length of a process.",
   "keywords": [
     "loading",
@@ -20,11 +20,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hieumau12/nextui-tera.git",
+    "url": "git+https://github.com/hieumau12/tera-ui.git",
     "directory": "packages/components/loading"
   },
   "bugs": {
-    "url": "https://github.com/hieumau12/nextui-tera/issues"
+    "url": "https://github.com/hieumau12/tera-ui/issues"
   },
   "scripts": {
     "build": "tsup src --dts",
@@ -38,7 +38,7 @@
   "peerDependencies": {
     "react": ">=18",
     "react-dom": ">=18",
-    "@tera-ui/theme": ">=2.1.0"
+    "@tera-ui/theme": ">=1.0.0"
   },
   "dependencies": {
     "@tera-ui/system-rsc": "workspace:*",

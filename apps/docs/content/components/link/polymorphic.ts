@@ -3,7 +3,7 @@ const App = `import { Link, Button } from "@tera-ui/react";
 export default function App() {
   return (
     <Button
-      href="https://github.com/hieumau12/nextui-tera"
+      href="https://github.com/hieumau12/tera-ui"
       as={Link}
       color="primary"
       showAnchorIcon

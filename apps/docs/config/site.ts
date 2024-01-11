@@ -31,7 +31,7 @@ export const siteConfig = {
     creator: "@getnextui",
   },
   links: {
-    github: "https://github.com/hieumau12/nextui-tera",
+    github: "https://github.com/hieumau12/tera-ui",
     twitter: "https://twitter.com/getnextui",
     docs: "https://nextui-docs-v2.vercel.app",
     discord: "https://discord.gg/9b6yyZKmH4",

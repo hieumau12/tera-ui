@@ -1,6 +1,6 @@
 {
   "name": "@tera-ui/listbox",
-  "version": "2.1.16",
+  "version": "1.0.0",
   "description": "A listbox displays a list of options and allows a user to select one or more of them.",
   "keywords": [
     "listbox"
@@ -18,11 +18,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hieumau12/nextui-tera.git",
+    "url": "git+https://github.com/hieumau12/tera-ui.git",
     "directory": "packages/components/listbox"
   },
   "bugs": {
-    "url": "https://github.com/hieumau12/nextui-tera/issues"
+    "url": "https://github.com/hieumau12/tera-ui/issues"
   },
   "scripts": {
     "build": "tsup src --dts",
@@ -36,8 +36,8 @@
   "peerDependencies": {
     "react": ">=18",
     "react-dom": ">=18",
-    "@tera-ui/theme": ">=2.1.0",
-    "@tera-ui/system": ">=2.0.0"
+    "@tera-ui/theme": ">=1.0.0",
+    "@tera-ui/system": ">=1.0.0"
   },
   "dependencies": {
     "@tera-ui/react-utils": "workspace:*",
