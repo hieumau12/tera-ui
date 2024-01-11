@@ -1,6 +1,6 @@
 import {useCallback} from "react";
-import {Spacer} from "@nextui-org/spacer";
-import {forwardRef} from "@nextui-org/system";
+import {Spacer} from "@tera-ui/spacer";
+import {forwardRef} from "@tera-ui/system";
 
 import {UseTableProps, useTable} from "./use-table";
 import TableRowGroup from "./table-row-group";

@@ -1,8 +1,8 @@
 import React from "react";
 import {Meta} from "@storybook/react";
 import {VisuallyHidden} from "@react-aria/visually-hidden";
-import {radio, button} from "@nextui-org/theme";
-import {clsx} from "@nextui-org/shared-utils";
+import {radio, button} from "@tera-ui/theme";
+import {clsx} from "@tera-ui/shared-utils";
 
 import {
   RadioGroup,

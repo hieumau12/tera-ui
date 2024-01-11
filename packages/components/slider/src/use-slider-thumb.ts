@@ -1,17 +1,17 @@
-import type {SliderVariantProps} from "@nextui-org/theme";
+import type {SliderVariantProps} from "@tera-ui/theme";
 
-import {HTMLNextUIProps, PropGetter} from "@nextui-org/system";
+import {HTMLNextUIProps, PropGetter} from "@tera-ui/system";
 import {useSliderThumb as useAriaSliderThumb} from "@react-aria/slider";
-import {ReactRef, useDOMRef} from "@nextui-org/react-utils";
+import {ReactRef, useDOMRef} from "@tera-ui/react-utils";
 import {RefObject, useRef} from "react";
 import {AriaSliderThumbProps} from "@react-aria/slider";
 import {SliderState} from "@react-stately/slider";
 import {useHover} from "@react-aria/interactions";
-import {usePress} from "@nextui-org/use-aria-press";
+import {usePress} from "@tera-ui/use-aria-press";
 import {useFocusRing} from "@react-aria/focus";
 import {mergeProps} from "@react-aria/utils";
-import {dataAttr} from "@nextui-org/shared-utils";
-import {TooltipProps} from "@nextui-org/tooltip";
+import {dataAttr} from "@tera-ui/shared-utils";
+import {TooltipProps} from "@tera-ui/tooltip";
 import {useNumberFormatter} from "@react-aria/i18n";
 
 import {UseSliderProps} from "./use-slider";

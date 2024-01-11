@@ -1,4 +1,4 @@
-# @nextui-org/use-update-effect
+# @tera-ui/use-update-effect
 
 ## 2.0.4
 

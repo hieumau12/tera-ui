@@ -48,7 +48,7 @@ export const CartIcon = `export const CartIcon = ({ size, height, width, ...prop
   );
 };`;
 
-const App = `import {Badge, Avatar, Switch} from "@nextui-org/react";
+const App = `import {Badge, Avatar, Switch} from "@tera-ui/react";
 import {NotificationIcon} from "./NotificationIcon";
 import {CartIcon} from "./CartIcon";
 

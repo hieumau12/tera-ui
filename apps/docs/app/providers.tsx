@@ -1,7 +1,7 @@
 "use client";
 
 import * as React from "react";
-import {NextUIProvider} from "@nextui-org/react";
+import {NextUIProvider} from "@tera-ui/react";
 import {ThemeProvider as NextThemesProvider} from "next-themes";
 import {ThemeProviderProps} from "next-themes/dist/types";
 import {useRouter} from "next/navigation";

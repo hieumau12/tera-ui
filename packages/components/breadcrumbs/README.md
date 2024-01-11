@@ -1,4 +1,4 @@
-# @nextui-org/breadcrumbs
+# @tera-ui/breadcrumbs
 
 Breadcrumbs display a hierarchy of links to the current page or resource in an application.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://nextui.org/docs/components/breadcrum
 ## Installation
 
 ```sh
-yarn add @nextui-org/breadcrumbs
+yarn add @tera-ui/breadcrumbs
 # or
-npm i @nextui-org/breadcrumbs
+npm i @tera-ui/breadcrumbs
 ```
 
 ## Contribution

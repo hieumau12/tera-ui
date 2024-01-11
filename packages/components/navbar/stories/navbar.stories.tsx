@@ -1,12 +1,12 @@
 import React from "react";
 import {Meta} from "@storybook/react";
-import {navbar} from "@nextui-org/theme";
-import {Link} from "@nextui-org/link";
-import {Button} from "@nextui-org/button";
-import {Avatar} from "@nextui-org/avatar";
-import {Input} from "@nextui-org/input";
+import {navbar} from "@tera-ui/theme";
+import {Link} from "@tera-ui/link";
+import {Button} from "@tera-ui/button";
+import {Avatar} from "@tera-ui/avatar";
+import {Input} from "@tera-ui/input";
 import Lorem from "react-lorem-component";
-import {Dropdown, DropdownTrigger, DropdownMenu, DropdownItem} from "@nextui-org/dropdown";
+import {Dropdown, DropdownTrigger, DropdownMenu, DropdownItem} from "@tera-ui/dropdown";
 import {
   ChevronDown,
   Lock,
@@ -16,7 +16,7 @@ import {
   TagUser,
   Scale,
   SearchIcon,
-} from "@nextui-org/shared-icons";
+} from "@tera-ui/shared-icons";
 
 import {
   Navbar,

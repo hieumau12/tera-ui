@@ -1,4 +1,4 @@
-const App = `import {Tabs, Tab, Card, CardBody, CardHeader} from "@nextui-org/react";
+const App = `import {Tabs, Tab, Card, CardBody, CardHeader} from "@tera-ui/react";
 
 export default function App() {
   const [selected, setSelected] = React.useState("photos");

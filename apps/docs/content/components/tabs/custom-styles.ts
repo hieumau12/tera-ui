@@ -49,7 +49,7 @@ const VideoIcon = `export const VideoIcon = (props) => (
   </svg>
 );`;
 
-const App = `import {Tabs, Tab, Chip} from "@nextui-org/react";
+const App = `import {Tabs, Tab, Chip} from "@tera-ui/react";
 import {GalleryIcon} from "./GalleryIcon";
 import {MusicIcon} from "./MusicIcon";
 import {VideoIcon} from "./VideoIcon";

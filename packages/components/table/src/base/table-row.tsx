@@ -1,4 +1,4 @@
-import {HTMLNextUIProps} from "@nextui-org/system";
+import {HTMLNextUIProps} from "@tera-ui/system";
 import {Row} from "@react-stately/table";
 import {RowProps} from "@react-types/table";
 

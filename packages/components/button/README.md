@@ -1,4 +1,4 @@
-# @nextui-org/button
+# @tera-ui/button
 
 Buttons allow users to perform actions and choose with a single tap.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://nextui.org/docs/components/button) f
 ## Installation
 
 ```sh
-yarn add @nextui-org/button
+yarn add @tera-ui/button
 # or
-npm i @nextui-org/button
+npm i @tera-ui/button
 ```
 
 ## Contribution

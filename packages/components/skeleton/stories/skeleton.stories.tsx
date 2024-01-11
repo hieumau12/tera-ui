@@ -1,8 +1,8 @@
 import React from "react";
 import {Meta} from "@storybook/react";
-import {skeleton} from "@nextui-org/theme";
-import {Card} from "@nextui-org/card";
-import {Button} from "@nextui-org/button";
+import {skeleton} from "@tera-ui/theme";
+import {Card} from "@tera-ui/card";
+import {Button} from "@tera-ui/button";
 
 import {Skeleton, SkeletonProps} from "../src";
 

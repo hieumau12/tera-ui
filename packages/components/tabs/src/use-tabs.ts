@@ -1,15 +1,15 @@
-import type {TabsVariantProps, SlotsToClasses, TabsSlots, TabsReturnType} from "@nextui-org/theme";
+import type {TabsVariantProps, SlotsToClasses, TabsSlots, TabsReturnType} from "@tera-ui/theme";
 
-import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@nextui-org/system";
-import {tabs} from "@nextui-org/theme";
-import {useDOMRef} from "@nextui-org/react-utils";
-import {clsx} from "@nextui-org/shared-utils";
-import {ReactRef, filterDOMProps} from "@nextui-org/react-utils";
+import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
+import {tabs} from "@tera-ui/theme";
+import {useDOMRef} from "@tera-ui/react-utils";
+import {clsx} from "@tera-ui/shared-utils";
+import {ReactRef, filterDOMProps} from "@tera-ui/react-utils";
 import {useMemo, RefObject, useCallback} from "react";
 import {TabListState, TabListStateOptions, useTabListState} from "@react-stately/tabs";
 import {AriaTabListProps, useTabList} from "@react-aria/tabs";
 import {mergeProps} from "@react-aria/utils";
-import {CollectionProps} from "@nextui-org/aria-utils";
+import {CollectionProps} from "@tera-ui/aria-utils";
 import {CollectionChildren} from "@react-types/shared";
 import {HTMLMotionProps} from "framer-motion";
 

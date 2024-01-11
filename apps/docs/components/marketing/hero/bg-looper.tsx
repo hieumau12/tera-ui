@@ -1,6 +1,6 @@
 "use client";
 
-import {clsx} from "@nextui-org/shared-utils";
+import {clsx} from "@tera-ui/shared-utils";
 
 import {useIsMounted} from "@/hooks/use-is-mounted";
 

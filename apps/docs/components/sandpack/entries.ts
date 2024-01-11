@@ -1,7 +1,7 @@
 export const rootFile = `
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { NextUIProvider } from "@nextui-org/react";
+import { NextUIProvider } from "@tera-ui/react";
 import App from "./App";
 import "./styles.css";
 
@@ -28,14 +28,14 @@ export const getHtmlFile = (theme: string, entryFile: string) => `<!DOCTYPE html
   </body>
 </html>`;
 
-export const tailwindConfig = `const { nextui } = require("@nextui-org/react");
+export const tailwindConfig = `const { nextui } = require("@tera-ui/react");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     "./index.html",
     "./*.{js,ts,jsx,tsx}",
-    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/@tera-ui/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {},

@@ -1,4 +1,4 @@
-const App = `import {Input} from "@nextui-org/react";
+const App = `import {Input} from "@tera-ui/react";
 
 export default function App() {
   const radius = [

@@ -1,17 +1,17 @@
-import type {CheckboxVariantProps, CheckboxSlots, SlotsToClasses} from "@nextui-org/theme";
+import type {CheckboxVariantProps, CheckboxSlots, SlotsToClasses} from "@tera-ui/theme";
 import type {AriaCheckboxProps} from "@react-types/checkbox";
-import type {HTMLNextUIProps, PropGetter} from "@nextui-org/system";
+import type {HTMLNextUIProps, PropGetter} from "@tera-ui/system";
 
 import {ReactNode, Ref, useCallback, useId, useState} from "react";
 import {useMemo, useRef} from "react";
 import {useToggleState} from "@react-stately/toggle";
-import {checkbox} from "@nextui-org/theme";
+import {checkbox} from "@tera-ui/theme";
 import {useHover} from "@react-aria/interactions";
-import {usePress} from "@nextui-org/use-aria-press";
+import {usePress} from "@tera-ui/use-aria-press";
 import {useFocusRing} from "@react-aria/focus";
 import {chain, mergeProps} from "@react-aria/utils";
-import {useFocusableRef} from "@nextui-org/react-utils";
-import {__DEV__, warn, clsx, dataAttr, safeAriaLabel} from "@nextui-org/shared-utils";
+import {useFocusableRef} from "@tera-ui/react-utils";
+import {__DEV__, warn, clsx, dataAttr, safeAriaLabel} from "@tera-ui/shared-utils";
 import {
   useCheckbox as useReactAriaCheckbox,
   useCheckboxGroupItem as useReactAriaCheckboxGroupItem,

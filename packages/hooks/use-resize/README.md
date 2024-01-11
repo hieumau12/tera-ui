@@ -1,4 +1,4 @@
-# @nextui-org/use-resize
+# @tera-ui/use-resize
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @nextui-org/use-resize
+yarn add @tera-ui/use-resize
 # or
-npm i @nextui-org/use-resize
+npm i @tera-ui/use-resize
 ```
 
 ## Contribution

@@ -1,4 +1,4 @@
-# @nextui-org/use-aria-multiselect
+# @tera-ui/use-aria-multiselect
 
 ## 2.1.3
 

@@ -1,4 +1,4 @@
-# @nextui-org/use-scroll-position
+# @tera-ui/use-scroll-position
 
 ## 2.0.4
 

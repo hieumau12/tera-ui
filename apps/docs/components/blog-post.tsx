@@ -1,7 +1,7 @@
 "use client";
 
 import {BlogPost} from "contentlayer/generated";
-import {Card, CardFooter, CardBody, CardHeader, Link, Avatar, Image} from "@nextui-org/react";
+import {Card, CardFooter, CardBody, CardHeader, Link, Avatar, Image} from "@tera-ui/react";
 import Balancer from "react-wrap-balancer";
 import {format, parseISO} from "date-fns";
 import NextLink from "next/link";

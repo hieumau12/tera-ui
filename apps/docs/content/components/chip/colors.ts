@@ -1,4 +1,4 @@
-const App = `import {Chip} from "@nextui-org/react";
+const App = `import {Chip} from "@tera-ui/react";
 
 export default function App() {
   return (

@@ -1,4 +1,4 @@
-import {Button, Link} from "@nextui-org/react";
+import {Button, Link} from "@tera-ui/react";
 
 import {sectionWrapper} from "@/components/primitives";
 import {RelumeLogo, Story2DesignLogo} from "@/components/icons/sponsors";

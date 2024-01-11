@@ -32,7 +32,7 @@ const SunIcon = `export const SunIcon = (props) => (
   </svg>
 );`;
 
-const App = `import {Switch, VisuallyHidden, useSwitch} from "@nextui-org/react";
+const App = `import {Switch, VisuallyHidden, useSwitch} from "@tera-ui/react";
 import {MoonIcon} from "./MoonIcon";
 import {SunIcon} from "./SunIcon";
 
@@ -75,7 +75,7 @@ export default function App() {
   return <ThemeSwitch/>
 }`;
 
-const AppTs = `import {Switch, useSwitch, VisuallyHidden, SwitchProps} from "@nextui-org/react";
+const AppTs = `import {Switch, useSwitch, VisuallyHidden, SwitchProps} from "@tera-ui/react";
 import {MoonIcon} from "./MoonIcon";
 import {SunIcon} from "./SunIcon";
 

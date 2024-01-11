@@ -1,4 +1,4 @@
-const App = `import {extendVariants, Button} from "@nextui-org/react";
+const App = `import {extendVariants, Button} from "@tera-ui/react";
 
 const MyButton = extendVariants(Button, {
   variants: {

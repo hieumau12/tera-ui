@@ -1,7 +1,7 @@
-import type {MenuSectionSlots, SlotsToClasses} from "@nextui-org/theme";
+import type {MenuSectionSlots, SlotsToClasses} from "@tera-ui/theme";
 
-import {BaseSection, SectionProps} from "@nextui-org/aria-utils";
-import {DividerProps} from "@nextui-org/divider";
+import {BaseSection, SectionProps} from "@tera-ui/aria-utils";
+import {DividerProps} from "@tera-ui/divider";
 
 import {MenuItemProps} from "../menu-item";
 

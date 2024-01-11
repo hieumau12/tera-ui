@@ -1,8 +1,8 @@
-import {forwardRef} from "@nextui-org/system";
+import {forwardRef} from "@tera-ui/system";
 import {useMemo, ReactNode} from "react";
-import {ChevronIcon} from "@nextui-org/shared-icons";
+import {ChevronIcon} from "@tera-ui/shared-icons";
 import {AnimatePresence, motion, useWillChange} from "framer-motion";
-import {TRANSITION_VARIANTS} from "@nextui-org/framer-transitions";
+import {TRANSITION_VARIANTS} from "@tera-ui/framer-transitions";
 
 import {UseAccordionItemProps, useAccordionItem} from "./use-accordion-item";
 

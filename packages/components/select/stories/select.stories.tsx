@@ -1,13 +1,13 @@
 /* eslint-disable react/display-name */
 import React, {ChangeEvent} from "react";
 import {Meta} from "@storybook/react";
-import {select, button} from "@nextui-org/theme";
-import {PetBoldIcon, SelectorIcon} from "@nextui-org/shared-icons";
-import {Avatar} from "@nextui-org/avatar";
-import {Chip} from "@nextui-org/chip";
-import {Button} from "@nextui-org/button";
+import {select, button} from "@tera-ui/theme";
+import {PetBoldIcon, SelectorIcon} from "@tera-ui/shared-icons";
+import {Avatar} from "@tera-ui/avatar";
+import {Chip} from "@tera-ui/chip";
+import {Button} from "@tera-ui/button";
 import {Selection} from "@react-types/shared";
-import {useInfiniteScroll} from "@nextui-org/use-infinite-scroll";
+import {useInfiniteScroll} from "@tera-ui/use-infinite-scroll";
 import {
   Pokemon,
   usePokemonList,
@@ -15,7 +15,7 @@ import {
   usersData,
   Animal,
   User,
-} from "@nextui-org/stories-utils";
+} from "@tera-ui/stories-utils";
 
 import {Select, SelectedItems, SelectItem, SelectProps, SelectSection} from "../src";
 

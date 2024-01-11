@@ -1,18 +1,18 @@
 import type {MenuItemBaseProps} from "./base/menu-item-base";
 
 import {useMemo, useRef, useCallback} from "react";
-import {menuItem} from "@nextui-org/theme";
-import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@nextui-org/system";
+import {menuItem} from "@tera-ui/theme";
+import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
 import {useFocusRing} from "@react-aria/focus";
 import {Node} from "@react-types/shared";
-import {filterDOMProps} from "@nextui-org/react-utils";
+import {filterDOMProps} from "@tera-ui/react-utils";
 import {TreeState} from "@react-stately/tree";
-import {clsx, dataAttr, removeEvents} from "@nextui-org/shared-utils";
+import {clsx, dataAttr, removeEvents} from "@tera-ui/shared-utils";
 import {useMenuItem as useAriaMenuItem} from "@react-aria/menu";
 import {chain, mergeProps} from "@react-aria/utils";
 import {useHover} from "@react-aria/interactions";
-import {usePress} from "@nextui-org/use-aria-press";
-import {useIsMobile} from "@nextui-org/use-is-mobile";
+import {usePress} from "@tera-ui/use-aria-press";
+import {useIsMobile} from "@tera-ui/use-is-mobile";
 
 interface Props<T extends object> extends MenuItemBaseProps<T> {
   item: Node<T>;

@@ -1,4 +1,4 @@
-# @nextui-org/system-rsc
+# @tera-ui/system-rsc
 
 ## 2.0.11
 
@@ -31,7 +31,7 @@
 - [`25e86fb41`](https://github.com/nextui-org/nextui/commit/25e86fb41770d3cdae6dfdb79306b78fa02d8187) Thanks [@jrgarciadev](https://github.com/jrgarciadev)! - New version v2.2.0
 
 - Updated dependencies [[`25e86fb41`](https://github.com/nextui-org/nextui/commit/25e86fb41770d3cdae6dfdb79306b78fa02d8187)]:
-  - @nextui-org/theme@2.1.10
+  - @tera-ui/theme@2.1.10
 
 ## 2.0.6
 

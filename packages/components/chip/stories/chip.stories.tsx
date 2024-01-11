@@ -1,8 +1,8 @@
 import React from "react";
 import {Meta} from "@storybook/react";
-import {chip} from "@nextui-org/theme";
-import {Avatar} from "@nextui-org/avatar";
-import {CheckIcon} from "@nextui-org/shared-icons";
+import {chip} from "@tera-ui/theme";
+import {Avatar} from "@tera-ui/avatar";
+import {CheckIcon} from "@tera-ui/shared-icons";
 
 import {Chip} from "../src";
 

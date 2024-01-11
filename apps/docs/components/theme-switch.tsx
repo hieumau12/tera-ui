@@ -2,9 +2,9 @@
 
 import {FC} from "react";
 import {VisuallyHidden} from "@react-aria/visually-hidden";
-import {SwitchProps, useSwitch} from "@nextui-org/react";
+import {SwitchProps, useSwitch} from "@tera-ui/react";
 import {useTheme} from "next-themes";
-import {clsx} from "@nextui-org/shared-utils";
+import {clsx} from "@tera-ui/shared-utils";
 import {useIsSSR} from "@react-aria/ssr";
 
 import {SunFilledIcon, MoonFilledIcon} from "@/components/icons";

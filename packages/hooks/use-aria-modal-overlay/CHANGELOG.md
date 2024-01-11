@@ -1,4 +1,4 @@
-# @nextui-org/use-aria-modal-overlay
+# @tera-ui/use-aria-modal-overlay
 
 ## 2.0.6
 

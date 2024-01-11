@@ -1,17 +1,17 @@
-import type {PopoverVariantProps, SlotsToClasses, PopoverSlots} from "@nextui-org/theme";
+import type {PopoverVariantProps, SlotsToClasses, PopoverSlots} from "@tera-ui/theme";
 import type {HTMLMotionProps} from "framer-motion";
 
 import {RefObject, Ref, useEffect} from "react";
-import {ReactRef, useDOMRef} from "@nextui-org/react-utils";
+import {ReactRef, useDOMRef} from "@tera-ui/react-utils";
 import {OverlayTriggerState, useOverlayTriggerState} from "@react-stately/overlays";
 import {useFocusRing} from "@react-aria/focus";
 import {ariaHideOutside, useOverlayTrigger} from "@react-aria/overlays";
 import {OverlayTriggerProps} from "@react-types/overlays";
-import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@nextui-org/system";
-import {getArrowPlacement, getShouldUseAxisPlacement} from "@nextui-org/aria-utils";
-import {popover} from "@nextui-org/theme";
+import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
+import {getArrowPlacement, getShouldUseAxisPlacement} from "@tera-ui/aria-utils";
+import {popover} from "@tera-ui/theme";
 import {mergeProps, mergeRefs} from "@react-aria/utils";
-import {clsx, dataAttr} from "@nextui-org/shared-utils";
+import {clsx, dataAttr} from "@tera-ui/shared-utils";
 import {useMemo, useCallback, useRef} from "react";
 import {PressEvent} from "@react-types/shared";
 

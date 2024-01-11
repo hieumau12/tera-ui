@@ -44,7 +44,7 @@ export const CheckIcon = `export const CheckIcon = ({
   );
 };`;
 
-const App = `import {Badge, Avatar} from "@nextui-org/react";
+const App = `import {Badge, Avatar} from "@tera-ui/react";
 import {NotificationIcon} from "./NotificationIcon";
 import {CheckIcon} from "./CheckIcon";
 

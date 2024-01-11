@@ -1,4 +1,4 @@
-const CustomCheckbox = `import {Checkbox, Link, User, Chip, cn} from "@nextui-org/react";
+const CustomCheckbox = `import {Checkbox, Link, User, Chip, cn} from "@tera-ui/react";
 
 export const CustomCheckbox = ({ user, statusColor, value }) => {
   return (
@@ -36,7 +36,7 @@ export const CustomCheckbox = ({ user, statusColor, value }) => {
   );
 };`;
 
-const App = `import {CheckboxGroup} from "@nextui-org/react";
+const App = `import {CheckboxGroup} from "@tera-ui/react";
 import {CustomCheckbox} from "./CustomCheckbox";
 
 export default function App() {

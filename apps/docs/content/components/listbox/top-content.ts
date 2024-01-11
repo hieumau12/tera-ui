@@ -213,7 +213,7 @@ const ListboxWrapperTs = `export const ListboxWrapper = ({children}: { children:
   </div>
 );`;
 
-const App = `import {Listbox, ListboxItem, Chip, ScrollShadow, Avatar} from "@nextui-org/react";
+const App = `import {Listbox, ListboxItem, Chip, ScrollShadow, Avatar} from "@tera-ui/react";
 import {ListboxWrapper} from "./ListboxWrapper";
 import {users} from "./data";
 
@@ -271,7 +271,7 @@ export default function App() {
   );
 }`;
 
-const AppTs = `import {Listbox, ListboxItem, Chip, ScrollShadow, Avatar, Selection} from "@nextui-org/react";
+const AppTs = `import {Listbox, ListboxItem, Chip, ScrollShadow, Avatar, Selection} from "@tera-ui/react";
 import {ListboxWrapper} from "./ListboxWrapper";
 import {users} from "./data";
 

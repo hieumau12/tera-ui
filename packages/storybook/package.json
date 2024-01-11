@@ -1,5 +1,5 @@
 {
-  "name": "@nextui-org/storybook",
+  "name": "@tera-ui/storybook",
   "version": "2.0.0",
   "description": "The NextUI react components storybook ",
   "keywords": [
@@ -30,9 +30,9 @@
     "start": "pnpm dlx http-server storybook-static"
   },
   "dependencies": {
-    "@nextui-org/react": "workspace:*",
-    "@nextui-org/system": "workspace:*",
-    "@nextui-org/theme": "workspace:*",
+    "@tera-ui/react": "workspace:*",
+    "@tera-ui/system": "workspace:*",
+    "@tera-ui/theme": "workspace:*",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
   },

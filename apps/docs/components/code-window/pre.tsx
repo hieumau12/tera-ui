@@ -1,5 +1,5 @@
 import {forwardRef} from "react";
-import {clsx} from "@nextui-org/shared-utils";
+import {clsx} from "@tera-ui/shared-utils";
 
 export interface PreProps {
   className?: string;

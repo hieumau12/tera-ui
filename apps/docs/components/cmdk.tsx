@@ -4,12 +4,12 @@
 import {Command} from "cmdk";
 import {useEffect, useState, FC, useMemo, useCallback, useRef} from "react";
 import {matchSorter} from "match-sorter";
-import {Button, ButtonProps, Kbd, Modal, ModalContent} from "@nextui-org/react";
-import {CloseIcon} from "@nextui-org/shared-icons";
+import {Button, ButtonProps, Kbd, Modal, ModalContent} from "@tera-ui/react";
+import {CloseIcon} from "@tera-ui/shared-icons";
 import {tv} from "tailwind-variants";
 import {usePathname, useRouter} from "next/navigation";
 import MultiRef from "react-multi-ref";
-import {clsx} from "@nextui-org/shared-utils";
+import {clsx} from "@tera-ui/shared-utils";
 import scrollIntoView from "scroll-into-view-if-needed";
 import {isAppleDevice, isWebKit} from "@react-aria/utils";
 import {create} from "zustand";

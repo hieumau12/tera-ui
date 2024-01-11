@@ -1,5 +1,5 @@
 import {cloneElement} from "react";
-import {forwardRef} from "@nextui-org/system";
+import {forwardRef} from "@tera-ui/system";
 
 import {UseImageProps, useImage} from "./use-image";
 

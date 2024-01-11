@@ -1,4 +1,4 @@
-import {getUniqueID} from "@nextui-org/shared-utils";
+import {getUniqueID} from "@tera-ui/shared-utils";
 import React, {useCallback, useState} from "react";
 
 export type RippleType = {

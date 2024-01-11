@@ -2,18 +2,18 @@ import type {
   CircularProgressVariantProps,
   SlotsToClasses,
   CircularProgressSlots,
-} from "@nextui-org/theme";
-import type {PropGetter} from "@nextui-org/system";
+} from "@tera-ui/theme";
+import type {PropGetter} from "@tera-ui/system";
 import type {AriaProgressBarProps} from "@react-types/progress";
 
-import {HTMLNextUIProps, mapPropsVariants} from "@nextui-org/system";
-import {circularProgress} from "@nextui-org/theme";
-import {useDOMRef} from "@nextui-org/react-utils";
-import {clampPercentage, clsx, dataAttr} from "@nextui-org/shared-utils";
-import {ReactRef} from "@nextui-org/react-utils";
+import {HTMLNextUIProps, mapPropsVariants} from "@tera-ui/system";
+import {circularProgress} from "@tera-ui/theme";
+import {useDOMRef} from "@tera-ui/react-utils";
+import {clampPercentage, clsx, dataAttr} from "@tera-ui/shared-utils";
+import {ReactRef} from "@tera-ui/react-utils";
 import {mergeProps} from "@react-aria/utils";
 import {useMemo, useCallback} from "react";
-import {useIsMounted} from "@nextui-org/use-is-mounted";
+import {useIsMounted} from "@tera-ui/use-is-mounted";
 import {useProgressBar as useAriaProgress} from "@react-aria/progress";
 
 export interface Props extends HTMLNextUIProps<"div"> {

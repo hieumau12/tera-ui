@@ -1,4 +1,4 @@
-import {Image} from "@nextui-org/react";
+import {Image} from "@tera-ui/react";
 
 interface DocsLayoutProps {
   children: React.ReactNode;

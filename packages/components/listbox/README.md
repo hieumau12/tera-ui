@@ -1,4 +1,4 @@
-# @nextui-org/listbox
+# @tera-ui/listbox
 
 A listbox displays a list of options and allows a user to select one or more of them.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://nextui.org/docs/components/listbox) 
 ## Installation
 
 ```sh
-yarn add @nextui-org/listbox
+yarn add @tera-ui/listbox
 # or
-npm i @nextui-org/listbox
+npm i @tera-ui/listbox
 ```
 
 ## Contribution

@@ -201,7 +201,7 @@ const data = `export const users = [
   },
 ];`;
 
-const App = `import {Select, SelectItem, Avatar} from "@nextui-org/react";
+const App = `import {Select, SelectItem, Avatar} from "@tera-ui/react";
 import {users} from "./data";
 
 export default function App() {

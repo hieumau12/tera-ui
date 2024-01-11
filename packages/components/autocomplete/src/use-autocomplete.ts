@@ -1,20 +1,20 @@
-import type {AutocompleteVariantProps, SlotsToClasses, AutocompleteSlots} from "@nextui-org/theme";
+import type {AutocompleteVariantProps, SlotsToClasses, AutocompleteSlots} from "@tera-ui/theme";
 
-import {DOMAttributes, HTMLNextUIProps, mapPropsVariants, PropGetter} from "@nextui-org/system";
-import {autocomplete} from "@nextui-org/theme";
+import {DOMAttributes, HTMLNextUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
+import {autocomplete} from "@tera-ui/theme";
 import {useFilter} from "@react-aria/i18n";
 import {useComboBox} from "@react-aria/combobox";
 import {FilterFn, useComboBoxState} from "@react-stately/combobox";
-import {ReactRef, useDOMRef} from "@nextui-org/react-utils";
+import {ReactRef, useDOMRef} from "@tera-ui/react-utils";
 import {ReactNode, useCallback, useEffect, useMemo, useRef} from "react";
 import {ComboBoxProps} from "@react-types/combobox";
-import {PopoverProps} from "@nextui-org/popover";
-import {ListboxProps} from "@nextui-org/listbox";
-import {InputProps} from "@nextui-org/input";
-import {clsx, dataAttr} from "@nextui-org/shared-utils";
-import {ScrollShadowProps} from "@nextui-org/scroll-shadow";
+import {PopoverProps} from "@tera-ui/popover";
+import {ListboxProps} from "@tera-ui/listbox";
+import {InputProps} from "@tera-ui/input";
+import {clsx, dataAttr} from "@tera-ui/shared-utils";
+import {ScrollShadowProps} from "@tera-ui/scroll-shadow";
 import {chain, mergeProps} from "@react-aria/utils";
-import {ButtonProps} from "@nextui-org/button";
+import {ButtonProps} from "@tera-ui/button";
 import {AsyncLoadable, PressEvent} from "@react-types/shared";
 
 interface Props<T> extends Omit<HTMLNextUIProps<"input">, keyof ComboBoxProps<T>> {

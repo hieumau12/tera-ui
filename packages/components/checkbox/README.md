@@ -1,4 +1,4 @@
-# @nextui-org/checkbox
+# @tera-ui/checkbox
 
 Checkboxes allow users to select multiple items from a list of individual items, or to mark one individual item as selected.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://nextui.org/docs/components/checkbox)
 ## Installation
 
 ```sh
-yarn add @nextui-org/checkbox
+yarn add @tera-ui/checkbox
 # or
-npm i @nextui-org/checkbox
+npm i @tera-ui/checkbox
 ```
 
 ## Contribution

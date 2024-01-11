@@ -1,4 +1,4 @@
-# @nextui-org/use-callback-ref
+# @tera-ui/use-callback-ref
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @nextui-org/use-callback-ref
+yarn add @tera-ui/use-callback-ref
 # or
-npm i @nextui-org/use-callback-ref
+npm i @tera-ui/use-callback-ref
 ```
 
 ## Contribution

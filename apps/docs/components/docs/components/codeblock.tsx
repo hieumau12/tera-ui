@@ -1,5 +1,5 @@
 import React, {forwardRef, useEffect} from "react";
-import {clsx, dataAttr, getUniqueID} from "@nextui-org/shared-utils";
+import {clsx, dataAttr, getUniqueID} from "@tera-ui/shared-utils";
 import BaseHighlight, {Language, PrismTheme, defaultProps} from "prism-react-renderer";
 import {debounce} from "lodash";
 

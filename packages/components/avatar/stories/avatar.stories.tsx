@@ -1,7 +1,7 @@
 import React from "react";
 import {Meta} from "@storybook/react";
-import {Activity, Camera} from "@nextui-org/shared-icons";
-import {avatar} from "@nextui-org/theme";
+import {Activity, Camera} from "@tera-ui/shared-icons";
+import {avatar} from "@tera-ui/theme";
 
 import {Avatar} from "../src";
 

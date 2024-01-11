@@ -1,5 +1,5 @@
 {
-  "name": "@nextui-org/use-aria-button",
+  "name": "@tera-ui/use-aria-button",
   "version": "2.0.6",
   "description": "Internal hook to handle button a11y and events, this is based on react-aria button hook but without the onClick warning",
   "keywords": [
@@ -37,7 +37,7 @@
     "react": ">=18"
   },
   "dependencies": {
-    "@nextui-org/use-aria-press": "workspace:*",
+    "@tera-ui/use-aria-press": "workspace:*",
     "@react-aria/utils": "^3.21.1",
     "@react-aria/focus": "^3.14.3",
     "@react-aria/interactions": "^3.19.1",

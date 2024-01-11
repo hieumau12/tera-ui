@@ -34,7 +34,7 @@ const InfoIcon = `export const InfoIcon = (props) => (
 );
 `;
 
-const App = `import {Slider, Tooltip} from "@nextui-org/react";
+const App = `import {Slider, Tooltip} from "@tera-ui/react";
 import {InfoIcon} from "./InfoIcon";
 
 export default function App() {

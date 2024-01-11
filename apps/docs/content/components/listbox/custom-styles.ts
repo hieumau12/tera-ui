@@ -110,7 +110,7 @@ const ChevronRightIcon = `export const ChevronRightIcon = (props) => (
   </svg>
 );`;
 
-const IconWrapper = `import {cn} from "@nextui-org/react";
+const IconWrapper = `import {cn} from "@tera-ui/react";
 
 export const IconWrapper = ({children, className}) => (
   <div className={cn(className, "flex items-center rounded-small justify-center w-7 h-7")}>
@@ -125,7 +125,7 @@ const ItemCounter = `export const ItemCounter = ({number}) => (
   </div>
 );`;
 
-const App = `import {Listbox, ListboxItem} from "@nextui-org/react";
+const App = `import {Listbox, ListboxItem} from "@tera-ui/react";
 import {IconWrapper} from "./IconWrapper";
 import {ItemCounter} from "./ItemCounter";
 import {BugIcon} from "./BugIcon";
@@ -218,7 +218,7 @@ export default function App() {
         <div className="flex flex-col gap-1">
           <span>Releases</span>
           <div className="px-2 py-1 rounded-small bg-default-100 group-data-[hover=true]:bg-default-200">
-            <span className="text-tiny text-default-600">@nextui-org/react@2.0.10</span>
+            <span className="text-tiny text-default-600">@tera-ui/react@2.0.10</span>
             <div className="flex gap-2 text-tiny">
               <span className="text-default-500">49 minutes ago</span>
               <span className="text-success">Latest</span>

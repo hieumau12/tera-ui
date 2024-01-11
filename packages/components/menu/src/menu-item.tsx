@@ -1,5 +1,5 @@
 import {useMemo, ReactNode} from "react";
-import {forwardRef} from "@nextui-org/system";
+import {forwardRef} from "@tera-ui/system";
 
 import {UseMenuItemProps, useMenuItem} from "./use-menu-item";
 import {MenuSelectedIcon} from "./menu-selected-icon";

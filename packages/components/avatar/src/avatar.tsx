@@ -1,5 +1,5 @@
 import {useMemo} from "react";
-import {forwardRef} from "@nextui-org/system";
+import {forwardRef} from "@tera-ui/system";
 
 import {AvatarIcon} from "./avatar-icon";
 import {useAvatar, UseAvatarProps} from "./use-avatar";

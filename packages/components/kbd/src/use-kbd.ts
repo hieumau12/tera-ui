@@ -1,10 +1,10 @@
-import type {KbdVariantProps, KbdSlots, SlotsToClasses} from "@nextui-org/theme";
-import type {HTMLNextUIProps, PropGetter} from "@nextui-org/system-rsc";
+import type {KbdVariantProps, KbdSlots, SlotsToClasses} from "@tera-ui/theme";
+import type {HTMLNextUIProps, PropGetter} from "@tera-ui/system-rsc";
 
-import {mapPropsVariants} from "@nextui-org/system-rsc";
-import {kbd} from "@nextui-org/theme";
-import {clsx} from "@nextui-org/shared-utils";
-import {ReactRef} from "@nextui-org/react-utils";
+import {mapPropsVariants} from "@tera-ui/system-rsc";
+import {kbd} from "@tera-ui/theme";
+import {clsx} from "@tera-ui/shared-utils";
+import {ReactRef} from "@tera-ui/react-utils";
 import {useMemo} from "react";
 
 import {KbdKey} from "./utils";

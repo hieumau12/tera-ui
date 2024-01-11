@@ -2,7 +2,7 @@ import type {Metadata} from "next";
 
 import {notFound} from "next/navigation";
 import {allDocs} from "contentlayer/generated";
-import {Link} from "@nextui-org/react";
+import {Link} from "@tera-ui/react";
 
 import {MDXContent} from "@/components/mdx-content";
 import {siteConfig} from "@/config/site";

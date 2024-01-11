@@ -1,17 +1,17 @@
-import type {HTMLNextUIProps, PropGetter} from "@nextui-org/system";
+import type {HTMLNextUIProps, PropGetter} from "@tera-ui/system";
 import type {SelectionBehavior, MultipleSelection} from "@react-types/shared";
 import type {AriaAccordionProps} from "@react-types/accordion";
-import type {AccordionGroupVariantProps} from "@nextui-org/theme";
+import type {AccordionGroupVariantProps} from "@tera-ui/theme";
 
-import {ReactRef, filterDOMProps} from "@nextui-org/react-utils";
+import {ReactRef, filterDOMProps} from "@tera-ui/react-utils";
 import React, {Key, useCallback} from "react";
 import {TreeState, useTreeState} from "@react-stately/tree";
 import {mergeProps} from "@react-aria/utils";
-import {accordion} from "@nextui-org/theme";
-import {useDOMRef} from "@nextui-org/react-utils";
+import {accordion} from "@tera-ui/theme";
+import {useDOMRef} from "@tera-ui/react-utils";
 import {useMemo, useState} from "react";
-import {DividerProps} from "@nextui-org/divider";
-import {useReactAriaAccordion} from "@nextui-org/use-aria-accordion";
+import {DividerProps} from "@tera-ui/divider";
+import {useReactAriaAccordion} from "@tera-ui/use-aria-accordion";
 
 import {AccordionItemProps} from "./accordion-item";
 

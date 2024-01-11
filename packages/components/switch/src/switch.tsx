@@ -1,6 +1,6 @@
 import {VisuallyHidden} from "@react-aria/visually-hidden";
 import {cloneElement, ReactElement} from "react";
-import {forwardRef} from "@nextui-org/system";
+import {forwardRef} from "@tera-ui/system";
 
 import {UseSwitchProps, useSwitch} from "./use-switch";
 

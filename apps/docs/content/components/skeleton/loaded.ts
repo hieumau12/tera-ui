@@ -1,4 +1,4 @@
-const App = `import {Card, Skeleton, Button} from "@nextui-org/react";
+const App = `import {Card, Skeleton, Button} from "@tera-ui/react";
 
 export default function App() {
   const [isLoaded, setIsLoaded] = React.useState(false);

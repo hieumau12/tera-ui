@@ -1,9 +1,9 @@
 "use client";
 
 import {FC, useRef, useEffect} from "react";
-import {clsx} from "@nextui-org/shared-utils";
-import {Divider, Spacer} from "@nextui-org/react";
-import {ChevronCircleTopLinearIcon} from "@nextui-org/shared-icons";
+import {clsx} from "@tera-ui/shared-utils";
+import {Divider, Spacer} from "@tera-ui/react";
+import {ChevronCircleTopLinearIcon} from "@tera-ui/shared-icons";
 import scrollIntoView from "scroll-into-view-if-needed";
 
 import {Heading} from "@/libs/docs/utils";

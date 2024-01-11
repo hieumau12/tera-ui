@@ -1,5 +1,5 @@
 {
-  "name": "@nextui-org/use-infinite-scroll",
+  "name": "@tera-ui/use-infinite-scroll",
   "version": "2.1.2",
   "description": "A hook for handling infinite scroll based on the IntersectionObserver API",
   "keywords": [

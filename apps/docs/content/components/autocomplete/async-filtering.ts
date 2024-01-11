@@ -1,4 +1,4 @@
-const App = `import {Autocomplete, AutocompleteItem} from "@nextui-org/react";
+const App = `import {Autocomplete, AutocompleteItem} from "@tera-ui/react";
 import {useAsyncList} from "@react-stately/data";
 
 export default function App() {
@@ -33,7 +33,7 @@ export default function App() {
   );
 }`;
 
-const AppTs = `import {Autocomplete, AutocompleteItem} from "@nextui-org/react";
+const AppTs = `import {Autocomplete, AutocompleteItem} from "@tera-ui/react";
 import {useAsyncList} from "@react-stately/data";
 
 type SWCharacter = {

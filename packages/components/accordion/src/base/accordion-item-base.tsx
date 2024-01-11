@@ -1,10 +1,6 @@
-import type {
-  AccordionItemVariantProps,
-  AccordionItemSlots,
-  SlotsToClasses,
-} from "@nextui-org/theme";
+import type {AccordionItemVariantProps, AccordionItemSlots, SlotsToClasses} from "@tera-ui/theme";
 
-import {ItemProps, BaseItem} from "@nextui-org/aria-utils";
+import {ItemProps, BaseItem} from "@tera-ui/aria-utils";
 import {FocusableProps, PressEvents} from "@react-types/shared";
 import {ReactNode, MouseEventHandler} from "react";
 import {HTMLMotionProps} from "framer-motion";

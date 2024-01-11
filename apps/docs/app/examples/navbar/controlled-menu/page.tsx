@@ -11,7 +11,7 @@ import {
   Button,
   Link as NextUiLink,
   LinkProps,
-} from "@nextui-org/react";
+} from "@tera-ui/react";
 import React from "react";
 
 const Link = (props: LinkProps) => <NextUiLink {...props} onClick={(e) => e.preventDefault()} />;

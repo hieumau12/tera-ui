@@ -79,7 +79,7 @@ const SongIcon = `export const SongIcon = (props) => (
   </svg>
 );`;
 
-const App = `import {Breadcrumbs, BreadcrumbItem} from "@nextui-org/react";
+const App = `import {Breadcrumbs, BreadcrumbItem} from "@tera-ui/react";
 import {HomeIcon} from "./HomeIcon";
 import {MusicIcon} from "./MusicIcon";
 import {ArtistIcon} from "./ArtistIcon";

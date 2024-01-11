@@ -1,6 +1,6 @@
 import {FC} from "react";
-import {Button, ButtonProps} from "@nextui-org/react";
-import {useClipboard} from "@nextui-org/use-clipboard";
+import {Button, ButtonProps} from "@tera-ui/react";
+import {useClipboard} from "@tera-ui/use-clipboard";
 
 import {CheckLinearIcon, CopyLinearIcon} from "@/components/icons";
 

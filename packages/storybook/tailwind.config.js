@@ -1,4 +1,4 @@
-const {nextui} = require("@nextui-org/theme/plugin");
+const {nextui} = require("@tera-ui/theme/plugin");
 
 // /** @type {import('tailwindcss').Config} */
 module.exports = {

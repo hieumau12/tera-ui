@@ -1,4 +1,4 @@
-# @nextui-org/theme
+# @tera-ui/theme
 
 ## 2.1.17
 

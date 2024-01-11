@@ -1,5 +1,5 @@
-import {forwardRef} from "@nextui-org/system";
-import {Ripple} from "@nextui-org/ripple";
+import {forwardRef} from "@tera-ui/system";
+import {Ripple} from "@tera-ui/ripple";
 
 import {CardProvider} from "./card-context";
 import {useCard, UseCardProps} from "./use-card";

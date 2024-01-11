@@ -1,16 +1,16 @@
-import type {ToggleVariantProps, ToggleSlots, SlotsToClasses} from "@nextui-org/theme";
+import type {ToggleVariantProps, ToggleSlots, SlotsToClasses} from "@tera-ui/theme";
 import type {FocusableRef} from "@react-types/shared";
 import type {AriaSwitchProps} from "@react-aria/switch";
-import type {HTMLNextUIProps, PropGetter} from "@nextui-org/system";
+import type {HTMLNextUIProps, PropGetter} from "@tera-ui/system";
 
 import {ReactNode, Ref, useCallback, useId, useRef, useState} from "react";
-import {mapPropsVariants} from "@nextui-org/system";
+import {mapPropsVariants} from "@tera-ui/system";
 import {useHover} from "@react-aria/interactions";
-import {usePress} from "@nextui-org/use-aria-press";
-import {toggle} from "@nextui-org/theme";
+import {usePress} from "@tera-ui/use-aria-press";
+import {toggle} from "@tera-ui/theme";
 import {chain, mergeProps} from "@react-aria/utils";
-import {clsx, dataAttr} from "@nextui-org/shared-utils";
-import {useFocusableRef} from "@nextui-org/react-utils";
+import {clsx, dataAttr} from "@tera-ui/shared-utils";
+import {useFocusableRef} from "@tera-ui/react-utils";
 import {useSwitch as useReactAriaSwitch} from "@react-aria/switch";
 import {useMemo} from "react";
 import {useToggleState} from "@react-stately/toggle";

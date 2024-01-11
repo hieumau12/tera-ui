@@ -1,8 +1,8 @@
 import {ReactNode, useCallback, useMemo, cloneElement} from "react";
-import {forwardRef} from "@nextui-org/system";
-import {Tooltip} from "@nextui-org/tooltip";
-import {CopyLinearIcon, CheckLinearIcon} from "@nextui-org/shared-icons";
-import {Button} from "@nextui-org/button";
+import {forwardRef} from "@tera-ui/system";
+import {Tooltip} from "@tera-ui/tooltip";
+import {CopyLinearIcon, CheckLinearIcon} from "@tera-ui/shared-icons";
+import {Button} from "@tera-ui/button";
 
 import {useSnippet, UseSnippetProps} from "./use-snippet";
 

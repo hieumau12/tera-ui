@@ -1,4 +1,4 @@
-const App = `import {RadioGroup, Radio, cn} from "@nextui-org/react";
+const App = `import {RadioGroup, Radio, cn} from "@tera-ui/react";
 
 export const CustomRadio = (props) => {
   const {children, ...otherProps} = props;

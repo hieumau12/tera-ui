@@ -1,4 +1,4 @@
-# @nextui-org/use-aria-accordion
+# @tera-ui/use-aria-accordion
 
 ## 2.0.2
 

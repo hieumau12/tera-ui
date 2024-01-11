@@ -1,4 +1,4 @@
-# @nextui-org/chip
+# @tera-ui/chip
 
 A Chip is a small block of essential information that represent an input, attribute, or action.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://nextui.org/docs/components/chip) for
 ## Installation
 
 ```sh
-yarn add @nextui-org/chip
+yarn add @tera-ui/chip
 # or
-npm i @nextui-org/chip
+npm i @tera-ui/chip
 ```
 
 ## Contribution

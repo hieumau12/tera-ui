@@ -1,4 +1,4 @@
-# @nextui-org/use-clipboard
+# @tera-ui/use-clipboard
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @nextui-org/use-clipboard
+yarn add @tera-ui/use-clipboard
 # or
-npm i @nextui-org/use-clipboard
+npm i @tera-ui/use-clipboard
 ```
 
 ## Contribution

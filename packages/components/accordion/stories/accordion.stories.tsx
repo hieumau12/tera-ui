@@ -2,7 +2,7 @@ import type {Selection} from "@react-types/shared";
 
 import React from "react";
 import {Meta} from "@storybook/react";
-import {accordionItem, button} from "@nextui-org/theme";
+import {accordionItem, button} from "@tera-ui/theme";
 import {
   AnchorIcon,
   MoonIcon,
@@ -11,10 +11,10 @@ import {
   ShieldSecurityIcon,
   MonitorMobileIcon,
   InvalidCardIcon,
-} from "@nextui-org/shared-icons";
-import {Avatar} from "@nextui-org/avatar";
-import {Input} from "@nextui-org/input";
-import {Button} from "@nextui-org/button";
+} from "@tera-ui/shared-icons";
+import {Avatar} from "@tera-ui/avatar";
+import {Input} from "@tera-ui/input";
+import {Button} from "@tera-ui/button";
 
 import {Accordion, AccordionProps, AccordionItem, AccordionItemProps} from "../src";
 

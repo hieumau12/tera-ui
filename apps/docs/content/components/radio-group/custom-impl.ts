@@ -1,4 +1,4 @@
-const App = `import {RadioGroup, Radio, useRadio, VisuallyHidden, cn} from "@nextui-org/react";
+const App = `import {RadioGroup, Radio, useRadio, VisuallyHidden, cn} from "@tera-ui/react";
 
 export const CustomRadio = (props) => {
   const {
@@ -58,7 +58,7 @@ export default function App() {
   );
 }`;
 
-const AppTs = `import {RadioGroup, Radio, useRadio, VisuallyHidden, RadioProps, cn} from "@nextui-org/react";
+const AppTs = `import {RadioGroup, Radio, useRadio, VisuallyHidden, RadioProps, cn} from "@tera-ui/react";
 
 export const CustomRadio = (props: RadioProps) => {
   const {

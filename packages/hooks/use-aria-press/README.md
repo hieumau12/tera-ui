@@ -1,4 +1,4 @@
-# @nextui-org/use-aria-press
+# @tera-ui/use-aria-press
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @nextui-org/use-aria-press
+yarn add @tera-ui/use-aria-press
 # or
-npm i @nextui-org/use-aria-press
+npm i @tera-ui/use-aria-press
 ```
 
 ## Contribution

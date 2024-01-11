@@ -1,6 +1,6 @@
 import * as React from "react";
 import {act, render} from "@testing-library/react";
-import {Button} from "@nextui-org/button";
+import {Button} from "@tera-ui/button";
 import userEvent from "@testing-library/user-event";
 
 import {Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, DropdownSection} from "../src";

@@ -1,5 +1,5 @@
 import {Meta} from "@storybook/react";
-import {code} from "@nextui-org/theme";
+import {code} from "@tera-ui/theme";
 
 import {Code} from "../src";
 
@@ -29,7 +29,7 @@ export default {
 } as Meta<typeof Code>;
 
 const defaultProps = {
-  children: "npm install @nextui-org/react",
+  children: "npm install @tera-ui/react",
   ...code.defaultVariants,
 };
 

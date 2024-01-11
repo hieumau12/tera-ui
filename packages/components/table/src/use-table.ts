@@ -1,9 +1,4 @@
-import type {
-  TableVariantProps,
-  SlotsToClasses,
-  TableReturnType,
-  TableSlots,
-} from "@nextui-org/theme";
+import type {TableVariantProps, SlotsToClasses, TableReturnType, TableSlots} from "@tera-ui/theme";
 import type {Layout} from "@react-stately/virtualizer";
 import type {SelectionBehavior, DisabledBehavior, Node} from "@react-types/shared";
 import type {TableState, TableStateProps} from "@react-stately/table";
@@ -12,14 +7,14 @@ import type {TableCollection} from "@react-types/table";
 import {ReactNode, Key, useCallback} from "react";
 import {useTableState} from "@react-stately/table";
 import {AriaTableProps, useTable as useReactAriaTable} from "@react-aria/table";
-import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@nextui-org/system";
-import {table} from "@nextui-org/theme";
-import {useDOMRef, filterDOMProps} from "@nextui-org/react-utils";
+import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
+import {table} from "@tera-ui/theme";
+import {useDOMRef, filterDOMProps} from "@tera-ui/react-utils";
 import {mergeProps} from "@react-aria/utils";
-import {clsx} from "@nextui-org/shared-utils";
-import {ReactRef} from "@nextui-org/react-utils";
+import {clsx} from "@tera-ui/shared-utils";
+import {ReactRef} from "@tera-ui/react-utils";
 import {useMemo} from "react";
-import {CheckboxProps} from "@nextui-org/checkbox";
+import {CheckboxProps} from "@tera-ui/checkbox";
 
 type TableContentPlacement = "inside" | "outside";
 

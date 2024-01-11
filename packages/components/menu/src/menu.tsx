@@ -1,4 +1,4 @@
-import {forwardRef} from "@nextui-org/system";
+import {forwardRef} from "@tera-ui/system";
 import {ForwardedRef, ReactElement, Ref} from "react";
 
 import {UseMenuProps, useMenu} from "./use-menu";

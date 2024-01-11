@@ -1,4 +1,4 @@
-# @nextui-org/shared-utils
+# @tera-ui/shared-utils
 
 ## 2.0.4
 

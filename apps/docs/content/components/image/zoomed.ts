@@ -1,4 +1,4 @@
-const App = `import {Image} from "@nextui-org/react";
+const App = `import {Image} from "@tera-ui/react";
 
 export default function App() {
   return (

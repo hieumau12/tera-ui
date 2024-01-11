@@ -1,4 +1,4 @@
-# @nextui-org/avatar
+# @tera-ui/avatar
 
 The Avatar component is used to represent a user, and displays the profile picture, initials or fallback icon.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://nextui.org/docs/components/avatar) f
 ## Installation
 
 ```sh
-yarn add @nextui-org/avatar
+yarn add @tera-ui/avatar
 # or
-npm i @nextui-org/avatar
+npm i @tera-ui/avatar
 ```
 
 ## Contribution

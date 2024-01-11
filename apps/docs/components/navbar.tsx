@@ -17,11 +17,11 @@ import {
   DropdownItem,
   DropdownTrigger,
   Chip,
-} from "@nextui-org/react";
-import {dataFocusVisibleClasses} from "@nextui-org/theme";
-import {ChevronDownIcon, LinkIcon} from "@nextui-org/shared-icons";
+} from "@tera-ui/react";
+import {dataFocusVisibleClasses} from "@tera-ui/theme";
+import {ChevronDownIcon, LinkIcon} from "@tera-ui/shared-icons";
 import {isAppleDevice} from "@react-aria/utils";
-import {clsx} from "@nextui-org/shared-utils";
+import {clsx} from "@tera-ui/shared-utils";
 import NextLink from "next/link";
 import {usePathname} from "next/navigation";
 import {includes} from "lodash";

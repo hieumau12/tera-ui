@@ -1,4 +1,4 @@
-const App = `import {Divider} from "@nextui-org/react";
+const App = `import {Divider} from "@tera-ui/react";
 
 export default function App() {
   return (

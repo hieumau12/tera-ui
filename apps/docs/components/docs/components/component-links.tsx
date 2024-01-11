@@ -1,4 +1,4 @@
-import {Button, ButtonProps, Code, Link, Tooltip} from "@nextui-org/react";
+import {Button, ButtonProps, Code, Link, Tooltip} from "@tera-ui/react";
 import {ReactNode} from "react";
 import Balancer from "react-wrap-balancer";
 
@@ -80,10 +80,10 @@ export const ComponentLinks = ({
         Storybook
       </ButtonLink>
       <ButtonLink
-        href={`https://www.npmjs.com/package/@nextui-org/${component}`}
+        href={`https://www.npmjs.com/package/@tera-ui/${component}`}
         startContent={<NpmIcon className="text-2xl text-[#E53E3E]" />}
       >
-        {`@nextui-org/${component}`}
+        {`@tera-ui/${component}`}
       </ButtonLink>
       {reactAriaHook && (
         <ButtonLink

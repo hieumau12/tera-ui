@@ -1,9 +1,9 @@
-import type {VariantProps} from "@nextui-org/theme";
+import type {VariantProps} from "@tera-ui/theme";
 
 import {Meta} from "@storybook/react";
 import React from "react";
-import {tv} from "@nextui-org/theme";
-import {link} from "@nextui-org/theme";
+import {tv} from "@tera-ui/theme";
+import {link} from "@tera-ui/theme";
 
 import {Link, LinkProps} from "../src";
 

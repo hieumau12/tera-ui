@@ -1,5 +1,5 @@
 {
-  "name": "@nextui-org/framer-transitions",
+  "name": "@tera-ui/framer-transitions",
   "version": "2.0.15",
   "description": "A set of framer motion transitions for react",
   "keywords": [
@@ -39,8 +39,8 @@
     "framer-motion": ">=4.0.0"
   },
   "dependencies": {
-    "@nextui-org/system": "workspace:*",
-    "@nextui-org/shared-utils": "workspace:*"
+    "@tera-ui/system": "workspace:*",
+    "@tera-ui/shared-utils": "workspace:*"
   },
   "devDependencies": {
     "react": "^18.0.0",

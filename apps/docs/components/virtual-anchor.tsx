@@ -1,5 +1,5 @@
 import React, {useEffect, useRef, useState} from "react";
-import {Link} from "@nextui-org/react";
+import {Link} from "@tera-ui/react";
 
 import {HashLinearIcon} from "@/components/icons";
 

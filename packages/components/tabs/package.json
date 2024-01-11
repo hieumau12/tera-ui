@@ -1,5 +1,5 @@
 {
-  "name": "@nextui-org/tabs",
+  "name": "@tera-ui/tabs",
   "version": "2.0.26",
   "description": "Tabs organize content into multiple sections and allow users to navigate between them.",
   "keywords": [
@@ -37,16 +37,16 @@
     "react": ">=18",
     "react-dom": ">=18",
     "framer-motion": ">=4.0.0",
-    "@nextui-org/theme": ">=2.1.0",
-    "@nextui-org/system": ">=2.0.0"
+    "@tera-ui/theme": ">=2.1.0",
+    "@tera-ui/system": ">=2.0.0"
   },
   "dependencies": {
-    "@nextui-org/shared-utils": "workspace:*",
-    "@nextui-org/react-utils": "workspace:*",
-    "@nextui-org/aria-utils": "workspace:*",
-    "@nextui-org/framer-transitions": "workspace:*",
-    "@nextui-org/use-is-mounted": "workspace:*",
-    "@nextui-org/use-update-effect": "workspace:*",
+    "@tera-ui/shared-utils": "workspace:*",
+    "@tera-ui/react-utils": "workspace:*",
+    "@tera-ui/aria-utils": "workspace:*",
+    "@tera-ui/framer-transitions": "workspace:*",
+    "@tera-ui/use-is-mounted": "workspace:*",
+    "@tera-ui/use-update-effect": "workspace:*",
     "@react-aria/focus": "^3.14.3",
     "@react-aria/interactions": "^3.19.1",
     "@react-aria/tabs": "^3.8.1",
@@ -57,15 +57,15 @@
     "scroll-into-view-if-needed": "3.0.10"
   },
   "devDependencies": {
-    "@nextui-org/theme": "workspace:*",
-    "@nextui-org/system": "workspace:*",
+    "@tera-ui/theme": "workspace:*",
+    "@tera-ui/system": "workspace:*",
     "framer-motion": "^10.16.4",
     "react-lorem-component": "0.13.0",
-    "@nextui-org/card": "workspace:*",
-    "@nextui-org/input": "workspace:*",
-    "@nextui-org/test-utils": "workspace:*",
-    "@nextui-org/button": "workspace:*",
-    "@nextui-org/shared-icons": "workspace:*",
+    "@tera-ui/card": "workspace:*",
+    "@tera-ui/input": "workspace:*",
+    "@tera-ui/test-utils": "workspace:*",
+    "@tera-ui/button": "workspace:*",
+    "@tera-ui/shared-icons": "workspace:*",
     "clean-package": "2.2.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"

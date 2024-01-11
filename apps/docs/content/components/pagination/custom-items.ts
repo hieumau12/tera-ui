@@ -46,7 +46,7 @@ export const ChevronIcon = (props: IconSvgProps) => (
 );
 `;
 
-const AppTs = `import {Pagination, PaginationItemType, PaginationItemRenderProps} from "@nextui-org/react";
+const AppTs = `import {Pagination, PaginationItemType, PaginationItemRenderProps} from "@tera-ui/react";
 import {ChevronIcon} from "./ChevronIcon";
 
 export default function App() {
@@ -111,7 +111,7 @@ export default function App() {
   );
 }`;
 
-const App = `import {Pagination, PaginationItemType} from "@nextui-org/react";
+const App = `import {Pagination, PaginationItemType} from "@tera-ui/react";
 import {ChevronIcon} from "./ChevronIcon";
 
 export default function App() {

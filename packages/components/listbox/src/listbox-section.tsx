@@ -1,10 +1,10 @@
-import {listboxSection} from "@nextui-org/theme";
+import {listboxSection} from "@tera-ui/theme";
 import {Node} from "@react-types/shared";
 import {useMemo} from "react";
-import {forwardRef} from "@nextui-org/system";
+import {forwardRef} from "@tera-ui/system";
 import {mergeProps} from "@react-aria/utils";
-import {clsx} from "@nextui-org/shared-utils";
-import {Divider} from "@nextui-org/divider";
+import {clsx} from "@tera-ui/shared-utils";
+import {Divider} from "@tera-ui/divider";
 import {ListState} from "@react-stately/list";
 import {useListBoxSection} from "@react-aria/listbox";
 

@@ -2,19 +2,19 @@ import type {Selection} from "@react-types/shared";
 
 import React, {Key} from "react";
 import {Meta} from "@storybook/react";
-import {menuItem} from "@nextui-org/theme";
+import {menuItem} from "@tera-ui/theme";
 import {
   AddNoteBulkIcon,
   CopyDocumentBulkIcon,
   EditDocumentBulkIcon,
   DeleteDocumentBulkIcon,
   ChevronRightIcon,
-} from "@nextui-org/shared-icons";
-import {usersData} from "@nextui-org/stories-utils";
-import {Avatar} from "@nextui-org/avatar";
-import {Chip} from "@nextui-org/chip";
-import {clsx} from "@nextui-org/shared-utils";
-import {ScrollShadow} from "@nextui-org/scroll-shadow";
+} from "@tera-ui/shared-icons";
+import {usersData} from "@tera-ui/stories-utils";
+import {Avatar} from "@tera-ui/avatar";
+import {Chip} from "@tera-ui/chip";
+import {clsx} from "@tera-ui/shared-utils";
+import {ScrollShadow} from "@tera-ui/scroll-shadow";
 
 import {Listbox, ListboxItem, ListboxSection, ListboxProps} from "../src";
 
@@ -634,7 +634,7 @@ const CustomWithClassNamesTemplate = ({color, variant, disableAnimation, ...args
         <div className="flex flex-col gap-1">
           <span>Releases</span>
           <div className="px-2 py-1 rounded-small bg-default-100 group-data-[hover=true]:bg-default-200">
-            <span className="text-tiny text-default-600">@nextui-org/react@2.0.10</span>
+            <span className="text-tiny text-default-600">@tera-ui/react@2.0.10</span>
             <div className="flex gap-2 text-tiny">
               <span className="text-default-500">49 minutes ago</span>
               <span className="text-success">Latest</span>

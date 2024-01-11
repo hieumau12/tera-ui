@@ -1,5 +1,5 @@
-import {renderFn} from "@nextui-org/react-utils";
-import {forwardRef} from "@nextui-org/system";
+import {renderFn} from "@tera-ui/react-utils";
+import {forwardRef} from "@tera-ui/system";
 
 import Thumb from "./slider-thumb";
 import {UseSliderProps, useSlider} from "./use-slider";

@@ -1,4 +1,4 @@
-const App = `import {Slider} from "@nextui-org/react";
+const App = `import {Slider} from "@tera-ui/react";
 
 export default function App() {
   const [value, setValue] = React.useState(25);
@@ -17,7 +17,7 @@ export default function App() {
   );
 }`;
 
-const AppTs = `import {Slider, SliderValue} from "@nextui-org/react";
+const AppTs = `import {Slider, SliderValue} from "@tera-ui/react";
 
 export default function App() {
   const [value, setValue] = React.useState<SliderValue>(25);

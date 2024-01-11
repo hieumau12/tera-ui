@@ -1,5 +1,5 @@
 {
-  "name": "@nextui-org/use-pagination",
+  "name": "@tera-ui/use-pagination",
   "version": "2.0.4",
   "description": "State management hook for Pagination component, it lets you manage pagination with controlled and uncontrolled state",
   "keywords": [
@@ -34,7 +34,7 @@
     "postpack": "clean-package restore"
   },
   "dependencies": {
-    "@nextui-org/shared-utils": "workspace:*"
+    "@tera-ui/shared-utils": "workspace:*"
   },
   "peerDependencies": {
     "react": ">=18"

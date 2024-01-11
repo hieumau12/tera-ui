@@ -1,4 +1,4 @@
-# @nextui-org/tabs
+# @tera-ui/tabs
 
 Tabs organize content into multiple sections and allow users to navigate between them.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://nextui.org/docs/components/tabs) for
 ## Installation
 
 ```sh
-yarn add @nextui-org/tabs
+yarn add @tera-ui/tabs
 # or
-npm i @nextui-org/tabs
+npm i @tera-ui/tabs
 ```
 
 ## Contribution

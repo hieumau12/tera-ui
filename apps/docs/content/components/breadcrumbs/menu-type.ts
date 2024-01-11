@@ -1,4 +1,4 @@
-const App = `import {Breadcrumbs, BreadcrumbItem} from "@nextui-org/react";
+const App = `import {Breadcrumbs, BreadcrumbItem} from "@tera-ui/react";
 
 export default function App() {
   const [currentPage, setCurrentPage] = React.useState("music");
@@ -38,7 +38,7 @@ export default function App() {
   );
 }`;
 
-const AppTs = `import {Breadcrumbs, BreadcrumbItem} from "@nextui-org/react";
+const AppTs = `import {Breadcrumbs, BreadcrumbItem} from "@tera-ui/react";
 
 export default function App() {
   const [currentPage, setCurrentPage] = React.useState<React.Key>("music");

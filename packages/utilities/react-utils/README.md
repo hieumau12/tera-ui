@@ -1,4 +1,4 @@
-# @nextui-org/react-utils
+# @tera-ui/react-utils
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @nextui-org/react-utils
+yarn add @tera-ui/react-utils
 # or
-npm i @nextui-org/react-utils
+npm i @tera-ui/react-utils
 ```
 
 ## Contribution

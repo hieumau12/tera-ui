@@ -1,20 +1,20 @@
-import type {PaginationSlots, PaginationVariantProps, SlotsToClasses} from "@nextui-org/theme";
-import type {Timer} from "@nextui-org/shared-utils";
+import type {PaginationSlots, PaginationVariantProps, SlotsToClasses} from "@tera-ui/theme";
+import type {Timer} from "@tera-ui/shared-utils";
 import type {Key, ReactNode, Ref} from "react";
-import type {HTMLNextUIProps, PropGetter} from "@nextui-org/system";
+import type {HTMLNextUIProps, PropGetter} from "@tera-ui/system";
 
 import {
   UsePaginationProps as UseBasePaginationProps,
   PaginationItemValue,
   PaginationItemType,
-} from "@nextui-org/use-pagination";
+} from "@tera-ui/use-pagination";
 import {useEffect, useRef, useMemo} from "react";
-import {mapPropsVariants} from "@nextui-org/system";
-import {usePagination as useBasePagination} from "@nextui-org/use-pagination";
+import {mapPropsVariants} from "@tera-ui/system";
+import {usePagination as useBasePagination} from "@tera-ui/use-pagination";
 import scrollIntoView from "scroll-into-view-if-needed";
-import {pagination} from "@nextui-org/theme";
-import {useDOMRef} from "@nextui-org/react-utils";
-import {clsx, dataAttr} from "@nextui-org/shared-utils";
+import {pagination} from "@tera-ui/theme";
+import {useDOMRef} from "@tera-ui/react-utils";
+import {clsx, dataAttr} from "@tera-ui/shared-utils";
 import {PressEvent} from "@react-types/shared";
 
 export type PaginationItemRenderProps = {

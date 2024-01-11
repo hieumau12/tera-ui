@@ -1,4 +1,4 @@
-# @nextui-org/slider
+# @tera-ui/slider
 
 Slider allows a user to select one or more values within a range.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://nextui.org/docs/components/slider) f
 ## Installation
 
 ```sh
-yarn add @nextui-org/slider
+yarn add @tera-ui/slider
 # or
-npm i @nextui-org/slider
+npm i @tera-ui/slider
 ```
 
 ## Contribution

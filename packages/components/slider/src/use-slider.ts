@@ -1,15 +1,15 @@
-import type {SliderSlots, SliderVariantProps, SlotsToClasses} from "@nextui-org/theme";
+import type {SliderSlots, SliderVariantProps, SlotsToClasses} from "@tera-ui/theme";
 
-import {DOMAttributes, HTMLNextUIProps, mapPropsVariants, PropGetter} from "@nextui-org/system";
-import {slider} from "@nextui-org/theme";
-import {ReactRef, useDOMRef, filterDOMProps} from "@nextui-org/react-utils";
+import {DOMAttributes, HTMLNextUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
+import {slider} from "@tera-ui/theme";
+import {ReactRef, useDOMRef, filterDOMProps} from "@tera-ui/react-utils";
 import {useSliderState} from "@react-stately/slider";
 import {ReactNode, useCallback, useMemo, useRef} from "react";
 import {useNumberFormatter, useLocale} from "@react-aria/i18n";
 import {mergeProps} from "@react-aria/utils";
 import {AriaSliderProps, useSlider as useAriaSlider} from "@react-aria/slider";
-import {clsx} from "@nextui-org/shared-utils";
-import {TooltipProps} from "@nextui-org/tooltip";
+import {clsx} from "@tera-ui/shared-utils";
+import {TooltipProps} from "@tera-ui/tooltip";
 import {useHover} from "@react-aria/interactions";
 import {ValueBase} from "@react-types/shared";
 

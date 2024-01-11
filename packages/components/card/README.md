@@ -1,4 +1,4 @@
-# @nextui-org/card
+# @tera-ui/card
 
 Card is a container for text, photos, and actions in the context of a single subject.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://nextui.org/docs/components/card) for
 ## Installation
 
 ```sh
-yarn add @nextui-org/card
+yarn add @tera-ui/card
 # or
-npm i @nextui-org/card
+npm i @tera-ui/card
 ```
 
 ## Contribution

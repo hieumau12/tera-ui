@@ -1,14 +1,14 @@
-import type {AvatarSlots, AvatarVariantProps, SlotsToClasses} from "@nextui-org/theme";
+import type {AvatarSlots, AvatarVariantProps, SlotsToClasses} from "@tera-ui/theme";
 
-import {avatar} from "@nextui-org/theme";
-import {HTMLNextUIProps, PropGetter} from "@nextui-org/system";
+import {avatar} from "@tera-ui/theme";
+import {HTMLNextUIProps, PropGetter} from "@tera-ui/system";
 import {mergeProps} from "@react-aria/utils";
-import {useDOMRef} from "@nextui-org/react-utils";
-import {clsx, safeText, dataAttr} from "@nextui-org/shared-utils";
-import {ReactRef} from "@nextui-org/react-utils";
+import {useDOMRef} from "@tera-ui/react-utils";
+import {clsx, safeText, dataAttr} from "@tera-ui/shared-utils";
+import {ReactRef} from "@tera-ui/react-utils";
 import {useFocusRing} from "@react-aria/focus";
 import {useMemo, useCallback} from "react";
-import {useImage} from "@nextui-org/use-image";
+import {useImage} from "@tera-ui/use-image";
 import {useHover} from "@react-aria/interactions";
 
 import {useAvatarGroupContext} from "./avatar-group-context";

@@ -1,4 +1,4 @@
-const App = `import {Card, CardBody} from "@nextui-org/react";
+const App = `import {Card, CardBody} from "@tera-ui/react";
 
 export default function App() {
   return (

@@ -4,7 +4,7 @@
 import type {ImgHTMLAttributes, SyntheticEvent} from "react";
 
 import {useCallback, useEffect, useRef, useState} from "react";
-import {useSafeLayoutEffect} from "@nextui-org/use-safe-layout-effect";
+import {useSafeLayoutEffect} from "@tera-ui/use-safe-layout-effect";
 
 type NativeImageProps = ImgHTMLAttributes<HTMLImageElement>;
 

@@ -1,6 +1,6 @@
 import React, {Key} from "react";
 import {Meta} from "@storybook/react";
-import {autocomplete, input, button} from "@nextui-org/theme";
+import {autocomplete, input, button} from "@tera-ui/theme";
 import {
   Pokemon,
   usePokemonList,
@@ -8,11 +8,11 @@ import {
   usersData,
   Animal,
   User,
-} from "@nextui-org/stories-utils";
-import {useInfiniteScroll} from "@nextui-org/use-infinite-scroll";
-import {PetBoldIcon, SearchLinearIcon, SelectorIcon} from "@nextui-org/shared-icons";
-import {Avatar} from "@nextui-org/avatar";
-import {Button} from "@nextui-org/button";
+} from "@tera-ui/stories-utils";
+import {useInfiniteScroll} from "@tera-ui/use-infinite-scroll";
+import {PetBoldIcon, SearchLinearIcon, SelectorIcon} from "@tera-ui/shared-icons";
+import {Avatar} from "@tera-ui/avatar";
+import {Button} from "@tera-ui/button";
 
 import {Autocomplete, AutocompleteItem, AutocompleteProps, AutocompleteSection} from "../src";
 

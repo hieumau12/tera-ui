@@ -1,4 +1,4 @@
-const App = `import {Popover, PopoverTrigger, PopoverContent, Button} from "@nextui-org/react";
+const App = `import {Popover, PopoverTrigger, PopoverContent, Button} from "@tera-ui/react";
 
 export default function App() {
   const [isOpen, setIsOpen] = React.useState(false);

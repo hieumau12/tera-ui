@@ -1,6 +1,6 @@
 import React from "react";
 import {Meta} from "@storybook/react";
-import {scrollShadow, button} from "@nextui-org/theme";
+import {scrollShadow, button} from "@tera-ui/theme";
 import Lorem from "react-lorem-component";
 
 import {

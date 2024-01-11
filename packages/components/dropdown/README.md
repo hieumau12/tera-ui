@@ -1,4 +1,4 @@
-# @nextui-org/dropdown
+# @tera-ui/dropdown
 
 Displays a list of actions or options that a user can choose.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://nextui.org/docs/components/dropdown)
 ## Installation
 
 ```sh
-yarn add @nextui-org/dropdown
+yarn add @tera-ui/dropdown
 # or
-npm i @nextui-org/dropdown
+npm i @tera-ui/dropdown
 ```
 
 ## Contribution

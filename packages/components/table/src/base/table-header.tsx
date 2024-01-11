@@ -1,4 +1,4 @@
-import {HTMLNextUIProps} from "@nextui-org/system";
+import {HTMLNextUIProps} from "@tera-ui/system";
 import {TableHeader as TableHeaderBase} from "@react-stately/table";
 import {TableHeaderProps as TableHeaderBaseProps} from "@react-types/table";
 

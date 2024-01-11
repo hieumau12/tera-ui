@@ -1,4 +1,4 @@
-import {forwardRef} from "@nextui-org/system";
+import {forwardRef} from "@tera-ui/system";
 
 import {CheckboxGroupProvider} from "./checkbox-group-context";
 import {UseCheckboxGroupProps, useCheckboxGroup} from "./use-checkbox-group";

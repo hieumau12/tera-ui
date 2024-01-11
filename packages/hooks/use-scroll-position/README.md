@@ -1,4 +1,4 @@
-# @nextui-org/use-scroll-position
+# @tera-ui/use-scroll-position
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @nextui-org/use-scroll-position
+yarn add @tera-ui/use-scroll-position
 # or
-npm i @nextui-org/use-scroll-position
+npm i @tera-ui/use-scroll-position
 ```
 
 ## Contribution

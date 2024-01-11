@@ -1,4 +1,4 @@
-# @nextui-org/use-infinite-scroll
+# @tera-ui/use-infinite-scroll
 
 ## 2.1.2
 

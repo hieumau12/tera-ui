@@ -1,24 +1,20 @@
-import type {SelectSlots, SelectVariantProps, SlotsToClasses} from "@nextui-org/theme";
+import type {SelectSlots, SelectVariantProps, SlotsToClasses} from "@tera-ui/theme";
 import type {HiddenSelectProps} from "./hidden-select";
 
-import {DOMAttributes, HTMLNextUIProps, mapPropsVariants, PropGetter} from "@nextui-org/system";
-import {select} from "@nextui-org/theme";
-import {ReactRef, useDOMRef, filterDOMProps} from "@nextui-org/react-utils";
+import {DOMAttributes, HTMLNextUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
+import {select} from "@tera-ui/theme";
+import {ReactRef, useDOMRef, filterDOMProps} from "@tera-ui/react-utils";
 import {useMemo, useCallback, useRef, Key, ReactNode, useEffect} from "react";
-import {ListboxProps} from "@nextui-org/listbox";
-import {useAriaButton} from "@nextui-org/use-aria-button";
+import {ListboxProps} from "@tera-ui/listbox";
+import {useAriaButton} from "@tera-ui/use-aria-button";
 import {useFocusRing} from "@react-aria/focus";
-import {clsx, dataAttr} from "@nextui-org/shared-utils";
+import {clsx, dataAttr} from "@tera-ui/shared-utils";
 import {mergeProps} from "@react-aria/utils";
 import {useHover} from "@react-aria/interactions";
-import {PopoverProps} from "@nextui-org/popover";
-import {ScrollShadowProps} from "@nextui-org/scroll-shadow";
-import {
-  MultiSelectProps,
-  useMultiSelect,
-  useMultiSelectState,
-} from "@nextui-org/use-aria-multiselect";
-import {SpinnerProps} from "@nextui-org/spinner";
+import {PopoverProps} from "@tera-ui/popover";
+import {ScrollShadowProps} from "@tera-ui/scroll-shadow";
+import {MultiSelectProps, useMultiSelect, useMultiSelectState} from "@tera-ui/use-aria-multiselect";
+import {SpinnerProps} from "@tera-ui/spinner";
 import {CollectionChildren} from "@react-types/shared";
 
 export type SelectedItemProps<T = object> = {

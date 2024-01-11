@@ -1,4 +1,4 @@
-# @nextui-org/use-safe-layout-effect
+# @tera-ui/use-safe-layout-effect
 
 ## 2.0.4
 

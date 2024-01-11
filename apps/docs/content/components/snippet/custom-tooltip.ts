@@ -1,4 +1,4 @@
-const App = `import {Snippet} from "@nextui-org/react";
+const App = `import {Snippet} from "@tera-ui/react";
 
 export default function App() {
   return (
@@ -11,7 +11,7 @@ export default function App() {
         closeDelay: 0
       }}
     >
-      npm install @nextui-org/react
+      npm install @tera-ui/react
     </Snippet>
   );
 }`;

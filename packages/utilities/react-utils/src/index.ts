@@ -3,4 +3,4 @@ export * from "./refs";
 export * from "./dom";
 export * from "./dimensions";
 
-export * from "@nextui-org/react-rsc-utils";
+export * from "@tera-ui/react-rsc-utils";

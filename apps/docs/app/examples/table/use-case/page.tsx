@@ -20,8 +20,8 @@ import {
   ChipProps,
   Pagination,
   SortDescriptor,
-} from "@nextui-org/react";
-import {ChevronDownIcon, SearchIcon} from "@nextui-org/shared-icons";
+} from "@tera-ui/react";
+import {ChevronDownIcon, SearchIcon} from "@tera-ui/shared-icons";
 import {useCallback, useMemo, useState} from "react";
 import {capitalize} from "lodash";
 

@@ -1,4 +1,4 @@
-# @nextui-org/test-utils
+# @tera-ui/test-utils
 
 ## 2.0.4
 

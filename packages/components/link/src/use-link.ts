@@ -1,13 +1,13 @@
 import type {AriaLinkProps} from "@react-types/link";
-import type {LinkVariantProps} from "@nextui-org/theme";
+import type {LinkVariantProps} from "@tera-ui/theme";
 
-import {link} from "@nextui-org/theme";
-import {useAriaLink} from "@nextui-org/use-aria-link";
-import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@nextui-org/system";
-import {useDOMRef} from "@nextui-org/react-utils";
+import {link} from "@tera-ui/theme";
+import {useAriaLink} from "@tera-ui/use-aria-link";
+import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
+import {useDOMRef} from "@tera-ui/react-utils";
 import {useFocusRing} from "@react-aria/focus";
-import {dataAttr} from "@nextui-org/shared-utils";
-import {ReactRef} from "@nextui-org/react-utils";
+import {dataAttr} from "@tera-ui/shared-utils";
+import {ReactRef} from "@tera-ui/react-utils";
 import {useMemo, useCallback} from "react";
 import {mergeProps} from "@react-aria/utils";
 

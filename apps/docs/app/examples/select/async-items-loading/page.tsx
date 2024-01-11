@@ -1,9 +1,9 @@
 /* eslint-disable no-console */
 "use client";
 
-import {Select, SelectItem} from "@nextui-org/react";
+import {Select, SelectItem} from "@tera-ui/react";
 import {useEffect, useState} from "react";
-import {useInfiniteScroll} from "@nextui-org/use-infinite-scroll";
+import {useInfiniteScroll} from "@tera-ui/use-infinite-scroll";
 
 type Pokemon = {
   name: string;

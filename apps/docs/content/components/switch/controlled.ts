@@ -1,4 +1,4 @@
-const App = `import {Switch} from "@nextui-org/react";
+const App = `import {Switch} from "@tera-ui/react";
 
 export default function App() {
   const [isSelected, setIsSelected] = React.useState(true);

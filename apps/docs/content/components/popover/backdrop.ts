@@ -1,4 +1,4 @@
-const App = `import {Popover, PopoverTrigger, PopoverContent, Button, Input} from "@nextui-org/react";
+const App = `import {Popover, PopoverTrigger, PopoverContent, Button, Input} from "@tera-ui/react";
 
 export default function App() {
 

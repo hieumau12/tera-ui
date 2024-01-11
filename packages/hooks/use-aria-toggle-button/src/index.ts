@@ -23,7 +23,7 @@ import {chain} from "@react-aria/utils";
 import {DOMAttributes} from "@react-types/shared";
 import {mergeProps} from "@react-aria/utils";
 import {ToggleState} from "@react-stately/toggle";
-import {ButtonAria, useAriaButton} from "@nextui-org/use-aria-button";
+import {ButtonAria, useAriaButton} from "@tera-ui/use-aria-button";
 
 export type {AriaToggleButtonProps};
 

@@ -1,4 +1,4 @@
-const App = `import {Progress} from "@nextui-org/react";
+const App = `import {Progress} from "@tera-ui/react";
 
 export default function App() {
   return (

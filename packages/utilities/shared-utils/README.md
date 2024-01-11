@@ -1,4 +1,4 @@
-# @nextui-org/system
+# @tera-ui/system
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @nextui-org/system
+yarn add @tera-ui/system
 # or
-npm i @nextui-org/system
+npm i @tera-ui/system
 ```
 
 ## Contribution

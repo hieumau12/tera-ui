@@ -1,8 +1,8 @@
 const App = `import {forwardRef} from "react";
-import {LinkIcon} from "@nextui-org/shared-icons";
-import {linkAnchorClasses} from "@nextui-org/theme";
+import {LinkIcon} from "@tera-ui/shared-icons";
+import {linkAnchorClasses} from "@tera-ui/theme";
 
-import {useLink} from "@nextui-org/react";
+import {useLink} from "@tera-ui/react";
 
 const MyLink = forwardRef((props, ref) => {
   const {
@@ -31,10 +31,10 @@ MyLink.displayName = "MyLink";
 export default MyLink;`;
 
 const AppTs = `import {forwardRef} from "react";
-import {LinkIcon} from "@nextui-org/shared-icons";
-import {linkAnchorClasses} from "@nextui-org/theme";
+import {LinkIcon} from "@tera-ui/shared-icons";
+import {linkAnchorClasses} from "@tera-ui/theme";
 
-import {LinkProps, useLink} from "@nextui-org/react";
+import {LinkProps, useLink} from "@tera-ui/react";
 
 export interface MyLinkProps extends LinkProps {}
 

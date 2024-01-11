@@ -1,4 +1,4 @@
-# @nextui-org/use-aria-modal-overlay
+# @tera-ui/use-aria-modal-overlay
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @nextui-org/use-aria-modal-overlay
+yarn add @tera-ui/use-aria-modal-overlay
 # or
-npm i @nextui-org/use-aria-modal-overlay
+npm i @tera-ui/use-aria-modal-overlay
 ```
 
 ## Contribution

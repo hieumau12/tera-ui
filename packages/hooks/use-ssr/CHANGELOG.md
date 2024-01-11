@@ -1,4 +1,4 @@
-# @nextui-org/use-ssr
+# @tera-ui/use-ssr
 
 ## 2.0.4
 

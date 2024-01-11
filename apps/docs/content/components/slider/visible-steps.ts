@@ -1,4 +1,4 @@
-const App = `import {Slider} from "@nextui-org/react";
+const App = `import {Slider} from "@tera-ui/react";
 
 export default function App() {
   return (

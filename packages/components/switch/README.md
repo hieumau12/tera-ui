@@ -1,4 +1,4 @@
-# @nextui-org/switch
+# @tera-ui/switch
 
 The Switch component is used as an alternative between checked and not checked states.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://nextui.org/docs/components/switch) f
 ## Installation
 
 ```sh
-yarn add @nextui-org/switch
+yarn add @tera-ui/switch
 # or
-npm i @nextui-org/switch
+npm i @tera-ui/switch
 ```
 
 ## Contribution

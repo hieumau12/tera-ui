@@ -1,4 +1,4 @@
-# @nextui-org/tooltip
+# @tera-ui/tooltip
 
 Tooltips display a brief, informative message that appears when a user interacts with an element.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://nextui.org/docs/components/tooltip) 
 ## Installation
 
 ```sh
-yarn add @nextui-org/tooltip
+yarn add @tera-ui/tooltip
 # or
-npm i @nextui-org/tooltip
+npm i @tera-ui/tooltip
 ```
 
 ## Contribution

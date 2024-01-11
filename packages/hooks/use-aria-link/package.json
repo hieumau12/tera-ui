@@ -1,5 +1,5 @@
 {
-  "name": "@nextui-org/use-aria-link",
+  "name": "@tera-ui/use-aria-link",
   "version": "2.0.15",
   "description": "Internal hook to handle link a11y and events, this is based on react-aria link hook but without the onClick warning",
   "keywords": [
@@ -37,7 +37,7 @@
     "react": ">=18"
   },
   "dependencies": {
-    "@nextui-org/use-aria-press": "workspace:*",
+    "@tera-ui/use-aria-press": "workspace:*",
     "@react-types/link": "^3.5.1",
     "@react-types/shared": "^3.21.0",
     "@react-aria/utils": "^3.21.1",

@@ -1,12 +1,12 @@
-import type {InputVariantProps, SlotsToClasses, InputSlots} from "@nextui-org/theme";
+import type {InputVariantProps, SlotsToClasses, InputSlots} from "@tera-ui/theme";
 
-import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@nextui-org/system";
+import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
 import {AriaTextFieldProps} from "@react-types/textfield";
 import {useFocusRing} from "@react-aria/focus";
-import {input} from "@nextui-org/theme";
-import {useDOMRef, filterDOMProps} from "@nextui-org/react-utils";
+import {input} from "@tera-ui/theme";
+import {useDOMRef, filterDOMProps} from "@tera-ui/react-utils";
 import {useFocusWithin, useHover, usePress} from "@react-aria/interactions";
-import {clsx, dataAttr, safeAriaLabel} from "@nextui-org/shared-utils";
+import {clsx, dataAttr, safeAriaLabel} from "@tera-ui/shared-utils";
 import {useControlledState} from "@react-stately/utils";
 import {useMemo, Ref, useCallback, useState} from "react";
 import {chain, mergeProps} from "@react-aria/utils";

@@ -1,7 +1,7 @@
-import type {ListboxItemProps, ListboxSectionProps} from "@nextui-org/listbox";
+import type {ListboxItemProps, ListboxSectionProps} from "@tera-ui/listbox";
 import type {MenuTriggerAction as BaseMenuTriggerAction} from "@react-types/combobox";
 
-import {ListboxItem, ListboxSection} from "@nextui-org/listbox";
+import {ListboxItem, ListboxSection} from "@tera-ui/listbox";
 
 import Autocomplete from "./autocomplete";
 

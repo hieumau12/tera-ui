@@ -1,4 +1,4 @@
-# @nextui-org/shared-icons
+# @tera-ui/shared-icons
 
 ## 2.0.6
 

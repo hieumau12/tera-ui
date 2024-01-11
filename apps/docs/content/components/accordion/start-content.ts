@@ -1,4 +1,4 @@
-const App = `import {Accordion, AccordionItem, Avatar} from "@nextui-org/react";
+const App = `import {Accordion, AccordionItem, Avatar} from "@tera-ui/react";
 
 export default function App() {
   const defaultContent =

@@ -2,7 +2,7 @@
 
 /* eslint-disable react/display-name */
 import {useMemo, useState} from "react";
-import {Tabs, Tab, Card, CardBody, Image, Button, RadioGroup, Radio} from "@nextui-org/react";
+import {Tabs, Tab, Card, CardBody, Image, Button, RadioGroup, Radio} from "@tera-ui/react";
 import get from "lodash/get";
 import NextLink from "next/link";
 import NextImage from "next/image";

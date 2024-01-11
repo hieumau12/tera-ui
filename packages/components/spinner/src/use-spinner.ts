@@ -1,9 +1,9 @@
-import type {SpinnerVariantProps, SpinnerSlots, SlotsToClasses} from "@nextui-org/theme";
-import type {HTMLNextUIProps, PropGetter} from "@nextui-org/system-rsc";
+import type {SpinnerVariantProps, SpinnerSlots, SlotsToClasses} from "@tera-ui/theme";
+import type {HTMLNextUIProps, PropGetter} from "@tera-ui/system-rsc";
 
-import {mapPropsVariants} from "@nextui-org/system-rsc";
-import {spinner} from "@nextui-org/theme";
-import {clsx} from "@nextui-org/shared-utils";
+import {mapPropsVariants} from "@tera-ui/system-rsc";
+import {spinner} from "@tera-ui/theme";
+import {clsx} from "@tera-ui/shared-utils";
 import {useMemo, useCallback, Ref} from "react";
 
 interface Props extends HTMLNextUIProps<"div"> {

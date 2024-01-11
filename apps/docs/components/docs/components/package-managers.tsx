@@ -1,4 +1,4 @@
-import {Tabs, Tab, Snippet} from "@nextui-org/react";
+import {Tabs, Tab, Snippet} from "@tera-ui/react";
 import {Key} from "react";
 import {useLocalStorage} from "usehooks-ts";
 

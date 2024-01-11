@@ -1,4 +1,4 @@
-# @nextui-org/divider
+# @tera-ui/divider
 
 Divider is a component that separates content in a page.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://nextui.org/docs/components/divider) 
 ## Installation
 
 ```sh
-yarn add @nextui-org/divider
+yarn add @tera-ui/divider
 # or
-npm i @nextui-org/divider
+npm i @tera-ui/divider
 ```
 
 ## Contribution

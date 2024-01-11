@@ -1,4 +1,4 @@
-# @nextui-org/autocomplete
+# @tera-ui/autocomplete
 
 An autocomplete combines a text input with a listbox, allowing users to filter a list of options to items matching a query.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://nextui.org/docs/components/autocompl
 ## Installation
 
 ```sh
-yarn add @nextui-org/autocomplete
+yarn add @tera-ui/autocomplete
 # or
-npm i @nextui-org/autocomplete
+npm i @tera-ui/autocomplete
 ```
 
 ## Contribution

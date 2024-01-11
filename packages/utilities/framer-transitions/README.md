@@ -1,4 +1,4 @@
-# @nextui-org/framer-transitions
+# @tera-ui/framer-transitions
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @nextui-org/framer-transitions
+yarn add @tera-ui/framer-transitions
 # or
-npm i @nextui-org/framer-transitions
+npm i @tera-ui/framer-transitions
 ```
 
 ## Contribution

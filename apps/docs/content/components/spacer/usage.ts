@@ -1,4 +1,4 @@
-const CustomCard = `import {Card} from "@nextui-org/react";
+const CustomCard = `import {Card} from "@tera-ui/react";
 
 export const CustomCard = () => (
   <Card className="w-[200px] space-y-5 p-4" radius="2xl">
@@ -11,7 +11,7 @@ export const CustomCard = () => (
   </Card>
 );`;
 
-const App = `import {Spacer} from "@nextui-org/react";
+const App = `import {Spacer} from "@tera-ui/react";
 import {CustomCard} from "./CustomCard";
 
 export default function App() {

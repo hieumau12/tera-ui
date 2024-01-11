@@ -1,5 +1,5 @@
 import {ForwardedRef, ReactElement, Ref} from "react";
-import {forwardRef} from "@nextui-org/system";
+import {forwardRef} from "@tera-ui/system";
 import {mergeProps} from "@react-aria/utils";
 
 import {UseListboxProps, useListbox} from "./use-listbox";

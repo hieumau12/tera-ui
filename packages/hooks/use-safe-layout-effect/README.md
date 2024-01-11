@@ -1,4 +1,4 @@
-# @nextui-org/use-safe-layout-effect
+# @tera-ui/use-safe-layout-effect
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @nextui-org/use-safe-layout-effect
+yarn add @tera-ui/use-safe-layout-effect
 # or
-npm i @nextui-org/use-safe-layout-effect
+npm i @tera-ui/use-safe-layout-effect
 ```
 
 ## Contribution

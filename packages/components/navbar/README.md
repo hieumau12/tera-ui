@@ -1,4 +1,4 @@
-# @nextui-org/navbar
+# @tera-ui/navbar
 
 A responsive navigation header positioned on top side of your page that includes support for branding, links, navigation, collapse menu and more.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://nextui.org/docs/components/navbar) f
 ## Installation
 
 ```sh
-yarn add @nextui-org/navbar
+yarn add @tera-ui/navbar
 # or
-npm i @nextui-org/navbar
+npm i @tera-ui/navbar
 ```
 
 ## Contribution

@@ -1,6 +1,6 @@
-import {Spinner} from "@nextui-org/spinner";
-import {Ripple} from "@nextui-org/ripple";
-import {forwardRef} from "@nextui-org/system";
+import {Spinner} from "@tera-ui/spinner";
+import {Ripple} from "@tera-ui/ripple";
+import {forwardRef} from "@tera-ui/system";
 
 import {UseButtonProps, useButton} from "./use-button";
 

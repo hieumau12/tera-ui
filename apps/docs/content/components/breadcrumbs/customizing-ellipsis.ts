@@ -1,4 +1,4 @@
-const App = `import {Breadcrumbs, BreadcrumbItem, Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, Button} from "@nextui-org/react";
+const App = `import {Breadcrumbs, BreadcrumbItem, Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, Button} from "@tera-ui/react";
 
 export default function App() {
   return (

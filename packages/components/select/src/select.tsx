@@ -1,9 +1,9 @@
-import {Listbox} from "@nextui-org/listbox";
-import {FreeSoloPopover} from "@nextui-org/popover";
-import {ChevronDownIcon} from "@nextui-org/shared-icons";
-import {Spinner} from "@nextui-org/spinner";
-import {forwardRef} from "@nextui-org/system";
-import {ScrollShadow} from "@nextui-org/scroll-shadow";
+import {Listbox} from "@tera-ui/listbox";
+import {FreeSoloPopover} from "@tera-ui/popover";
+import {ChevronDownIcon} from "@tera-ui/shared-icons";
+import {Spinner} from "@tera-ui/spinner";
+import {forwardRef} from "@tera-ui/system";
+import {ScrollShadow} from "@tera-ui/scroll-shadow";
 import {cloneElement, ForwardedRef, ReactElement, Ref, useMemo} from "react";
 import {VisuallyHidden} from "@react-aria/visually-hidden";
 import {AnimatePresence} from "framer-motion";

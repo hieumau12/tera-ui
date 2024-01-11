@@ -2,7 +2,7 @@ const withContentlayer = require("next-contentlayer").withContentlayer;
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  transpilePackages: ["@nextui-org/react", "@nextui-org/theme"],
+  transpilePackages: ["@tera-ui/react", "@tera-ui/theme"],
   swcMinify: true,
   reactStrictMode: true, // Recommended for the `pages` directory, default in `app`.
   redirects: require("./next-redirect.js"),

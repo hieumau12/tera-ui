@@ -1,16 +1,16 @@
 import type {AriaRadioProps} from "@react-types/radio";
-import type {RadioVariantProps, RadioSlots, SlotsToClasses} from "@nextui-org/theme";
+import type {RadioVariantProps, RadioSlots, SlotsToClasses} from "@tera-ui/theme";
 
 import {Ref, ReactNode, useCallback, useId, useState} from "react";
 import {useMemo, useRef} from "react";
 import {useFocusRing} from "@react-aria/focus";
 import {useHover} from "@react-aria/interactions";
-import {usePress} from "@nextui-org/use-aria-press";
-import {radio} from "@nextui-org/theme";
+import {usePress} from "@tera-ui/use-aria-press";
+import {radio} from "@tera-ui/theme";
 import {useRadio as useReactAriaRadio} from "@react-aria/radio";
-import {HTMLNextUIProps, PropGetter} from "@nextui-org/system";
-import {__DEV__, warn, clsx, dataAttr} from "@nextui-org/shared-utils";
-import {useDOMRef} from "@nextui-org/react-utils";
+import {HTMLNextUIProps, PropGetter} from "@tera-ui/system";
+import {__DEV__, warn, clsx, dataAttr} from "@tera-ui/shared-utils";
+import {useDOMRef} from "@tera-ui/react-utils";
 import {chain, mergeProps} from "@react-aria/utils";
 
 import {useRadioGroupContext} from "./radio-group-context";

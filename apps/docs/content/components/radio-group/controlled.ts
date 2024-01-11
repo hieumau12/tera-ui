@@ -1,4 +1,4 @@
-const App = `import {RadioGroup, Radio} from "@nextui-org/react";
+const App = `import {RadioGroup, Radio} from "@tera-ui/react";
 
 export default function App() {
   const [selected, setSelected] = React.useState("london");

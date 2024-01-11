@@ -1,10 +1,10 @@
 import React from "react";
 import {Meta} from "@storybook/react";
-import {button, link, tabs} from "@nextui-org/theme";
+import {button, link, tabs} from "@tera-ui/theme";
 import Lorem from "react-lorem-component";
-import {Input} from "@nextui-org/input";
-import {Button} from "@nextui-org/button";
-import {Card, CardBody} from "@nextui-org/card";
+import {Input} from "@tera-ui/input";
+import {Button} from "@tera-ui/button";
+import {Card, CardBody} from "@tera-ui/card";
 import {
   AlignVerticallyBoldIcon,
   AlignHorizontallyBoldIcon,
@@ -12,7 +12,7 @@ import {
   AlignLeftBoldIcon,
   AlignRightBoldIcon,
   AlignTopBoldIcon,
-} from "@nextui-org/shared-icons";
+} from "@tera-ui/shared-icons";
 
 import {Tabs, Tab, TabsProps} from "../src";
 

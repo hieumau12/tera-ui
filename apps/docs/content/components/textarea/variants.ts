@@ -1,4 +1,4 @@
-const App = `import {Textarea} from "@nextui-org/react";
+const App = `import {Textarea} from "@tera-ui/react";
 
 export default function App() {
   const variants = ["flat", "faded", "bordered", "underlined"];

@@ -1,4 +1,4 @@
-# @nextui-org/code
+# @tera-ui/code
 
 Code is a component used to display inline code.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://nextui.org/docs/components/code) for
 ## Installation
 
 ```sh
-yarn add @nextui-org/code
+yarn add @tera-ui/code
 # or
-npm i @nextui-org/code
+npm i @tera-ui/code
 ```
 
 ## Contribution

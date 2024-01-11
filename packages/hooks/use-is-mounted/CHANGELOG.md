@@ -1,4 +1,4 @@
-# @nextui-org/use-is-mounted
+# @tera-ui/use-is-mounted
 
 ## 2.0.4
 

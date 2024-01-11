@@ -22,7 +22,7 @@ const PlusIcon = `export const PlusIcon = (props) => (
   </svg>
 );`;
 
-const App = `import {Dropdown, DropdownTrigger, DropdownMenu, DropdownSection, DropdownItem, Button, User} from "@nextui-org/react";
+const App = `import {Dropdown, DropdownTrigger, DropdownMenu, DropdownSection, DropdownItem, Button, User} from "@tera-ui/react";
 import {PlusIcon} from "./PlusIcon.jsx";
 export default function App() {
   return (

@@ -1,4 +1,4 @@
-const App = `import {Spinner} from "@nextui-org/react";
+const App = `import {Spinner} from "@tera-ui/react";
 
 export default function App() {
   return (

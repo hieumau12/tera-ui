@@ -1,4 +1,4 @@
-import {Spacer} from "@nextui-org/spacer";
+import {Spacer} from "@tera-ui/spacer";
 
 import {Hero} from "@/components/marketing/hero";
 import {FeaturesGrid} from "@/components/marketing/features-grid";

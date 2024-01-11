@@ -1,5 +1,5 @@
 import * as React from "react";
-import {tv} from "@nextui-org/theme";
+import {tv} from "@tera-ui/theme";
 
 import {cn, mapPropsVariants} from "./utils";
 

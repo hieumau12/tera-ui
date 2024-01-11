@@ -1,14 +1,14 @@
-import type {ChipVariantProps, ChipSlots, SlotsToClasses} from "@nextui-org/theme";
+import type {ChipVariantProps, ChipSlots, SlotsToClasses} from "@tera-ui/theme";
 import type {ReactNode} from "react";
 
-import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@nextui-org/system";
+import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
 import {mergeProps} from "@react-aria/utils";
-import {usePress} from "@nextui-org/use-aria-press";
+import {usePress} from "@tera-ui/use-aria-press";
 import {useFocusRing} from "@react-aria/focus";
-import {chip} from "@nextui-org/theme";
-import {useDOMRef} from "@nextui-org/react-utils";
-import {clsx} from "@nextui-org/shared-utils";
-import {ReactRef} from "@nextui-org/react-utils";
+import {chip} from "@tera-ui/theme";
+import {useDOMRef} from "@tera-ui/react-utils";
+import {clsx} from "@tera-ui/shared-utils";
+import {ReactRef} from "@tera-ui/react-utils";
 import {useMemo, isValidElement, cloneElement} from "react";
 import {PressEvent} from "@react-types/shared";
 

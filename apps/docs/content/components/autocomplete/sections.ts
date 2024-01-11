@@ -1,4 +1,4 @@
-const App = `import {Autocomplete, AutocompleteItem, AutocompleteSection} from "@nextui-org/react";
+const App = `import {Autocomplete, AutocompleteItem, AutocompleteSection} from "@tera-ui/react";
 
 export default function App() {
   return (

@@ -1,6 +1,6 @@
-import {forwardRef, HTMLNextUIProps} from "@nextui-org/system";
-import {useDOMRef} from "@nextui-org/react-utils";
-import {clsx, dataAttr} from "@nextui-org/shared-utils";
+import {forwardRef, HTMLNextUIProps} from "@tera-ui/system";
+import {useDOMRef} from "@tera-ui/react-utils";
+import {clsx, dataAttr} from "@tera-ui/shared-utils";
 
 import {useNavbarContext} from "./navbar-context";
 

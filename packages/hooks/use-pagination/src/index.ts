@@ -1,5 +1,5 @@
 import {useMemo, useCallback, useState, useEffect} from "react";
-import {range} from "@nextui-org/shared-utils";
+import {range} from "@tera-ui/shared-utils";
 
 export enum PaginationItemType {
   DOTS = "dots",

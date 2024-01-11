@@ -1,4 +1,4 @@
-# @nextui-org/react-rsc-utils
+# @tera-ui/react-rsc-utils
 
 ## 2.0.10
 

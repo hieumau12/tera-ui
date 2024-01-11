@@ -1,5 +1,5 @@
 {
-  "name": "@nextui-org/aria-utils",
+  "name": "@tera-ui/aria-utils",
   "version": "2.0.15",
   "description": "A package for managing @react-aria nextui utils.",
   "keywords": [
@@ -38,9 +38,9 @@
     "react-dom": ">=18"
   },
   "dependencies": {
-    "@nextui-org/system": "workspace:*",
-    "@nextui-org/shared-utils": "workspace:*",
-    "@nextui-org/react-rsc-utils": "workspace:*",
+    "@tera-ui/system": "workspace:*",
+    "@tera-ui/shared-utils": "workspace:*",
+    "@tera-ui/react-rsc-utils": "workspace:*",
     "@react-aria/utils": "^3.21.1",
     "@react-stately/collections": "^3.10.2",
     "@react-types/shared": "^3.21.0",

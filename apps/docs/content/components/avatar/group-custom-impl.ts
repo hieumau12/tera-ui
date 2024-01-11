@@ -1,6 +1,6 @@
 const App = `import {forwardRef} from "react";
 
-import {useAvatarGroup, AvatarGroupProvider} from "@nextui-org/react";
+import {useAvatarGroup, AvatarGroupProvider} from "@tera-ui/react";
 import Avatar from "./avatar"; // your custom avatar or nextui avatar
 
 const AvatarGroup = forwardRef((props, ref) => {
@@ -32,7 +32,7 @@ export default AvatarGroup;`;
 
 const AppTs = `import {forwardRef} from "react";
 
-import {useAvatarGroup, AvatarGroupProvider, AvatarGroupProps as BaseAvatarGroupProps} from "@nextui-org/react";
+import {useAvatarGroup, AvatarGroupProvider, AvatarGroupProps as BaseAvatarGroupProps} from "@tera-ui/react";
 import Avatar from "./avatar"; // your custom avatar or nextui avatar
 
 export interface AvatarGroupProps extends BaseAvatarGroupProps {}

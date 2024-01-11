@@ -1,10 +1,10 @@
 "use client";
 
-import {Button, Link} from "@nextui-org/react";
-import {ArrowRightIcon} from "@nextui-org/shared-icons";
-import {clsx} from "@nextui-org/shared-utils";
+import {Button, Link} from "@tera-ui/react";
+import {ArrowRightIcon} from "@tera-ui/shared-icons";
+import {clsx} from "@tera-ui/shared-utils";
 import NextLink from "next/link";
-import {Code} from "@nextui-org/react";
+import {Code} from "@tera-ui/react";
 
 import {FeaturesGrid} from "./features-grid";
 

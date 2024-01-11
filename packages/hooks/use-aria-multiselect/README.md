@@ -1,4 +1,4 @@
-# @nextui-org/use-aria-multiselect
+# @tera-ui/use-aria-multiselect
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @nextui-org/use-aria-multiselect
+yarn add @tera-ui/use-aria-multiselect
 # or
-npm i @nextui-org/use-aria-multiselect
+npm i @tera-ui/use-aria-multiselect
 ```
 
 ## Contribution

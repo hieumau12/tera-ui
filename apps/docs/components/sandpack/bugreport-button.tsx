@@ -1,6 +1,6 @@
 import React from "react";
 import {usePathname} from "next/navigation";
-import {Tooltip, Button} from "@nextui-org/react";
+import {Tooltip, Button} from "@tera-ui/react";
 import {capitalize, last} from "lodash";
 
 import {BugIcon} from "@/components/icons";

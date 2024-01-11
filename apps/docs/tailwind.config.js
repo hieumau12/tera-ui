@@ -1,5 +1,5 @@
-const {nextui} = require("@nextui-org/theme/plugin");
-const {commonColors} = require("@nextui-org/theme/colors");
+const {nextui} = require("@tera-ui/theme/plugin");
+const {commonColors} = require("@tera-ui/theme/colors");
 const svgToDataUri = require("mini-svg-data-uri");
 const plugin = require("tailwindcss/plugin");
 const {default: flattenColorPalette} = require("tailwindcss/lib/util/flattenColorPalette");
@@ -17,7 +17,7 @@ module.exports = {
     "./layouts/**/*.{js,ts,jsx,tsx,mdx}",
     "./libs/**/*.{js,ts,jsx,tsx,mdx}",
     "./content/**/*.{js,ts,jsx,tsx,mdx}",
-    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}"
+    "./node_modules/@tera-ui/theme/dist/**/*.{js,ts,jsx,tsx}"
   ],
   darkMode: "class",
   theme: {

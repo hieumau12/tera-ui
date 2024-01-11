@@ -1,6 +1,6 @@
 "use client";
 
-import {Link} from "@nextui-org/react";
+import {Link} from "@tera-ui/react";
 
 import {trackEvent} from "@/utils/va";
 

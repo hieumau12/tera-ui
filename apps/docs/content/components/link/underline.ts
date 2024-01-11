@@ -1,4 +1,4 @@
-const App = `import {Link} from "@nextui-org/react";
+const App = `import {Link} from "@tera-ui/react";
 
 export default function App() {
   return (

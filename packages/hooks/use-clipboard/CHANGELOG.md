@@ -1,4 +1,4 @@
-# @nextui-org/use-clipboard
+# @tera-ui/use-clipboard
 
 ## 2.0.4
 

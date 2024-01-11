@@ -32,7 +32,7 @@ const SearchIcon = `export const SearchIcon = ({
   </svg>
 );`;
 
-const App = `import {extendVariants, Input} from "@nextui-org/react";
+const App = `import {extendVariants, Input} from "@tera-ui/react";
 import {SearchIcon} from "./SearchIcon";
 
 const MyInput = extendVariants(Input, {

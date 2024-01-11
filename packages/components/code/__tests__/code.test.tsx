@@ -18,8 +18,8 @@ describe("Code", () => {
   });
 
   it("should include the code", () => {
-    const wrapper = render(<Code data-testid="code-test">npm install @nextui-org/react</Code>);
+    const wrapper = render(<Code data-testid="code-test">npm install @tera-ui/react</Code>);
 
-    expect(wrapper.getByTestId("code-test")).toHaveTextContent("npm install @nextui-org/react");
+    expect(wrapper.getByTestId("code-test")).toHaveTextContent("npm install @tera-ui/react");
   });
 });

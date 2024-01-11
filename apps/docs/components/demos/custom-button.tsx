@@ -1,7 +1,7 @@
 "use client";
 
 import {useRef} from "react";
-import {Button} from "@nextui-org/react";
+import {Button} from "@tera-ui/react";
 
 import {trackEvent} from "@/utils/va";
 

@@ -1,16 +1,16 @@
 import React from "react";
 import {Meta} from "@storybook/react";
-import {dropdown, popover} from "@nextui-org/theme";
-import {Button} from "@nextui-org/button";
-import {Avatar} from "@nextui-org/avatar";
-import {User} from "@nextui-org/user";
+import {dropdown, popover} from "@tera-ui/theme";
+import {Button} from "@tera-ui/button";
+import {Avatar} from "@tera-ui/avatar";
+import {User} from "@tera-ui/user";
 import {
   AddNoteBulkIcon,
   CopyDocumentBulkIcon,
   EditDocumentBulkIcon,
   DeleteDocumentBulkIcon,
-} from "@nextui-org/shared-icons";
-import {clsx} from "@nextui-org/shared-utils";
+} from "@tera-ui/shared-icons";
+import {clsx} from "@tera-ui/shared-utils";
 
 import {
   Dropdown,

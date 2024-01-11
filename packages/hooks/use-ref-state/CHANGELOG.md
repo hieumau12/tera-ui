@@ -1,4 +1,4 @@
-# @nextui-org/use-ref-state
+# @tera-ui/use-ref-state
 
 ## 2.0.4
 

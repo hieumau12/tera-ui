@@ -1,13 +1,13 @@
 import React from "react";
 import {Meta} from "@storybook/react";
-import {menuItem} from "@nextui-org/theme";
+import {menuItem} from "@tera-ui/theme";
 import {
   AddNoteBulkIcon,
   CopyDocumentBulkIcon,
   EditDocumentBulkIcon,
   DeleteDocumentBulkIcon,
-} from "@nextui-org/shared-icons";
-import {clsx} from "@nextui-org/shared-utils";
+} from "@tera-ui/shared-icons";
+import {clsx} from "@tera-ui/shared-utils";
 
 import {Menu, MenuItem, MenuSection, MenuProps} from "../src";
 

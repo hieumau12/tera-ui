@@ -13,7 +13,7 @@ themes `light`and `dark`. So using the `dark` theme is as simple as adding it to
 // main.tsx or main.jsx
 import React from "react";
 import ReactDOM from "react-dom/client";
-import {NextUIProvider} from "@nextui-org/react";
+import {NextUIProvider} from "@tera-ui/react";
 import App from "./App";
 import "./index.css";
 
@@ -28,8 +28,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 );
 ```
 
-This will enable the dark mode for the whole application. However, many applications require 
-the capability to switch between different themes. For this purpose, we recommend using a 
+This will enable the dark mode for the whole application. However, many applications require
+the capability to switch between different themes. For this purpose, we recommend using a
 theme switch library or creating your own implementation.
 
 <CarbonAd />
@@ -63,7 +63,7 @@ Install `next-themes` in your project.
 
 Wrap your app with the `ThemeProvider` component from `next-themes`.
 
-Go to your `app/providers.tsx` or `app/providers.jsx` (create it if it doesn't exist) and wrap the 
+Go to your `app/providers.tsx` or `app/providers.jsx` (create it if it doesn't exist) and wrap the
 Component with the `NextUIProvider` and the `next-themes` provider components.
 
 
@@ -71,7 +71,7 @@ Component with the `NextUIProvider` and the `next-themes` provider components.
 // app/providers.tsx
 "use client";
 
-import {NextUIProvider} from '@nextui-org/react'
+import {NextUIProvider} from '@tera-ui/react'
 import {ThemeProvider as NextThemesProvider} from "next-themes";
 
 export function Providers({children}: { children: React.ReactNode }) {
@@ -118,7 +118,7 @@ export function ThemeSwitcher() {
 };
 ```
 
-> **Note**: You can use any theme name you want, but make sure it exits in your 
+> **Note**: You can use any theme name you want, but make sure it exits in your
 `tailwind.config.js` file. See [Create Theme](/docs/customization/create-theme) for more details.
 
 </Steps>
@@ -146,7 +146,7 @@ Component with the `NextUIProvider` and the `next-themes` provider components.
 
 ```jsx
 // pages/_app.js
-import {NextUIProvider} from "@nextui-org/react";
+import {NextUIProvider} from "@tera-ui/react";
 import {ThemeProvider as NextThemesProvider} from "next-themes";
 
 function MyApp({ Component, pageProps }) {
@@ -193,7 +193,7 @@ export const ThemeSwitcher = () => {
 
 ## Using use-dark-mode hook
 
-In case you're using plain React with [Vite](/docs/frameworks/vite) or [Create React App](https://create-react-app.dev/) 
+In case you're using plain React with [Vite](/docs/frameworks/vite) or [Create React App](https://create-react-app.dev/)
 you can use the [use-dark-mode](https://github.com/donavon/use-dark-mode) hook to switch between themes.
 
 > See the [use-dark-mode](https://github.com/donavon/use-dark-mode) documentation for more details.
@@ -210,7 +210,7 @@ Install `use-dark-mode` in your project.
     yarn: 'yarn add use-dark-mode',
     pnpm: 'pnpm add use-dark-mode',
   }}
-/> 
+/>
 
 ### Add the current theme to the main element
 

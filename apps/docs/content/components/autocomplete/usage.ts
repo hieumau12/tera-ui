@@ -26,7 +26,7 @@ const data = `export const animals = [
   {label: "Crocodile", value: "crocodile", description: "A large semiaquatic reptile"},
 ];`;
 
-const App = `import {Autocomplete, AutocompleteItem} from "@nextui-org/react";
+const App = `import {Autocomplete, AutocompleteItem} from "@tera-ui/react";
 import {animals} from "./data";
 
 export default function App() {

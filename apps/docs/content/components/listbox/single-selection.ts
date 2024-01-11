@@ -4,7 +4,7 @@ const ListboxWrapper = `export const ListboxWrapper = ({children}) => (
   </div>
 );`;
 
-const App = `import {Listbox, ListboxItem} from "@nextui-org/react";
+const App = `import {Listbox, ListboxItem} from "@tera-ui/react";
 import {ListboxWrapper} from "./ListboxWrapper";
 
 export default function App() {

@@ -9,7 +9,7 @@ const AcmeLogo = `export const AcmeLogo = () => (
   </svg>
 );`;
 
-const App = `import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, DropdownItem, DropdownTrigger, Dropdown, DropdownMenu, Avatar} from "@nextui-org/react";
+const App = `import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, DropdownItem, DropdownTrigger, Dropdown, DropdownMenu, Avatar} from "@tera-ui/react";
 import {AcmeLogo} from "./AcmeLogo.jsx";
 
 export default function App() {

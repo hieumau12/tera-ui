@@ -1,10 +1,10 @@
 import type {ReactNode} from "react";
 
-import {avatarGroup} from "@nextui-org/theme";
-import {HTMLNextUIProps, PropGetter} from "@nextui-org/system";
-import {useDOMRef} from "@nextui-org/react-utils";
-import {clsx, compact} from "@nextui-org/shared-utils";
-import {ReactRef, getValidChildren} from "@nextui-org/react-utils";
+import {avatarGroup} from "@tera-ui/theme";
+import {HTMLNextUIProps, PropGetter} from "@tera-ui/system";
+import {useDOMRef} from "@tera-ui/react-utils";
+import {clsx, compact} from "@tera-ui/shared-utils";
+import {ReactRef, getValidChildren} from "@tera-ui/react-utils";
 import {cloneElement, useMemo} from "react";
 
 import {AvatarProps} from "./index";

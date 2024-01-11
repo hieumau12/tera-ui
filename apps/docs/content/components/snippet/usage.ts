@@ -1,8 +1,8 @@
-const App = `import {Snippet} from "@nextui-org/react";
+const App = `import {Snippet} from "@tera-ui/react";
 
 export default function App() {
   return (
-    <Snippet>npm install @nextui-org/react</Snippet>
+    <Snippet>npm install @tera-ui/react</Snippet>
   );
 }`;
 

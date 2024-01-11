@@ -62,7 +62,7 @@ client side router you provide.
   // app/providers.tsx
   "use client";
 
-  import {NextUIProvider} from "@nextui-org/react";
+  import {NextUIProvider} from "@tera-ui/react";
 
   export function Providers({children}: {children: React.ReactNode}) {
     const router = useRouter();
@@ -80,7 +80,7 @@ client side router you provide.
   // pages/_app.tsx
   import type {AppProps} from "next/app";
   import {useRouter} from "next/router";
-  import {NextUIProvider} from "@nextui-org/react";
+  import {NextUIProvider} from "@tera-ui/react";
 
   function MyApp({Component, pageProps}: AppProps) {
     const router = useRouter();
@@ -115,7 +115,7 @@ client side router you provide.
     DropdownItem,
     Button,
     Link,
-  } from "@nextui-org/react";
+  } from "@tera-ui/react";
 
   function App() {
     return (

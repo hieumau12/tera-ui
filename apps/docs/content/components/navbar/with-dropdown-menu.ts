@@ -228,7 +228,7 @@ export const Scale = ({
   );
 };`;
 
-const App = `import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button, DropdownItem, DropdownTrigger, Dropdown, DropdownMenu} from "@nextui-org/react";
+const App = `import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button, DropdownItem, DropdownTrigger, Dropdown, DropdownMenu} from "@tera-ui/react";
 import {ChevronDown, Lock, Activity, Flash, Server, TagUser, Scale} from "./Icons.jsx";
 import {AcmeLogo} from "./AcmeLogo.jsx";
 

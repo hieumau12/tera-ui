@@ -201,7 +201,7 @@ const data = `export const users = [
   },
 ];`;
 
-const App = `import {Autocomplete, AutocompleteItem, Avatar} from "@nextui-org/react";
+const App = `import {Autocomplete, AutocompleteItem, Avatar} from "@tera-ui/react";
 import {users} from "./data";
 
 export default function App() {

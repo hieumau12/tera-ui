@@ -71,7 +71,7 @@ export const useSandpack = ({
 
   let dependencies = {
     "framer-motion": "10.12.16",
-    "@nextui-org/react": "latest",
+    "@tera-ui/react": "latest",
   };
 
   // sort files by dependency
@@ -144,14 +144,14 @@ export const useSandpack = ({
 
   //   if (hasComponents) {
   //     let deps = {
-  //       "@nextui-org/theme": "dev-v2",
-  //       "@nextui-org/system": "dev-v2",
+  //       "@tera-ui/theme": "dev-v2",
+  //       "@tera-ui/system": "dev-v2",
   //     };
 
   //     nextUIComponents.forEach((component) => {
   //       deps = {
   //         ...deps,
-  //         [`@nextui-org/${component}`]: "dev-v2",
+  //         [`@tera-ui/${component}`]: "dev-v2",
   //       };
   //     });
 
@@ -160,7 +160,7 @@ export const useSandpack = ({
 
   //   return {
   //     ...deps,
-  //     "@nextui-org/react": "dev-v2",
+  //     "@tera-ui/react": "dev-v2",
   //   };
   // }, [hasComponents, nextUIComponents, component]);
 

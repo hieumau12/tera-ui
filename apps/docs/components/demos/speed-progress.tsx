@@ -4,7 +4,7 @@ import {
   CircularProgress,
   CircularProgressProps,
   circularProgress,
-} from "@nextui-org/react";
+} from "@tera-ui/react";
 import {FC} from "react";
 
 const speedProgress = tv({

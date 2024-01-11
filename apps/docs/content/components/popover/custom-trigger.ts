@@ -1,4 +1,4 @@
-const UserTwitterCard = `import { Avatar, Button, Card, CardBody, CardFooter, CardHeader } from "@nextui-org/react";
+const UserTwitterCard = `import { Avatar, Button, Card, CardBody, CardFooter, CardHeader } from "@tera-ui/react";
 
 export const UserTwitterCard = () => {
   const [isFollowed, setIsFollowed] = React.useState(false);
@@ -46,7 +46,7 @@ export const UserTwitterCard = () => {
   );
 };`;
 
-const App = `import {Popover, PopoverTrigger, PopoverContent, Button, User} from "@nextui-org/react";
+const App = `import {Popover, PopoverTrigger, PopoverContent, Button, User} from "@tera-ui/react";
 import {UserTwitterCard} from "./UserTwitterCard";
 
 export default function App() {

@@ -1,4 +1,4 @@
-# @nextui-org/use-aria-press
+# @tera-ui/use-aria-press
 
 ## 2.0.1
 

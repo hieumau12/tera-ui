@@ -1,16 +1,16 @@
-import type {HTMLNextUIProps, PropGetter} from "@nextui-org/system";
-import type {PopoverProps} from "@nextui-org/popover";
+import type {HTMLNextUIProps, PropGetter} from "@tera-ui/system";
+import type {PopoverProps} from "@tera-ui/popover";
 import type {MenuTriggerType} from "@react-types/menu";
 import type {Ref} from "react";
 
 import {useMenuTriggerState} from "@react-stately/menu";
 import {useMenuTrigger} from "@react-aria/menu";
-import {dropdown} from "@nextui-org/theme";
-import {clsx} from "@nextui-org/shared-utils";
-import {ReactRef, mergeRefs} from "@nextui-org/react-utils";
+import {dropdown} from "@tera-ui/theme";
+import {clsx} from "@tera-ui/shared-utils";
+import {ReactRef, mergeRefs} from "@tera-ui/react-utils";
 import {useMemo, useRef} from "react";
 import {mergeProps} from "@react-aria/utils";
-import {MenuProps} from "@nextui-org/menu";
+import {MenuProps} from "@tera-ui/menu";
 
 interface Props extends HTMLNextUIProps<"div"> {
   /**

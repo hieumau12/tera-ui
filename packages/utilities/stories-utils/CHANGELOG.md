@@ -1,4 +1,4 @@
-# @nextui-org/stories-utils
+# @tera-ui/stories-utils
 
 ## 2.0.1
 

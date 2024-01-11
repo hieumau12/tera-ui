@@ -1,9 +1,9 @@
-const App = `import {Snippet} from "@nextui-org/react";
+const App = `import {Snippet} from "@tera-ui/react";
 
 export default function App() {
   return (
     <Snippet hideCopyButton color="primary" variant="solid">
-      npm install @nextui-org/react
+      npm install @tera-ui/react
     </Snippet>
   );
 }`;

@@ -1,7 +1,7 @@
-import type {ListboxSectionSlots, SlotsToClasses} from "@nextui-org/theme";
+import type {ListboxSectionSlots, SlotsToClasses} from "@tera-ui/theme";
 
-import {BaseSection, SectionProps} from "@nextui-org/aria-utils";
-import {DividerProps} from "@nextui-org/divider";
+import {BaseSection, SectionProps} from "@tera-ui/aria-utils";
+import {DividerProps} from "@tera-ui/divider";
 
 import {ListboxItemProps} from "../listbox-item";
 

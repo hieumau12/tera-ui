@@ -1,8 +1,8 @@
 "use client";
 
 import NextLink from "next/link";
-import {Button, Link, Chip} from "@nextui-org/react";
-import {ArrowRightIcon} from "@nextui-org/shared-icons";
+import {Button, Link, Chip} from "@tera-ui/react";
+import {ArrowRightIcon} from "@tera-ui/shared-icons";
 import dynamic from "next/dynamic";
 
 import {FloatingComponents} from "./floating-components";

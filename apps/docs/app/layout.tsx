@@ -1,7 +1,7 @@
 import "@/styles/globals.css";
 import "@/styles/sandpack.css";
 import {Metadata} from "next";
-import {clsx} from "@nextui-org/shared-utils";
+import {clsx} from "@tera-ui/shared-utils";
 import {Analytics} from "@vercel/analytics/react";
 
 import {Providers} from "./providers";

@@ -1,15 +1,15 @@
-import type {ModalVariantProps, SlotsToClasses, ModalSlots} from "@nextui-org/theme";
+import type {ModalVariantProps, SlotsToClasses, ModalSlots} from "@tera-ui/theme";
 import type {HTMLMotionProps} from "framer-motion";
 
 import {AriaModalOverlayProps} from "@react-aria/overlays";
-import {useAriaModalOverlay} from "@nextui-org/use-aria-modal-overlay";
+import {useAriaModalOverlay} from "@tera-ui/use-aria-modal-overlay";
 import {useCallback, useId, useRef, useState, useMemo, ReactNode} from "react";
-import {modal} from "@nextui-org/theme";
-import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@nextui-org/system";
-import {useAriaButton} from "@nextui-org/use-aria-button";
+import {modal} from "@tera-ui/theme";
+import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
+import {useAriaButton} from "@tera-ui/use-aria-button";
 import {useFocusRing} from "@react-aria/focus";
-import {clsx, dataAttr} from "@nextui-org/shared-utils";
-import {ReactRef, useDOMRef} from "@nextui-org/react-utils";
+import {clsx, dataAttr} from "@tera-ui/shared-utils";
+import {ReactRef, useDOMRef} from "@tera-ui/react-utils";
 import {useOverlayTriggerState} from "@react-stately/overlays";
 import {OverlayTriggerProps} from "@react-stately/overlays";
 import {mergeRefs, mergeProps} from "@react-aria/utils";

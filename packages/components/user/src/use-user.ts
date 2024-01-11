@@ -1,13 +1,13 @@
-import type {SlotsToClasses, UserSlots} from "@nextui-org/theme";
-import type {AvatarProps} from "@nextui-org/avatar";
+import type {SlotsToClasses, UserSlots} from "@tera-ui/theme";
+import type {AvatarProps} from "@tera-ui/avatar";
 
 import {ReactNode, useMemo, useCallback} from "react";
 import {useFocusRing} from "@react-aria/focus";
-import {HTMLNextUIProps, PropGetter} from "@nextui-org/system";
-import {user} from "@nextui-org/theme";
-import {clsx, dataAttr} from "@nextui-org/shared-utils";
-import {filterDOMProps, ReactRef} from "@nextui-org/react-utils";
-import {useDOMRef} from "@nextui-org/react-utils";
+import {HTMLNextUIProps, PropGetter} from "@tera-ui/system";
+import {user} from "@tera-ui/theme";
+import {clsx, dataAttr} from "@tera-ui/shared-utils";
+import {filterDOMProps, ReactRef} from "@tera-ui/react-utils";
+import {useDOMRef} from "@tera-ui/react-utils";
 import {mergeProps} from "@react-aria/utils";
 interface Props {
   /**

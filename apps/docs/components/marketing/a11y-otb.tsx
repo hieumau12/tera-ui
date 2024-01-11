@@ -11,15 +11,15 @@ import {
   DropdownMenu,
   DropdownItem,
   Tooltip,
-} from "@nextui-org/react";
+} from "@tera-ui/react";
 import {useInView} from "framer-motion";
-import {clsx} from "@nextui-org/shared-utils";
+import {clsx} from "@tera-ui/shared-utils";
 import {
   AddNoteBulkIcon,
   CopyDocumentBulkIcon,
   EditDocumentBulkIcon,
   DeleteDocumentBulkIcon,
-} from "@nextui-org/shared-icons";
+} from "@tera-ui/shared-icons";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 import {useEffect, useRef, useState} from "react";

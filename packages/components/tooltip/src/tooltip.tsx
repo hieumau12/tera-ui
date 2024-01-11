@@ -1,10 +1,10 @@
-import {forwardRef} from "@nextui-org/system";
+import {forwardRef} from "@tera-ui/system";
 import {OverlayContainer} from "@react-aria/overlays";
 import {AnimatePresence, motion} from "framer-motion";
-import {TRANSITION_VARIANTS} from "@nextui-org/framer-transitions";
-import {warn} from "@nextui-org/shared-utils";
+import {TRANSITION_VARIANTS} from "@tera-ui/framer-transitions";
+import {warn} from "@tera-ui/shared-utils";
 import {Children, cloneElement} from "react";
-import {getTransformOrigins} from "@nextui-org/aria-utils";
+import {getTransformOrigins} from "@tera-ui/aria-utils";
 import {mergeProps} from "@react-aria/utils";
 
 import {UseTooltipProps, useTooltip} from "./use-tooltip";

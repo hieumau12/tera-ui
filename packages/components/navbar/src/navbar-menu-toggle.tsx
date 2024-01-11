@@ -1,7 +1,7 @@
-import {AriaToggleButtonProps, useAriaToggleButton} from "@nextui-org/use-aria-toggle-button";
-import {forwardRef, HTMLNextUIProps} from "@nextui-org/system";
-import {useDOMRef} from "@nextui-org/react-utils";
-import {clsx, dataAttr} from "@nextui-org/shared-utils";
+import {AriaToggleButtonProps, useAriaToggleButton} from "@tera-ui/use-aria-toggle-button";
+import {forwardRef, HTMLNextUIProps} from "@tera-ui/system";
+import {useDOMRef} from "@tera-ui/react-utils";
+import {clsx, dataAttr} from "@tera-ui/shared-utils";
 import {useToggleState} from "@react-stately/toggle";
 import {useFocusRing} from "@react-aria/focus";
 import {mergeProps} from "@react-aria/utils";

@@ -1,4 +1,4 @@
-const App = `import {Table, TableHeader, TableColumn, TableBody, TableRow, TableCell, RadioGroup, Radio} from "@nextui-org/react";
+const App = `import {Table, TableHeader, TableColumn, TableBody, TableRow, TableCell, RadioGroup, Radio} from "@tera-ui/react";
 
 const colors = ["default", "primary", "secondary", "success", "warning", "danger"];
 

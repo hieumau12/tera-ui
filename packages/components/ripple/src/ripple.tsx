@@ -1,6 +1,6 @@
 import {FC} from "react";
 import {AnimatePresence, HTMLMotionProps, motion} from "framer-motion";
-import {HTMLNextUIProps} from "@nextui-org/system";
+import {HTMLNextUIProps} from "@tera-ui/system";
 
 import {RippleType} from "./use-ripple";
 

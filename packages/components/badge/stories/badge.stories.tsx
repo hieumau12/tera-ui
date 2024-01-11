@@ -1,10 +1,10 @@
 import React from "react";
 import {Meta} from "@storybook/react";
-import {badge} from "@nextui-org/theme";
-import {Avatar} from "@nextui-org/avatar";
-import {CheckIcon} from "@nextui-org/shared-icons";
-import {Switch} from "@nextui-org/switch";
-import {Notification, CartIcon} from "@nextui-org/shared-icons";
+import {badge} from "@tera-ui/theme";
+import {Avatar} from "@tera-ui/avatar";
+import {CheckIcon} from "@tera-ui/shared-icons";
+import {Switch} from "@tera-ui/switch";
+import {Notification, CartIcon} from "@tera-ui/shared-icons";
 
 import {Badge, BadgeProps} from "../src";
 

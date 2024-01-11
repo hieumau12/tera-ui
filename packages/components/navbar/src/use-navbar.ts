@@ -1,13 +1,13 @@
-import type {NavbarVariantProps, SlotsToClasses, NavbarSlots} from "@nextui-org/theme";
+import type {NavbarVariantProps, SlotsToClasses, NavbarSlots} from "@tera-ui/theme";
 
-import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@nextui-org/system";
-import {navbar} from "@nextui-org/theme";
-import {useDOMRef} from "@nextui-org/react-utils";
-import {clsx, dataAttr} from "@nextui-org/shared-utils";
-import {ReactRef} from "@nextui-org/react-utils";
+import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
+import {navbar} from "@tera-ui/theme";
+import {useDOMRef} from "@tera-ui/react-utils";
+import {clsx, dataAttr} from "@tera-ui/shared-utils";
+import {ReactRef} from "@tera-ui/react-utils";
 import {useCallback, useEffect, useMemo, useRef, useState} from "react";
 import {mergeProps, useResizeObserver} from "@react-aria/utils";
-import {useScrollPosition} from "@nextui-org/use-scroll-position";
+import {useScrollPosition} from "@tera-ui/use-scroll-position";
 import {useControlledState} from "@react-stately/utils";
 import {HTMLMotionProps} from "framer-motion";
 

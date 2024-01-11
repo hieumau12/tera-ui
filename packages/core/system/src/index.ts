@@ -1,3 +1,3 @@
 export * from "./provider";
 
-export * from "@nextui-org/system-rsc";
+export * from "@tera-ui/system-rsc";

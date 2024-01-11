@@ -1,4 +1,4 @@
-const App = `import {Tabs, Tab} from "@nextui-org/react"; 
+const App = `import {Tabs, Tab} from "@tera-ui/react"; 
 
 export default function App() {
   const radiusList = [

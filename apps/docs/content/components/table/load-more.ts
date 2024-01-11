@@ -1,4 +1,4 @@
-const App = `import {Table, TableHeader, TableColumn, TableBody, TableRow, TableCell, getKeyValue, Spinner, Button} from "@nextui-org/react";
+const App = `import {Table, TableHeader, TableColumn, TableBody, TableRow, TableCell, getKeyValue, Spinner, Button} from "@tera-ui/react";
 import {useAsyncList} from "@react-stately/data";
 
 export default function App() {

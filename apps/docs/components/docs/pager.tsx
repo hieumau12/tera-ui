@@ -1,9 +1,9 @@
 "use client";
 
 import * as React from "react";
-import {Link} from "@nextui-org/react";
+import {Link} from "@tera-ui/react";
 import {useRouter} from "next/navigation";
-import {ChevronIcon} from "@nextui-org/shared-icons";
+import {ChevronIcon} from "@tera-ui/shared-icons";
 
 import manifest from "@/config/routes.json";
 import {removeFromLast} from "@/utils";

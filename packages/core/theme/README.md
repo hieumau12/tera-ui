@@ -1,4 +1,4 @@
-# @nextui-org/theme
+# @tera-ui/theme
 
 NextUI theme primitives, here you can find the TailwindCSS `plugin`, `colors`, `layout`, `spacing`, `typography` and some other utilities.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://nextui.org/theme) for more informati
 ## Installation
 
 ```sh
-yarn add @nextui-org/theme
+yarn add @tera-ui/theme
 # or
-npm i @nextui-org/theme
+npm i @tera-ui/theme
 ```
 
 ## Contribution

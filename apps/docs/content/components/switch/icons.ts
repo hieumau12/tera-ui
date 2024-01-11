@@ -32,7 +32,7 @@ const SunIcon = `export const SunIcon = (props) => (
   </svg>
 );`;
 
-const App = `import {Switch} from "@nextui-org/react";
+const App = `import {Switch} from "@tera-ui/react";
 import {MoonIcon} from "./MoonIcon";
 import {SunIcon} from "./SunIcon";
 

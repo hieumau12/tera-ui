@@ -1,4 +1,4 @@
-import {TRANSITION_EASINGS} from "@nextui-org/framer-transitions";
+import {TRANSITION_EASINGS} from "@tera-ui/framer-transitions";
 import {Variants} from "framer-motion";
 
 export const hideOnScrollVariants: Variants = {

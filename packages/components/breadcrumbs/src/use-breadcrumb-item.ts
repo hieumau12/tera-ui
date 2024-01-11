@@ -1,17 +1,13 @@
-import type {
-  BreadcrumbItemVariantProps,
-  SlotsToClasses,
-  BreadcrumbItemSlots,
-} from "@nextui-org/theme";
+import type {BreadcrumbItemVariantProps, SlotsToClasses, BreadcrumbItemSlots} from "@tera-ui/theme";
 import type {ReactNode} from "react";
 import type {BreadcrumbItemProps as AriaBreadcrumbItemProps} from "@react-types/breadcrumbs";
 
-import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@nextui-org/system";
+import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
 import {useFocusRing} from "@react-aria/focus";
-import {breadcrumbItem} from "@nextui-org/theme";
-import {filterDOMProps, ReactRef, useDOMRef} from "@nextui-org/react-utils";
+import {breadcrumbItem} from "@tera-ui/theme";
+import {filterDOMProps, ReactRef, useDOMRef} from "@tera-ui/react-utils";
 import {useBreadcrumbItem as useAriaBreadcrumbItem} from "@react-aria/breadcrumbs";
-import {clsx, dataAttr} from "@nextui-org/shared-utils";
+import {clsx, dataAttr} from "@tera-ui/shared-utils";
 import {useMemo} from "react";
 import {mergeProps} from "@react-aria/utils";
 

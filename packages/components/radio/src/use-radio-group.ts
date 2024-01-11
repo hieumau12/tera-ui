@@ -1,15 +1,15 @@
 import type {AriaRadioGroupProps} from "@react-types/radio";
 import type {Orientation} from "@react-types/shared";
-import type {ReactRef} from "@nextui-org/react-utils";
-import type {RadioGroupSlots, SlotsToClasses} from "@nextui-org/theme";
+import type {ReactRef} from "@tera-ui/react-utils";
+import type {RadioGroupSlots, SlotsToClasses} from "@tera-ui/theme";
 
-import {radioGroup} from "@nextui-org/theme";
+import {radioGroup} from "@tera-ui/theme";
 import {useCallback, useMemo} from "react";
 import {RadioGroupState, useRadioGroupState} from "@react-stately/radio";
 import {useRadioGroup as useReactAriaRadioGroup} from "@react-aria/radio";
-import {HTMLNextUIProps, PropGetter} from "@nextui-org/system";
-import {useDOMRef} from "@nextui-org/react-utils";
-import {clsx, safeAriaLabel} from "@nextui-org/shared-utils";
+import {HTMLNextUIProps, PropGetter} from "@tera-ui/system";
+import {useDOMRef} from "@tera-ui/react-utils";
+import {clsx, safeAriaLabel} from "@tera-ui/shared-utils";
 import {mergeProps} from "@react-aria/utils";
 
 import {RadioProps} from "./index";

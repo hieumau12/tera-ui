@@ -1,4 +1,4 @@
-# @nextui-org/popover
+# @tera-ui/popover
 
 Popover is a non-modal dialog that floats around its disclosure. It's commonly used for displaying additional rich content on top of something.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://nextui.org/docs/components/popover) 
 ## Installation
 
 ```sh
-yarn add @nextui-org/popover
+yarn add @tera-ui/popover
 # or
-npm i @nextui-org/popover
+npm i @tera-ui/popover
 ```
 
 ## Contribution

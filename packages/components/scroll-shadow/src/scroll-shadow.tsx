@@ -1,4 +1,4 @@
-import {forwardRef} from "@nextui-org/system";
+import {forwardRef} from "@tera-ui/system";
 
 import {UseScrollShadowProps, useScrollShadow} from "./use-scroll-shadow";
 

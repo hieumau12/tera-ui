@@ -1,4 +1,4 @@
-# @nextui-org/use-aria-accordion-item
+# @tera-ui/use-aria-accordion-item
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @nextui-org/use-aria-accordion-item
+yarn add @tera-ui/use-aria-accordion-item
 # or
-npm i @nextui-org/use-aria-accordion-item
+npm i @tera-ui/use-aria-accordion-item
 ```
 
 ## Contribution

@@ -1,4 +1,4 @@
-const App = `import {Pagination} from "@nextui-org/react";
+const App = `import {Pagination} from "@tera-ui/react";
 
 export default function App() {
 

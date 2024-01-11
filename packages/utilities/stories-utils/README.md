@@ -1,4 +1,4 @@
-# @nextui-org/stories-utils
+# @tera-ui/stories-utils
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @nextui-org/stories-utils
+yarn add @tera-ui/stories-utils
 # or
-npm i @nextui-org/stories-utils
+npm i @tera-ui/stories-utils
 ```
 
 ## Contribution

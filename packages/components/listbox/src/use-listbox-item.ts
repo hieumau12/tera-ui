@@ -1,17 +1,17 @@
 import type {ListboxItemBaseProps} from "./base/listbox-item-base";
 
 import {useMemo, useRef, useCallback} from "react";
-import {listboxItem} from "@nextui-org/theme";
-import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@nextui-org/system";
+import {listboxItem} from "@tera-ui/theme";
+import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
 import {useFocusRing} from "@react-aria/focus";
 import {Node} from "@react-types/shared";
-import {filterDOMProps} from "@nextui-org/react-utils";
-import {clsx, dataAttr, removeEvents} from "@nextui-org/shared-utils";
+import {filterDOMProps} from "@tera-ui/react-utils";
+import {clsx, dataAttr, removeEvents} from "@tera-ui/shared-utils";
 import {useOption} from "@react-aria/listbox";
 import {mergeProps} from "@react-aria/utils";
 import {useHover} from "@react-aria/interactions";
-import {usePress} from "@nextui-org/use-aria-press";
-import {useIsMobile} from "@nextui-org/use-is-mobile";
+import {usePress} from "@tera-ui/use-aria-press";
+import {useIsMobile} from "@tera-ui/use-is-mobile";
 import {ListState} from "@react-stately/list";
 
 interface Props<T extends object> extends ListboxItemBaseProps<T> {

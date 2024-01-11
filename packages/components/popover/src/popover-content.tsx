@@ -2,15 +2,15 @@ import type {AriaDialogProps} from "@react-aria/dialog";
 import type {HTMLMotionProps} from "framer-motion";
 
 import {DOMAttributes, ReactNode, useMemo, useRef} from "react";
-import {forwardRef} from "@nextui-org/system";
+import {forwardRef} from "@tera-ui/system";
 import {DismissButton} from "@react-aria/overlays";
-import {TRANSITION_VARIANTS} from "@nextui-org/framer-transitions";
+import {TRANSITION_VARIANTS} from "@tera-ui/framer-transitions";
 import {motion} from "framer-motion";
 import {useDialog} from "@react-aria/dialog";
 import {mergeProps} from "@react-aria/utils";
-import {HTMLNextUIProps} from "@nextui-org/system";
+import {HTMLNextUIProps} from "@tera-ui/system";
 import {RemoveScroll} from "react-remove-scroll";
-import {getTransformOrigins} from "@nextui-org/aria-utils";
+import {getTransformOrigins} from "@tera-ui/aria-utils";
 
 import {usePopoverContext} from "./popover-context";
 

@@ -1,5 +1,5 @@
 import {RefObject, useState, useEffect} from "react";
-import {ShapeType, getRealShape} from "@nextui-org/react-utils";
+import {ShapeType, getRealShape} from "@tera-ui/react-utils";
 
 export type ShapeResult = [ShapeType, () => void];
 

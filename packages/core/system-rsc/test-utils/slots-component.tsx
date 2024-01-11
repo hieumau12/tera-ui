@@ -1,8 +1,8 @@
 import type {HTMLNextUIProps} from "../src/types";
 
 import React, {useMemo} from "react";
-import {SlotsToClasses, tv, type VariantProps} from "@nextui-org/theme";
-import {filterDOMProps, ReactRef, useDOMRef} from "@nextui-org/react-utils";
+import {SlotsToClasses, tv, type VariantProps} from "@tera-ui/theme";
+import {filterDOMProps, ReactRef, useDOMRef} from "@tera-ui/react-utils";
 
 import {cn, forwardRef, mapPropsVariants} from "../src/utils";
 

@@ -1,5 +1,5 @@
 {
-  "name": "@nextui-org/use-clipboard",
+  "name": "@tera-ui/use-clipboard",
   "version": "2.0.4",
   "description": "Wrapper around navigator.clipboard with feedback timeout",
   "keywords": [

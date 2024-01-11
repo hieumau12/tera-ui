@@ -26,7 +26,7 @@ const data = `export const animals = [
   {label: "Crocodile", value: "crocodile", description: "A large semiaquatic reptile"},
 ];`;
 
-const App = `import {Select, SelectItem, Button} from "@nextui-org/react";
+const App = `import {Select, SelectItem, Button} from "@tera-ui/react";
 import {animals} from "./data";
 
 export default function App() {

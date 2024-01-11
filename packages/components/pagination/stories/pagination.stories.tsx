@@ -1,8 +1,8 @@
 import React from "react";
 import {Meta} from "@storybook/react";
-import {button, pagination} from "@nextui-org/theme";
-import {cn} from "@nextui-org/system";
-import {ChevronIcon} from "@nextui-org/shared-icons";
+import {button, pagination} from "@tera-ui/theme";
+import {cn} from "@tera-ui/system";
+import {ChevronIcon} from "@tera-ui/shared-icons";
 
 import {Pagination, PaginationItemRenderProps, PaginationItemType, usePagination} from "../src";
 

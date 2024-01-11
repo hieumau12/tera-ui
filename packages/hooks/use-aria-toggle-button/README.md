@@ -1,4 +1,4 @@
-# @nextui-org/use-aria-toggle-button
+# @tera-ui/use-aria-toggle-button
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @nextui-org/use-aria-toggle-button
+yarn add @tera-ui/use-aria-toggle-button
 # or
-npm i @nextui-org/use-aria-toggle-button
+npm i @tera-ui/use-aria-toggle-button
 ```
 
 ## Contribution

@@ -1,21 +1,21 @@
-import type {ButtonVariantProps} from "@nextui-org/theme";
-import type {AriaButtonProps} from "@nextui-org/use-aria-button";
-import type {HTMLNextUIProps, PropGetter} from "@nextui-org/system";
+import type {ButtonVariantProps} from "@tera-ui/theme";
+import type {AriaButtonProps} from "@tera-ui/use-aria-button";
+import type {HTMLNextUIProps, PropGetter} from "@tera-ui/system";
 import type {ReactNode} from "react";
-import type {RippleProps} from "@nextui-org/ripple";
+import type {RippleProps} from "@tera-ui/ripple";
 
-import {dataAttr} from "@nextui-org/shared-utils";
-import {ReactRef} from "@nextui-org/react-utils";
+import {dataAttr} from "@tera-ui/shared-utils";
+import {ReactRef} from "@tera-ui/react-utils";
 import {MouseEventHandler, useCallback} from "react";
 import {useFocusRing} from "@react-aria/focus";
 import {chain, mergeProps} from "@react-aria/utils";
-import {useDOMRef, filterDOMProps} from "@nextui-org/react-utils";
-import {button} from "@nextui-org/theme";
+import {useDOMRef, filterDOMProps} from "@tera-ui/react-utils";
+import {button} from "@tera-ui/theme";
 import {isValidElement, cloneElement, useMemo} from "react";
-import {useAriaButton} from "@nextui-org/use-aria-button";
+import {useAriaButton} from "@tera-ui/use-aria-button";
 import {useHover} from "@react-aria/interactions";
-import {SpinnerProps} from "@nextui-org/spinner";
-import {useRipple} from "@nextui-org/ripple";
+import {SpinnerProps} from "@tera-ui/spinner";
+import {useRipple} from "@tera-ui/ripple";
 
 import {useButtonGroupContext} from "./button-group-context";
 

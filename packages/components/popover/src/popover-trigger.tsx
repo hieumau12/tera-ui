@@ -1,8 +1,8 @@
 import React, {Children, cloneElement, useMemo} from "react";
-import {forwardRef} from "@nextui-org/system";
-import {pickChildren} from "@nextui-org/react-utils";
-import {useAriaButton} from "@nextui-org/use-aria-button";
-import {Button} from "@nextui-org/button";
+import {forwardRef} from "@tera-ui/system";
+import {pickChildren} from "@tera-ui/react-utils";
+import {useAriaButton} from "@tera-ui/use-aria-button";
+import {Button} from "@tera-ui/button";
 import {mergeProps} from "@react-aria/utils";
 
 import {usePopoverContext} from "./popover-context";

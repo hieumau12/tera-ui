@@ -1,4 +1,4 @@
-# @nextui-org/use-is-mobile
+# @tera-ui/use-is-mobile
 
 ## 2.0.6
 

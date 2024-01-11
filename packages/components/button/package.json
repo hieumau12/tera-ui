@@ -1,5 +1,5 @@
 {
-  "name": "@nextui-org/button",
+  "name": "@tera-ui/button",
   "version": "2.0.26",
   "description": "Buttons allow users to perform actions and choose with a single tap.",
   "keywords": [
@@ -37,15 +37,15 @@
     "react": ">=18",
     "react-dom": ">=18",
     "framer-motion": ">=4.0.0",
-    "@nextui-org/theme": ">=2.1.0",
-    "@nextui-org/system": ">=2.0.0"
+    "@tera-ui/theme": ">=2.1.0",
+    "@tera-ui/system": ">=2.0.0"
   },
   "dependencies": {
-    "@nextui-org/shared-utils": "workspace:*",
-    "@nextui-org/react-utils": "workspace:*",
-    "@nextui-org/use-aria-button": "workspace:*",
-    "@nextui-org/ripple": "workspace:*",
-    "@nextui-org/spinner": "workspace:*",
+    "@tera-ui/shared-utils": "workspace:*",
+    "@tera-ui/react-utils": "workspace:*",
+    "@tera-ui/use-aria-button": "workspace:*",
+    "@tera-ui/ripple": "workspace:*",
+    "@tera-ui/spinner": "workspace:*",
     "@react-aria/button": "^3.8.4",
     "@react-aria/interactions": "^3.19.1",
     "@react-aria/utils": "^3.21.1",
@@ -54,9 +54,9 @@
     "@react-types/button": "^3.9.0"
   },
   "devDependencies": {
-    "@nextui-org/theme": "workspace:*",
-    "@nextui-org/system": "workspace:*",
-    "@nextui-org/shared-icons": "workspace:*",
+    "@tera-ui/theme": "workspace:*",
+    "@tera-ui/system": "workspace:*",
+    "@tera-ui/shared-icons": "workspace:*",
     "clean-package": "2.2.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"

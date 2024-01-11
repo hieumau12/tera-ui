@@ -1,6 +1,6 @@
-import {CloseFilledIcon} from "@nextui-org/shared-icons";
+import {CloseFilledIcon} from "@tera-ui/shared-icons";
 import {useMemo} from "react";
-import {forwardRef} from "@nextui-org/system";
+import {forwardRef} from "@tera-ui/system";
 
 import {UseInputProps, useInput} from "./use-input";
 

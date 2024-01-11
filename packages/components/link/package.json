@@ -1,5 +1,5 @@
 {
-  "name": "@nextui-org/link",
+  "name": "@tera-ui/link",
   "version": "2.0.26",
   "description": "Links allow users to click their way from page to page. This component is styled to resemble a hyperlink and semantically renders an &lt;a&gt;",
   "keywords": [
@@ -36,22 +36,22 @@
   "peerDependencies": {
     "react": ">=18",
     "react-dom": ">=18",
-    "@nextui-org/theme": ">=2.1.0",
-    "@nextui-org/system": ">=2.0.0"
+    "@tera-ui/theme": ">=2.1.0",
+    "@tera-ui/system": ">=2.0.0"
   },
   "dependencies": {
-    "@nextui-org/shared-utils": "workspace:*",
-    "@nextui-org/shared-icons": "workspace:*",
-    "@nextui-org/react-utils": "workspace:*",
-    "@nextui-org/use-aria-link": "workspace:*",
+    "@tera-ui/shared-utils": "workspace:*",
+    "@tera-ui/shared-icons": "workspace:*",
+    "@tera-ui/react-utils": "workspace:*",
+    "@tera-ui/use-aria-link": "workspace:*",
     "@react-aria/link": "^3.6.1",
     "@react-aria/utils": "^3.21.1",
     "@react-aria/focus": "^3.14.3",
     "@react-types/link": "^3.5.1"
   },
   "devDependencies": {
-    "@nextui-org/theme": "workspace:*",
-    "@nextui-org/system": "workspace:*",
+    "@tera-ui/theme": "workspace:*",
+    "@tera-ui/system": "workspace:*",
     "clean-package": "2.2.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"

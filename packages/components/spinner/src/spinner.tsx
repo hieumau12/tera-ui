@@ -1,4 +1,4 @@
-import {forwardRef} from "@nextui-org/system-rsc";
+import {forwardRef} from "@tera-ui/system-rsc";
 
 import {UseSpinnerProps, useSpinner} from "./use-spinner";
 

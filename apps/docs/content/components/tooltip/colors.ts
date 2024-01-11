@@ -1,4 +1,4 @@
-const App = `import {Tooltip, Button} from "@nextui-org/react";
+const App = `import {Tooltip, Button} from "@tera-ui/react";
 
 export default function App() {
   const colors = [

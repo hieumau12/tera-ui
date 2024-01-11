@@ -1,4 +1,4 @@
-const App = `import {Switch, cn} from "@nextui-org/react";
+const App = `import {Switch, cn} from "@tera-ui/react";
 
 export default function App() {
   return (

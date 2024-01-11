@@ -1,5 +1,5 @@
 import {useMemo, ReactNode} from "react";
-import {forwardRef} from "@nextui-org/system";
+import {forwardRef} from "@tera-ui/system";
 
 import {UseListboxItemProps, useListboxItem} from "./use-listbox-item";
 import {ListboxSelectedIcon} from "./listbox-selected-icon";

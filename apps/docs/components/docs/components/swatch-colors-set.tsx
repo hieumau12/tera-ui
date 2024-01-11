@@ -1,7 +1,7 @@
 import {parseToRgba, readableColor} from "color2k";
-import {Button, Tooltip} from "@nextui-org/react";
-import {commonColors, semanticColors} from "@nextui-org/theme";
-import {useClipboard} from "@nextui-org/use-clipboard";
+import {Button, Tooltip} from "@tera-ui/react";
+import {commonColors, semanticColors} from "@tera-ui/theme";
+import {useClipboard} from "@tera-ui/use-clipboard";
 import {useState} from "react";
 import {useTheme} from "next-themes";
 import {get, isEmpty} from "lodash";

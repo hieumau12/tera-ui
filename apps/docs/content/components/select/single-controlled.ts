@@ -26,7 +26,7 @@ const data = `export const animals = [
   {label: "Crocodile", value: "crocodile", description: "A large semiaquatic reptile"},
 ];`;
 
-const AppTs = `import {Select, SelectItem, Selection} from "@nextui-org/react";
+const AppTs = `import {Select, SelectItem, Selection} from "@tera-ui/react";
 import {animals} from "./data";
 
 export default function App() {
@@ -53,7 +53,7 @@ export default function App() {
   );
 }`;
 
-const App = `import {Select, SelectItem} from "@nextui-org/react";
+const App = `import {Select, SelectItem} from "@tera-ui/react";
 import {animals} from "./data";
 
 export default function App() {

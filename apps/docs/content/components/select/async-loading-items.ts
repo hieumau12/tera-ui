@@ -136,8 +136,8 @@ const usePokemonList = `export function usePokemonList({fetchDelay = 0} = {}) {
   };
 };`;
 
-const App = `import {Select, SelectItem} from "@nextui-org/react";
-import {useInfiniteScroll} from "@nextui-org/use-infinite-scroll";
+const App = `import {Select, SelectItem} from "@tera-ui/react";
+import {useInfiniteScroll} from "@tera-ui/use-infinite-scroll";
 import {usePokemonList} from "./usePokemonList";
 
 export default function App() {

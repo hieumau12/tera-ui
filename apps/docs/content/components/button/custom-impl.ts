@@ -1,5 +1,5 @@
 const App = `import {forwardRef} from "react";
-import {useButton, Ripple, Spinner} from "@nextui-org/react";
+import {useButton, Ripple, Spinner} from "@tera-ui/react";
 
 
 const MyButton = forwardRef((props, ref) => {
@@ -39,7 +39,7 @@ MyButton.displayName = "MyButton";
 export default MyButton;`;
 
 const AppTs = `import {forwardRef} from "react";
-import {useButton, Ripple, Spinner, ButtonProps as BaseButtonProps} from "@nextui-org/react";
+import {useButton, Ripple, Spinner, ButtonProps as BaseButtonProps} from "@tera-ui/react";
 
 export interface ButtonProps extends BaseButtonProps {}
 

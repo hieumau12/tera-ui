@@ -1,6 +1,6 @@
 import * as React from "react";
 import {useSandpackNavigation} from "@codesandbox/sandpack-react";
-import {clsx} from "@nextui-org/shared-utils";
+import {clsx} from "@tera-ui/shared-utils";
 
 import {RotateRightLinearIcon} from "@/components/icons";
 

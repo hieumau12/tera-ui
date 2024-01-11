@@ -2,14 +2,14 @@
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 import React from "react";
 import {Meta} from "@storybook/react";
-import {input} from "@nextui-org/theme";
+import {input} from "@tera-ui/theme";
 import {
   MailFilledIcon,
   EyeFilledIcon,
   EyeSlashFilledIcon,
   SearchIcon,
   CloseFilledIcon,
-} from "@nextui-org/shared-icons";
+} from "@tera-ui/shared-icons";
 
 import {Input, InputProps, useInput} from "../src";
 

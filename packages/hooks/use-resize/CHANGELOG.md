@@ -1,4 +1,4 @@
-# @nextui-org/use-resize
+# @tera-ui/use-resize
 
 ## 2.0.4
 

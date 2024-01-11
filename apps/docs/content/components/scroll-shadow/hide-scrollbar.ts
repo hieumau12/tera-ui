@@ -33,7 +33,7 @@ const Content = `export const Content = () => (
   </div>
 );`;
 
-const App = `import {ScrollShadow} from "@nextui-org/react";
+const App = `import {ScrollShadow} from "@tera-ui/react";
 import {Content} from "./Content";
   
 export default function App() {

@@ -1,22 +1,22 @@
 "use client";
 
 import {FC} from "react";
-import {ChevronIcon} from "@nextui-org/shared-icons";
+import {ChevronIcon} from "@tera-ui/shared-icons";
 import {CollectionBase, Expandable, MultipleSelection, Node, ItemProps} from "@react-types/shared";
-import {BaseItem} from "@nextui-org/aria-utils";
+import {BaseItem} from "@tera-ui/aria-utils";
 import React, {useRef, useMemo} from "react";
 import {useFocusRing} from "@react-aria/focus";
 import {TreeState, useTreeState} from "@react-stately/tree";
 import {useSelectableCollection} from "@react-aria/selection";
 import {usePress} from "@react-aria/interactions";
-import {clsx, dataAttr} from "@nextui-org/shared-utils";
+import {clsx, dataAttr} from "@tera-ui/shared-utils";
 import {
   SpacerProps,
   Spacer,
   Link as NextUILink,
   Chip,
   dataFocusVisibleClasses,
-} from "@nextui-org/react";
+} from "@tera-ui/react";
 import Link from "next/link";
 import {isEmpty} from "lodash";
 import {usePathname, useRouter} from "next/navigation";

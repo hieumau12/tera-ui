@@ -1,6 +1,6 @@
 import * as React from "react";
 import {render} from "@testing-library/react";
-import {Avatar} from "@nextui-org/avatar";
+import {Avatar} from "@tera-ui/avatar";
 import {act} from "@testing-library/react-hooks";
 
 import {Chip} from "../src";

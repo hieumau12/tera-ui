@@ -1,4 +1,4 @@
-const App = `import {Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, Button, useDisclosure} from "@nextui-org/react";
+const App = `import {Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, Button, useDisclosure} from "@tera-ui/react";
 
 export default function App() {
   const {isOpen, onOpen, onClose} = useDisclosure();

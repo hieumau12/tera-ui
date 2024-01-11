@@ -54,7 +54,7 @@ const EyeFilledIcon = `export const EyeFilledIcon = (props) => (
   </svg>
 );`;
 
-const App = `import {Input} from "@nextui-org/react";
+const App = `import {Input} from "@tera-ui/react";
 import {EyeFilledIcon} from "./EyeFilledIcon";
 import {EyeSlashFilledIcon} from "./EyeSlashFilledIcon";
 

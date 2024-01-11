@@ -1,6 +1,6 @@
 import React from "react";
 import {Meta} from "@storybook/react";
-import {checkbox} from "@nextui-org/theme";
+import {checkbox} from "@tera-ui/theme";
 
 import {CheckboxGroup, Checkbox, CheckboxGroupProps} from "../src";
 

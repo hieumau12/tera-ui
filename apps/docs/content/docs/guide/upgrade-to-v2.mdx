@@ -12,7 +12,7 @@ Requirements:
 - [Tailwind CSS 3](https://tailwindcss.com/) or later
 - [Framer Motion 4](https://www.framer.com/motion/) or later
 
------ 
+-----
 
 <CarbonAd />
 
@@ -23,7 +23,7 @@ Make sure to follow the previous steps since they are required to upgrade to v2.
 
 ## App directory Setup
 
-Next.js 13 introduces a new `app/` directory structure. By default it uses Server Components. 
+Next.js 13 introduces a new `app/` directory structure. By default it uses Server Components.
 As NextUI components use React hooks, we added the `use client;` at build time, so you can import them
 directly in your React Server Components (RSC).
 
@@ -36,28 +36,28 @@ In your Next.js project, run one of the following command to install NextUI:
 
 <PackageManagers
   commands={{
-    npm: 'npm i @nextui-org/react framer-motion',
-    yarn: 'yarn add @nextui-org/react framer-motion',
-    pnpm: 'pnpm add @nextui-org/react framer-motion',
+    npm: 'npm i @tera-ui/react framer-motion',
+    yarn: 'yarn add @tera-ui/react framer-motion',
+    pnpm: 'pnpm add @tera-ui/react framer-motion',
   }}
 />
 
 ### Tailwind CSS Setup
 
 NextUI is built on top of Tailwind CSS, so you need to install Tailwind CSS first. You can follow the official
-[installation guide](https://tailwindcss.com/docs/guides/nextjs) to install Tailwind CSS. Then you need to add 
+[installation guide](https://tailwindcss.com/docs/guides/nextjs) to install Tailwind CSS. Then you need to add
 the following code to your `tailwind.config.js` file:
 
 
 ```js {8,13-14}
 // tailwind.config.js
-const { nextui } = require("@nextui-org/react");
+const { nextui } = require("@tera-ui/react");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     // ...
-    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}"
+    "./node_modules/@tera-ui/theme/dist/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
     extend: {},
@@ -75,7 +75,7 @@ Go to your `app/providers.tsx` or `app/providers.jsx` (create it if it doesn't e
 // app/providers.tsx
 'use client'
 
-import {NextUIProvider} from '@nextui-org/react'
+import {NextUIProvider} from '@tera-ui/react'
 
 export function Providers({children}: { children: React.ReactNode }) {
   return (
@@ -107,7 +107,7 @@ export default function RootLayout({children}: { children: React.ReactNode }) {
 }
 ```
 
-> **Note**: NextUI automatically add two themes `light` and `dark` to your application. You can use any 
+> **Note**: NextUI automatically add two themes `light` and `dark` to your application. You can use any
 of them by adding the `dark`/`light` class to the `html` tag. See the [theme docs](/docs/customization/customize-theme) for more details.
 
 
@@ -118,7 +118,7 @@ the `use client;` directive:
 
 ```jsx {2}
 // app/page.tsx
-import {Button} from '@nextui-org/button'
+import {Button} from '@tera-ui/button'
 
 export default function Page() {
   return (
@@ -129,14 +129,14 @@ export default function Page() {
 }
 ```
 
-> **Important 🚨**: Note that you need to import the component from the individual package, not the from `@nextui-org/react`. 
+> **Important 🚨**: Note that you need to import the component from the individual package, not the from `@tera-ui/react`.
 
 ### Setup pnpm (optional)
 
 If you are using pnpm, you need to add the following code to your `.npmrc` file:
 
 ```bash
-public-hoist-pattern[]=*@nextui-org/*
+public-hoist-pattern[]=*@tera-ui/*
 ```
 
 After modfiying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
@@ -145,7 +145,7 @@ After modfiying the `.npmrc` file, you need to run `pnpm install` again to ensur
 
 <Spacer y={8} />
 
-## Pages Directory Setup 
+## Pages Directory Setup
 
 <Steps>
 
@@ -156,28 +156,28 @@ In your Next.js project, run one of the following command to install NextUI:
 
 <PackageManagers
   commands={{
-    npm: 'npm i @nextui-org/react framer-motion',
-    yarn: 'yarn add @nextui-org/react framer-motion',
-    pnpm: 'pnpm add @nextui-org/react framer-motion',
+    npm: 'npm i @tera-ui/react framer-motion',
+    yarn: 'yarn add @tera-ui/react framer-motion',
+    pnpm: 'pnpm add @tera-ui/react framer-motion',
   }}
 />
 
 ### Tailwind CSS Setup
 
 NextUI is built on top of Tailwind CSS, so you need to install Tailwind CSS first. You can follow the official
-[installation guide](https://tailwindcss.com/docs/guides/nextjs) to install Tailwind CSS. Then you need to add 
+[installation guide](https://tailwindcss.com/docs/guides/nextjs) to install Tailwind CSS. Then you need to add
 the following code to your `tailwind.config.js` file:
 
 
 ```js {8,13-14}
 // tailwind.config.js
-const { nextui } = require("@nextui-org/react");
+const { nextui } = require("@tera-ui/react");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     // ...
-    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}"
+    "./node_modules/@tera-ui/theme/dist/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
     extend: {},
@@ -193,7 +193,7 @@ Go to pages`/_app.js` or `pages/_app.tsx` (create it if it doesn't exist) and wr
 
 ```jsx
 // pages/_app.js
-import {NextUIProvider} from '@nextui-org/react'
+import {NextUIProvider} from '@tera-ui/react'
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -211,7 +211,7 @@ export default MyApp;
 Now you can import any NextUI component wherever you want:
 
 ```jsx
-import {Button} from '@nextui-org/react'
+import {Button} from '@tera-ui/react'
 
 export default function Page() {
   return (
@@ -227,7 +227,7 @@ export default function Page() {
 If you are using pnpm, you need to add the following code to your `.npmrc` file:
 
 ```bash
-public-hoist-pattern[]=*@nextui-org/*
+public-hoist-pattern[]=*@tera-ui/*
 ```
 
 After modfiying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
@@ -269,13 +269,13 @@ NextUI v2 now uses Tailwind CSS. Add the NextUI plugin to your `tailwind.config.
 
 ```js {9, 13-14}
 // tailwind.config.js
-const { nextui } = require("@nextui-org/react");
+const { nextui } = require("@tera-ui/react");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     // ...
-    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}"
+    "./node_modules/@tera-ui/theme/dist/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
     extend: {},
@@ -293,7 +293,7 @@ Go to `root` file and wrap the Component with the `NextUIProvider`:
 // src/main.jsx
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import {NextUIProvider} from '@nextui-org/react'
+import {NextUIProvider} from '@tera-ui/react'
 import App from './App'
 import './index.css'
 
@@ -311,7 +311,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
 Now you can import any NextUI component wherever you want:
 
 ```jsx
-import {Button} from '@nextui-org/react'
+import {Button} from '@tera-ui/react'
 
 export default function Page() {
   return (
@@ -327,7 +327,7 @@ export default function Page() {
 If you are using pnpm, you need to add the following code to your `.npmrc` file:
 
 ```bash
-public-hoist-pattern[]=*@nextui-org/*
+public-hoist-pattern[]=*@tera-ui/*
 ```
 
 After modfiying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.

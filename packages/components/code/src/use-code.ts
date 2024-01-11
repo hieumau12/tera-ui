@@ -1,9 +1,9 @@
-import type {CodeVariantProps} from "@nextui-org/theme";
-import type {HTMLNextUIProps, PropGetter} from "@nextui-org/system-rsc";
+import type {CodeVariantProps} from "@tera-ui/theme";
+import type {HTMLNextUIProps, PropGetter} from "@tera-ui/system-rsc";
 
-import {code} from "@nextui-org/theme";
-import {mapPropsVariants} from "@nextui-org/system-rsc";
-import {ReactRef} from "@nextui-org/react-utils";
+import {code} from "@tera-ui/theme";
+import {mapPropsVariants} from "@tera-ui/system-rsc";
+import {ReactRef} from "@tera-ui/react-utils";
 import {useMemo} from "react";
 
 export interface UseCodeProps extends HTMLNextUIProps<"code">, CodeVariantProps {

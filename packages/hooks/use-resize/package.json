@@ -1,5 +1,5 @@
 {
-  "name": "@nextui-org/use-resize",
+  "name": "@tera-ui/use-resize",
   "version": "2.0.4",
   "description": "Hook that adds an event listener to the resize window event",
   "keywords": [

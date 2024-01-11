@@ -1,7 +1,7 @@
 import React from "react";
 import {Meta} from "@storybook/react";
-import {input} from "@nextui-org/theme";
-import {SendFilledIcon, PlusFilledIcon} from "@nextui-org/shared-icons";
+import {input} from "@tera-ui/theme";
+import {SendFilledIcon, PlusFilledIcon} from "@tera-ui/shared-icons";
 
 import {Textarea, TextAreaProps} from "../src";
 

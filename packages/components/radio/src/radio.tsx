@@ -1,4 +1,4 @@
-import {forwardRef} from "@nextui-org/system";
+import {forwardRef} from "@tera-ui/system";
 import {VisuallyHidden} from "@react-aria/visually-hidden";
 
 import {UseRadioProps, useRadio} from "./use-radio";

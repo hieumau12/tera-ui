@@ -1,12 +1,12 @@
-import type {HTMLNextUIProps, PropGetter} from "@nextui-org/system";
+import type {HTMLNextUIProps, PropGetter} from "@tera-ui/system";
 import type {AriaMenuProps} from "@react-types/menu";
 
 import {AriaMenuOptions, useMenu as useAriaMenu} from "@react-aria/menu";
-import {menu, MenuVariantProps, SlotsToClasses, MenuSlots} from "@nextui-org/theme";
+import {menu, MenuVariantProps, SlotsToClasses, MenuSlots} from "@tera-ui/theme";
 import {TreeState, useTreeState} from "@react-stately/tree";
-import {ReactRef, filterDOMProps, useDOMRef} from "@nextui-org/react-utils";
+import {ReactRef, filterDOMProps, useDOMRef} from "@tera-ui/react-utils";
 import {ReactNode, useMemo} from "react";
-import {clsx} from "@nextui-org/shared-utils";
+import {clsx} from "@tera-ui/shared-utils";
 
 import {MenuItemProps} from "./menu-item";
 

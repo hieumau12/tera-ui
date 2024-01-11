@@ -1,5 +1,5 @@
 {
-  "name": "@nextui-org/use-ref-state",
+  "name": "@tera-ui/use-ref-state",
   "version": "2.0.4",
   "description": "Hook for saving the state in a ref value",
   "keywords": [

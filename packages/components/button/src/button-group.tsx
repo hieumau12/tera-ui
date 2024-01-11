@@ -1,4 +1,4 @@
-import {forwardRef} from "@nextui-org/system";
+import {forwardRef} from "@tera-ui/system";
 
 import {ButtonGroupProvider} from "./button-group-context";
 import {UseButtonGroupProps, useButtonGroup} from "./use-button-group";

@@ -182,7 +182,7 @@ const InvalidCardIcon = `export const InvalidCardIcon = (props) => (
   </svg>
 );`;
 
-const App = `import {Accordion, AccordionItem} from "@nextui-org/react";
+const App = `import {Accordion, AccordionItem} from "@tera-ui/react";
 import {MonitorMobileIcon} from "./MonitorMobileIcon";
 import {ShieldSecurityIcon} from "./ShieldSecurityIcon";
 import {InfoIcon} from "./InfoIcon";

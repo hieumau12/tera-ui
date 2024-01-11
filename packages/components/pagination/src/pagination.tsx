@@ -1,9 +1,9 @@
-import {PaginationItemValue} from "@nextui-org/use-pagination";
+import {PaginationItemValue} from "@tera-ui/use-pagination";
 import {useCallback} from "react";
-import {forwardRef} from "@nextui-org/system";
-import {PaginationItemType} from "@nextui-org/use-pagination";
-import {ChevronIcon, EllipsisIcon, ForwardIcon} from "@nextui-org/shared-icons";
-import {clsx, dataAttr} from "@nextui-org/shared-utils";
+import {forwardRef} from "@tera-ui/system";
+import {PaginationItemType} from "@tera-ui/use-pagination";
+import {ChevronIcon, EllipsisIcon, ForwardIcon} from "@tera-ui/shared-icons";
+import {clsx, dataAttr} from "@tera-ui/shared-utils";
 
 import {UsePaginationProps, usePagination} from "./use-pagination";
 import PaginationItem from "./pagination-item";

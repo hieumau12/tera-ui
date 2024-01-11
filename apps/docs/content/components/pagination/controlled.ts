@@ -1,4 +1,4 @@
-const App = `import {Pagination, Button} from "@nextui-org/react";
+const App = `import {Pagination, Button} from "@tera-ui/react";
 
 export default function App() {
   const [currentPage, setCurrentPage] = React.useState(1);

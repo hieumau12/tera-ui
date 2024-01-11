@@ -2,9 +2,9 @@ import type {SandpackInitMode} from "@codesandbox/sandpack-react";
 
 import * as React from "react";
 import {FileTabs, useSandpack, useActiveCode, SandpackStack} from "@codesandbox/sandpack-react";
-import {Button} from "@nextui-org/react";
+import {Button} from "@tera-ui/react";
 import scrollIntoView from "scroll-into-view-if-needed";
-import {clsx} from "@nextui-org/shared-utils";
+import {clsx} from "@tera-ui/shared-utils";
 import {Language} from "prism-react-renderer";
 
 import {HighlightedLines} from "./types";
@@ -111,8 +111,8 @@ export const SandpackCodeViewer = React.forwardRef<any, CodeViewerProps>(
               })}
             >
               {/*
-               * Disabled in favor of Codeblock due to performance issues & font size on ios 
-               *   
+               * Disabled in favor of Codeblock due to performance issues & font size on ios
+               *
               <CodeEditor
                 key={internalKey}
                 ref={ref}

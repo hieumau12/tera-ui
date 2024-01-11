@@ -1,8 +1,8 @@
 "use client";
 
 import {useState, FC} from "react";
-import {Card, CardHeader, Button, Avatar, CardBody, CardFooter} from "@nextui-org/react";
-import {clsx} from "@nextui-org/shared-utils";
+import {Card, CardHeader, Button, Avatar, CardBody, CardFooter} from "@tera-ui/react";
+import {clsx} from "@tera-ui/shared-utils";
 import NextImage from "next/image";
 
 interface UserTwitterCardProps {

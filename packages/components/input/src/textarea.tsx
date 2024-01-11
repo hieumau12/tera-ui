@@ -1,5 +1,5 @@
-import {dataAttr} from "@nextui-org/shared-utils";
-import {forwardRef} from "@nextui-org/system";
+import {dataAttr} from "@tera-ui/shared-utils";
+import {forwardRef} from "@tera-ui/system";
 import {mergeProps} from "@react-aria/utils";
 import {useMemo, useState} from "react";
 import TextareaAutosize from "react-textarea-autosize";

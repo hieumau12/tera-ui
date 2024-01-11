@@ -1,5 +1,5 @@
 {
-  "name": "@nextui-org/snippet",
+  "name": "@tera-ui/snippet",
   "version": "2.0.30",
   "description": "Display a snippet of copyable code for the command line.",
   "keywords": [
@@ -37,22 +37,22 @@
     "react": ">=18",
     "react-dom": ">=18",
     "framer-motion": ">=4.0.0",
-    "@nextui-org/theme": ">=2.1.0",
-    "@nextui-org/system": ">=2.0.0"
+    "@tera-ui/theme": ">=2.1.0",
+    "@tera-ui/system": ">=2.0.0"
   },
   "dependencies": {
-    "@nextui-org/button": "workspace:*",
-    "@nextui-org/shared-utils": "workspace:*",
-    "@nextui-org/react-utils": "workspace:*",
-    "@nextui-org/shared-icons": "workspace:*",
-    "@nextui-org/use-clipboard": "workspace:*",
-    "@nextui-org/tooltip": "workspace:*",
+    "@tera-ui/button": "workspace:*",
+    "@tera-ui/shared-utils": "workspace:*",
+    "@tera-ui/react-utils": "workspace:*",
+    "@tera-ui/shared-icons": "workspace:*",
+    "@tera-ui/use-clipboard": "workspace:*",
+    "@tera-ui/tooltip": "workspace:*",
     "@react-aria/focus": "^3.14.3",
     "@react-aria/utils": "^3.21.1"
   },
   "devDependencies": {
-    "@nextui-org/theme": "workspace:*",
-    "@nextui-org/system": "workspace:*",
+    "@tera-ui/theme": "workspace:*",
+    "@tera-ui/system": "workspace:*",
     "clean-package": "2.2.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"

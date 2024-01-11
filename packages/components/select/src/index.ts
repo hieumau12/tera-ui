@@ -1,6 +1,6 @@
-import type {ListboxItemProps, ListboxSectionProps} from "@nextui-org/listbox";
+import type {ListboxItemProps, ListboxSectionProps} from "@tera-ui/listbox";
 
-import {ListboxItem, ListboxSection} from "@nextui-org/listbox";
+import {ListboxItem, ListboxSection} from "@tera-ui/listbox";
 
 import Select from "./select";
 

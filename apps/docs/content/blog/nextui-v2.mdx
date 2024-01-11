@@ -62,13 +62,13 @@ This plugin allows you to customize colors and layouts tokens that are used by N
 
 ```js {8,13-14}
 // tailwind.config.js
-const {nextui} = require("@nextui-org/react");
+const {nextui} = require("@tera-ui/react");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     // ...
-    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/@tera-ui/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {},
@@ -86,12 +86,12 @@ Thanks to the switch to TailwindCSS, **NextUI v2.0** now supports React Server C
 improves performance and allows you to use it with the latest versions of [React](https://reactjs.org/) and
 [Next.js](https://nextjs.org/).
 
-NextUI components already include the `use client;` directive so you can import them directly 
+NextUI components already include the `use client;` directive so you can import them directly
 in your React Server Components (RSC).
 
 ```jsx
 // app/page.tsx
-import {Button} from "@nextui-org/button";
+import {Button} from "@tera-ui/button";
 
 export default function Page() {
   return (
@@ -223,9 +223,9 @@ you're actually using.
 
 <PackageManagers
   commands={{
-    npm: "npm i @nextui-org/button",
-    yarn: "yarn add @nextui-org/button",
-    pnpm: "pnpm add @nextui-org/button",
+    npm: "npm i @tera-ui/button",
+    yarn: "yarn add @tera-ui/button",
+    pnpm: "pnpm add @tera-ui/button",
   }}
 />
 
@@ -240,7 +240,7 @@ by just adding the `dark` class to the `body` / `html` or `main` tag.
 // main.tsx or main.jsx
 import React from "react";
 import ReactDOM from "react-dom/client";
-import {NextUIProvider} from "@nextui-org/react";
+import {NextUIProvider} from "@tera-ui/react";
 import App from "./App";
 import "./index.css";
 

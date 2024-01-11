@@ -1,4 +1,4 @@
-# @nextui-org/use-aria-link
+# @tera-ui/use-aria-link
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @nextui-org/use-aria-link
+yarn add @tera-ui/use-aria-link
 # or
-npm i @nextui-org/use-aria-link
+npm i @tera-ui/use-aria-link
 ```
 
 ## Contribution

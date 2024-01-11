@@ -1,5 +1,5 @@
-import {CloseFilledIcon} from "@nextui-org/shared-icons";
-import {forwardRef} from "@nextui-org/system";
+import {CloseFilledIcon} from "@tera-ui/shared-icons";
+import {forwardRef} from "@tera-ui/system";
 import {useMemo} from "react";
 
 import {UseChipProps, useChip} from "./use-chip";

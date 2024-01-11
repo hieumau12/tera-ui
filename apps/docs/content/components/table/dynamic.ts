@@ -1,4 +1,4 @@
-const App = `import {Table, TableHeader, TableColumn, TableBody, TableRow, TableCell, getKeyValue} from "@nextui-org/react";
+const App = `import {Table, TableHeader, TableColumn, TableBody, TableRow, TableCell, getKeyValue} from "@tera-ui/react";
 
 const rows = [
   {

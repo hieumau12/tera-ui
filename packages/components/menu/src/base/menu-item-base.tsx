@@ -1,8 +1,8 @@
-import type {MenuItemVariantProps, MenuItemSlots, SlotsToClasses} from "@nextui-org/theme";
+import type {MenuItemVariantProps, MenuItemSlots, SlotsToClasses} from "@tera-ui/theme";
 import type {AriaMenuItemProps} from "@react-aria/menu";
 import type {FocusableProps, PressEvents} from "@react-types/shared";
 
-import {BaseItem, ItemProps} from "@nextui-org/aria-utils";
+import {BaseItem, ItemProps} from "@tera-ui/aria-utils";
 import {ReactNode} from "react";
 
 export type MenuItemSelectedIconProps = {

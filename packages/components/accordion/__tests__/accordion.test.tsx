@@ -1,6 +1,6 @@
 import * as React from "react";
 import {act, render} from "@testing-library/react";
-import {focus} from "@nextui-org/test-utils";
+import {focus} from "@tera-ui/test-utils";
 import userEvent from "@testing-library/user-event";
 
 import {Accordion, AccordionItem} from "../src";

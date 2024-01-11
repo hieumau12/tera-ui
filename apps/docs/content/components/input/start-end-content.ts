@@ -16,7 +16,7 @@ const MailIcon = `export const MailIcon = (props) => (
   </svg>
 );`;
 
-const App = `import {Input} from "@nextui-org/react";
+const App = `import {Input} from "@tera-ui/react";
 import {MailIcon} from './MailIcon';
 
 export default function App() {

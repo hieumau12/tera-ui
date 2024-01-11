@@ -46,7 +46,7 @@ const VolumeLowIcon = `export const VolumeLowIcon = (props) => (
   </svg>
 );`;
 
-const App = `import {Slider, Button} from "@nextui-org/react";
+const App = `import {Slider, Button} from "@tera-ui/react";
 import {VolumeLowIcon} from "./VolumeLowIcon";
 import {VolumeHighIcon} from "./VolumeHighIcon";
 
@@ -88,7 +88,7 @@ export default function App() {
   );
 }`;
 
-const AppTs = `import {Slider, Button, SliderValue} from "@nextui-org/react";
+const AppTs = `import {Slider, Button, SliderValue} from "@tera-ui/react";
 import {VolumeLowIcon} from "./VolumeLowIcon";
 import {VolumeHighIcon} from "./VolumeHighIcon";
 

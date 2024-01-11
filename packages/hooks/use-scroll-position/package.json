@@ -1,5 +1,5 @@
 {
-  "name": "@nextui-org/use-scroll-position",
+  "name": "@tera-ui/use-scroll-position",
   "version": "2.0.4",
   "description": "Provides the logic to control the scroll over an element",
   "keywords": [

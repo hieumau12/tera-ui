@@ -1,10 +1,10 @@
-import type {SpacerVariantProps} from "@nextui-org/theme";
-import type {HTMLNextUIProps, PropGetter} from "@nextui-org/system-rsc";
+import type {SpacerVariantProps} from "@tera-ui/theme";
+import type {HTMLNextUIProps, PropGetter} from "@tera-ui/system-rsc";
 
-import {mapPropsVariants} from "@nextui-org/system-rsc";
-import {spacer} from "@nextui-org/theme";
-import {clsx, dataAttr} from "@nextui-org/shared-utils";
-import {ReactRef} from "@nextui-org/react-utils";
+import {mapPropsVariants} from "@tera-ui/system-rsc";
+import {spacer} from "@tera-ui/theme";
+import {clsx, dataAttr} from "@tera-ui/shared-utils";
+import {ReactRef} from "@tera-ui/react-utils";
 import {useMemo} from "react";
 
 import {spacing, Space} from "./utils";

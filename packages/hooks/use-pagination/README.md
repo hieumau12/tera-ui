@@ -1,4 +1,4 @@
-# @nextui-org/use-pagination
+# @tera-ui/use-pagination
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @nextui-org/use-pagination
+yarn add @tera-ui/use-pagination
 # or
-npm i @nextui-org/use-pagination
+npm i @tera-ui/use-pagination
 ```
 
 ## Contribution

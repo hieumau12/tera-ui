@@ -1,4 +1,4 @@
-const App = `import {Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, Button, useDisclosure, RadioGroup, Radio} from "@nextui-org/react";
+const App = `import {Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, Button, useDisclosure, RadioGroup, Radio} from "@tera-ui/react";
 
 export default function App() {
   const {isOpen, onOpen, onOpenChange} = useDisclosure();
@@ -119,7 +119,7 @@ export default function App() {
   );
 }`;
 
-const AppTs = `import {Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, ModalProps, Button, useDisclosure, RadioGroup, Radio} from "@nextui-org/react";
+const AppTs = `import {Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, ModalProps, Button, useDisclosure, RadioGroup, Radio} from "@tera-ui/react";
 
 export default function App() {
   const {isOpen, onOpen, onOpenChange} = useDisclosure();

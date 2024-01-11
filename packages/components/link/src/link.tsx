@@ -1,6 +1,6 @@
-import {forwardRef} from "@nextui-org/system";
-import {LinkIcon} from "@nextui-org/shared-icons";
-import {linkAnchorClasses} from "@nextui-org/theme";
+import {forwardRef} from "@tera-ui/system";
+import {LinkIcon} from "@tera-ui/shared-icons";
+import {linkAnchorClasses} from "@tera-ui/theme";
 
 import {UseLinkProps, useLink} from "./use-link";
 

@@ -1,4 +1,4 @@
-# @nextui-org/system
+# @tera-ui/system
 
 NextUI system primitives, here you can find the `extendVariants` utility, `NextUIProvider` and some other utilities.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://nextui.org) for more information.
 ## Installation
 
 ```sh
-yarn add @nextui-org/system
+yarn add @tera-ui/system
 # or
-npm i @nextui-org/system
+npm i @tera-ui/system
 ```
 
 ## Contribution

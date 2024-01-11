@@ -37,7 +37,7 @@ export const CheckIcon = `export const CheckIcon = ({
   );
 };`;
 
-const App = `import {Snippet} from "@nextui-org/react";
+const App = `import {Snippet} from "@tera-ui/react";
 import {CopyIcon} from "./CopyIcon";
 import {CheckIcon} from "./CheckIcon";
 
@@ -48,7 +48,7 @@ export default function App() {
       copyIcon={<CopyIcon />}
       checkIcon={<CheckIcon />}
     >
-      npm install @nextui-org/react
+      npm install @tera-ui/react
     </Snippet>
   );
 }`;

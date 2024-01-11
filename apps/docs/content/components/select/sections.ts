@@ -1,4 +1,4 @@
-const App = `import {Select, SelectItem, SelectSection} from "@nextui-org/react";
+const App = `import {Select, SelectItem, SelectSection} from "@tera-ui/react";
 
 export default function App() {
   return (

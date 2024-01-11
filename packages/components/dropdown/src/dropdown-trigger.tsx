@@ -1,5 +1,5 @@
-import {forwardRef} from "@nextui-org/system";
-import {PopoverTrigger} from "@nextui-org/popover";
+import {forwardRef} from "@tera-ui/system";
+import {PopoverTrigger} from "@tera-ui/popover";
 
 import {useDropdownContext} from "./dropdown-context";
 

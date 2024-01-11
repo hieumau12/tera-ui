@@ -20,7 +20,7 @@ const ChevronIcon = `export const ChevronIcon = (props) => (
 );
 `;
 
-const App = `import {usePagination, PaginationItemType} from "@nextui-org/react";
+const App = `import {usePagination, PaginationItemType} from "@tera-ui/react";
 import {ChevronIcon} from "./ChevronIcon";
 
 export default function App() {

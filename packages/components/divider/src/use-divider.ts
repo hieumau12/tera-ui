@@ -1,7 +1,7 @@
-import type {DividerVariantProps} from "@nextui-org/theme";
-import type {HTMLNextUIProps, PropGetter} from "@nextui-org/system-rsc";
+import type {DividerVariantProps} from "@tera-ui/theme";
+import type {HTMLNextUIProps, PropGetter} from "@tera-ui/system-rsc";
 
-import {divider} from "@nextui-org/theme";
+import {divider} from "@tera-ui/theme";
 import {Ref, useCallback, useMemo} from "react";
 
 import {SeparatorProps as AriaSeparatorProps, useSeparator} from "./use-separator";

@@ -1,4 +1,4 @@
-# @nextui-org/use-real-shape
+# @tera-ui/use-real-shape
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @nextui-org/use-real-shape
+yarn add @tera-ui/use-real-shape
 # or
-npm i @nextui-org/use-real-shape
+npm i @tera-ui/use-real-shape
 ```
 
 ## Contribution

@@ -1,5 +1,5 @@
 {
-  "name": "@nextui-org/spacer",
+  "name": "@tera-ui/spacer",
   "version": "2.0.24",
   "description": "A flexible spacer component designed to create consistent spacing and maintain alignment in your layout.",
   "keywords": [
@@ -36,15 +36,15 @@
   "peerDependencies": {
     "react": ">=18",
     "react-dom": ">=18",
-    "@nextui-org/theme": ">=2.1.0"
+    "@tera-ui/theme": ">=2.1.0"
   },
   "dependencies": {
-    "@nextui-org/system-rsc": "workspace:*",
-    "@nextui-org/shared-utils": "workspace:*",
-    "@nextui-org/react-utils": "workspace:*"
+    "@tera-ui/system-rsc": "workspace:*",
+    "@tera-ui/shared-utils": "workspace:*",
+    "@tera-ui/react-utils": "workspace:*"
   },
   "devDependencies": {
-    "@nextui-org/theme": "workspace:*",
+    "@tera-ui/theme": "workspace:*",
     "clean-package": "2.2.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"

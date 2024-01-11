@@ -1,6 +1,6 @@
-import {forwardRef} from "@nextui-org/system";
-import {Tooltip} from "@nextui-org/tooltip";
-import {renderFn} from "@nextui-org/react-utils";
+import {forwardRef} from "@tera-ui/system";
+import {Tooltip} from "@tera-ui/tooltip";
+import {renderFn} from "@tera-ui/react-utils";
 import {VisuallyHidden} from "@react-aria/visually-hidden";
 
 import {UseSliderThumbProps, useSliderThumb} from "./use-slider-thumb";

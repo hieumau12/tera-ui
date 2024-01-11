@@ -1,5 +1,5 @@
 ---
-"@nextui-org/tooltip": patch
+"@tera-ui/tooltip": patch
 ---
 
 replaced "useLayoutEffect" with "useSafeLayoutEffect" in "useTooltip" hook to prevent unnecessary React warnings

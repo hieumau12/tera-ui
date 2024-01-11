@@ -1,5 +1,5 @@
 import React, {ReactNode} from "react";
-import {Popover} from "@nextui-org/popover";
+import {Popover} from "@tera-ui/popover";
 
 import {DropdownProvider} from "./dropdown-context";
 import {UseDropdownProps, useDropdown} from "./use-dropdown";

@@ -60,7 +60,7 @@ const PetIcon = `export const PetIcon = (props) => (
   </svg>
 );`;
 
-const App = `import {Select, SelectItem} from "@nextui-org/react";
+const App = `import {Select, SelectItem} from "@tera-ui/react";
 import {PetIcon} from "./PetIcon";
 import {animals} from "./data";
 

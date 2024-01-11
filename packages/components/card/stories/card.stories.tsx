@@ -1,10 +1,10 @@
 import React from "react";
 import {Meta} from "@storybook/react";
-import {card} from "@nextui-org/theme";
-import {Link} from "@nextui-org/link";
-import {Button} from "@nextui-org/button";
-import {Code} from "@nextui-org/code";
-import {Image} from "@nextui-org/image";
+import {card} from "@tera-ui/theme";
+import {Link} from "@tera-ui/link";
+import {Button} from "@tera-ui/button";
+import {Code} from "@tera-ui/code";
+import {Image} from "@tera-ui/image";
 
 import {Card, CardBody, CardHeader, CardFooter, CardProps} from "../src";
 

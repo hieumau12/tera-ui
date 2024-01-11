@@ -1,15 +1,15 @@
-import type {SnippetVariantProps, SnippetSlots, SlotsToClasses} from "@nextui-org/theme";
+import type {SnippetVariantProps, SnippetSlots, SlotsToClasses} from "@tera-ui/theme";
 
-import {snippet} from "@nextui-org/theme";
-import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@nextui-org/system";
-import {useDOMRef, filterDOMProps} from "@nextui-org/react-utils";
-import {clsx, dataAttr} from "@nextui-org/shared-utils";
-import {ReactRef} from "@nextui-org/react-utils";
-import {useClipboard} from "@nextui-org/use-clipboard";
+import {snippet} from "@tera-ui/theme";
+import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
+import {useDOMRef, filterDOMProps} from "@tera-ui/react-utils";
+import {clsx, dataAttr} from "@tera-ui/shared-utils";
+import {ReactRef} from "@tera-ui/react-utils";
+import {useClipboard} from "@tera-ui/use-clipboard";
 import {useFocusRing} from "@react-aria/focus";
 import {useMemo, useCallback, ReactElement, useRef} from "react";
-import {TooltipProps} from "@nextui-org/tooltip";
-import {ButtonProps} from "@nextui-org/button";
+import {TooltipProps} from "@tera-ui/tooltip";
+import {ButtonProps} from "@tera-ui/button";
 export interface UseSnippetProps extends Omit<HTMLNextUIProps, "onCopy">, SnippetVariantProps {
   /**
    * Ref to the DOM node.

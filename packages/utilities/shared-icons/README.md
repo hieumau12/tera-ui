@@ -1,4 +1,4 @@
-# @nextui-org/shared-icons
+# @tera-ui/shared-icons
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @nextui-org/shared-icons
+yarn add @tera-ui/shared-icons
 # or
-npm i @nextui-org/shared-icons
+npm i @tera-ui/shared-icons
 ```
 
 ## Contribution

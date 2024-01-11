@@ -1,6 +1,6 @@
-import type {MenuItemProps, MenuSectionProps} from "@nextui-org/menu";
+import type {MenuItemProps, MenuSectionProps} from "@tera-ui/menu";
 
-import {MenuItem, MenuSection} from "@nextui-org/menu";
+import {MenuItem, MenuSection} from "@tera-ui/menu";
 
 import Dropdown from "./dropdown";
 import DropdownTrigger from "./dropdown-trigger";

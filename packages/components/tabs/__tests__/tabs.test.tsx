@@ -1,7 +1,7 @@
 import * as React from "react";
 import {act, render} from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import {focus} from "@nextui-org/test-utils";
+import {focus} from "@tera-ui/test-utils";
 
 import {Tabs, Tab} from "../src";
 

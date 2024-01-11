@@ -65,7 +65,7 @@ const CameraIcon = `export const CameraIcon = ({
   );
 };`;
 
-const App = `import {Button} from "@nextui-org/react";
+const App = `import {Button} from "@tera-ui/react";
 import {UserIcon} from './UserIcon';
 import {CameraIcon} from './CameraIcon';
 

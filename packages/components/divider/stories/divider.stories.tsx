@@ -1,6 +1,6 @@
 import React from "react";
 import {Meta} from "@storybook/react";
-import {divider} from "@nextui-org/theme";
+import {divider} from "@tera-ui/theme";
 
 import {Divider, DividerProps} from "../src";
 

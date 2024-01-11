@@ -2,12 +2,12 @@
 /* eslint-disable jsx-a11y/no-autofocus */
 import React from "react";
 import {Meta} from "@storybook/react";
-import {modal} from "@nextui-org/theme";
-import {Button} from "@nextui-org/button";
-import {Input} from "@nextui-org/input";
-import {Checkbox} from "@nextui-org/checkbox";
-import {Link} from "@nextui-org/link";
-import {MailFilledIcon, LockFilledIcon} from "@nextui-org/shared-icons";
+import {modal} from "@tera-ui/theme";
+import {Button} from "@tera-ui/button";
+import {Input} from "@tera-ui/input";
+import {Checkbox} from "@tera-ui/checkbox";
+import {Link} from "@tera-ui/link";
+import {MailFilledIcon, LockFilledIcon} from "@tera-ui/shared-icons";
 import Lorem from "react-lorem-component";
 
 import {

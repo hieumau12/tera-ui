@@ -47,7 +47,7 @@ const SelectorIcon = `export const SelectorIcon = (props) => (
     </svg>
 );`;
 
-const App = `import {Autocomplete, AutocompleteItem} from "@nextui-org/react";
+const App = `import {Autocomplete, AutocompleteItem} from "@tera-ui/react";
 import {SelectorIcon} from "./SelectorIcon";
 import {animals} from "./data";
 

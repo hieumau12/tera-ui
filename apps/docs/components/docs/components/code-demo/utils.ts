@@ -9,7 +9,7 @@ const exportDefaultRegex = /export\s+default\s+function\s+\w+\s*\(\s*\)\s*\{/;
 export const transformCode = (code: string, imports = {}, compName = "App") => {
   let cleanedCode = code
     .replace(importRegex, (match) => {
-      // get component name from the match ex. "import { Table } from '@nextui-org/react'"
+      // get component name from the match ex. "import { Table } from '@tera-ui/react'"
       const componentName = match.match(/\w+/g)?.[1] || "";
       const matchingImport = get(imports, componentName);
 

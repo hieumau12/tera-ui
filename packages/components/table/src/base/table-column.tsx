@@ -1,4 +1,4 @@
-import {HTMLNextUIProps} from "@nextui-org/system";
+import {HTMLNextUIProps} from "@tera-ui/system";
 import {Column} from "@react-stately/table";
 import {SpectrumColumnProps} from "@react-types/table";
 

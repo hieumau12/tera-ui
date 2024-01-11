@@ -1,9 +1,9 @@
-import type {SkeletonVariantProps, SkeletonSlots, SlotsToClasses} from "@nextui-org/theme";
-import type {HTMLNextUIProps, PropGetter} from "@nextui-org/system-rsc";
+import type {SkeletonVariantProps, SkeletonSlots, SlotsToClasses} from "@tera-ui/theme";
+import type {HTMLNextUIProps, PropGetter} from "@tera-ui/system-rsc";
 
-import {mapPropsVariants} from "@nextui-org/system-rsc";
-import {skeleton} from "@nextui-org/theme";
-import {clsx, dataAttr} from "@nextui-org/shared-utils";
+import {mapPropsVariants} from "@tera-ui/system-rsc";
+import {skeleton} from "@tera-ui/theme";
+import {clsx, dataAttr} from "@tera-ui/shared-utils";
 import {useMemo, Ref} from "react";
 
 interface Props extends HTMLNextUIProps<"div"> {

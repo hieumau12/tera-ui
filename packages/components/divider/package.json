@@ -1,5 +1,5 @@
 {
-  "name": "@nextui-org/divider",
+  "name": "@tera-ui/divider",
   "version": "2.0.25",
   "description": ". A separator is a visual divider between two groups of content",
   "keywords": [
@@ -36,16 +36,16 @@
   "peerDependencies": {
     "react": ">=18",
     "react-dom": ">=18",
-    "@nextui-org/theme": ">=2.1.0"
+    "@tera-ui/theme": ">=2.1.0"
   },
   "dependencies": {
-    "@nextui-org/shared-utils": "workspace:*",
-    "@nextui-org/react-rsc-utils": "workspace:*",
-    "@nextui-org/system-rsc": "workspace:*",
+    "@tera-ui/shared-utils": "workspace:*",
+    "@tera-ui/react-rsc-utils": "workspace:*",
+    "@tera-ui/system-rsc": "workspace:*",
     "@react-types/shared": "^3.21.0"
   },
   "devDependencies": {
-    "@nextui-org/theme": "workspace:*",
+    "@tera-ui/theme": "workspace:*",
     "clean-package": "2.2.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"

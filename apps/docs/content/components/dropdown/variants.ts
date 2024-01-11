@@ -1,4 +1,4 @@
-const App = `import {Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, Button, RadioGroup, Radio} from "@nextui-org/react";
+const App = `import {Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, Button, RadioGroup, Radio} from "@tera-ui/react";
 
 export default function App() {
   const [selectedColor, setSelectedColor] = React.useState("default")

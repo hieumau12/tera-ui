@@ -1,4 +1,4 @@
-const App = `import {Breadcrumbs, BreadcrumbItem} from "@nextui-org/react";
+const App = `import {Breadcrumbs, BreadcrumbItem} from "@tera-ui/react";
 
 export default function App() {
   const sizes = ["sm", "md", "lg"];

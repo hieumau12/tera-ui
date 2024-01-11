@@ -1,13 +1,13 @@
 import type {GridNode} from "@react-types/grid";
 import type {Key} from "react";
 
-import {forwardRef, HTMLNextUIProps} from "@nextui-org/system";
-import {useDOMRef, filterDOMProps} from "@nextui-org/react-utils";
-import {clsx, dataAttr} from "@nextui-org/shared-utils";
+import {forwardRef, HTMLNextUIProps} from "@tera-ui/system";
+import {useDOMRef, filterDOMProps} from "@tera-ui/react-utils";
+import {clsx, dataAttr} from "@tera-ui/shared-utils";
 import {useTableCell, useTableSelectionCheckbox} from "@react-aria/table";
 import {mergeProps} from "@react-aria/utils";
 import {useFocusRing} from "@react-aria/focus";
-import {Checkbox} from "@nextui-org/checkbox";
+import {Checkbox} from "@tera-ui/checkbox";
 import {VisuallyHidden} from "@react-aria/visually-hidden";
 
 import {ValuesType} from "./use-table";

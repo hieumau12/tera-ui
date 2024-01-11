@@ -1,10 +1,10 @@
 import type {ButtonProps} from "./index";
-import type {ReactRef} from "@nextui-org/react-utils";
-import type {ButtonGroupVariantProps} from "@nextui-org/theme";
+import type {ReactRef} from "@tera-ui/react-utils";
+import type {ButtonGroupVariantProps} from "@tera-ui/theme";
 
-import {buttonGroup} from "@nextui-org/theme";
-import {HTMLNextUIProps, PropGetter, mapPropsVariants} from "@nextui-org/system";
-import {useDOMRef} from "@nextui-org/react-utils";
+import {buttonGroup} from "@tera-ui/theme";
+import {HTMLNextUIProps, PropGetter, mapPropsVariants} from "@tera-ui/system";
+import {useDOMRef} from "@tera-ui/react-utils";
 import {useMemo, useCallback} from "react";
 interface Props extends HTMLNextUIProps, ButtonGroupVariantProps {
   /**

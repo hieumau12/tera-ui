@@ -1,7 +1,7 @@
 import React from "react";
 import {LivePreview, LiveProvider, LiveError} from "react-live";
-import {clsx} from "@nextui-org/shared-utils";
-import * as Components from "@nextui-org/react";
+import {clsx} from "@tera-ui/shared-utils";
+import * as Components from "@tera-ui/react";
 
 import {BgGridContainer} from "@/components/bg-grid-container";
 import {GradientBox, GradientBoxProps} from "@/components/gradient-box";

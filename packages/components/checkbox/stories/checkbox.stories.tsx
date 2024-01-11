@@ -1,7 +1,7 @@
 import React from "react";
 import {Meta} from "@storybook/react";
-import {checkbox} from "@nextui-org/theme";
-import {CloseIcon} from "@nextui-org/shared-icons";
+import {checkbox} from "@tera-ui/theme";
+import {CloseIcon} from "@tera-ui/shared-icons";
 
 import {Checkbox, CheckboxIconProps, CheckboxProps} from "../src";
 

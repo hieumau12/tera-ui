@@ -9,11 +9,11 @@
 
 import * as React from "react";
 import {DismissButton, Overlay} from "@react-aria/overlays";
-import {forwardRef} from "@nextui-org/system";
+import {forwardRef} from "@tera-ui/system";
 import {HTMLMotionProps, motion} from "framer-motion";
 import {mergeProps} from "@react-aria/utils";
-import {getTransformOrigins} from "@nextui-org/aria-utils";
-import {TRANSITION_VARIANTS} from "@nextui-org/framer-transitions";
+import {getTransformOrigins} from "@tera-ui/aria-utils";
+import {TRANSITION_VARIANTS} from "@tera-ui/framer-transitions";
 
 import {usePopover, UsePopoverProps, UsePopoverReturn} from "./use-popover";
 

@@ -1,12 +1,12 @@
-import type {ImageVariantProps, SlotsToClasses, ImageSlots} from "@nextui-org/theme";
+import type {ImageVariantProps, SlotsToClasses, ImageSlots} from "@tera-ui/theme";
 
 import {ImgHTMLAttributes, useCallback} from "react";
-import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@nextui-org/system";
-import {image} from "@nextui-org/theme";
-import {useDOMRef} from "@nextui-org/react-utils";
-import {clsx, dataAttr} from "@nextui-org/shared-utils";
-import {ReactRef} from "@nextui-org/react-utils";
-import {useImage as useImageBase} from "@nextui-org/use-image";
+import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
+import {image} from "@tera-ui/theme";
+import {useDOMRef} from "@tera-ui/react-utils";
+import {clsx, dataAttr} from "@tera-ui/shared-utils";
+import {ReactRef} from "@tera-ui/react-utils";
+import {useImage as useImageBase} from "@tera-ui/use-image";
 import {useMemo} from "react";
 type NativeImageProps = ImgHTMLAttributes<HTMLImageElement>;
 

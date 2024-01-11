@@ -1,4 +1,4 @@
-# @nextui-org/use-is-mounted
+# @tera-ui/use-is-mounted
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @nextui-org/use-is-mounted
+yarn add @tera-ui/use-is-mounted
 # or
-npm i @nextui-org/use-is-mounted
+npm i @tera-ui/use-is-mounted
 ```
 
 ## Contribution

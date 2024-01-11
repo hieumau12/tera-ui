@@ -1,5 +1,5 @@
 import {Children, ReactNode} from "react";
-import {forwardRef} from "@nextui-org/system";
+import {forwardRef} from "@tera-ui/system";
 import {Overlay} from "@react-aria/overlays";
 import {AnimatePresence} from "framer-motion";
 
