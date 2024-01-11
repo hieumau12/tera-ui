@@ -4,7 +4,7 @@
 
 ### Patch Changes
 
-- Updated dependencies [[`bea1e1fde`](https://github.com/nextui-org/nextui/commit/bea1e1fde8358d03a16bb6a9e517de724b5d95e4)]:
+- Updated dependencies [[`bea1e1fde`](https://github.com/hieumau12/nextui-tera/commit/bea1e1fde8358d03a16bb6a9e517de724b5d95e4)]:
   - @tera-ui/tooltip@2.0.30
 
 ## 2.2.5
@@ -25,18 +25,18 @@
 
 ### Patch Changes
 
-- [#1877](https://github.com/nextui-org/nextui/pull/1877) [`44ed1056e`](https://github.com/nextui-org/nextui/commit/44ed1056e717c56633f60cf289f78e9c7b83b648) Thanks [@jrgarciadev](https://github.com/jrgarciadev)! - Peer dependencies updated, changeset config changed to update peer dependencies only when out of range
+- [#1877](https://github.com/hieumau12/nextui-tera/pull/1877) [`44ed1056e`](https://github.com/hieumau12/nextui-tera/commit/44ed1056e717c56633f60cf289f78e9c7b83b648) Thanks [@jrgarciadev](https://github.com/jrgarciadev)! - Peer dependencies updated, changeset config changed to update peer dependencies only when out of range
 
-- Updated dependencies [[`44ed1056e`](https://github.com/nextui-org/nextui/commit/44ed1056e717c56633f60cf289f78e9c7b83b648)]:
+- Updated dependencies [[`44ed1056e`](https://github.com/hieumau12/nextui-tera/commit/44ed1056e717c56633f60cf289f78e9c7b83b648)]:
   - @tera-ui/tooltip@2.0.27
 
 ## 2.2.2
 
 ### Patch Changes
 
-- [#1874](https://github.com/nextui-org/nextui/pull/1874) [`38af48faf`](https://github.com/nextui-org/nextui/commit/38af48faf5b62d2f81f2402f3d83d78991eb46e0) Thanks [@jrgarciadev](https://github.com/jrgarciadev)! - Peer dependencies updated to avoid the peer conflicts issue.
+- [#1874](https://github.com/hieumau12/nextui-tera/pull/1874) [`38af48faf`](https://github.com/hieumau12/nextui-tera/commit/38af48faf5b62d2f81f2402f3d83d78991eb46e0) Thanks [@jrgarciadev](https://github.com/jrgarciadev)! - Peer dependencies updated to avoid the peer conflicts issue.
 
-- Updated dependencies [[`38af48faf`](https://github.com/nextui-org/nextui/commit/38af48faf5b62d2f81f2402f3d83d78991eb46e0)]:
+- Updated dependencies [[`38af48faf`](https://github.com/hieumau12/nextui-tera/commit/38af48faf5b62d2f81f2402f3d83d78991eb46e0)]:
   - @tera-ui/tooltip@2.0.26
   - @tera-ui/system@2.0.12
 
@@ -44,9 +44,9 @@
 
 ### Patch Changes
 
-- [`25e86fb41`](https://github.com/nextui-org/nextui/commit/25e86fb41770d3cdae6dfdb79306b78fa02d8187) Thanks [@jrgarciadev](https://github.com/jrgarciadev)! - New version v2.2.0
+- [`25e86fb41`](https://github.com/hieumau12/nextui-tera/commit/25e86fb41770d3cdae6dfdb79306b78fa02d8187) Thanks [@jrgarciadev](https://github.com/jrgarciadev)! - New version v2.2.0
 
-- Updated dependencies [[`25e86fb41`](https://github.com/nextui-org/nextui/commit/25e86fb41770d3cdae6dfdb79306b78fa02d8187)]:
+- Updated dependencies [[`25e86fb41`](https://github.com/hieumau12/nextui-tera/commit/25e86fb41770d3cdae6dfdb79306b78fa02d8187)]:
   - @tera-ui/tooltip@2.0.25
   - @tera-ui/system@2.0.11
   - @tera-ui/theme@2.1.10

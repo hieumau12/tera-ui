@@ -25,7 +25,7 @@ export default function App() {
         <Link
           isExternal
           showAnchorIcon
-          href="https://github.com/nextui-org/nextui"
+          href="https://github.com/hieumau12/nextui-tera"
         >
           Visit source code on GitHub.
         </Link>
