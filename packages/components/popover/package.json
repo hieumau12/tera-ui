@@ -8,7 +8,7 @@
   "author": "Junior Garcia <jrgarciadev@gmail.com>",
   "homepage": "https://nextui.org",
   "license": "MIT",
-  "main": "dist/index.js",
+  "main": "src/index.ts",
   "sideEffects": false,
   "files": [
     "dist"
@@ -57,15 +57,15 @@
     "@react-types/button": "^3.9.0",
     "react-remove-scroll": "^2.5.6"
   },
-  "clean-package": "../../../clean-package.config.json",
-  "module": "dist/index.mjs",
-  "types": "dist/index.d.ts",
-  "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.js"
-    },
-    "./package.json": "./package.json"
-  }
+  "devDependencies": {
+    "@tera-ui/theme": "workspace:*",
+    "@tera-ui/system": "workspace:*",
+    "@tera-ui/input": "workspace:*",
+    "@tera-ui/card": "workspace:*",
+    "framer-motion": "^10.16.4",
+    "clean-package": "2.2.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "clean-package": "../../../clean-package.config.json"
 }
