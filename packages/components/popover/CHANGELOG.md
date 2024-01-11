@@ -1,5 +1,11 @@
 # @tera-ui/popover
 
+## 2.1.15
+
+### Patch Changes
+
+- [#2032](https://github.com/nextui-org/nextui/pull/2032) [`01aedcf09`](https://github.com/nextui-org/nextui/commit/01aedcf09b63daafef9ff5e0465040c0c91c809e) Thanks [@jrgarciadev](https://github.com/jrgarciadev)! - Fix #2025 isDismissable prop passed to the aria-popover hook.
+
 ## 2.1.14
 
 ### Patch Changes

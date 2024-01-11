@@ -1,5 +1,13 @@
 # @tera-ui/input
 
+## 2.1.17
+
+### Patch Changes
+
+- [#2028](https://github.com/nextui-org/nextui/pull/2028) [`0ba165f0f`](https://github.com/nextui-org/nextui/commit/0ba165f0fd2257f5b8302b32a9f5eb1ecde8d890) Thanks [@jrgarciadev](https://github.com/jrgarciadev)! - Fix #1979 labelPlacement is outside when not having a label for input, autocomplete and select components.
+
+- [#2031](https://github.com/nextui-org/nextui/pull/2031) [`436ba1cd8`](https://github.com/nextui-org/nextui/commit/436ba1cd8412dc044651ab38ff2ed770f35377ff) Thanks [@jrgarciadev](https://github.com/jrgarciadev)! - Fix #1984 input clearable feature fixed
+
 ## 2.1.16
 
 ### Patch Changes

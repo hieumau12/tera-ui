@@ -1,5 +1,25 @@
 # @tera-ui/react
 
+## 2.2.10
+
+### Patch Changes
+
+- Updated dependencies [[`0ba165f0f`](https://github.com/nextui-org/nextui/commit/0ba165f0fd2257f5b8302b32a9f5eb1ecde8d890), [`436ba1cd8`](https://github.com/nextui-org/nextui/commit/436ba1cd8412dc044651ab38ff2ed770f35377ff), [`bea1e1fde`](https://github.com/nextui-org/nextui/commit/bea1e1fde8358d03a16bb6a9e517de724b5d95e4), [`01aedcf09`](https://github.com/nextui-org/nextui/commit/01aedcf09b63daafef9ff5e0465040c0c91c809e)]:
+  - @tera-ui/select@2.1.21
+  - @tera-ui/input@2.1.17
+  - @tera-ui/tooltip@2.0.30
+  - @tera-ui/popover@2.1.15
+  - @tera-ui/accordion@2.0.28
+  - @tera-ui/autocomplete@2.0.10
+  - @tera-ui/modal@2.0.28
+  - @tera-ui/navbar@2.0.27
+  - @tera-ui/tabs@2.0.26
+  - @tera-ui/breadcrumbs@2.0.4
+  - @tera-ui/slider@2.2.6
+  - @tera-ui/snippet@2.0.31
+  - @tera-ui/table@2.0.28
+  - @tera-ui/dropdown@2.1.17
+
 ## 2.2.9
 
 ### Patch Changes

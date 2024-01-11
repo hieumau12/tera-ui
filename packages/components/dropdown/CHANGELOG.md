@@ -1,5 +1,12 @@
 # @tera-ui/dropdown
 
+## 2.1.17
+
+### Patch Changes
+
+- Updated dependencies [[`01aedcf09`](https://github.com/nextui-org/nextui/commit/01aedcf09b63daafef9ff5e0465040c0c91c809e)]:
+  - @tera-ui/popover@2.1.15
+
 ## 2.1.16
 
 ### Patch Changes
