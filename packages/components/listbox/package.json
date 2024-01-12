@@ -1,6 +1,6 @@
 {
   "name": "@tera-ui/listbox",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A listbox displays a list of options and allows a user to select one or more of them.",
   "keywords": [
     "listbox"

@@ -1,6 +1,6 @@
 {
   "name": "@tera-ui/use-image",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "React hook for progressing image loading",
   "keywords": [
     "use-image"

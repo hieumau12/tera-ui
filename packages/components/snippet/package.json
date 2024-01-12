@@ -1,6 +1,6 @@
 {
   "name": "@tera-ui/snippet",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Display a snippet of copyable code for the command line.",
   "keywords": [
     "snippet"
