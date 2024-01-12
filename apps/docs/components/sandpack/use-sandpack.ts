@@ -144,14 +144,14 @@ export const useSandpack = ({
 
   //   if (hasComponents) {
   //     let deps = {
-  //       "@tera-ui/theme": "dev-v2",
-  //       "@tera-ui/system": "dev-v2",
+  //       "@tera-ui/theme": "dev-v1",
+  //       "@tera-ui/system": "dev-v1",
   //     };
 
   //     teraUIComponents.forEach((component) => {
   //       deps = {
   //         ...deps,
-  //         [`@tera-ui/${component}`]: "dev-v2",
+  //         [`@tera-ui/${component}`]: "dev-v1",
   //       };
   //     });
 
@@ -160,7 +160,7 @@ export const useSandpack = ({
 
   //   return {
   //     ...deps,
-  //     "@tera-ui/react": "dev-v2",
+  //     "@tera-ui/react": "dev-v1",
   //   };
   // }, [hasComponents, teraUIComponents, component]);
 

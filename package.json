@@ -46,8 +46,8 @@
     "create:hook": "plop hook",
     "version": "changeset version",
     "release": "changeset publish",
-    "version:dev": "changeset version --snapshot dev-v2",
-    "release:dev": "changeset publish --snapshot --no-git-tag --tag dev-v2",
+    "version:dev": "changeset version --snapshot dev-v1",
+    "release:dev": "changeset publish --snapshot --no-git-tag --tag dev-v1",
     "postinstall": "husky install && pnpm --filter @tera-ui/theme build"
   },
   "devDependencies": {
