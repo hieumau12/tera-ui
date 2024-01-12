@@ -1,11 +1,11 @@
 import type { {{capitalize componentName}}VariantProps } from "@tera-ui/theme";
 
-import {HTMLNextUIProps,mapPropsVariants} from "@tera-ui/system";
+import {HTMLTeraUIProps,mapPropsVariants} from "@tera-ui/system";
 import { {{componentName}} } from "@tera-ui/theme";
 import {ReactRef, useDOMRef} from "@tera-ui/react-utils";
 import {useMemo} from "react";
 
-interface Props extends HTMLNextUIProps<"div"> {
+interface Props extends HTMLTeraUIProps<"div"> {
   /**
    * Ref to the DOM node.
    */

@@ -1,9 +1,9 @@
 ---
 title: "Introducing v2.2.0 🚀"
-description: "NextUI v2.2.0 is here! Dive into client-side router support, discover 3 new components including the Autocomplete, and more."
+description: "TeraUI v2.2.0 is here! Dive into client-side router support, discover 3 new components including the Autocomplete, and more."
 date: "2023-11-03"
 image: "/blog/v2.2.0.jpg"
-tags: ["nextui", "autocomplete", "breadcrumbs", "client side router", "slider"]
+tags: ["teraui", "autocomplete", "breadcrumbs", "client side router", "slider"]
 author:
   name: "Junior Garcia"
   username: "@jrgarciadev"
@@ -19,11 +19,11 @@ import {breadcrumbsContent} from "@/content/components/breadcrumbs";
   src="/blog/v2.2.0_2x.jpg"
   width={700}
   height={350}
-  alt="NextUI v2.2.0"
+  alt="TeraUI v2.2.0"
   className="w-full border border-transparent dark:border-default-200/50 object-fit rounded-xl shadow-lg"
 />
 
-We are excited to announce the latest update to NextUI, version **2.2.0**! This release introduces 3 new components,
+We are excited to announce the latest update to TeraUI, version **2.2.0**! This release introduces 3 new components,
 support for client-side routing, and more.
 
 ## What's New in v2.2.0?
@@ -41,12 +41,12 @@ support for client-side routing, and more.
 By default, links perform native browser navigation when they are interacted with. However, many apps and
 frameworks use client side routers to avoid a full page reload when navigating between pages.
 
-NextUI now natively supports client-side routing in components such as [Link](/docs/components/link), [Tabs](/docs/components/tabs),
+TeraUI now natively supports client-side routing in components such as [Link](/docs/components/link), [Tabs](/docs/components/tabs),
 [Breadcrumbs](/docs/components/breadcrumbs), [Listbox](/docs/components/listbox), [Dropdown](/docs/components/dropdown) and many others offering
 the flexibility to be rendered as HTML links, allowing you to seamlessly incorporate client-side routers. See the [Routing](/docs/guide/routing) guide to
 learn how it set it up in your app.
 
-The `NextUIProvider` component configures all NextUI components within it to navigate using the
+The `TeraUIProvider` component configures all TeraUI components within it to navigate using the
 client side router you provide.
 
 > **Note**: Client side routing is based on [React Aria Routing](https://react-spectrum.adobe.com/react-aria/routing.html).
@@ -62,12 +62,12 @@ client side router you provide.
   // app/providers.tsx
   "use client";
 
-  import {NextUIProvider} from "@tera-ui/react";
+  import {TeraUIProvider} from "@tera-ui/react";
 
   export function Providers({children}: {children: React.ReactNode}) {
     const router = useRouter();
 
-    return <NextUIProvider navigate={router.push}>{children}</NextUIProvider>;
+    return <TeraUIProvider navigate={router.push}>{children}</TeraUIProvider>;
   }
   ```
 
@@ -80,15 +80,15 @@ client side router you provide.
   // pages/_app.tsx
   import type {AppProps} from "next/app";
   import {useRouter} from "next/router";
-  import {NextUIProvider} from "@tera-ui/react";
+  import {TeraUIProvider} from "@tera-ui/react";
 
   function MyApp({Component, pageProps}: AppProps) {
     const router = useRouter();
 
     return (
-      <NextUIProvider navigate={router.push}>
+      <TeraUIProvider navigate={router.push}>
         <Component {...pageProps} />
-      </NextUIProvider>
+      </TeraUIProvider>
     );
   }
 
@@ -97,11 +97,11 @@ client side router you provide.
 
 - Usage
 
-  Now that you have set up the `NextUIProvider` in your app, you can use the `href` prop in the `Tabs`,
+  Now that you have set up the `TeraUIProvider` in your app, you can use the `href` prop in the `Tabs`,
   `Listbox` and `Dropdown` items to navigate between pages.
 
   The [Link](/docs/components/link) component will also use the `navigate` function from the
-  `NextUIProvider` to navigate between pages.
+  `TeraUIProvider` to navigate between pages.
 
   ```jsx
   import {
@@ -305,7 +305,7 @@ Go to the [Breadcrumbs](/docs/components/breadcrumbs) component page to learn mo
 - Custom Implementations and Fixes:
 
   - Implemented a custom `usePress` hook to address the corner press issue, with a corresponding pull request and issue submitted to the react-aria project.
-  - Applied the custom `usePress` across all NextUI interactive components for consistent behavior.
+  - Applied the custom `usePress` across all TeraUI interactive components for consistent behavior.
   - Improved animations and positioning for Input & Select labels.
   - Upgraded `react-aria` packages and `framer-motion` for enhanced performance.
   - Enhanced TypeScript support for generic items in Menu and DropdownMenu.
@@ -433,11 +433,11 @@ Thanks for reading and happy coding! 🚀
 
 ## Community
 
-We're excited to see the community adopt NextUI, raise issues, and provide feedback.
+We're excited to see the community adopt TeraUI, raise issues, and provide feedback.
 Whether it's a feature request, bug report, or a project to showcase, please get involved!
 
 <Community />
 
 ## Contributing
 
-PR's on NextUI are always welcome, please see our [contribution guidelines](https://github.com/hieumau12/tera-ui/blob/main/CONTRIBUTING.md) to learn how you can contribute to this project.
+PR's on TeraUI are always welcome, please see our [contribution guidelines](https://github.com/hieumau12/tera-ui/blob/main/CONTRIBUTING.md) to learn how you can contribute to this project.

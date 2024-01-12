@@ -1,6 +1,6 @@
 ---
 title: Installation
-description: Get started with NextUI in the official documentation, and learn more about all our features!
+description: Get started with TeraUI in the official documentation, and learn more about all our features!
 ---
 
 # Installation
@@ -15,20 +15,20 @@ Requirements:
 
 <CarbonAd />
 
-To use NextUI in your project, you need to follow the following steps:
+To use TeraUI in your project, you need to follow the following steps:
 
 ## Global Installation
 
-The easiest way to get started with NextUI is to use the global installation. Which means
+The easiest way to get started with TeraUI is to use the global installation. Which means
 that all the components are imported from a single package.
 
-Follow the steps below to install all NextUI components:
+Follow the steps below to install all TeraUI components:
 
 <Steps>
 
 ### Install Packages
 
-To install NextUI, run one of the following commands in your terminal:
+To install TeraUI, run one of the following commands in your terminal:
 
 <PackageManagers
   commands={{
@@ -40,13 +40,13 @@ To install NextUI, run one of the following commands in your terminal:
 
 ### Tailwind CSS Setup
 
-NextUI is built on top of Tailwind CSS, so you need to install Tailwind CSS first. You can follow the official
+TeraUI is built on top of Tailwind CSS, so you need to install Tailwind CSS first. You can follow the official
 [installation guide](https://tailwindcss.com/docs/installation) to install Tailwind CSS. Then you need to add
 the following code to your `tailwind.config.js` file:
 
 ```js {8,13-14}
 // tailwind.config.js
-const {nextui} = require("@tera-ui/react");
+const {teraui} = require("@tera-ui/react");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -58,26 +58,26 @@ module.exports = {
     extend: {},
   },
   darkMode: "class",
-  plugins: [nextui()],
+  plugins: [teraui()],
 };
 ```
 
 ### Provider Setup
 
-It is essential to add the `NextUIProvider` at the `root` of your application.
+It is essential to add the `TeraUIProvider` at the `root` of your application.
 
 ```jsx
 import * as React from "react";
 
-// 1. import `NextUIProvider` component
-import {NextUIProvider} from "@tera-ui/react";
+// 1. import `TeraUIProvider` component
+import {TeraUIProvider} from "@tera-ui/react";
 
 function App() {
-  // 2. Wrap NextUIProvider at the root of your app
+  // 2. Wrap TeraUIProvider at the root of your app
   return (
-    <NextUIProvider>
+    <TeraUIProvider>
       <YourApplication />
-    </NextUIProvider>
+    </TeraUIProvider>
   );
 }
 ```
@@ -96,11 +96,11 @@ After modfiying the `.npmrc` file, you need to run `pnpm install` again to ensur
 
 ## Individual Installation
 
-NextUI is also available as individual packages. You can install each package separately. This
+TeraUI is also available as individual packages. You can install each package separately. This
 is useful if you want to reduce the size of your CSS bundle as it will only include styles for the components
 you're actually using.
 
-> **Note**: JavaScript bundle size will not change due to tree shaking support in NextUI.
+> **Note**: JavaScript bundle size will not change due to tree shaking support in TeraUI.
 
 Follow the steps below to install each package separately:
 
@@ -144,7 +144,7 @@ styles of the components your using to your `tailwind.config.js` file. For examp
 
 ```js {8,10,16}
 // tailwind.config.js
-const {nextui} = require("@tera-ui/theme");
+const {teraui} = require("@tera-ui/theme");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -158,26 +158,26 @@ module.exports = {
     extend: {},
   },
   darkMode: "class",
-  plugins: [nextui()],
+  plugins: [teraui()],
 };
 ```
 
 ### Provider Setup
 
-It is essential to add the `NextUIProvider` at the `root` of your application.
+It is essential to add the `TeraUIProvider` at the `root` of your application.
 
 ```jsx
 import * as React from "react";
 
-// 1. import `NextUIProvider` component
-import {NextUIProvider} from "@tera-ui/system";
+// 1. import `TeraUIProvider` component
+import {TeraUIProvider} from "@tera-ui/system";
 
 function App() {
-  // 2. Wrap NextUIProvider at the root of your app
+  // 2. Wrap TeraUIProvider at the root of your app
   return (
-    <NextUIProvider>
+    <TeraUIProvider>
       <YourApplication />
-    </NextUIProvider>
+    </TeraUIProvider>
   );
 }
 ```
@@ -212,11 +212,11 @@ After modfiying the `.npmrc` file, you need to run `pnpm install` again to ensur
 
 <Blockquote color="warning">
   Version 2 is only compatible with React 18 or later. If you are using React 17 or earlier, please
-  use <Link href="https://v1.nextui.org/docs/getting-started" isExternal> version 1 of NextUI</Link>.
+  use <Link href="https://v1.teraui.org/docs/getting-started" isExternal> version 1 of TeraUI</Link>.
 </Blockquote>
 
 ## Framework Guides
 
-NextUI UI is compatible with your preferred framework. We have compiled comprehensive, step-by-step tutorials for the following frameworks:
+TeraUI UI is compatible with your preferred framework. We have compiled comprehensive, step-by-step tutorials for the following frameworks:
 
 <Frameworks />

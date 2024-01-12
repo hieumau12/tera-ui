@@ -4,7 +4,7 @@ import {I18nProvider, I18nProviderProps} from "@react-aria/i18n";
 import {RouterProvider} from "@react-aria/utils";
 import {OverlayProvider} from "@react-aria/overlays";
 
-export interface NextUIProviderProps extends Omit<ModalProviderProps, "children"> {
+export interface TeraUIProviderProps extends Omit<ModalProviderProps, "children"> {
   children: React.ReactNode;
   /**
    * The locale to apply to the children.
@@ -18,7 +18,7 @@ export interface NextUIProviderProps extends Omit<ModalProviderProps, "children"
   navigate?: (path: string) => void;
 }
 
-export const NextUIProvider: React.FC<NextUIProviderProps> = ({
+export const TeraUIProvider: React.FC<TeraUIProviderProps> = ({
   children,
   locale = "en-US",
   navigate,

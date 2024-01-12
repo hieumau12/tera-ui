@@ -6,7 +6,7 @@ export default function App() {
       isDisabled
       type="email"
       label="Email"
-      defaultValue="junior@nextui.org"
+      defaultValue="junior@teraui.org"
       className="max-w-xs"
     />
   );

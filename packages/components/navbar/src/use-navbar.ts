@@ -1,6 +1,6 @@
 import type {NavbarVariantProps, SlotsToClasses, NavbarSlots} from "@tera-ui/theme";
 
-import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
+import {HTMLTeraUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
 import {navbar} from "@tera-ui/theme";
 import {useDOMRef} from "@tera-ui/react-utils";
 import {clsx, dataAttr} from "@tera-ui/shared-utils";
@@ -11,7 +11,7 @@ import {useScrollPosition} from "@tera-ui/use-scroll-position";
 import {useControlledState} from "@react-stately/utils";
 import {HTMLMotionProps} from "framer-motion";
 
-interface Props extends HTMLNextUIProps<"nav"> {
+interface Props extends HTMLTeraUIProps<"nav"> {
   /**
    * Ref to the DOM node.
    */

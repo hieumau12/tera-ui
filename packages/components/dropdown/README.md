@@ -2,7 +2,7 @@
 
 Displays a list of actions or options that a user can choose.
 
-Please refer to the [documentation](https://nextui.org/docs/components/dropdown) for more information.
+Please refer to the [documentation](https://teraui.org/docs/components/dropdown) for more information.
 
 ## Installation
 

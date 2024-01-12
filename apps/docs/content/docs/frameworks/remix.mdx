@@ -1,6 +1,6 @@
 ---
 title: Remix
-description: How to use NextUI with Remix
+description: How to use TeraUI with Remix
 ---
 
 # Remix
@@ -15,13 +15,13 @@ Requirements:
 
 <CarbonAd />
 
-To use NextUI in your Remix project, you need to follow the following steps:
+To use TeraUI in your Remix project, you need to follow the following steps:
 
 <Steps>
 
 ### Installation
 
-In your Remix project, run one of the following command to install NextUI:
+In your Remix project, run one of the following command to install TeraUI:
 
 <PackageManagers
   commands={{
@@ -34,14 +34,14 @@ In your Remix project, run one of the following command to install NextUI:
 
 ### Tailwind CSS Setup
 
-NextUI is built on top of Tailwind CSS, so you need to install Tailwind CSS first. You can follow the official
+TeraUI is built on top of Tailwind CSS, so you need to install Tailwind CSS first. You can follow the official
 [installation guide](https://tailwindcss.com/docs/guides/remix) to install Tailwind CSS. Then you need to add
 the following code to your `tailwind.config.js` file:
 
 
 ```ts {9,14-15}
 // tailwind.config.ts
-const { nextui } = require("@tera-ui/react");
+const { teraui } = require("@tera-ui/react");
 
 import type { Config} from 'tailwindcss'
 
@@ -54,15 +54,15 @@ export default {
     extend: {},
   },
   darkMode: "class",
-  plugins: [nextui()]
+  plugins: [teraui()]
 } satisfies Config
 ```
 
 ### Provider Setup
 
-After installing NextUI, you need to set up the `NextUIProvider` at the `root` of your application.
+After installing TeraUI, you need to set up the `TeraUIProvider` at the `root` of your application.
 
-Go to the src directory and inside `root.tsx`, wrap `NextUIProvider` around App:
+Go to the src directory and inside `root.tsx`, wrap `TeraUIProvider` around App:
 
 ```tsx {9,19,24}
 import {
@@ -73,7 +73,7 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
-import {NextUIProvider} from "@tera-ui/react";
+import {TeraUIProvider} from "@tera-ui/react";
 
 export default function App() {
   return (
@@ -83,12 +83,12 @@ export default function App() {
         <Links />
       </head>
       <body>
-        <NextUIProvider>
+        <TeraUIProvider>
           <Outlet />
           <ScrollRestoration />
           <Scripts />
           <LiveReload />
-        </NextUIProvider>
+        </TeraUIProvider>
       </body>
     </html>
   );
@@ -110,6 +110,6 @@ After modfiying the `.npmrc` file, you need to run `pnpm install` again to ensur
 <Blockquote
  color="warning"
 >
-  Version 2 is only compatible with React 18 or later. If you are using React 17 or earlier, please use <Link href="https://v1.nextui.org/docs/getting-started" isExternal>version 1 of NextUI</Link>.
+  Version 2 is only compatible with React 18 or later. If you are using React 17 or earlier, please use <Link href="https://v1.teraui.org/docs/getting-started" isExternal>version 1 of TeraUI</Link>.
 </Blockquote>
 

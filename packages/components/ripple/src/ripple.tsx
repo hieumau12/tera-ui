@@ -1,10 +1,10 @@
 import {FC} from "react";
 import {AnimatePresence, HTMLMotionProps, motion} from "framer-motion";
-import {HTMLNextUIProps} from "@tera-ui/system";
+import {HTMLTeraUIProps} from "@tera-ui/system";
 
 import {RippleType} from "./use-ripple";
 
-export interface RippleProps extends HTMLNextUIProps<"span"> {
+export interface RippleProps extends HTMLTeraUIProps<"span"> {
   ripples: RippleType[];
   color?: string;
   motionProps?: HTMLMotionProps<"span">;
@@ -28,7 +28,7 @@ const Ripple: FC<RippleProps> = (props) => {
           <AnimatePresence key={ripple.key} mode="popLayout">
             <motion.span
               animate={{transform: "scale(2)", opacity: 0}}
-              className="nextui-ripple"
+              className="teraui-ripple"
               exit={{opacity: 0}}
               initial={{transform: "scale(0)", opacity: 0.35}}
               style={{
@@ -57,6 +57,6 @@ const Ripple: FC<RippleProps> = (props) => {
   );
 };
 
-Ripple.displayName = "NextUI.Ripple";
+Ripple.displayName = "TeraUI.Ripple";
 
 export default Ripple;

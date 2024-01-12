@@ -22,6 +22,6 @@ const User = forwardRef<"div", UserProps>((props, ref) => {
   );
 });
 
-User.displayName = "NextUI.User";
+User.displayName = "TeraUI.User";
 
 export default User;

@@ -1,10 +1,10 @@
-import {forwardRef, HTMLNextUIProps} from "@tera-ui/system";
+import {forwardRef, HTMLTeraUIProps} from "@tera-ui/system";
 import {useDOMRef} from "@tera-ui/react-utils";
 import {clsx} from "@tera-ui/shared-utils";
 
 import {useNavbarContext} from "./navbar-context";
 
-export interface NavbarBrandProps extends HTMLNextUIProps<"div"> {
+export interface NavbarBrandProps extends HTMLTeraUIProps<"div"> {
   children?: React.ReactNode | React.ReactNode[];
 }
 
@@ -25,6 +25,6 @@ const NavbarBrand = forwardRef<"div", NavbarBrandProps>((props, ref) => {
   );
 });
 
-NavbarBrand.displayName = "NextUI.NavbarBrand";
+NavbarBrand.displayName = "TeraUI.NavbarBrand";
 
 export default NavbarBrand;

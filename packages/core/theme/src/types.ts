@@ -170,17 +170,17 @@ export type ConfigTheme = {
 export type ConfigThemes = Record<string, ConfigTheme>;
 
 /**
- * The NextUI config.
- * @see https://nextui.org/docs/customization/customize-theme
+ * The TeraUI config.
+ * @see https://teraui.org/docs/customization/customize-theme
  */
-export type NextUIPluginConfig = {
+export type TeraUIPluginConfig = {
   /**
    * The prefix for the css variables.
-   * @default "nextui"
+   * @default "teraui"
    */
   prefix?: string;
   /**
-   * If true, the common nextui colors (e.g. "blue", "green", "purple") will not be extended on the theme.
+   * If true, the common teraui colors (e.g. "blue", "green", "purple") will not be extended on the theme.
    * @default false
    */
   addCommonColors?: boolean;

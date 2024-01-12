@@ -3,7 +3,7 @@
 import {useRef, useState, FC, ReactNode, Key} from "react";
 import {
   link,
-  Navbar as NextUINavbar,
+  Navbar as TeraUINavbar,
   NavbarContent,
   NavbarMenu,
   NavbarMenuToggle,
@@ -125,7 +125,7 @@ export const Navbar: FC<NavbarProps> = ({children, routes, mobileRoutes = [], sl
 
   const handleVersionChange = (key: Key) => {
     if (key === "v1") {
-      const newWindow = window.open("https://v1.nextui.org", "_blank", "noopener,noreferrer");
+      const newWindow = window.open("https://v1.teraui.org", "_blank", "noopener,noreferrer");
 
       if (newWindow) newWindow.opener = null;
     }
@@ -141,7 +141,7 @@ export const Navbar: FC<NavbarProps> = ({children, routes, mobileRoutes = [], sl
   };
 
   return (
-    <NextUINavbar
+    <TeraUINavbar
       ref={ref}
       className={clsx({
         "z-[100001]": isMenuOpen,
@@ -182,7 +182,7 @@ export const Navbar: FC<NavbarProps> = ({children, routes, mobileRoutes = [], sl
                 )}
               </AnimatePresence>
               <DropdownMenu
-                aria-label="NextUI versions"
+                aria-label="TeraUI versions"
                 defaultSelectedKeys={["v2"]}
                 selectionMode="single"
                 onAction={handleVersionChange}
@@ -354,6 +354,6 @@ export const Navbar: FC<NavbarProps> = ({children, routes, mobileRoutes = [], sl
         <DocsSidebar className="mt-4" routes={[...mobileRoutes, ...routes]} slug={slug} tag={tag} />
         {children}
       </NavbarMenu>
-    </NextUINavbar>
+    </TeraUINavbar>
   );
 };

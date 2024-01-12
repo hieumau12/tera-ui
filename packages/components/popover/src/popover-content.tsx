@@ -8,7 +8,7 @@ import {TRANSITION_VARIANTS} from "@tera-ui/framer-transitions";
 import {motion} from "framer-motion";
 import {useDialog} from "@react-aria/dialog";
 import {mergeProps} from "@react-aria/utils";
-import {HTMLNextUIProps} from "@tera-ui/system";
+import {HTMLTeraUIProps} from "@tera-ui/system";
 import {RemoveScroll} from "react-remove-scroll";
 import {getTransformOrigins} from "@tera-ui/aria-utils";
 
@@ -16,7 +16,7 @@ import {usePopoverContext} from "./popover-context";
 
 export interface PopoverContentProps
   extends AriaDialogProps,
-    Omit<HTMLNextUIProps, "children" | "role"> {
+    Omit<HTMLTeraUIProps, "children" | "role"> {
   children: ReactNode | ((titleProps: DOMAttributes<HTMLElement>) => ReactNode);
 }
 
@@ -104,6 +104,6 @@ const PopoverContent = forwardRef<"div", PopoverContentProps>((props, _) => {
   );
 });
 
-PopoverContent.displayName = "NextUI.PopoverContent";
+PopoverContent.displayName = "TeraUI.PopoverContent";
 
 export default PopoverContent;

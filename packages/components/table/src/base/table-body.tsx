@@ -1,11 +1,11 @@
-import {HTMLNextUIProps} from "@tera-ui/system";
+import {HTMLTeraUIProps} from "@tera-ui/system";
 import {TableBody as TableBodyBase} from "@react-stately/table";
 import {TableBodyProps as TableBodyBaseProps} from "@react-types/table";
 import {ReactNode} from "react";
 
 export interface TableBodyProps<T>
   extends TableBodyBaseProps<T>,
-    Omit<HTMLNextUIProps<"tbody">, keyof TableBodyBaseProps<T>> {
+    Omit<HTMLTeraUIProps<"tbody">, keyof TableBodyBaseProps<T>> {
   /**
    * Provides content to display a loading component when the `loadingState` is `loading` or `loadingMore`.
    */

@@ -1,6 +1,6 @@
 import type {TabsVariantProps, SlotsToClasses, TabsSlots, TabsReturnType} from "@tera-ui/theme";
 
-import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
+import {HTMLTeraUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
 import {tabs} from "@tera-ui/theme";
 import {useDOMRef} from "@tera-ui/react-utils";
 import {clsx} from "@tera-ui/shared-utils";
@@ -13,7 +13,7 @@ import {CollectionProps} from "@tera-ui/aria-utils";
 import {CollectionChildren} from "@react-types/shared";
 import {HTMLMotionProps} from "framer-motion";
 
-export interface Props extends Omit<HTMLNextUIProps, "children"> {
+export interface Props extends Omit<HTMLTeraUIProps, "children"> {
   /**
    * Ref to the DOM node.
    */

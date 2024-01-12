@@ -34,6 +34,6 @@ const CheckboxGroup = forwardRef<"div", CheckboxGroupProps>((props, ref) => {
   );
 });
 
-CheckboxGroup.displayName = "NextUI.CheckboxGroup";
+CheckboxGroup.displayName = "TeraUI.CheckboxGroup";
 
 export default CheckboxGroup;

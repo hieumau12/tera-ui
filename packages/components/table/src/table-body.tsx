@@ -1,4 +1,4 @@
-import {forwardRef, HTMLNextUIProps} from "@tera-ui/system";
+import {forwardRef, HTMLTeraUIProps} from "@tera-ui/system";
 import {useDOMRef} from "@tera-ui/react-utils";
 import {clsx, dataAttr} from "@tera-ui/shared-utils";
 import {useTableRowGroup} from "@react-aria/table";
@@ -12,7 +12,7 @@ import TableCheckboxCell from "./table-checkbox-cell";
 import {ValuesType} from "./use-table";
 
 // @internal
-export interface TableBodyProps extends HTMLNextUIProps<"tbody"> {
+export interface TableBodyProps extends HTMLTeraUIProps<"tbody"> {
   slots: ValuesType["slots"];
   collection: ValuesType["collection"];
   state: ValuesType["state"];
@@ -146,6 +146,6 @@ const TableBody = forwardRef<"tbody", TableBodyProps>((props, ref) => {
   );
 });
 
-TableBody.displayName = "NextUI.TableBody";
+TableBody.displayName = "TeraUI.TableBody";
 
 export default TableBody;

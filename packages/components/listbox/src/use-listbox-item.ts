@@ -2,7 +2,7 @@ import type {ListboxItemBaseProps} from "./base/listbox-item-base";
 
 import {useMemo, useRef, useCallback} from "react";
 import {listboxItem} from "@tera-ui/theme";
-import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
+import {HTMLTeraUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
 import {useFocusRing} from "@react-aria/focus";
 import {Node} from "@react-types/shared";
 import {filterDOMProps} from "@tera-ui/react-utils";
@@ -20,7 +20,7 @@ interface Props<T extends object> extends ListboxItemBaseProps<T> {
 }
 
 export type UseListboxItemProps<T extends object> = Props<T> &
-  Omit<HTMLNextUIProps<"li">, keyof Props<T>>;
+  Omit<HTMLTeraUIProps<"li">, keyof Props<T>>;
 
 export function useListboxItem<T extends object>(originalProps: UseListboxItemProps<T>) {
   const [props, variantProps] = mapPropsVariants(originalProps, listboxItem.variantKeys);

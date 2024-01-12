@@ -1,7 +1,7 @@
-import {forwardRef, HTMLNextUIProps} from "@tera-ui/system";
+import {forwardRef, HTMLTeraUIProps} from "@tera-ui/system";
 import {useDOMRef} from "@tera-ui/react-utils";
 
-export interface PaginationCursorProps extends HTMLNextUIProps<"span"> {
+export interface PaginationCursorProps extends HTMLTeraUIProps<"span"> {
   /**
    * The current active page.
    */
@@ -21,6 +21,6 @@ const PaginationCursor = forwardRef<"span", PaginationCursorProps>((props, ref) 
   );
 });
 
-PaginationCursor.displayName = "NextUI.PaginationCursor";
+PaginationCursor.displayName = "TeraUI.PaginationCursor";
 
 export default PaginationCursor;

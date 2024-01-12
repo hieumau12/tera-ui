@@ -52,7 +52,7 @@ export const CarbonAd: React.FC<unknown> = () => {
         isMounted &&
         setTimeout(() => {
           const script = loadScript(
-            "https://cdn.carbonads.com/carbon.js?serve=CESIC53Y&placement=nextuiorg",
+            "https://cdn.carbonads.com/carbon.js?serve=CESIC53Y&placement=terauiorg",
             carbonRef.current,
           );
 
@@ -103,7 +103,7 @@ export const CarbonAd: React.FC<unknown> = () => {
         <div
           className="ea-container horizontal"
           data-ea-campaign-types="paid|publisher-house|community"
-          data-ea-publisher="nextuiorg"
+          data-ea-publisher="terauiorg"
           data-ea-type="image"
           style={{display: showEthicalAds ? "block" : "none"}}
         />

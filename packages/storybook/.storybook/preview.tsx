@@ -1,6 +1,6 @@
 import React from "react";
 import {themes} from "@storybook/theming";
-import {NextUIProvider} from "@tera-ui/system/src/provider";
+import {TeraUIProvider} from "@tera-ui/system/src/provider";
 import type { Preview } from '@storybook/react';
 
 import './style.css'
@@ -12,18 +12,18 @@ const decorators: Preview['decorators'] = [
         locale && new Intl.Locale(locale)?.textInfo?.direction === "rtl" ? "rtl" : undefined;
 
       return (
-        <NextUIProvider locale={locale}>
+        <TeraUIProvider locale={locale}>
           <div className="bg-dark" lang={locale} dir={direction}>
             <Story />
           </div>
-        </NextUIProvider>
+        </TeraUIProvider>
       );
     },
   ]
 
   const commonTheme = {
-    brandTitle: "NextUI",
-    brandUrl: "https://nextui.org",
+    brandTitle: "TeraUI",
+    brandUrl: "https://tera-ui-storybook.vercel.app",
     brandTarget: "_self",
   }
 

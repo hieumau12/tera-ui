@@ -46,6 +46,6 @@ const Navbar = forwardRef<"div", NavbarProps>((props, ref) => {
   );
 });
 
-Navbar.displayName = "NextUI.Navbar";
+Navbar.displayName = "TeraUI.Navbar";
 
 export default Navbar;

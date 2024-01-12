@@ -1,17 +1,17 @@
 ---
 title: Colors
-description: Learn how to configure and customize colors with NextUI.
+description: Learn how to configure and customize colors with TeraUI.
 ---
 
 # Colors
 
-NextUI's plugin enables you to personalize the semantic colors of the theme such as `primary`,
+TeraUI's plugin enables you to personalize the semantic colors of the theme such as `primary`,
 `secondary`, `success`, etc.
 
 ```js {7,11}
 module.exports = {
   plugins: [
-    nextui({
+    teraui({
       themes: {
         light: {
           // ...
@@ -34,7 +34,7 @@ module.exports = {
 
 ## Default Colors
 
-NextUI offers a default color palette right out of the box, perfect for when you're
+TeraUI offers a default color palette right out of the box, perfect for when you're
 still undecided about your specific branding colors.
 
 These colors are split into [Common Colors](#common-colors) and [Semantic Colors](#semantic-colors).
@@ -53,7 +53,7 @@ be activated with the `addCommonColors` option.
 ```js {4}
 module.exports = {
   plugins: [
-    nextui({
+    teraui({
       addCommonColors: true,
     }),
   ],
@@ -97,12 +97,12 @@ Semantic colors adapt with the theme, delivering meaning and reinforcing your br
 For an effective palette, we recommend using color ranges from `50` to `900`. You can use tools like [Eva Design System](https://colors.eva.design/),
 [Smart Watch](https://smart-swatch.netlify.app/), [Palette](https://palettte.app/) or [Color Box](https://colorbox.io/) to generate your palette.
 
-> Semantic colors should be placed inside the `nextui` plugin options, not inside the TailwindCSS theme object.
+> Semantic colors should be placed inside the `teraui` plugin options, not inside the TailwindCSS theme object.
 
 ```js {7-13,19-25,33-37}
 module.exports = {
   plugins: [
-    nextui({
+    teraui({
       themes: {
         light: {
           colors: {
@@ -187,13 +187,13 @@ console.log(semanticColors.light.primary.DEFAULT); // #006FEE
 
 ### CSS Variables
 
-NextUI creates CSS variables using the format `--prefix-colorname-shade` for each semantic color. By
-default the prefix is `nextui`, but you can change it with the `prefix` option.
+TeraUI creates CSS variables using the format `--prefix-colorname-shade` for each semantic color. By
+default the prefix is `teraui`, but you can change it with the `prefix` option.
 
 ```js {4}
 module.exports = {
   plugins: [
-    nextui({
+    teraui({
       prefix: "myapp",
     }),
   ],
@@ -205,7 +205,7 @@ Then you can use the CSS variables in your CSS files.
 ```css
 /* With default prefix */
 .my-component {
-  background-color: var(--nextui-primary-500);
+  background-color: var(--teraui-primary-500);
 }
 /*  With custom prefix */
 .my-component {

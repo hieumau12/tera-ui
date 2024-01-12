@@ -13,7 +13,7 @@ import {clsx, dataAttr} from "@tera-ui/shared-utils";
 import {
   SpacerProps,
   Spacer,
-  Link as NextUILink,
+  Link as TeraUILink,
   Chip,
   dataFocusVisibleClasses,
 } from "@tera-ui/react";
@@ -132,7 +132,7 @@ function TreeItem<T>(props: TreeItemProps<T>) {
             />
           </span>
         ) : (
-          <NextUILink
+          <TeraUILink
             as={Link}
             className={clsx(
               "w-full",
@@ -180,7 +180,7 @@ function TreeItem<T>(props: TreeItemProps<T>) {
                 Coming soon
               </Chip>
             )}
-          </NextUILink>
+          </TeraUILink>
         )}
         {/* Workaround to avoid scrollbar overlapping */}
         <Spacer x={4} />

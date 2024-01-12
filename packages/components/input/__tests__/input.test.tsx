@@ -1,5 +1,6 @@
 import * as React from "react";
-import {render, waitFor} from "@testing-library/react";
+import {act, render, waitFor} from "@testing-library/react";
+import ReactDOM from "react-dom/client";
 
 import {Input} from "../src";
 
@@ -102,7 +103,11 @@ describe("Input", () => {
   it("ref should update the value", async () => {
     const ref = React.createRef<HTMLInputElement>();
 
-    const {container} = render(<Input ref={ref} type="text" />);
+    let container = document.createElement("div");
+
+    act(() => {
+      ReactDOM.createRoot(container).render(<Input ref={ref} type="text" />);
+    });
 
     if (!ref.current) {
       throw new Error("ref is null");

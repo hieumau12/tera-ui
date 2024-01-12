@@ -1,42 +1,42 @@
 ---
 title: Routing
-description: Learn how to integrate client side routing into your NextUI application.
+description: Learn how to integrate client side routing into your TeraUI application.
 ---
 
 # Routing
 
-NextUI Components such as [Tabs](/docs/components/tabs), [Listbox](/docs/components/listbox), [Dropdown](/docs/components/dropdown) and many others offer
+TeraUI Components such as [Tabs](/docs/components/tabs), [Listbox](/docs/components/listbox), [Dropdown](/docs/components/dropdown) and many others offer
 the flexibility to be rendered as HTML links. Explore this page to learn how to integrate them with client side routing.
 
 ## Introduction
 
 By default, links perform native browser navigation when they are interacted with. However, many apps and
-frameworks use client side routers to avoid a full page reload when navigating between pages. The `NextUIProvider`
-component configures all NextUI components within it to navigate using the client side router you provide.
+frameworks use client side routers to avoid a full page reload when navigating between pages. The `TeraUIProvider`
+component configures all TeraUI components within it to navigate using the client side router you provide.
 
-Set this up once in the root of your app, and any NextUI component with the href prop will automatically navigate
+Set this up once in the root of your app, and any TeraUI component with the href prop will automatically navigate
 using your router.
 
-### NextUIProvider Setup
+### TeraUIProvider Setup
 
-The `NextUIProvider` accepts a prop called `navigate`. This should be set to a function received from your
+The `TeraUIProvider` accepts a prop called `navigate`. This should be set to a function received from your
 router for performing a client side navigation programmatically. The following example shows the general
 pattern. Framework-specific examples are shown below.
 
 ```jsx
 import * as React from "react";
 
-// 1. import `NextUIProvider` component
-import {NextUIProvider} from "@tera-ui/react";
+// 1. import `TeraUIProvider` component
+import {TeraUIProvider} from "@tera-ui/react";
 
 function App() {
   const navigate = useNavigateFromYourRouter();
 
-  // 2. Add the `navigate` function to the `NextUIProvider`
+  // 2. Add the `navigate` function to the `TeraUIProvider`
   return (
-    <NextUIProvider navigate={navigate}>
+    <TeraUIProvider navigate={navigate}>
       <YourApplication />
-    </NextUIProvider>
+    </TeraUIProvider>
   );
 }
 ```
@@ -58,23 +58,23 @@ Go to your `app/providers.tsx` or `app/providers.jsx` (create it if it doesn't e
 // app/providers.tsx
 'use client'
 
-import {NextUIProvider} from '@tera-ui/react';
+import {TeraUIProvider} from '@tera-ui/react';
 import {useRouter} from 'next/navigation'
 
 export function Providers({children}: { children: React.ReactNode }) {
   const router = useRouter();
 
   return (
-    <NextUIProvider navigate={router.push}>
+    <TeraUIProvider navigate={router.push}>
       {children}
-    </NextUIProvider>
+    </TeraUIProvider>
   )
 }
 ```
 
 #### Add Provider to Root
 
-Now, Go to your `root` layout page and wrap it with the `NextUIProvider`:
+Now, Go to your `root` layout page and wrap it with the `TeraUIProvider`:
 
 ```tsx {6,8,10}
 // app/layout.tsx
@@ -93,7 +93,7 @@ export default function RootLayout({children}: { children: React.ReactNode }) {
 }
 ```
 
-> **Note**: Skip this step if you already set up the `NextUIProvider` in your app.
+> **Note**: Skip this step if you already set up the `TeraUIProvider` in your app.
 
 </Steps>
 
@@ -106,16 +106,16 @@ from `next/router`, it returns a router object that can be used to perform navig
 ```tsx {7}
 // pages/_app.tsx
 import type { AppProps } from 'next/app';
-import {NextUIProvider} from '@tera-ui/react';
+import {TeraUIProvider} from '@tera-ui/react';
 import {useRouter} from 'next/router';
 
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
 
   return (
-    <NextUIProvider navigate={router.push}>
+    <TeraUIProvider navigate={router.push}>
       <Component {...pageProps} />
-    </NextUIProvider>
+    </TeraUIProvider>
   )
 }
 
@@ -127,24 +127,24 @@ export default MyApp;
 The `useNavigate` hook from `react-router-dom` returns a `navigate` function that can be used to perform navigation.
 
 Go to the `App` file commonly called `App.jsx` or `App.tsx`, add the `useNavigate` hook and pass the
-`navigate` function to the `NextUIProvider`:
+`navigate` function to the `TeraUIProvider`:
 
 ```jsx {6,9}
 // App.tsx or App.jsx
 import {BrowserRouter, useNavigate} from 'react-router-dom';
-import {NextUIProvider} from '@tera-ui/react';
+import {TeraUIProvider} from '@tera-ui/react';
 
 function App() {
   const navigate = useNavigate();
 
   return (
-    <NextUIProvider navigate={navigate}>
+    <TeraUIProvider navigate={navigate}>
       {/* Your app here... */}
       <Routes>
         <Route path="/" element={<HomePage />} />
         {/* ... */}
       </Routes>
-    </NextUIProvider>
+    </TeraUIProvider>
   );
 }
 
@@ -159,23 +159,23 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 )
 ```
 
-Ensure that the component that calls `useNavigate` and renders `NextUIProvider` is inside the router
+Ensure that the component that calls `useNavigate` and renders `TeraUIProvider` is inside the router
 component (e.g. `BrowserRouter`) so that it has access to React Router's internal context. The React Router `<Routes>`
-element should also be defined inside `NextUIProvider` so that links inside the rendered routes have access
+element should also be defined inside `TeraUIProvider` so that links inside the rendered routes have access
 to the router.
 
 
 ### Remix
 
 Remix uses React Router under the hood, so the same `useNavigate` hook described above also works in Remix
-apps. `NextUIProvider` should be rendered at the `root` of each page that includes NextUI components, or in
+apps. `TeraUIProvider` should be rendered at the `root` of each page that includes TeraUI components, or in
 `app/root.tsx` to add it to all pages. See the [Remix docs](https://remix.run/docs/en/main/file-conventions/root)
 for more details.
 
 ```jsx {14}
 // app/root.tsx
 import {useNavigate, Outlet} from '@remix-run/react';
-import {NextUIProvider} from '@tera-ui/react';
+import {TeraUIProvider} from '@tera-ui/react';
 
 export default function App() {
   const navigate = useNavigate();
@@ -186,9 +186,9 @@ export default function App() {
         {/* ... */}
       </head>
       <body>
-        <NextUIProvider navigate={navigate}>
+        <TeraUIProvider navigate={navigate}>
           <Outlet />
-        </NextUIProvider>
+        </TeraUIProvider>
         {/* ... */}
       </body>
     </html>
@@ -199,11 +199,11 @@ export default function App() {
 
 ### Usage examples
 
-Now that you have set up the `NextUIProvider` in your app, you can use the `href` prop in the `Tabs`,
+Now that you have set up the `TeraUIProvider` in your app, you can use the `href` prop in the `Tabs`,
 `Listbox` and `Dropdown` items to navigate between pages.
 
 The [Link](/docs/components/link) component will also use the `navigate` function from the
-`NextUIProvider` to navigate between pages.
+`TeraUIProvider` to navigate between pages.
 
 
 ```jsx

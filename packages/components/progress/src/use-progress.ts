@@ -2,7 +2,7 @@ import type {ProgressVariantProps, SlotsToClasses, ProgressSlots} from "@tera-ui
 import type {PropGetter} from "@tera-ui/system";
 import type {AriaProgressBarProps} from "@react-types/progress";
 
-import {HTMLNextUIProps, mapPropsVariants} from "@tera-ui/system";
+import {HTMLTeraUIProps, mapPropsVariants} from "@tera-ui/system";
 import {progress} from "@tera-ui/theme";
 import {useDOMRef} from "@tera-ui/react-utils";
 import {clampPercentage, clsx, dataAttr} from "@tera-ui/shared-utils";
@@ -12,7 +12,7 @@ import {useMemo, useCallback} from "react";
 import {useIsMounted} from "@tera-ui/use-is-mounted";
 import {useProgressBar as useAriaProgress} from "@react-aria/progress";
 
-interface Props extends HTMLNextUIProps<"div"> {
+interface Props extends HTMLTeraUIProps<"div"> {
   /**
    * Ref to the DOM node.
    */

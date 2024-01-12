@@ -1,11 +1,11 @@
 ---
 title: Customize theme
-description: Learn how NextUI enables effortless customization of default themes.
+description: Learn how TeraUI enables effortless customization of default themes.
 ---
 
 # Customize theme
 
-As outlined in preceding sections, NextUI presents two predefined themes, `light` and `dark`.
+As outlined in preceding sections, TeraUI presents two predefined themes, `light` and `dark`.
 These themes are inherently flexible, allowing you to tailor them to your specific preferences
 or project needs.
 
@@ -31,12 +31,12 @@ your `tailwind.config.js` file.
 
 ```js {9-19}
 // tailwind.config.js
-const {nextui} = require("@tera-ui/react");
+const {teraui} = require("@tera-ui/react");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   plugins: [
-    nextui({
+    teraui({
       layout: {
         disabledOpacity: "0.3", // opacity-[0.3]
         radius: {
@@ -59,7 +59,7 @@ module.exports = {
 };
 ```
 
-As NextUI components employ layout tokens, the modifications will be reflected across all
+As TeraUI components employ layout tokens, the modifications will be reflected across all
 components that utilize them. For instance, the [Button](/docs/components/button) component
 uses the `radius` token to set the border radius and the `borderWidth` token to define the
 border width when the variant is `bordered`.
@@ -99,12 +99,12 @@ be achieved by adding the following code to your `tailwind.config.js` file.
 
 ```js {10-16}
 // tailwind.config.js
-const {nextui} = require("@tera-ui/react");
+const {teraui} = require("@tera-ui/react");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   plugins: [
-    nextui({
+    teraui({
       themes: {
         dark: {
           colors: {

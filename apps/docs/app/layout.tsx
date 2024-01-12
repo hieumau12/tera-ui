@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     "React",
     "Next.js",
     "Tailwind CSS",
-    "NextUI",
+    "TeraUI",
     "React Aria",
     "Server Components",
     "React Components",
@@ -54,9 +54,9 @@ export const metadata: Metadata = {
   ],
   creator: "jrgarciadev",
   alternates: {
-    canonical: "https://nextui.org",
+    canonical: "https://teraui.org",
     types: {
-      "application/rss+xml": [{url: "https://nextui.org/feed.xml", title: "NextUI RSS Feed"}],
+      "application/rss+xml": [{url: "https://teraui.org/feed.xml", title: "TeraUI RSS Feed"}],
     },
   },
   viewport:

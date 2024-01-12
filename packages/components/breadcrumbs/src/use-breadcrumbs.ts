@@ -2,7 +2,7 @@ import type {BreadcrumbsVariantProps, SlotsToClasses, BreadcrumbsSlots} from "@t
 import type {AriaBreadcrumbsProps} from "@react-types/breadcrumbs";
 
 import {Children, ReactNode, Key, ReactElement} from "react";
-import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
+import {HTMLTeraUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
 import {breadcrumbs} from "@tera-ui/theme";
 import {filterDOMProps, pickChildren, ReactRef, useDOMRef} from "@tera-ui/react-utils";
 import {mergeProps} from "@react-aria/utils";
@@ -43,7 +43,7 @@ type RenderEllipsisItemProps = {
   separator: ReactNode;
 };
 
-interface Props extends HTMLNextUIProps<"nav">, AriaBreadcrumbsProps {
+interface Props extends HTMLTeraUIProps<"nav">, AriaBreadcrumbsProps {
   /**
    * Ref to the DOM node.
    */

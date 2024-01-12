@@ -1,6 +1,6 @@
 import type {SliderVariantProps} from "@tera-ui/theme";
 
-import {HTMLNextUIProps, PropGetter} from "@tera-ui/system";
+import {HTMLTeraUIProps, PropGetter} from "@tera-ui/system";
 import {useSliderThumb as useAriaSliderThumb} from "@react-aria/slider";
 import {ReactRef, useDOMRef} from "@tera-ui/react-utils";
 import {RefObject, useRef} from "react";
@@ -16,7 +16,7 @@ import {useNumberFormatter} from "@react-aria/i18n";
 
 import {UseSliderProps} from "./use-slider";
 
-interface Props extends HTMLNextUIProps<"div"> {
+interface Props extends HTMLTeraUIProps<"div"> {
   /**
    * Ref to the DOM node.
    */

@@ -1,10 +1,10 @@
-import {forwardRef, HTMLNextUIProps} from "@tera-ui/system";
+import {forwardRef, HTMLTeraUIProps} from "@tera-ui/system";
 import {useDOMRef} from "@tera-ui/react-utils";
 import {clsx, dataAttr} from "@tera-ui/shared-utils";
 
 import {useNavbarContext} from "./navbar-context";
 
-export interface NavbarItemProps extends HTMLNextUIProps<"li"> {
+export interface NavbarItemProps extends HTMLTeraUIProps<"li"> {
   children?: React.ReactNode;
   /**
    * Whether the item is active or not.
@@ -35,6 +35,6 @@ const NavbarItem = forwardRef<"li", NavbarItemProps>((props, ref) => {
   );
 });
 
-NavbarItem.displayName = "NextUI.NavbarItem";
+NavbarItem.displayName = "TeraUI.NavbarItem";
 
 export default NavbarItem;

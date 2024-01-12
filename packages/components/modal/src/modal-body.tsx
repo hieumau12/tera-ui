@@ -1,11 +1,11 @@
 import {useEffect} from "react";
-import {forwardRef, HTMLNextUIProps} from "@tera-ui/system";
+import {forwardRef, HTMLTeraUIProps} from "@tera-ui/system";
 import {useDOMRef} from "@tera-ui/react-utils";
 import {clsx} from "@tera-ui/shared-utils";
 
 import {useModalContext} from "./modal-context";
 
-export interface ModalBodyProps extends HTMLNextUIProps<"div"> {}
+export interface ModalBodyProps extends HTMLTeraUIProps<"div"> {}
 
 const ModalBody = forwardRef<"div", ModalBodyProps>((props, ref) => {
   const {as, children, className, ...otherProps} = props;
@@ -38,6 +38,6 @@ const ModalBody = forwardRef<"div", ModalBodyProps>((props, ref) => {
   );
 });
 
-ModalBody.displayName = "NextUI.ModalBody";
+ModalBody.displayName = "TeraUI.ModalBody";
 
 export default ModalBody;

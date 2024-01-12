@@ -1,5 +1,5 @@
 import {AriaToggleButtonProps, useAriaToggleButton} from "@tera-ui/use-aria-toggle-button";
-import {forwardRef, HTMLNextUIProps} from "@tera-ui/system";
+import {forwardRef, HTMLTeraUIProps} from "@tera-ui/system";
 import {useDOMRef} from "@tera-ui/react-utils";
 import {clsx, dataAttr} from "@tera-ui/shared-utils";
 import {useToggleState} from "@react-stately/toggle";
@@ -10,7 +10,7 @@ import {useMemo, ReactNode} from "react";
 
 import {useNavbarContext} from "./navbar-context";
 
-export interface Props extends Omit<HTMLNextUIProps<"button">, keyof AriaToggleButtonProps> {
+export interface Props extends Omit<HTMLTeraUIProps<"button">, keyof AriaToggleButtonProps> {
   /**
    * The value of the input element, used when submitting an HTML form. See [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#htmlattrdefvalue).
    */
@@ -89,6 +89,6 @@ const NavbarMenuToggle = forwardRef<"button", NavbarMenuToggleProps>((props, ref
   );
 });
 
-NavbarMenuToggle.displayName = "NextUI.NavbarMenuToggle";
+NavbarMenuToggle.displayName = "TeraUI.NavbarMenuToggle";
 
 export default NavbarMenuToggle;

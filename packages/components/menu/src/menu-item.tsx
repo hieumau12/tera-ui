@@ -66,6 +66,6 @@ const MenuItem = forwardRef<"li", MenuItemProps>((props, _) => {
   );
 });
 
-MenuItem.displayName = "NextUI.MenuItem";
+MenuItem.displayName = "TeraUI.MenuItem";
 
 export default MenuItem;

@@ -1,8 +1,8 @@
-# Next UI Contributing Guide
+# Tera UI Contributing Guide
 
-Hello!, I am very excited that you are interested in contributing with Next UI. However, before submitting your contribution, be sure to take a moment and read the following guidelines.
+Hello!, I am very excited that you are interested in contributing with Tera UI. However, before submitting your contribution, be sure to take a moment and read the following guidelines.
 
-- [Code of Conduct](https://github.com/jrgarciadev/nextui/blob/main/CODE_OF_CONDUCT.md)
+- [Code of Conduct](https://github.com/jrgarciadev/teraui/blob/main/CODE_OF_CONDUCT.md)
 - [Extraction request guidelines](#pull-request-guidelines)
 - [Development Setup](#development-setup)
 - [Tests](#tests)
@@ -71,7 +71,7 @@ https://www.conventionalcommits.org/ or check out the
 
 ### Steps to PR
 
-1. Fork of the nextui repository and clone your fork
+1. Fork of the teraui repository and clone your fork
 
 2. Create a new branch out of the `main` branch. We follow the convention
    `[type/scope]`. For example `fix/dropdown-hook` or `docs/menu-typo`. `type`
@@ -117,8 +117,8 @@ We use [Turbo Repo](https://turborepo.org/) for the project management.
 2. If you will be working on the components source code, you can use the following command to start the webpack dev server:
 
 ```bash
-## Start the dev babel server of NextUI core components
-pnpm dev:nextui
+## Start the dev babel server of TeraUI core components
+pnpm dev:teraui
 
 ## optional
 pnpm dev:docs ## this will start the documentation next.js server and it will automatically detect the changes in the components.
@@ -127,11 +127,11 @@ pnpm start:sb ## this will start the storybook server for a faster development a
 ```
 
 - If you will be working just on the documentation source code / mdx, you can use the following commands to build
-  NextUI components and then start the next.js dev server:
+  TeraUI components and then start the next.js dev server:
 
 ```bash
-## Build NextUI source components
-pnpm build:nextui
+## Build TeraUI source components
+pnpm build:teraui
 
 ## Start the next.js documentation dev server
 pnpm dev:docs
@@ -196,13 +196,13 @@ When making a visual change, please provide screenshots
 and/or screencasts of the proposed change. This will help us to understand the
 desired change easier.
 
-Until NextUI has a stable release new components will be created only for the core team.
+Until TeraUI has a stable release new components will be created only for the core team.
 
 ## Documentation
 
 Please update the docs with any API changes, the code and docs should always be in sync.
 
-The main documentation lives in the `apps/docs/content` folder, the project uses MDX and all `NextUI` are already imported.
+The main documentation lives in the `apps/docs/content` folder, the project uses MDX and all `TeraUI` are already imported.
 
 ## Breaking changes
 
@@ -210,7 +210,7 @@ Breaking changes should be accompanied with deprecations of removed functionalit
 
 ## Becoming a maintainer
 
-If you are interested in becoming a NextUI maintainer, start by
+If you are interested in becoming a TeraUI maintainer, start by
 reviewing issues and pull requests. Answer questions for those in need of
 troubleshooting. Join us in the
 [Discord Community](https://discord.gg/9b6yyZKmH4) chat room.
@@ -221,7 +221,7 @@ best to be proactive in reaching out to those that are already helping out.
 GitHub by default does not publicly state that you are a member of the
 organization. Please feel free to change that setting for yourself so others
 will know who's helping out. That can be configured on the [organization
-list](https://github.com/orgs/nextui-org/people) page.
+list](https://github.com/orgs/teraui-org/people) page.
 
 Being a maintainer is not an obligation. You can help when you have time and be
 less active when you don't. If you get a new job and get busy, that's alright.

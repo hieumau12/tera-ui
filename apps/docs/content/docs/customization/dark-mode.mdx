@@ -1,11 +1,11 @@
 ---
 title: Dark mode
-description: NextUI comes with two palette modes light (the default) and dark.
+description: TeraUI comes with two palette modes light (the default) and dark.
 ---
 
 # Dark mode
 
-As we mentioned before in the [Theme](/docs/customization/theme) section NextUI comes with two default
+As we mentioned before in the [Theme](/docs/customization/theme) section TeraUI comes with two default
 themes `light`and `dark`. So using the `dark` theme is as simple as adding it to the `className` of the
 `html` / `body` or `main` element.
 
@@ -13,17 +13,17 @@ themes `light`and `dark`. So using the `dark` theme is as simple as adding it to
 // main.tsx or main.jsx
 import React from "react";
 import ReactDOM from "react-dom/client";
-import {NextUIProvider} from "@tera-ui/react";
+import {TeraUIProvider} from "@tera-ui/react";
 import App from "./App";
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <NextUIProvider>
+    <TeraUIProvider>
       <main className="dark text-foreground bg-background">
         <App />
       </main>
-    </NextUIProvider>
+    </TeraUIProvider>
   </React.StrictMode>,
 );
 ```
@@ -64,28 +64,28 @@ Install `next-themes` in your project.
 Wrap your app with the `ThemeProvider` component from `next-themes`.
 
 Go to your `app/providers.tsx` or `app/providers.jsx` (create it if it doesn't exist) and wrap the
-Component with the `NextUIProvider` and the `next-themes` provider components.
+Component with the `TeraUIProvider` and the `next-themes` provider components.
 
 
 ```jsx
 // app/providers.tsx
 "use client";
 
-import {NextUIProvider} from '@tera-ui/react'
+import {TeraUIProvider} from '@tera-ui/react'
 import {ThemeProvider as NextThemesProvider} from "next-themes";
 
 export function Providers({children}: { children: React.ReactNode }) {
   return (
-    <NextUIProvider>
+    <TeraUIProvider>
       <NextThemesProvider attribute="class" defaultTheme="dark">
         {children}
       </NextThemesProvider>
-    </NextUIProvider>
+    </TeraUIProvider>
   )
 }
 ```
 
-> Note: We're using the `class` attribute to switch between themes, this is because NextUI uses the `className` attribute.
+> Note: We're using the `class` attribute to switch between themes, this is because TeraUI uses the `className` attribute.
 
 ### Add the theme switcher
 
@@ -142,27 +142,27 @@ Install `next-themes` in your project.
 ### Add next-themes provider
 
 Go to pages`/_app.js` or `pages/_app.tsx` (create it if it doesn't exist) and  wrap the
-Component with the `NextUIProvider` and the `next-themes` provider components.
+Component with the `TeraUIProvider` and the `next-themes` provider components.
 
 ```jsx
 // pages/_app.js
-import {NextUIProvider} from "@tera-ui/react";
+import {TeraUIProvider} from "@tera-ui/react";
 import {ThemeProvider as NextThemesProvider} from "next-themes";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <NextUIProvider>
+    <TeraUIProvider>
       <NextThemesProvider attribute="class" defaultTheme="dark">
         <Component {...pageProps} />
       </NextThemesProvider>
-    </NextUIProvider>
+    </TeraUIProvider>
   )
 }
 
 export default MyApp;
 ```
 
-> Note: We're using the `class` attribute to switch between themes, this is because NextUI uses the `className` attribute.
+> Note: We're using the `class` attribute to switch between themes, this is because TeraUI uses the `className` attribute.
 
 ### Add the theme switcher
 

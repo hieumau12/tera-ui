@@ -26,7 +26,7 @@ export const UserTwitterCard = () => {
       </CardHeader>
       <CardBody className="px-3 py-0">
         <p className="text-small pl-px text-default-500">
-          Full-stack developer, @getnextui lover she/her
+          Full-stack developer, @getteraui lover she/her
           <span aria-label="confetti" role="img">
             🎉
           </span>

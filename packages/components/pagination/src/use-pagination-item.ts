@@ -1,5 +1,5 @@
 import type {Ref} from "react";
-import type {HTMLNextUIProps, PropGetter} from "@tera-ui/system";
+import type {HTMLTeraUIProps, PropGetter} from "@tera-ui/system";
 import type {LinkDOMProps, PressEvent} from "@react-types/shared";
 
 import {useMemo} from "react";
@@ -11,7 +11,7 @@ import {filterDOMProps, useDOMRef} from "@tera-ui/react-utils";
 import {useHover} from "@react-aria/interactions";
 import {useFocusRing} from "@react-aria/focus";
 
-interface Props extends Omit<HTMLNextUIProps<"li">, "onClick"> {
+interface Props extends Omit<HTMLTeraUIProps<"li">, "onClick"> {
   /**
    * Ref to the DOM node.
    */
@@ -35,7 +35,7 @@ interface Props extends Omit<HTMLNextUIProps<"li">, "onClick"> {
    * @param e MouseEvent
    * @deprecated Use `onPress` instead.
    */
-  onClick?: HTMLNextUIProps<"li">["onClick"];
+  onClick?: HTMLTeraUIProps<"li">["onClick"];
   /**
    * Callback fired when the item is clicked.
    * @param e PressEvent

@@ -33,18 +33,18 @@ const PopoverTrigger = forwardRef<"button", PopoverTriggerProps>((props, _) => {
     return getTriggerProps(mergeProps(child.props, otherProps), child.ref);
   }, [getTriggerProps, child.props, otherProps, child.ref]);
 
-  // validates if contains a NextUI Button as a child
+  // validates if contains a TeraUI Button as a child
   const [, triggerChildren] = pickChildren(children, Button);
 
   const {buttonProps} = useAriaButton({onPress}, triggerRef);
 
-  const hasNextUIButton = useMemo<boolean>(() => {
+  const hasTeraUIButton = useMemo<boolean>(() => {
     return triggerChildren?.[0] !== undefined;
   }, [triggerChildren]);
 
-  return cloneElement(child, mergeProps(rest, hasNextUIButton ? {onPress} : buttonProps));
+  return cloneElement(child, mergeProps(rest, hasTeraUIButton ? {onPress} : buttonProps));
 });
 
-PopoverTrigger.displayName = "NextUI.PopoverTrigger";
+PopoverTrigger.displayName = "TeraUI.PopoverTrigger";
 
 export default PopoverTrigger;

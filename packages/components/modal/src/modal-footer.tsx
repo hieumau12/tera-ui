@@ -1,10 +1,10 @@
-import {forwardRef, HTMLNextUIProps} from "@tera-ui/system";
+import {forwardRef, HTMLTeraUIProps} from "@tera-ui/system";
 import {useDOMRef} from "@tera-ui/react-utils";
 import {clsx} from "@tera-ui/shared-utils";
 
 import {useModalContext} from "./modal-context";
 
-export interface ModalFooterProps extends HTMLNextUIProps<"footer"> {}
+export interface ModalFooterProps extends HTMLTeraUIProps<"footer"> {}
 
 const ModalFooter = forwardRef<"footer", ModalFooterProps>((props, ref) => {
   const {as, children, className, ...otherProps} = props;
@@ -26,6 +26,6 @@ const ModalFooter = forwardRef<"footer", ModalFooterProps>((props, ref) => {
   );
 });
 
-ModalFooter.displayName = "NextUI.ModalFooter";
+ModalFooter.displayName = "TeraUI.ModalFooter";
 
 export default ModalFooter;

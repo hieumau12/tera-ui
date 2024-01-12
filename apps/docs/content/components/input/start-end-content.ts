@@ -46,7 +46,7 @@ export default function App() {
         <Input
           type="url"
           label="Website"
-          placeholder="nextui.org"
+          placeholder="teraui.org"
           labelPlacement="outside"
           startContent={
             <div className="pointer-events-none flex items-center">
@@ -79,7 +79,7 @@ export default function App() {
         <Input
           type="url"
           label="Website"
-          placeholder="nextui"
+          placeholder="teraui"
           labelPlacement="outside"
           endContent={
             <div className="pointer-events-none flex items-center">
@@ -91,7 +91,7 @@ export default function App() {
       <div className="flex w-full flex-wrap md:flex-nowrap mb-6 md:mb-0 gap-4">
         <Input
           label="Email"
-          placeholder="nextui"
+          placeholder="teraui"
           labelPlacement="outside"
           startContent={
             <MailIcon className="text-xl text-default-400 pointer-events-none flex-shrink-0" />
@@ -132,7 +132,7 @@ export default function App() {
         <Input
           type="url"
           label="Website"
-          placeholder="nextui"
+          placeholder="teraui"
           labelPlacement="outside"
           startContent={
             <div className="pointer-events-none flex items-center">

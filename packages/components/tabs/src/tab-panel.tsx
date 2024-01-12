@@ -1,6 +1,6 @@
 import type {AriaTabPanelProps} from "@react-aria/tabs";
 
-import {forwardRef, HTMLNextUIProps} from "@tera-ui/system";
+import {forwardRef, HTMLTeraUIProps} from "@tera-ui/system";
 import {useDOMRef} from "@tera-ui/react-utils";
 import {clsx} from "@tera-ui/shared-utils";
 import {mergeProps} from "@react-aria/utils";
@@ -9,7 +9,7 @@ import {useFocusRing} from "@react-aria/focus";
 
 import {ValuesType} from "./use-tabs";
 
-interface Props extends HTMLNextUIProps<"div"> {
+interface Props extends HTMLTeraUIProps<"div"> {
   /**
    * The tab list state.
    */
@@ -62,6 +62,6 @@ const TabPanel = forwardRef<"div", TabPanelProps>((props, ref) => {
   );
 });
 
-TabPanel.displayName = "NextUI.TabPanel";
+TabPanel.displayName = "TeraUI.TabPanel";
 
 export default TabPanel;

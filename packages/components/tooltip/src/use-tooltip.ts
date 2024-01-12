@@ -9,7 +9,7 @@ import {useTooltipTriggerState} from "@react-stately/tooltip";
 import {mergeProps} from "@react-aria/utils";
 import {useTooltip as useReactAriaTooltip, useTooltipTrigger} from "@react-aria/tooltip";
 import {useOverlayPosition, useOverlay, AriaOverlayProps} from "@react-aria/overlays";
-import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
+import {HTMLTeraUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
 import {popover} from "@tera-ui/theme";
 import {clsx, dataAttr} from "@tera-ui/shared-utils";
 import {ReactRef, mergeRefs} from "@tera-ui/react-utils";
@@ -18,7 +18,7 @@ import {useMemo, useRef, useCallback} from "react";
 import {toReactAriaPlacement, getArrowPlacement} from "@tera-ui/aria-utils";
 import {useSafeLayoutEffect} from "@tera-ui/use-safe-layout-effect";
 
-interface Props extends Omit<HTMLNextUIProps, "content"> {
+interface Props extends Omit<HTMLTeraUIProps, "content"> {
   /**
    * Ref to the DOM node.
    */

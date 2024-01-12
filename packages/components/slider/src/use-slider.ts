@@ -1,6 +1,6 @@
 import type {SliderSlots, SliderVariantProps, SlotsToClasses} from "@tera-ui/theme";
 
-import {DOMAttributes, HTMLNextUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
+import {DOMAttributes, HTMLTeraUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
 import {slider} from "@tera-ui/theme";
 import {ReactRef, useDOMRef, filterDOMProps} from "@tera-ui/react-utils";
 import {useSliderState} from "@react-stately/slider";
@@ -23,7 +23,7 @@ export type SliderStepMark = {
 
 export type SliderRenderThumbProps = DOMAttributes<HTMLDivElement> & {index?: number};
 
-interface Props extends HTMLNextUIProps<"div"> {
+interface Props extends HTMLTeraUIProps<"div"> {
   /**
    * Ref to the DOM node.
    */
@@ -96,7 +96,7 @@ interface Props extends HTMLNextUIProps<"div"> {
   classNames?: SlotsToClasses<SliderSlots>;
   /**
    * Tooltip props.
-   * @see [Tooltip](https://nextui.org/components/tooltip) for more details.
+   * @see [Tooltip](https://teraui.org/components/tooltip) for more details.
    * @default {
    *  offset: 15,
    *  delay: 0,

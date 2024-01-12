@@ -2,7 +2,7 @@
 
 Badges are used as a small numerical value or status descriptor for UI elements.
 
-Please refer to the [documentation](https://nextui.org/docs/components/badge) for more information.
+Please refer to the [documentation](https://teraui.org/docs/components/badge) for more information.
 
 ## Installation
 

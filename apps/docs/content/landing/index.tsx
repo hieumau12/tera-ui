@@ -31,13 +31,13 @@ export default {
     {
       title: "Light & Dark UI",
       description:
-        "Automatic dark mode recognition, NextUI automatically changes the theme when detects HTML theme prop changes.",
+        "Automatic dark mode recognition, TeraUI automatically changes the theme when detects HTML theme prop changes.",
       icon: <MoonIcon className="text-pink-500" />,
     },
     {
       title: "Unique DX",
       description:
-        "NextUI is fully-typed to minimize the learning curve, and provide the best possible developer experience.",
+        "TeraUI is fully-typed to minimize the learning curve, and provide the best possible developer experience.",
       icon: <DevicesIcon className="text-pink-500" />,
     },
   ],
@@ -46,7 +46,7 @@ export default {
       title: "React server components",
       description: (
         <>
-          All NextUI components already include the <Code>&quot;use client&quot;</Code> directive,
+          All TeraUI components already include the <Code>&quot;use client&quot;</Code> directive,
           which means you can import and use them directly in your RSC.
         </>
       ),
@@ -55,7 +55,7 @@ export default {
     {
       title: "Accessible components",
       description:
-        "NextUI components follow the WAI-ARIA guidelines, provide keyboard support and sensible focus management.",
+        "TeraUI components follow the WAI-ARIA guidelines, provide keyboard support and sensible focus management.",
       icon: <TagUserLinearIcon className="text-pink-500" />,
     },
     {
@@ -67,39 +67,39 @@ export default {
     {
       title: "Multiple packages",
       description:
-        "NextUI is divided into multiple packages, so you can install only the components you need.",
+        "TeraUI is divided into multiple packages, so you can install only the components you need.",
       icon: <CubesLinearIcon className="text-pink-500" />,
     },
     {
       title: "TypeScript based",
       description:
-        "Build type safe applications, NextUI has a fully-typed API to minimize the learning curve, and help you build applications.",
+        "Build type safe applications, TeraUI has a fully-typed API to minimize the learning curve, and help you build applications.",
       icon: <CodeDocumentLinearIcon className="text-pink-500" />,
     },
     {
       title: "Override components tags",
-      description: "A polymorphic `as` prop is included in all NextUI components.",
+      description: "A polymorphic `as` prop is included in all TeraUI components.",
       icon: <HtmlLogoLinearIcon className="text-pink-500" />,
     },
     {
       title: "No runtime styles",
       description:
-        "NextUI is based on Tailwind CSS, it means that there are no runtime styles, and no unnecessary classes in your bundle.",
+        "TeraUI is based on Tailwind CSS, it means that there are no runtime styles, and no unnecessary classes in your bundle.",
       icon: <FlashIcon className="text-pink-500" />,
     },
     {
       title: "Beautifully designed",
       description:
-        "NextUI components are unique and are not tied to any visual trend or design rule, which makes us unique and of course your projects as well.",
+        "TeraUI components are unique and are not tied to any visual trend or design rule, which makes us unique and of course your projects as well.",
       icon: <MagicIcon className="text-pink-500" />,
     },
   ],
-  themingCode: `const { nextui } = require("@tera-ui/react");
+  themingCode: `const { teraui } = require("@tera-ui/react");
 
 module.exports = {
   // ...
   plugins: [
-    nextui({
+    teraui({
       themes: {
         light: {
           colors: {
@@ -119,7 +119,7 @@ module.exports = {
 module.exports = {
   // ...
   plugins: [
-    nextui({
+    teraui({
       themes: {
         light: {
           colors: {
@@ -139,7 +139,7 @@ module.exports = {
 module.exports = {
   // ...
   plugins: [
-    nextui({
+    teraui({
       themes: {
         light: {
           colors: {
@@ -159,7 +159,7 @@ module.exports = {
 module.exports = {
   // ...
   plugins: [
-    nextui({
+    teraui({
       themes: {
         light: {
           colors: {
@@ -182,15 +182,15 @@ module.exports = {
 `,
 
   darkModeCode: `import React from "react";
-import {NextUIProvider} from "@tera-ui/react";
+import {TeraUIProvider} from "@tera-ui/react";
 
 const Application = ({Component, pageProps}) => {
   return (
-    <NextUIProvider>
+    <TeraUIProvider>
       <main className={isDark ? "dark" : "light"}>
         <Component {...pageProps} />
       </main>
-    </NextUIProvider>
+    </TeraUIProvider>
   );
 };
 

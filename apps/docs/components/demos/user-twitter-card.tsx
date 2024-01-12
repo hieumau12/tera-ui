@@ -46,7 +46,7 @@ export const UserTwitterCard: FC<UserTwitterCardProps> = ({className}) => {
       </CardHeader>
       <CardBody className="px-3 py-0">
         <p className="text-sm pl-px text-default-400">
-          Full-stack developer, @getnextui lover she/her&nbsp;
+          Full-stack developer, @getteraui lover she/her&nbsp;
           <span aria-label="confetti" role="img">
             🎉
           </span>

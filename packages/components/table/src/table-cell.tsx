@@ -1,7 +1,7 @@
 import type {GridNode} from "@react-types/grid";
 
 import {Key, useMemo} from "react";
-import {forwardRef, HTMLNextUIProps} from "@tera-ui/system";
+import {forwardRef, HTMLTeraUIProps} from "@tera-ui/system";
 import {useDOMRef, filterDOMProps} from "@tera-ui/react-utils";
 import {clsx, dataAttr} from "@tera-ui/shared-utils";
 import {useTableCell} from "@react-aria/table";
@@ -11,7 +11,7 @@ import {useFocusRing} from "@react-aria/focus";
 import {ValuesType} from "./use-table";
 
 // @internal
-export interface TableCellProps<T = object> extends HTMLNextUIProps<"td"> {
+export interface TableCellProps<T = object> extends HTMLTeraUIProps<"td"> {
   /**
    * The key of the table row.
    */
@@ -69,6 +69,6 @@ const TableCell = forwardRef<"td", TableCellProps>((props, ref) => {
   );
 });
 
-TableCell.displayName = "NextUI.TableCell";
+TableCell.displayName = "TeraUI.TableCell";
 
 export default TableCell;

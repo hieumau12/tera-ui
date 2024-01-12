@@ -17,11 +17,11 @@ import {animations} from "./animations";
 import {utilities} from "./utilities";
 import {flattenThemeObject} from "./utils/object";
 import {createSpacingUnits, generateSpacingScale, isBaseTheme} from "./utils/theme";
-import {ConfigTheme, ConfigThemes, DefaultThemeType, NextUIPluginConfig} from "./types";
+import {ConfigTheme, ConfigThemes, DefaultThemeType, TeraUIPluginConfig} from "./types";
 import {lightLayout, darkLayout, defaultLayout} from "./default-layout";
 import {baseStyles} from "./utils/classes";
 
-const DEFAULT_PREFIX = "nextui";
+const DEFAULT_PREFIX = "teraui";
 
 const parsedColorsCache: Record<string, number[]> = {};
 
@@ -83,30 +83,30 @@ const resolveConfig = (
         parsedColorsCache[colorValue] = parsedColor;
 
         const [h, s, l, defaultAlphaValue] = parsedColor;
-        const nextuiColorVariable = `--${prefix}-${colorName}`;
-        const nextuiOpacityVariable = `--${prefix}-${colorName}-opacity`;
+        const terauiColorVariable = `--${prefix}-${colorName}`;
+        const terauiOpacityVariable = `--${prefix}-${colorName}-opacity`;
 
         // set the css variable in "@layer utilities"
-        resolved.utilities[cssSelector]![nextuiColorVariable] = `${h} ${s}% ${l}%`;
+        resolved.utilities[cssSelector]![terauiColorVariable] = `${h} ${s}% ${l}%`;
         // if an alpha value was provided in the color definition, store it in a css variable
         if (typeof defaultAlphaValue === "number") {
-          resolved.utilities[cssSelector]![nextuiOpacityVariable] = defaultAlphaValue.toFixed(2);
+          resolved.utilities[cssSelector]![terauiOpacityVariable] = defaultAlphaValue.toFixed(2);
         }
         // set the dynamic color in tailwind config theme.colors
         resolved.colors[colorName] = ({opacityVariable, opacityValue}) => {
           // if the opacity is set  with a slash (e.g. bg-primary/90), use the provided value
           if (!isNaN(+opacityValue)) {
-            return `hsl(var(${nextuiColorVariable}) / ${opacityValue})`;
+            return `hsl(var(${terauiColorVariable}) / ${opacityValue})`;
           }
           // if no opacityValue was provided (=it is not parsable to a number)
-          // the nextuiOpacityVariable (opacity defined in the color definition rgb(0, 0, 0, 0.5)) should have the priority
+          // the terauiOpacityVariable (opacity defined in the color definition rgb(0, 0, 0, 0.5)) should have the priority
           // over the tw class based opacity(e.g. "bg-opacity-90")
           // This is how tailwind behaves as for v3.2.4
           if (opacityVariable) {
-            return `hsl(var(${nextuiColorVariable}) / var(${nextuiOpacityVariable}, var(${opacityVariable})))`;
+            return `hsl(var(${terauiColorVariable}) / var(${terauiOpacityVariable}, var(${opacityVariable})))`;
           }
 
-          return `hsl(var(${nextuiColorVariable}) / var(${nextuiOpacityVariable}, 1))`;
+          return `hsl(var(${terauiColorVariable}) / var(${terauiOpacityVariable}, 1))`;
         };
       } catch (error: any) {
         // eslint-disable-next-line no-console
@@ -275,7 +275,7 @@ const corePlugin = (
   );
 };
 
-export const nextui = (config: NextUIPluginConfig = {}): ReturnType<typeof plugin> => {
+export const teraui = (config: TeraUIPluginConfig = {}): ReturnType<typeof plugin> => {
   const {
     themes: themeObject = {},
     defaultTheme = "light",

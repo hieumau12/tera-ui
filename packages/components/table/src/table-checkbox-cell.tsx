@@ -1,7 +1,7 @@
 import type {GridNode} from "@react-types/grid";
 import type {Key} from "react";
 
-import {forwardRef, HTMLNextUIProps} from "@tera-ui/system";
+import {forwardRef, HTMLTeraUIProps} from "@tera-ui/system";
 import {useDOMRef, filterDOMProps} from "@tera-ui/react-utils";
 import {clsx, dataAttr} from "@tera-ui/shared-utils";
 import {useTableCell, useTableSelectionCheckbox} from "@react-aria/table";
@@ -13,7 +13,7 @@ import {VisuallyHidden} from "@react-aria/visually-hidden";
 import {ValuesType} from "./use-table";
 
 // @internal
-export interface TableCheckboxCellProps<T = object> extends HTMLNextUIProps<"td"> {
+export interface TableCheckboxCellProps<T = object> extends HTMLTeraUIProps<"td"> {
   /**
    * The key of the table row.
    */
@@ -93,6 +93,6 @@ const TableCheckboxCell = forwardRef<"td", TableCheckboxCellProps>((props, ref) 
   );
 });
 
-TableCheckboxCell.displayName = "NextUI.TableCheckboxCell";
+TableCheckboxCell.displayName = "TeraUI.TableCheckboxCell";
 
 export default TableCheckboxCell;

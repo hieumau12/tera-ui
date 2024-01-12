@@ -7,14 +7,14 @@ import {radioGroup} from "@tera-ui/theme";
 import {useCallback, useMemo} from "react";
 import {RadioGroupState, useRadioGroupState} from "@react-stately/radio";
 import {useRadioGroup as useReactAriaRadioGroup} from "@react-aria/radio";
-import {HTMLNextUIProps, PropGetter} from "@tera-ui/system";
+import {HTMLTeraUIProps, PropGetter} from "@tera-ui/system";
 import {useDOMRef} from "@tera-ui/react-utils";
 import {clsx, safeAriaLabel} from "@tera-ui/shared-utils";
 import {mergeProps} from "@react-aria/utils";
 
 import {RadioProps} from "./index";
 
-interface Props extends Omit<HTMLNextUIProps<"div">, "onChange"> {
+interface Props extends Omit<HTMLTeraUIProps<"div">, "onChange"> {
   /**
    * Ref to the DOM node.
    */

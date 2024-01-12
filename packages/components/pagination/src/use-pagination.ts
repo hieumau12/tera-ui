@@ -1,7 +1,7 @@
 import type {PaginationSlots, PaginationVariantProps, SlotsToClasses} from "@tera-ui/theme";
 import type {Timer} from "@tera-ui/shared-utils";
 import type {Key, ReactNode, Ref} from "react";
-import type {HTMLNextUIProps, PropGetter} from "@tera-ui/system";
+import type {HTMLTeraUIProps, PropGetter} from "@tera-ui/system";
 
 import {
   UsePaginationProps as UseBasePaginationProps,
@@ -106,7 +106,7 @@ export type PaginationItemRenderProps = {
   getAriaLabel?: (page?: PaginationItemValue) => string | undefined;
 };
 
-interface Props extends Omit<HTMLNextUIProps<"nav">, "onChange"> {
+interface Props extends Omit<HTMLTeraUIProps<"nav">, "onChange"> {
   /**
    * Ref to the DOM node.
    */

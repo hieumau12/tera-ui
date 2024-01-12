@@ -1,7 +1,7 @@
 import type {ImageVariantProps, SlotsToClasses, ImageSlots} from "@tera-ui/theme";
 
 import {ImgHTMLAttributes, useCallback} from "react";
-import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
+import {HTMLTeraUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
 import {image} from "@tera-ui/theme";
 import {useDOMRef} from "@tera-ui/react-utils";
 import {clsx, dataAttr} from "@tera-ui/shared-utils";
@@ -10,7 +10,7 @@ import {useImage as useImageBase} from "@tera-ui/use-image";
 import {useMemo} from "react";
 type NativeImageProps = ImgHTMLAttributes<HTMLImageElement>;
 
-interface Props extends HTMLNextUIProps<"img"> {
+interface Props extends HTMLTeraUIProps<"img"> {
   /**
    * Ref to the DOM node.
    */

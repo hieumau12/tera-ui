@@ -23,6 +23,6 @@ const Badge = forwardRef<"span", BadgeProps>((props, ref) => {
   );
 });
 
-Badge.displayName = "NextUI.Badge";
+Badge.displayName = "TeraUI.Badge";
 
 export default Badge;

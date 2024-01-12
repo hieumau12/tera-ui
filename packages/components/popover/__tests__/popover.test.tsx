@@ -99,7 +99,7 @@ describe("Popover", () => {
     expect(onClose).toHaveBeenCalledTimes(1);
   });
 
-  it("should work with NextUI button", () => {
+  it("should work with TeraUI button", () => {
     const onClose = jest.fn();
 
     const wrapper = render(

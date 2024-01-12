@@ -1,6 +1,6 @@
 import type {BadgeSlots, BadgeVariantProps, SlotsToClasses} from "@tera-ui/theme";
 import type {ReactNode} from "react";
-import type {HTMLNextUIProps, PropGetter} from "@tera-ui/system-rsc";
+import type {HTMLTeraUIProps, PropGetter} from "@tera-ui/system-rsc";
 
 import {badge} from "@tera-ui/theme";
 import {mapPropsVariants} from "@tera-ui/system-rsc";
@@ -8,7 +8,7 @@ import {clsx} from "@tera-ui/shared-utils";
 import {ReactRef} from "@tera-ui/react-utils";
 import {useMemo} from "react";
 
-interface Props extends HTMLNextUIProps<"span", "content"> {
+interface Props extends HTMLTeraUIProps<"span", "content"> {
   /**
    * Ref to the DOM node.
    */

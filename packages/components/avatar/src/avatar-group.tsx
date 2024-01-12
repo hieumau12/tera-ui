@@ -29,6 +29,6 @@ const AvatarGroup = forwardRef<"div", AvatarGroupProps>((props, ref) => {
   );
 });
 
-AvatarGroup.displayName = "NextUI.AvatarGroup";
+AvatarGroup.displayName = "TeraUI.AvatarGroup";
 
 export default AvatarGroup;

@@ -1,5 +1,5 @@
 import type {SpacerVariantProps} from "@tera-ui/theme";
-import type {HTMLNextUIProps, PropGetter} from "@tera-ui/system-rsc";
+import type {HTMLTeraUIProps, PropGetter} from "@tera-ui/system-rsc";
 
 import {mapPropsVariants} from "@tera-ui/system-rsc";
 import {spacer} from "@tera-ui/theme";
@@ -9,7 +9,7 @@ import {useMemo} from "react";
 
 import {spacing, Space} from "./utils";
 
-interface Props extends HTMLNextUIProps<"span"> {
+interface Props extends HTMLTeraUIProps<"span"> {
   /**
    * Ref to the DOM node.
    */

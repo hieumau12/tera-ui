@@ -7,8 +7,8 @@ export default function App() {
       as={NextImage}
       width={300}
       height={200}
-      src="https://nextui-docs-v2.vercel.app/images/hero-card-complete.jpeg"
-      alt="NextUI hero Image"
+      src="https://teraui-docs-v2.vercel.app/images/hero-card-complete.jpeg"
+      alt="TeraUI hero Image"
     />
   );
 }`;

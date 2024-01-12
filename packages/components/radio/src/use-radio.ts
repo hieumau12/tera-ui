@@ -8,14 +8,14 @@ import {useHover} from "@react-aria/interactions";
 import {usePress} from "@tera-ui/use-aria-press";
 import {radio} from "@tera-ui/theme";
 import {useRadio as useReactAriaRadio} from "@react-aria/radio";
-import {HTMLNextUIProps, PropGetter} from "@tera-ui/system";
+import {HTMLTeraUIProps, PropGetter} from "@tera-ui/system";
 import {__DEV__, warn, clsx, dataAttr} from "@tera-ui/shared-utils";
 import {useDOMRef} from "@tera-ui/react-utils";
 import {chain, mergeProps} from "@react-aria/utils";
 
 import {useRadioGroupContext} from "./radio-group-context";
 
-interface Props extends Omit<HTMLNextUIProps<"input">, keyof RadioVariantProps> {
+interface Props extends Omit<HTMLTeraUIProps<"input">, keyof RadioVariantProps> {
   /**
    * Ref to the DOM node.
    */
@@ -220,8 +220,8 @@ export function useRadio(props: UseRadioProps) {
       return {
         ...props,
         ref: inputRef,
-        required: isRequired,
         ...mergeProps(inputProps, focusProps),
+        required: isRequired,
         onChange: chain(inputProps.onChange, onChange),
       };
     },

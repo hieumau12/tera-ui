@@ -10,14 +10,14 @@ import {RemoveScroll} from "react-remove-scroll";
 import {motion} from "framer-motion";
 import {useDialog} from "@react-aria/dialog";
 import {mergeProps} from "@react-aria/utils";
-import {HTMLNextUIProps} from "@tera-ui/system";
+import {HTMLTeraUIProps} from "@tera-ui/system";
 
 import {useModalContext} from "./modal-context";
 import {scaleInOut} from "./modal-transition";
 
 type KeysToOmit = "children" | "role";
 
-export interface ModalContentProps extends AriaDialogProps, HTMLNextUIProps<"div", KeysToOmit> {
+export interface ModalContentProps extends AriaDialogProps, HTMLTeraUIProps<"div", KeysToOmit> {
   children: ReactNode | ((onClose: () => void) => ReactNode);
 }
 
@@ -111,6 +111,6 @@ const ModalContent = forwardRef<"div", ModalContentProps, KeysToOmit>((props, _)
   );
 });
 
-ModalContent.displayName = "NextUI.ModalContent";
+ModalContent.displayName = "TeraUI.ModalContent";
 
 export default ModalContent;

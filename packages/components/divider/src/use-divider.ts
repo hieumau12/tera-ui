@@ -1,12 +1,12 @@
 import type {DividerVariantProps} from "@tera-ui/theme";
-import type {HTMLNextUIProps, PropGetter} from "@tera-ui/system-rsc";
+import type {HTMLTeraUIProps, PropGetter} from "@tera-ui/system-rsc";
 
 import {divider} from "@tera-ui/theme";
 import {Ref, useCallback, useMemo} from "react";
 
 import {SeparatorProps as AriaSeparatorProps, useSeparator} from "./use-separator";
 
-interface Props extends HTMLNextUIProps<"hr"> {
+interface Props extends HTMLTeraUIProps<"hr"> {
   /**
    * Ref to the DOM node.
    */

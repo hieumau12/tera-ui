@@ -1,7 +1,7 @@
 import type {SnippetVariantProps, SnippetSlots, SlotsToClasses} from "@tera-ui/theme";
 
 import {snippet} from "@tera-ui/theme";
-import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
+import {HTMLTeraUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
 import {useDOMRef, filterDOMProps} from "@tera-ui/react-utils";
 import {clsx, dataAttr} from "@tera-ui/shared-utils";
 import {ReactRef} from "@tera-ui/react-utils";
@@ -10,7 +10,7 @@ import {useFocusRing} from "@react-aria/focus";
 import {useMemo, useCallback, ReactElement, useRef} from "react";
 import {TooltipProps} from "@tera-ui/tooltip";
 import {ButtonProps} from "@tera-ui/button";
-export interface UseSnippetProps extends Omit<HTMLNextUIProps, "onCopy">, SnippetVariantProps {
+export interface UseSnippetProps extends Omit<HTMLTeraUIProps, "onCopy">, SnippetVariantProps {
   /**
    * Ref to the DOM node.
    */
@@ -87,7 +87,7 @@ export interface UseSnippetProps extends Omit<HTMLNextUIProps, "onCopy">, Snippe
   hideSymbol?: boolean;
   /**
    * Tooltip props.
-   * @see [Tooltip](https://nextui.org/components/tooltip) for more details.
+   * @see [Tooltip](https://teraui.org/components/tooltip) for more details.
    * @default {
    *  offset: 15,
    *  delay: 1000,
@@ -99,7 +99,7 @@ export interface UseSnippetProps extends Omit<HTMLNextUIProps, "onCopy">, Snippe
   tooltipProps?: Partial<TooltipProps>;
   /**
    * Copy button props.
-   * @see [Button](https://nextui.org/components/button) for more details.
+   * @see [Button](https://teraui.org/components/button) for more details.
    * @default {
    *   isDisabled: disableCopy,
    *   onPress: onCopy

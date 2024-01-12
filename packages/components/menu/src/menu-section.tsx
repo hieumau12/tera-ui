@@ -139,6 +139,6 @@ const MenuSection = forwardRef<"li", MenuSectionProps>(
   },
 );
 
-MenuSection.displayName = "NextUI.MenuSection";
+MenuSection.displayName = "TeraUI.MenuSection";
 
 export default MenuSection;

@@ -1,7 +1,7 @@
 {
   "name": "@tera-ui/theme",
   "version": "1.0.0",
-  "description": "The default theme for NextUI components",
+  "description": "The default theme for TeraUI components",
   "keywords": [
     "theme",
     "theming",

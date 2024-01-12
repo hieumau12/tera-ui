@@ -9,13 +9,13 @@ import {chain, mergeProps} from "@react-aria/utils";
 import {useFocusRing} from "@react-aria/focus";
 import {useHover} from "@react-aria/interactions";
 import {useAriaButton} from "@tera-ui/use-aria-button";
-import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
+import {HTMLTeraUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
 import {clsx, dataAttr} from "@tera-ui/shared-utils";
 import {ReactRef, filterDOMProps} from "@tera-ui/react-utils";
 import {useDOMRef} from "@tera-ui/react-utils";
 import {useRipple} from "@tera-ui/ripple";
 
-export interface Props extends HTMLNextUIProps<"div"> {
+export interface Props extends HTMLTeraUIProps<"div"> {
   /**
    * Ref to the DOM node.
    */

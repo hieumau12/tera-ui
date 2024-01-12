@@ -4,7 +4,7 @@ import {FC, useRef} from "react";
 import {SandpackProvider, SandpackLayout, SandpackPreview} from "@codesandbox/sandpack-react";
 
 import {SandpackCodeViewer} from "./code-viewer";
-import {nextuiTheme} from "./theme";
+import {terauiTheme} from "./theme";
 import {UseSandpackProps, useSandpack} from "./use-sandpack";
 import {BugReportButton} from "./bugreport-button";
 import {CopyButton} from "./copy-button";
@@ -51,7 +51,7 @@ export const Sandpack: FC<SandpackProps> = ({
       customSetup={customSetup}
       files={files}
       template={sandpackTemplate}
-      theme={nextuiTheme}
+      theme={terauiTheme}
     >
       <SandpackLayout
         style={{

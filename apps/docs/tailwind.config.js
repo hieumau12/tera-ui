@@ -1,4 +1,4 @@
-const {nextui} = require("@tera-ui/theme/plugin");
+const {teraui} = require("@tera-ui/theme/plugin");
 const {commonColors} = require("@tera-ui/theme/colors");
 const svgToDataUri = require("mini-svg-data-uri");
 const plugin = require("tailwindcss/plugin");
@@ -72,7 +72,7 @@ module.exports = {
       typography: (theme) => ({
         DEFAULT: {
           css: {
-            color: "hsl(var(--nextui-foreground))",
+            color: "hsl(var(--teraui-foreground))",
             maxWidth: "none",
             hr: {
               marginTop: "2em",
@@ -220,7 +220,7 @@ module.exports = {
         },
         dark: {
           css: {
-            color: "hsl(var(--nextui-default-700))",
+            color: "hsl(var(--teraui-default-700))",
             strong: {
               color: theme("colors.pink.500"),
             },
@@ -228,23 +228,23 @@ module.exports = {
         },
         neutral: {
           css: {
-            "--tw-prose-body": "hsl(var(--nextui-default-700))",
-            "--tw-prose-headings": "hsl(var(--nextui-foreground))",
-            "--tw-prose-lead": "hsl(var(--nextui-default-600))",
-            "--tw-prose-links": "hsl(var(--nextui-default-900))",
-            "--tw-prose-bold": "hsl(var(--nextui-default-900))",
-            "--tw-prose-counters": "hsl(var(--nextui-default-500))",
-            "--tw-prose-bullets": "hsl(var(--nextui-default-300))",
-            "--tw-prose-hr": "hsl(var(--nextui-default-200))",
-            "--tw-prose-quotes": "hsl(var(--nextui-default-900))",
-            "--tw-prose-quote-borders": "hsl(var(--nextui-default-200))",
-            "--tw-prose-captions": "hsl(var(--nextui-default-500))",
-            "--tw-prose-code": "hsl(var(--nextui-default-900))",
-            "--tw-prose-pre-code": "hsl(var(--nextui-default-200))",
-            "--tw-prose-pre-bg": "hsl(var(--nextui-default-800))",
-            "--tw-prose-th-borders": "hsl(var(--nextui-default-300))",
-            "--tw-prose-td-borders": "hsl(var(--nextui-default-200))",
-            "--tw-prose-invert-body": "hsl(var(--nextui-default-300))",
+            "--tw-prose-body": "hsl(var(--teraui-default-700))",
+            "--tw-prose-headings": "hsl(var(--teraui-foreground))",
+            "--tw-prose-lead": "hsl(var(--teraui-default-600))",
+            "--tw-prose-links": "hsl(var(--teraui-default-900))",
+            "--tw-prose-bold": "hsl(var(--teraui-default-900))",
+            "--tw-prose-counters": "hsl(var(--teraui-default-500))",
+            "--tw-prose-bullets": "hsl(var(--teraui-default-300))",
+            "--tw-prose-hr": "hsl(var(--teraui-default-200))",
+            "--tw-prose-quotes": "hsl(var(--teraui-default-900))",
+            "--tw-prose-quote-borders": "hsl(var(--teraui-default-200))",
+            "--tw-prose-captions": "hsl(var(--teraui-default-500))",
+            "--tw-prose-code": "hsl(var(--teraui-default-900))",
+            "--tw-prose-pre-code": "hsl(var(--teraui-default-200))",
+            "--tw-prose-pre-bg": "hsl(var(--teraui-default-800))",
+            "--tw-prose-th-borders": "hsl(var(--teraui-default-300))",
+            "--tw-prose-td-borders": "hsl(var(--teraui-default-200))",
+            "--tw-prose-invert-body": "hsl(var(--teraui-default-300))",
             "--tw-prose-invert-headings": commonColors.white,
             "--tw-prose-invert-lead": theme("twColors.neutral[400]"),
             "--tw-prose-invert-links": commonColors.white,
@@ -256,7 +256,7 @@ module.exports = {
             "--tw-prose-invert-quote-borders": theme("twColors.neutral[700]"),
             "--tw-prose-invert-captions": theme("twColors.neutral[400]"),
             "--tw-prose-invert-code": commonColors.white,
-            "--tw-prose-invert-pre-code": "hsl(var(--nextui-default-300))",
+            "--tw-prose-invert-pre-code": "hsl(var(--teraui-default-300))",
             "--tw-prose-invert-pre-bg": "rgb(0 0 0 / 50%)",
             "--tw-prose-invert-th-borders": theme("twColors.neutral[600]"),
             "--tw-prose-invert-td-borders": theme("twColors.neutral[700]"),
@@ -315,7 +315,7 @@ module.exports = {
     },
   },
   plugins: [
-    nextui({
+    teraui({
       addCommonColors: true,
       themes: {
         light: {

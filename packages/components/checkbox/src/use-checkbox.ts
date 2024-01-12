@@ -1,6 +1,6 @@
 import type {CheckboxVariantProps, CheckboxSlots, SlotsToClasses} from "@tera-ui/theme";
 import type {AriaCheckboxProps} from "@react-types/checkbox";
-import type {HTMLNextUIProps, PropGetter} from "@tera-ui/system";
+import type {HTMLTeraUIProps, PropGetter} from "@tera-ui/system";
 
 import {ReactNode, Ref, useCallback, useId, useState} from "react";
 import {useMemo, useRef} from "react";
@@ -28,7 +28,7 @@ export type CheckboxIconProps = {
   className: string;
 };
 
-interface Props extends Omit<HTMLNextUIProps<"input">, keyof CheckboxVariantProps> {
+interface Props extends Omit<HTMLTeraUIProps<"input">, keyof CheckboxVariantProps> {
   /**
    * Ref to the DOM node.
    */

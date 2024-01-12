@@ -1,10 +1,10 @@
-import {forwardRef, HTMLNextUIProps} from "@tera-ui/system";
+import {forwardRef, HTMLTeraUIProps} from "@tera-ui/system";
 import {useDOMRef} from "@tera-ui/react-utils";
 import {clsx} from "@tera-ui/shared-utils";
 
 import {useCardContext} from "./card-context";
 
-const CardHeader = forwardRef<"div", HTMLNextUIProps<"div">>((props, ref) => {
+const CardHeader = forwardRef<"div", HTMLTeraUIProps<"div">>((props, ref) => {
   const {as, className, children, ...otherProps} = props;
   const Component = as || "div";
 
@@ -21,6 +21,6 @@ const CardHeader = forwardRef<"div", HTMLNextUIProps<"div">>((props, ref) => {
   );
 });
 
-CardHeader.displayName = "NextUI.CardHeader";
+CardHeader.displayName = "TeraUI.CardHeader";
 
 export default CardHeader;

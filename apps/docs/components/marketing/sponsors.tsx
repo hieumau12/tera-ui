@@ -10,17 +10,17 @@ import {Sponsor, SponsorItem} from "@/components/marketing/sponsor-item";
 const sponsors: Sponsor[] = [
   {
     name: "Relume",
-    href: "https://library.relume.io/ai-site-builder?via=nextui",
+    href: "https://library.relume.io/ai-site-builder?via=teraui",
     logo: <RelumeLogo className="text-black dark:text-white" />,
   },
   {
     name: "story.to.design",
-    href: "https://story.to.design?utm_source=nextui&utm_marketing=partnership",
+    href: "https://story.to.design?utm_source=teraui&utm_marketing=partnership",
     logo: <Story2DesignLogo className="pt-1" />,
   },
   {
     name: "Vercel",
-    href: "https://www.vercel.com?utm_source=nextui&utm_marketing=oss",
+    href: "https://www.vercel.com?utm_source=teraui&utm_marketing=oss",
     logo: <VercelIcon className="text-black dark:text-white" height={24} />,
   },
 ];

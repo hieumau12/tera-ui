@@ -1,11 +1,11 @@
 ---
 title: Layout
-description: NextUI offers a set of layout options to customize the theme.
+description: TeraUI offers a set of layout options to customize the theme.
 ---
 
 # Layout
 
-NextUI's plugin provides a variety of layout customization options. Alter spacing units,
+TeraUI's plugin provides a variety of layout customization options. Alter spacing units,
 font sizes, line heights, radius and more to personalize each theme to your liking.
 
 <CarbonAd />
@@ -17,7 +17,7 @@ needing to override the default Tailwind CSS configuration.
 ```js {4,7,11}
 module.exports = {
   plugins: [
-    nextui({
+    teraui({
       layout: {}, // common layout options
       themes: {
         light: {
@@ -44,7 +44,7 @@ Default values for the layout tokens are:
 ```js
 module.exports = {
   plugins: [
-    nextui({
+    teraui({
       layout: {
         spacingUnit: 4, // in px
         disabledOpacity: 0.5, // this value is applied as opacity-[value] when the component is disabled
@@ -114,7 +114,7 @@ module.exports = {
 ## Units
 
 Units tokens define consistent spacing, padding, margin, gap and sizes across the components. Based on the
-`spacingUnit` token (default 4px), NextUI auto-generates the following units:
+`spacingUnit` token (default 4px), TeraUI auto-generates the following units:
 
 ```ts
 // spacingUnit = 4px
@@ -172,7 +172,7 @@ Units tokens define consistent spacing, padding, margin, gap and sizes across th
 
 ### Using Units
 
-NextUI units behave like [Tailwind CSS spacing](https://tailwindcss.com/docs/customizing-spacing#default-spacing-scale) units. You can use them in the `margin`, `padding`,
+TeraUI units behave like [Tailwind CSS spacing](https://tailwindcss.com/docs/customizing-spacing#default-spacing-scale) units. You can use them in the `margin`, `padding`,
 `width`, `height`, `min-width`, `min-height`, `gap`, `top`, `right`, `bottom`, and `left` properties.
 
 ```jsx {5}
@@ -191,13 +191,13 @@ export const MyButton = () => {
 
 ### CSS Variables
 
-NextUI creates CSS variables using the format `--prefix-prop-name-scale` for each layout token. By
-default the prefix is `nextui`, but you can change it with the `prefix` option.
+TeraUI creates CSS variables using the format `--prefix-prop-name-scale` for each layout token. By
+default the prefix is `teraui`, but you can change it with the `prefix` option.
 
 ```js {4}
 module.exports = {
   plugins: [
-    nextui({
+    teraui({
       prefix: "myapp",
     }),
   ],
@@ -209,10 +209,10 @@ Then you can use the CSS variables in your CSS files.
 ```css
 /* With default prefix */
 .my-button {
-  padding: var(--nextui-spacing-unit-4);
-  font-size: var(--nextui-font-size-small);
-  line-height: var(--nextui-line-height-small);
-  border-radius: var(--nextui-radius-medium);
+  padding: var(--teraui-spacing-unit-4);
+  font-size: var(--teraui-font-size-small);
+  line-height: var(--teraui-line-height-small);
+  border-radius: var(--teraui-radius-medium);
 }
 /*  With custom prefix */
 .my-component {

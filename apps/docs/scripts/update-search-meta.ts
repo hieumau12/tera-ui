@@ -87,7 +87,7 @@ async function getSearchMeta(saveMode: "algolia" | "local" = "local") {
   dotenv.config();
 
   try {
-  
+
     let json: any = [];
 
     const files = shell
@@ -108,7 +108,7 @@ async function getSearchMeta(saveMode: "algolia" | "local" = "local") {
        // Uncomment this to see save json into a file
         json = prettier.format(JSON.stringify(json), { parser: 'json' });
 
-        
+
         // create a folder if it doesn't exist
         if (!fs.existsSync(`${configFolder}`)) {
           fs.mkdirSync(`${configFolder}`);
@@ -123,7 +123,7 @@ async function getSearchMeta(saveMode: "algolia" | "local" = "local") {
         fs.writeFileSync(outPath, json);
 
 
-      console.log("[NextUI] Search meta is ready ✅");
+      console.log("[TeraUI] Search meta is ready ✅");
 
       return;
     }
@@ -133,7 +133,7 @@ async function getSearchMeta(saveMode: "algolia" | "local" = "local") {
       process.env.ALGOLIA_APP_ID || "",
       process.env.ALGOLIA_ADMIN_API_KEY || "",
     );
-  
+
     const tmpIndex = await client.initIndex("prod_docs_tmp");
     const mainIndex = await client.initIndex("prod_docs");
 
@@ -151,7 +151,7 @@ async function getSearchMeta(saveMode: "algolia" | "local" = "local") {
       safe: true,
     });
 
-    console.log("[NextUI] Search meta is ready ✅");
+    console.log("[TeraUI] Search meta is ready ✅");
   } catch (error) {
     console.error(`[ERROR 🔥]:`, error);
   }

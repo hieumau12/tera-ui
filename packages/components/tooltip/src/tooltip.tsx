@@ -84,6 +84,6 @@ const Tooltip = forwardRef<"div", TooltipProps>((props, ref) => {
   );
 });
 
-Tooltip.displayName = "NextUI.Tooltip";
+Tooltip.displayName = "TeraUI.Tooltip";
 
 export default Tooltip;

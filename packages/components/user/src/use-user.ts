@@ -3,7 +3,7 @@ import type {AvatarProps} from "@tera-ui/avatar";
 
 import {ReactNode, useMemo, useCallback} from "react";
 import {useFocusRing} from "@react-aria/focus";
-import {HTMLNextUIProps, PropGetter} from "@tera-ui/system";
+import {HTMLTeraUIProps, PropGetter} from "@tera-ui/system";
 import {user} from "@tera-ui/theme";
 import {clsx, dataAttr} from "@tera-ui/shared-utils";
 import {filterDOMProps, ReactRef} from "@tera-ui/react-utils";
@@ -29,7 +29,7 @@ interface Props {
   isFocusable?: boolean;
   /**
    * The user avatar props
-   * @see https://nextui.org/docs/components/avatar
+   * @see https://teraui.org/docs/components/avatar
    */
   avatarProps?: Partial<AvatarProps>;
   /**
@@ -49,7 +49,7 @@ interface Props {
   classNames?: SlotsToClasses<UserSlots>;
 }
 
-export type UseUserProps = Props & Omit<HTMLNextUIProps<"div">, "children">;
+export type UseUserProps = Props & Omit<HTMLTeraUIProps<"div">, "children">;
 
 export function useUser(props: UseUserProps) {
   const {

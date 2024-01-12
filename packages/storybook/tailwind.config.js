@@ -1,4 +1,4 @@
-const {nextui} = require("@tera-ui/theme/plugin");
+const {teraui} = require("@tera-ui/theme/plugin");
 
 // /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -12,7 +12,7 @@ module.exports = {
   ],
   darkMode: "class",
   plugins: [
-    nextui({
+    teraui({
       themes: {
         // "dark": {
         //   extend: "dark", // <- inherit default values from dark theme

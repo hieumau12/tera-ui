@@ -4,7 +4,7 @@
 import {
   Button,
   Image,
-  Link as NextUILink,
+  Link as TeraUILink,
   Dropdown,
   DropdownSection,
   DropdownTrigger,
@@ -101,15 +101,15 @@ export const A11yOtb = () => {
             </div>
           </div>
           <p className={subtitle()}>
-            NextUI components are built on top of&nbsp;
-            <NextUILink
+            TeraUI components are built on top of&nbsp;
+            <TeraUILink
               isExternal
               className="text-xl text-default-500 font-light [&>svg]:ml-1"
               href="https://react-spectrum.adobe.com/react-aria/"
               underline="always"
             >
               React Aria
-            </NextUILink>
+            </TeraUILink>
             &nbsp;ensuring exceptional accessibility support as a top priority.
           </p>
         </div>

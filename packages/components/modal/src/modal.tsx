@@ -30,6 +30,6 @@ const Modal = forwardRef<"div", ModalProps>((props, ref) => {
   );
 });
 
-Modal.displayName = "NextUI.Modal";
+Modal.displayName = "TeraUI.Modal";
 
 export default Modal;

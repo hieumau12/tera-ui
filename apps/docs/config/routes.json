@@ -4,37 +4,37 @@
       "key": "guide",
       "title": "Guide",
       "defaultOpen": true,
-      "keywords": "guide, getting started, start, nextui",
+      "keywords": "guide, getting started, start, teraui",
       "routes": [
         {
           "key": "introduction",
           "title": "Introduction",
-          "keywords": "introduction, nextui",
+          "keywords": "introduction, teraui",
           "path": "/docs/guide/introduction.mdx"
         },
         {
           "key": "installation",
           "title": "Installation",
-          "keywords": "getting started, installation, start, nextui",
+          "keywords": "getting started, installation, start, teraui",
           "path": "/docs/guide/installation.mdx"
         },
         {
           "key": "design-principles",
           "title": "Design Principles",
-          "keywords": "design principles, nextui",
+          "keywords": "design principles, teraui",
           "path": "/docs/guide/design-principles.mdx"
         },
         {
           "key": "routing",
           "title": "Routing",
-          "keywords": "client side routing, routing, browser routing, nextui, next.js router, react router, remix router",
+          "keywords": "client side routing, routing, browser routing, teraui, next.js router, react router, remix router",
           "path": "/docs/guide/routing.mdx",
           "newPost": true
         },
         {
           "key": "upgrade-to-v2",
           "title": "Upgrade to v2",
-          "keywords": "upgrade, v2, nextui",
+          "keywords": "upgrade, v2, teraui",
           "path": "/docs/guide/upgrade-to-v2.mdx"
         }
       ]
@@ -43,30 +43,30 @@
       "key": "frameworks",
       "title": "Frameworks",
       "defaultOpen": true,
-      "keywords": "frameworks, nextjs + nextui, vite + nextui, remix + nextui, astro + nextui",
+      "keywords": "frameworks, nextjs + teraui, vite + teraui, remix + teraui, astro + teraui",
       "routes": [
         {
           "key": "nextjs",
           "title": "Next.js",
-          "keywords": "nextjs, nextui, next.js",
+          "keywords": "nextjs, teraui, next.js",
           "path": "/docs/frameworks/nextjs.mdx"
         },
         {
           "key": "vite",
           "title": "Vite",
-          "keywords": "vite, nextui",
+          "keywords": "vite, teraui",
           "path": "/docs/frameworks/vite.mdx"
         },
         {
           "key": "remix",
           "title": "Remix",
-          "keywords": "remix, nextui",
+          "keywords": "remix, teraui",
           "path": "/docs/frameworks/remix.mdx"
         },
         {
           "key": "astro",
           "title": "Astro",
-          "keywords": "astro, nextui",
+          "keywords": "astro, teraui",
           "path": "/docs/frameworks/astro.mdx"
         }
       ]
@@ -74,7 +74,7 @@
     {
       "key": "customization",
       "title": "Customization",
-      "keywords": "customization, nextui, themes, colors, dark mode, override styles",
+      "keywords": "customization, teraui, themes, colors, dark mode, override styles",
       "defaultOpen": true,
       "routes": [
         {
@@ -369,30 +369,30 @@
       "key": "getting-started",
       "title": "Getting Started",
       "defaultOpen": true,
-      "keywords": "getting started, main routes, blog, docs, components, nextui",
+      "keywords": "getting started, main routes, blog, docs, components, teraui",
       "routes": [
         {
           "key": "docs",
           "title": "Documentation",
-          "keywords": "documentation, guide, nextui",
+          "keywords": "documentation, guide, teraui",
           "path": "/docs/guide/introduction.mdx"
         },
         {
           "key": "components",
           "title": "Components",
-          "keywords": "components, nextui",
+          "keywords": "components, teraui",
           "path": "/docs/components/avatar"
         },
         {
           "key": "blog",
           "title": "Blog",
-          "keywords": "blog, nextui, news, updates",
+          "keywords": "blog, teraui, news, updates",
           "path": "/blog"
         },
         {
           "key": "figma",
           "title": "Figma",
-          "keywords": "figma, nextui, design, ui kit",
+          "keywords": "figma, teraui, design, ui kit",
           "path": "/figma"
         }
       ]

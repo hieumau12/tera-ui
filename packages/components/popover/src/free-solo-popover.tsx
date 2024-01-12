@@ -117,6 +117,6 @@ const FreeSoloPopover = forwardRef<"div", FreeSoloPopoverProps>((props, ref) => 
   );
 });
 
-FreeSoloPopover.displayName = "NextUI.FreeSoloPopover";
+FreeSoloPopover.displayName = "TeraUI.FreeSoloPopover";
 
 export default FreeSoloPopover;

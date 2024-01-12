@@ -127,6 +127,6 @@ const ListboxSection = forwardRef<"li", ListboxSectionProps>(
   },
 );
 
-ListboxSection.displayName = "NextUI.ListboxSection";
+ListboxSection.displayName = "TeraUI.ListboxSection";
 
 export default ListboxSection;

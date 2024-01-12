@@ -5,7 +5,7 @@ import {
   NavbarBrand,
   NavbarContent,
   NavbarItem,
-  Link as NextUiLink,
+  Link as TeraUiLink,
   LinkProps,
   Input,
   DropdownItem,
@@ -15,7 +15,7 @@ import {
   Avatar,
 } from "@tera-ui/react";
 
-const Link = (props: LinkProps) => <NextUiLink {...props} onClick={(e) => e.preventDefault()} />;
+const Link = (props: LinkProps) => <TeraUiLink {...props} onClick={(e) => e.preventDefault()} />;
 
 import {SearchLinearIcon} from "@/components/icons";
 

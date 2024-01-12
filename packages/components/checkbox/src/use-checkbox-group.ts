@@ -1,7 +1,7 @@
 import type {CheckboxGroupSlots, SlotsToClasses} from "@tera-ui/theme";
 import type {AriaCheckboxGroupProps} from "@react-types/checkbox";
 import type {Orientation} from "@react-types/shared";
-import type {HTMLNextUIProps, PropGetter} from "@tera-ui/system";
+import type {HTMLTeraUIProps, PropGetter} from "@tera-ui/system";
 import type {ReactRef} from "@tera-ui/react-utils";
 
 import {useCallback, useMemo} from "react";
@@ -14,7 +14,7 @@ import {clsx, safeAriaLabel} from "@tera-ui/shared-utils";
 
 import {CheckboxProps} from "./index";
 
-interface Props extends HTMLNextUIProps<"div"> {
+interface Props extends HTMLTeraUIProps<"div"> {
   /**
    * Ref to the DOM node.
    */

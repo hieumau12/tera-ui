@@ -127,15 +127,15 @@ export const useSandpack = ({
   /**
    * Uncomment this logic when specific imports are needed
    */
-  // const nextUIComponents = useMemo(
+  // const teraUIComponents = useMemo(
   //   () =>
-  //     Object.values(getNextUIComponents(sortedFiles) || {}).flatMap((e) =>
+  //     Object.values(getTeraUIComponents(sortedFiles) || {}).flatMap((e) =>
   //       e.split(",").map((name) => name.replace(/"/g, "")),
   //     ),
   //   [sortedFiles],
   // );
 
-  // const hasComponents = !isEmpty(nextUIComponents);
+  // const hasComponents = !isEmpty(teraUIComponents);
 
   // const dependencies = useMemo(() => {
   //   let deps = {
@@ -148,7 +148,7 @@ export const useSandpack = ({
   //       "@tera-ui/system": "dev-v2",
   //     };
 
-  //     nextUIComponents.forEach((component) => {
+  //     teraUIComponents.forEach((component) => {
   //       deps = {
   //         ...deps,
   //         [`@tera-ui/${component}`]: "dev-v2",
@@ -162,11 +162,11 @@ export const useSandpack = ({
   //     ...deps,
   //     "@tera-ui/react": "dev-v2",
   //   };
-  // }, [hasComponents, nextUIComponents, component]);
+  // }, [hasComponents, teraUIComponents, component]);
 
   // const tailwindConfigFile = useMemo(
-  //   () => (hasComponents ? updateTailwindConfig(tailwindConfig, nextUIComponents) : tailwindConfig),
-  //   [tailwindConfig, nextUIComponents],
+  //   () => (hasComponents ? updateTailwindConfig(tailwindConfig, teraUIComponents) : tailwindConfig),
+  //   [tailwindConfig, teraUIComponents],
   // );
 
   const customSetup = {

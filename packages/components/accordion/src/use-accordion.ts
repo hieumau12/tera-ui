@@ -1,4 +1,4 @@
-import type {HTMLNextUIProps, PropGetter} from "@tera-ui/system";
+import type {HTMLTeraUIProps, PropGetter} from "@tera-ui/system";
 import type {SelectionBehavior, MultipleSelection} from "@react-types/shared";
 import type {AriaAccordionProps} from "@react-types/accordion";
 import type {AccordionGroupVariantProps} from "@tera-ui/theme";
@@ -15,7 +15,7 @@ import {useReactAriaAccordion} from "@tera-ui/use-aria-accordion";
 
 import {AccordionItemProps} from "./accordion-item";
 
-interface Props extends HTMLNextUIProps<"div"> {
+interface Props extends HTMLTeraUIProps<"div"> {
   /**
    * Ref to the DOM node.
    */

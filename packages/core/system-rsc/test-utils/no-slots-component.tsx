@@ -1,4 +1,4 @@
-import type {HTMLNextUIProps} from "../src/types";
+import type {HTMLTeraUIProps} from "../src/types";
 
 import React, {useMemo} from "react";
 import {tv, type VariantProps} from "@tera-ui/theme";
@@ -53,7 +53,7 @@ const button = tv({
   ],
 });
 
-interface ButtonProps extends HTMLNextUIProps<"button">, VariantProps<typeof button> {
+interface ButtonProps extends HTMLTeraUIProps<"button">, VariantProps<typeof button> {
   children: React.ReactNode;
   disableRipple?: boolean;
   ref?: ReactRef<HTMLButtonElement | null>;

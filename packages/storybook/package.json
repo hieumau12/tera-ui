@@ -1,7 +1,7 @@
 {
   "name": "@tera-ui/storybook",
   "version": "1.0.0",
-  "description": "The NextUI react components storybook ",
+  "description": "The TeraUI react components storybook ",
   "keywords": [
     "storybook"
   ],

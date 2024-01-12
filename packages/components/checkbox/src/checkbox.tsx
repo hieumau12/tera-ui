@@ -38,6 +38,6 @@ const Checkbox = forwardRef<"input", CheckboxProps>((props, ref) => {
   );
 });
 
-Checkbox.displayName = "NextUI.Checkbox";
+Checkbox.displayName = "TeraUI.Checkbox";
 
 export default Checkbox;

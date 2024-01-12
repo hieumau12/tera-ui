@@ -1,6 +1,6 @@
 import type {ButtonVariantProps} from "@tera-ui/theme";
 import type {AriaButtonProps} from "@tera-ui/use-aria-button";
-import type {HTMLNextUIProps, PropGetter} from "@tera-ui/system";
+import type {HTMLTeraUIProps, PropGetter} from "@tera-ui/system";
 import type {ReactNode} from "react";
 import type {RippleProps} from "@tera-ui/ripple";
 
@@ -19,7 +19,7 @@ import {useRipple} from "@tera-ui/ripple";
 
 import {useButtonGroupContext} from "./button-group-context";
 
-interface Props extends HTMLNextUIProps<"button"> {
+interface Props extends HTMLTeraUIProps<"button"> {
   /**
    * Ref to the DOM node.
    */
@@ -39,7 +39,7 @@ interface Props extends HTMLNextUIProps<"button"> {
   endContent?: ReactNode;
   /**
    * Spinner to display when loading.
-   * @see https://nextui.org/components/spinner
+   * @see https://teraui.org/components/spinner
    */
   spinner?: ReactNode;
   /**

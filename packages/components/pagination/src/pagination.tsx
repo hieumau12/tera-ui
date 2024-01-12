@@ -188,6 +188,6 @@ const Pagination = forwardRef<"nav", PaginationProps>((props, ref) => {
   );
 });
 
-Pagination.displayName = "NextUI.Pagination";
+Pagination.displayName = "TeraUI.Pagination";
 
 export default Pagination;

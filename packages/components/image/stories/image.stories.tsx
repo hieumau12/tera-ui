@@ -48,7 +48,7 @@ export default {
 const defaultProps = {
   ...image.defaultVariants,
   src: "./images/local-image-1.jpeg",
-  alt: "NextUI hero image",
+  alt: "TeraUI hero image",
   disableSkeleton: true,
 };
 
@@ -94,7 +94,7 @@ export const Zoomed = {
     width: 300,
     isZoomed: true,
     radius: "lg",
-    src: "https://nextui.org/images/card-example-2.jpeg",
+    src: "https://teraui.org/images/card-example-2.jpeg",
   },
 };
 

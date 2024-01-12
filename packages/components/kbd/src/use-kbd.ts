@@ -1,5 +1,5 @@
 import type {KbdVariantProps, KbdSlots, SlotsToClasses} from "@tera-ui/theme";
-import type {HTMLNextUIProps, PropGetter} from "@tera-ui/system-rsc";
+import type {HTMLTeraUIProps, PropGetter} from "@tera-ui/system-rsc";
 
 import {mapPropsVariants} from "@tera-ui/system-rsc";
 import {kbd} from "@tera-ui/theme";
@@ -9,7 +9,7 @@ import {useMemo} from "react";
 
 import {KbdKey} from "./utils";
 
-interface Props extends HTMLNextUIProps<"kbd"> {
+interface Props extends HTMLTeraUIProps<"kbd"> {
   /**
    * Ref to the DOM node.
    */

@@ -38,6 +38,6 @@ const Radio = forwardRef<"input", RadioProps>((props, ref) => {
   );
 });
 
-Radio.displayName = "NextUI.Radio";
+Radio.displayName = "TeraUI.Radio";
 
 export default Radio;

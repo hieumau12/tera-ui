@@ -143,6 +143,6 @@ const Tab = forwardRef<"button", TabItemProps>((props, ref) => {
   );
 });
 
-Tab.displayName = "NextUI.Tab";
+Tab.displayName = "TeraUI.Tab";
 
 export default Tab;

@@ -1,6 +1,6 @@
 import type {InputVariantProps, SlotsToClasses, InputSlots} from "@tera-ui/theme";
 
-import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
+import {HTMLTeraUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
 import {AriaTextFieldProps} from "@react-types/textfield";
 import {useFocusRing} from "@react-aria/focus";
 import {input} from "@tera-ui/theme";
@@ -13,7 +13,7 @@ import {chain, mergeProps} from "@react-aria/utils";
 import {useTextField} from "@react-aria/textfield";
 
 export interface Props<T extends HTMLInputElement | HTMLTextAreaElement = HTMLInputElement>
-  extends Omit<HTMLNextUIProps<"input">, keyof InputVariantProps> {
+  extends Omit<HTMLTeraUIProps<"input">, keyof InputVariantProps> {
   /**
    * Ref to the DOM node.
    */

@@ -10,6 +10,6 @@ const Divider = forwardRef<"div", DividerProps>((props, ref) => {
   return <Component ref={ref} {...getDividerProps()} />;
 });
 
-Divider.displayName = "NextUI.Divider";
+Divider.displayName = "TeraUI.Divider";
 
 export default Divider;

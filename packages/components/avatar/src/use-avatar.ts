@@ -1,7 +1,7 @@
 import type {AvatarSlots, AvatarVariantProps, SlotsToClasses} from "@tera-ui/theme";
 
 import {avatar} from "@tera-ui/theme";
-import {HTMLNextUIProps, PropGetter} from "@tera-ui/system";
+import {HTMLTeraUIProps, PropGetter} from "@tera-ui/system";
 import {mergeProps} from "@react-aria/utils";
 import {useDOMRef} from "@tera-ui/react-utils";
 import {clsx, safeText, dataAttr} from "@tera-ui/shared-utils";
@@ -13,7 +13,7 @@ import {useHover} from "@react-aria/interactions";
 
 import {useAvatarGroupContext} from "./avatar-group-context";
 
-interface Props extends HTMLNextUIProps<"span"> {
+interface Props extends HTMLTeraUIProps<"span"> {
   /**
    * Ref to the DOM node.
    */

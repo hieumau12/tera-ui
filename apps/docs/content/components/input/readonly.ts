@@ -7,7 +7,7 @@ export default function App() {
       type="email"
       label="Email"
       variant="bordered"
-      defaultValue="junior@nextui.org"
+      defaultValue="junior@teraui.org"
       className="max-w-xs"
     />
   );

@@ -11,16 +11,16 @@ import {shopCartStyles} from "./styles";
 
 import {title, subtitle, titleWrapper, sectionWrapper} from "@/components/primitives";
 import {PaletteIcon, MagicIcon, GamingConsoleIcon, StarIcon} from "@/components/icons";
-import {NextUILogo, CodeWindow} from "@/components";
+import {TeraUILogo, CodeWindow} from "@/components";
 import landingContent from "@/content/landing";
 import {useIsMobile} from "@/hooks/use-media-query";
 
 const themesTabs = (isMobile: boolean) => [
   {
-    id: "nextui",
-    title: () => <p className="group-data-[selected=true]:text-primary">NextUI</p>,
+    id: "teraui",
+    title: () => <p className="group-data-[selected=true]:text-primary">TeraUI</p>,
     icon: () => (
-      <NextUILogo
+      <TeraUILogo
         small
         className="text-default-400 group-data-[selected=true]:text-primary"
         size={isMobile ? 34 : 44}
@@ -54,13 +54,13 @@ const themesTabs = (isMobile: boolean) => [
   },
 ];
 
-type Theme = "nextui" | "modern" | "elegant" | "retro";
+type Theme = "teraui" | "modern" | "elegant" | "retro";
 type Tab = {id: string; title: () => JSX.Element; icon: () => JSX.Element};
 
 const itemSizes = ["xs", "s", "m", "l", "xl"];
 
 const codeHighlights = {
-  nextui: "6-19",
+  teraui: "6-19",
   modern: "26-39",
   elegant: "46-59",
   retro: "66-84",
@@ -164,7 +164,7 @@ const CustomThemesExample = ({
               <Button
                 className={slots.buyButton()}
                 color="primary"
-                variant={selectedTheme === "nextui" ? "shadow" : "solid"}
+                variant={selectedTheme === "teraui" ? "shadow" : "solid"}
               >
                 Buy now
               </Button>
@@ -225,7 +225,7 @@ export const CustomThemes = () => {
             </div>
           </div>
           <p className={subtitle()}>
-            NextUI provides a custom TailwindCSS plugin that allows you to customize the default
+            TeraUI provides a custom TailwindCSS plugin that allows you to customize the default
             themes or create your own.
           </p>
         </div>

@@ -57,10 +57,13 @@ const SematicSwatch = ({
   textClassName?: string;
 }) => {
   return (
-    <div
-      className={`${className} flex flex-col items-center justify-center w-24 h-24 m-2 rounded-xl shadow-lg`}
-    >
-      <span className={`${textClassName} text-sm`}>{color}</span>
+    <div className={"grid place-items-center m-2"}>
+      <div
+        className={`${className} flex flex-col items-center justify-center w-24 h-24 m-2 rounded-xl shadow-lg`}
+      >
+        <span className={`${textClassName} text-sm`}>{color}</span>
+      </div>
+      <div className={"font-semibold text-sm"}>{className}</div>
     </div>
   );
 };

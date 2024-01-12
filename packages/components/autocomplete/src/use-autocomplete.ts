@@ -1,6 +1,6 @@
 import type {AutocompleteVariantProps, SlotsToClasses, AutocompleteSlots} from "@tera-ui/theme";
 
-import {DOMAttributes, HTMLNextUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
+import {DOMAttributes, HTMLTeraUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
 import {autocomplete} from "@tera-ui/theme";
 import {useFilter} from "@react-aria/i18n";
 import {useComboBox} from "@react-aria/combobox";
@@ -17,7 +17,7 @@ import {chain, mergeProps} from "@react-aria/utils";
 import {ButtonProps} from "@tera-ui/button";
 import {AsyncLoadable, PressEvent} from "@react-types/shared";
 
-interface Props<T> extends Omit<HTMLNextUIProps<"input">, keyof ComboBoxProps<T>> {
+interface Props<T> extends Omit<HTMLTeraUIProps<"input">, keyof ComboBoxProps<T>> {
   /**
    * Ref to the DOM node.
    */

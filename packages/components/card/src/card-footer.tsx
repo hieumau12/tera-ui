@@ -1,10 +1,10 @@
-import {forwardRef, HTMLNextUIProps} from "@tera-ui/system";
+import {forwardRef, HTMLTeraUIProps} from "@tera-ui/system";
 import {useDOMRef} from "@tera-ui/react-utils";
 import {clsx} from "@tera-ui/shared-utils";
 
 import {useCardContext} from "./card-context";
 
-export interface CardFooterProps extends HTMLNextUIProps<"div"> {}
+export interface CardFooterProps extends HTMLTeraUIProps<"div"> {}
 
 const CardFooter = forwardRef<"div", CardFooterProps>((props, ref) => {
   const {as, className, children, ...otherProps} = props;
@@ -23,6 +23,6 @@ const CardFooter = forwardRef<"div", CardFooterProps>((props, ref) => {
   );
 });
 
-CardFooter.displayName = "NextUI.CardFooter";
+CardFooter.displayName = "TeraUI.CardFooter";
 
 export default CardFooter;

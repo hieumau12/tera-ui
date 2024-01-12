@@ -35,6 +35,6 @@ const RadioGroup = forwardRef<"div", RadioGroupProps>((props, ref) => {
   );
 });
 
-RadioGroup.displayName = "NextUI.RadioGroup";
+RadioGroup.displayName = "TeraUI.RadioGroup";
 
 export default RadioGroup;

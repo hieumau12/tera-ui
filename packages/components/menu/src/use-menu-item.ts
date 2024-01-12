@@ -2,7 +2,7 @@ import type {MenuItemBaseProps} from "./base/menu-item-base";
 
 import {useMemo, useRef, useCallback} from "react";
 import {menuItem} from "@tera-ui/theme";
-import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
+import {HTMLTeraUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
 import {useFocusRing} from "@react-aria/focus";
 import {Node} from "@react-types/shared";
 import {filterDOMProps} from "@tera-ui/react-utils";
@@ -20,7 +20,7 @@ interface Props<T extends object> extends MenuItemBaseProps<T> {
 }
 
 export type UseMenuItemProps<T extends object> = Props<T> &
-  Omit<HTMLNextUIProps<"li">, keyof Props<T>>;
+  Omit<HTMLTeraUIProps<"li">, keyof Props<T>>;
 
 export function useMenuItem<T extends object>(originalProps: UseMenuItemProps<T>) {
   const [props, variantProps] = mapPropsVariants(originalProps, menuItem.variantKeys);

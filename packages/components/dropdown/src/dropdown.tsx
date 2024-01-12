@@ -29,6 +29,6 @@ const Dropdown = (props: DropdownProps) => {
   );
 };
 
-Dropdown.displayName = "NextUI.Dropdown";
+Dropdown.displayName = "TeraUI.Dropdown";
 
 export default Dropdown;

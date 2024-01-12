@@ -18,7 +18,7 @@ export default function App() {
           type="email"
           label="Email"
           placeholder="Enter your email"
-          defaultValue="junior@nextui.org"
+          defaultValue="junior@teraui.org"
           className="max-w-[220px]"
         />
       ))}

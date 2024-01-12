@@ -1,7 +1,7 @@
 import type {ToggleVariantProps, ToggleSlots, SlotsToClasses} from "@tera-ui/theme";
 import type {FocusableRef} from "@react-types/shared";
 import type {AriaSwitchProps} from "@react-aria/switch";
-import type {HTMLNextUIProps, PropGetter} from "@tera-ui/system";
+import type {HTMLTeraUIProps, PropGetter} from "@tera-ui/system";
 
 import {ReactNode, Ref, useCallback, useId, useRef, useState} from "react";
 import {mapPropsVariants} from "@tera-ui/system";
@@ -23,7 +23,7 @@ export type SwitchThumbIconProps = {
   isSelected: boolean;
   className: string;
 };
-interface Props extends HTMLNextUIProps<"input"> {
+interface Props extends HTMLTeraUIProps<"input"> {
   /**
    * Ref to the DOM node.
    */

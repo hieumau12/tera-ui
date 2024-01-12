@@ -1,4 +1,4 @@
-import {forwardRef, HTMLNextUIProps} from "@tera-ui/system";
+import {forwardRef, HTMLTeraUIProps} from "@tera-ui/system";
 import {useDOMRef} from "@tera-ui/react-utils";
 import {clsx, dataAttr} from "@tera-ui/shared-utils";
 import {AnimatePresence, HTMLMotionProps, motion} from "framer-motion";
@@ -10,7 +10,7 @@ import {Overlay} from "@react-aria/overlays";
 import {menuVariants} from "./navbar-menu-transitions";
 import {useNavbarContext} from "./navbar-context";
 
-export interface NavbarMenuProps extends HTMLNextUIProps<"ul"> {
+export interface NavbarMenuProps extends HTMLTeraUIProps<"ul"> {
   children?: React.ReactNode;
   /**
    * The container element in which the navbar menu overlay portal will be placed.
@@ -87,6 +87,6 @@ const NavbarMenu = forwardRef<"ul", NavbarMenuProps>((props, ref) => {
   return <Overlay portalContainer={portalContainer}>{contents}</Overlay>;
 });
 
-NavbarMenu.displayName = "NextUI.NavbarMenu";
+NavbarMenu.displayName = "TeraUI.NavbarMenu";
 
 export default NavbarMenu;

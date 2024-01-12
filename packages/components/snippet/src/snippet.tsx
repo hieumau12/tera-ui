@@ -107,6 +107,6 @@ const Snippet = forwardRef<"div", SnippetProps>((props, ref) => {
   );
 });
 
-Snippet.displayName = "NextUI.Snippet";
+Snippet.displayName = "TeraUI.Snippet";
 
 export default Snippet;

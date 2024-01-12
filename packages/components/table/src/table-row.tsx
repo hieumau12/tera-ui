@@ -85,6 +85,6 @@ const TableRow = forwardRef<"tr", TableRowProps>((props, ref) => {
   );
 });
 
-TableRow.displayName = "NextUI.TableRow";
+TableRow.displayName = "TeraUI.TableRow";
 
 export default TableRow;

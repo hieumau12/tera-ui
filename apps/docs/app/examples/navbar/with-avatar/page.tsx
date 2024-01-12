@@ -5,7 +5,7 @@ import {
   NavbarBrand,
   NavbarContent,
   NavbarItem,
-  Link as NextUiLink,
+  Link as TeraUiLink,
   LinkProps,
   DropdownItem,
   DropdownTrigger,
@@ -14,7 +14,7 @@ import {
   Avatar,
 } from "@tera-ui/react";
 
-const Link = (props: LinkProps) => <NextUiLink {...props} onClick={(e) => e.preventDefault()} />;
+const Link = (props: LinkProps) => <TeraUiLink {...props} onClick={(e) => e.preventDefault()} />;
 
 const AcmeLogo = () => (
   <svg fill="none" height="36" viewBox="0 0 32 32" width="36">

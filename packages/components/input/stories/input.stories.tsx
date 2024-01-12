@@ -199,7 +199,7 @@ const StartContentTemplate = (args) => (
     <Input
       {...args}
       label="Website"
-      placeholder="nextui.org"
+      placeholder="teraui.org"
       startContent={
         <div className="pointer-events-none flex items-center">
           <span className="text-default-400 text-sm">https://</span>
@@ -238,7 +238,7 @@ const EndContentTemplate = (args) => (
         </div>
       }
       label="Website"
-      placeholder="nextui"
+      placeholder="teraui"
       type="url"
     />
   </div>
@@ -253,7 +253,7 @@ const StartAndEndContentTemplate = (args) => (
           <span className="text-default-400 text-sm">@gmail.com</span>
         </div>
       }
-      placeholder="nextui"
+      placeholder="teraui"
       startContent={
         <MailFilledIcon className="text-xl text-default-400 pointer-events-none flex-shrink-0" />
       }
@@ -293,7 +293,7 @@ const StartAndEndContentTemplate = (args) => (
         </div>
       }
       label="Website"
-      placeholder="nextui"
+      placeholder="teraui"
       startContent={
         <div className="pointer-events-none flex items-center">
           <span className="text-default-400 text-sm">https://</span>
@@ -478,7 +478,7 @@ export const Disabled = {
 
   args: {
     ...defaultProps,
-    defaultValue: "junior@nextui.org",
+    defaultValue: "junior@teraui.org",
     variant: "faded",
     isDisabled: true,
   },
@@ -489,7 +489,7 @@ export const ReadOnly = {
 
   args: {
     ...defaultProps,
-    defaultValue: "junior@nextui.org",
+    defaultValue: "junior@teraui.org",
     variant: "bordered",
     isReadOnly: true,
   },
@@ -541,7 +541,7 @@ export const Clearable = {
     ...defaultProps,
     variant: "bordered",
     placeholder: "Enter your email",
-    defaultValue: "junior@nextui.org",
+    defaultValue: "junior@teraui.org",
     // eslint-disable-next-line no-console
     onClear: () => console.log("input cleared"),
   },

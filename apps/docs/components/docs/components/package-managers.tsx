@@ -44,7 +44,7 @@ export const PackageManagers = ({commands}: PackageManagersProps) => {
 
   return (
     <Tabs
-      aria-label="NextUI installation commands"
+      aria-label="TeraUI installation commands"
       classNames={{
         base: "group mt-4",
         tabList: "h-10",

@@ -11,7 +11,7 @@ export const VercelCallout: React.FC<unknown> = () => {
     <Link
       isExternal
       className="flex justify-end items-center gap-2 text-foreground"
-      href="https://www.vercel.com?utm_source=nextui&utm_marketing=oss"
+      href="https://www.vercel.com?utm_source=teraui&utm_marketing=oss"
       onClick={() => {
         trackEvent("VercelCallout", {
           name: "vercel callout",

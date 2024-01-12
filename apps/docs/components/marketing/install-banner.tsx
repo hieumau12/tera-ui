@@ -22,10 +22,10 @@ const bannerSuggestions = [
     href: "/docs/guide/installation",
   },
   {
-    title: "NextUI + Next.js",
+    title: "TeraUI + Next.js",
     description: (
       <>
-        NextUI is fully compatible with the new Next.js 13 <Code>app/</Code> directory structure.
+        TeraUI is fully compatible with the new Next.js 13 <Code>app/</Code> directory structure.
       </>
     ),
     icon: <NextJsIcon className="text-pink-500" />,

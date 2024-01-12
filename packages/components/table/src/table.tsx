@@ -104,6 +104,6 @@ const Table = forwardRef<"table", TableProps>((props, ref) => {
   );
 });
 
-Table.displayName = "NextUI.Table";
+Table.displayName = "TeraUI.Table";
 
 export default Table;

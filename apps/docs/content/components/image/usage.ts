@@ -4,8 +4,8 @@ export default function App() {
   return (
     <Image
       width={300}
-      alt="NextUI hero Image"
-      src="https://nextui-docs-v2.vercel.app/images/hero-card-complete.jpeg"
+      alt="TeraUI hero Image"
+      src="https://teraui-docs-v2.vercel.app/images/hero-card-complete.jpeg"
     />
   );
 }`;

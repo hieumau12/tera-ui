@@ -1,4 +1,4 @@
-import type {HTMLNextUIProps, PropGetter} from "@tera-ui/system";
+import type {HTMLTeraUIProps, PropGetter} from "@tera-ui/system";
 import type {PopoverProps} from "@tera-ui/popover";
 import type {MenuTriggerType} from "@react-types/menu";
 import type {Ref} from "react";
@@ -12,7 +12,7 @@ import {useMemo, useRef} from "react";
 import {mergeProps} from "@react-aria/utils";
 import {MenuProps} from "@tera-ui/menu";
 
-interface Props extends HTMLNextUIProps<"div"> {
+interface Props extends HTMLTeraUIProps<"div"> {
   /**
    * Type of overlay that is opened by the trigger.
    */

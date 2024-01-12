@@ -19,7 +19,7 @@ import {FloatingTabs} from "./floating-tabs";
 import {UserTwitterCard} from "@/components/demos/user-twitter-card";
 import {useIsMounted} from "@/hooks/use-is-mounted";
 import {useMediaQuery} from "@/hooks/use-media-query";
-import {NextUILogo} from "@/components/nextui-logo";
+import {TeraUILogo} from "@/components/teraui-logo";
 
 export const FloatingComponents: React.FC<{}> = () => {
   const {theme, setTheme} = useTheme();
@@ -52,7 +52,7 @@ export const FloatingComponents: React.FC<{}> = () => {
         <Input
           className="absolute -top-[130px] -right-[120px] animate-[levitate_10s_ease_infinite] w-[200px]"
           color="secondary"
-          defaultValue="NextUI"
+          defaultValue="TeraUI"
           label="Input"
           labelPlacement="outside"
           variant="bordered"
@@ -86,7 +86,7 @@ export const FloatingComponents: React.FC<{}> = () => {
           shadow="lg"
         >
           <CardBody>
-            <NextUILogo small size={60} />
+            <TeraUILogo small size={60} />
           </CardBody>
         </Card>
 

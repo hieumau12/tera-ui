@@ -1,7 +1,7 @@
 import type {ChipVariantProps, ChipSlots, SlotsToClasses} from "@tera-ui/theme";
 import type {ReactNode} from "react";
 
-import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
+import {HTMLTeraUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
 import {mergeProps} from "@react-aria/utils";
 import {usePress} from "@tera-ui/use-aria-press";
 import {useFocusRing} from "@react-aria/focus";
@@ -12,7 +12,7 @@ import {ReactRef} from "@tera-ui/react-utils";
 import {useMemo, isValidElement, cloneElement} from "react";
 import {PressEvent} from "@react-types/shared";
 
-export interface UseChipProps extends HTMLNextUIProps, ChipVariantProps {
+export interface UseChipProps extends HTMLTeraUIProps, ChipVariantProps {
   /**
    * Ref to the DOM node.
    */

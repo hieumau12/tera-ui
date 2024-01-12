@@ -2,7 +2,7 @@
 
 Code is a component used to display inline code.
 
-Please refer to the [documentation](https://nextui.org/docs/components/code) for more information.
+Please refer to the [documentation](https://teraui.org/docs/components/code) for more information.
 
 ## Installation
 

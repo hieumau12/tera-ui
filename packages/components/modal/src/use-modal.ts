@@ -5,7 +5,7 @@ import {AriaModalOverlayProps} from "@react-aria/overlays";
 import {useAriaModalOverlay} from "@tera-ui/use-aria-modal-overlay";
 import {useCallback, useId, useRef, useState, useMemo, ReactNode} from "react";
 import {modal} from "@tera-ui/theme";
-import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
+import {HTMLTeraUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
 import {useAriaButton} from "@tera-ui/use-aria-button";
 import {useFocusRing} from "@react-aria/focus";
 import {clsx, dataAttr} from "@tera-ui/shared-utils";
@@ -14,7 +14,7 @@ import {useOverlayTriggerState} from "@react-stately/overlays";
 import {OverlayTriggerProps} from "@react-stately/overlays";
 import {mergeRefs, mergeProps} from "@react-aria/utils";
 
-interface Props extends HTMLNextUIProps<"section"> {
+interface Props extends HTMLTeraUIProps<"section"> {
   /**
    * Ref to the DOM node.
    */

@@ -1,6 +1,6 @@
 ---
 title: Next.js
-description: How to use NextUI with Next.js
+description: How to use TeraUI with Next.js
 ---
 
 # Next.js
@@ -17,23 +17,23 @@ Requirements:
 
 <CarbonAd />
 
-To use NextUI in your Next.js project, you need to follow the steps below, depending on your project structure.
+To use TeraUI in your Next.js project, you need to follow the steps below, depending on your project structure.
 
 ## App Directory Setup
 
 Next.js 13 introduces a new `app/` directory structure. By default it uses Server Components.
-As NextUI components use React hooks, we added the `use client;` at build time, so you can import them
+As TeraUI components use React hooks, we added the `use client;` at build time, so you can import them
 directly in your React Server Components (RSC).
 
 ### create-next-app
 
-If you are starting a new project, you can run one of the following commands to create a Next.js project pre-configured with NextUI:
+If you are starting a new project, you can run one of the following commands to create a Next.js project pre-configured with TeraUI:
 
 <PackageManagers
   commands={{
-    npm: 'npx create-next-app -e https://github.com/nextui-org/next-app-template',
-    yarn: 'yarn create next-app -e https://github.com/nextui-org/next-app-template',
-    pnpm: 'pnpm create next-app -e https://github.com/nextui-org/next-app-template'
+    npm: 'npx create-next-app -e https://github.com/teraui-org/next-app-template',
+    yarn: 'yarn create next-app -e https://github.com/teraui-org/next-app-template',
+    pnpm: 'pnpm create next-app -e https://github.com/teraui-org/next-app-template'
   }}
 />
 
@@ -43,7 +43,7 @@ If you are starting a new project, you can run one of the following commands to 
 
 ### Add dependencies
 
-In your Next.js project, run one of the following commands to install NextUI:
+In your Next.js project, run one of the following commands to install TeraUI:
 
 <PackageManagers
   commands={{
@@ -55,14 +55,14 @@ In your Next.js project, run one of the following commands to install NextUI:
 
 ### Tailwind CSS Setup
 
-NextUI is built on top of Tailwind CSS, so you need to install Tailwind CSS first. You can follow the official
+TeraUI is built on top of Tailwind CSS, so you need to install Tailwind CSS first. You can follow the official
 [installation guide](https://tailwindcss.com/docs/guides/nextjs) to install Tailwind CSS. Then you need to add
 the following code to your `tailwind.config.js` file:
 
 
 ```js {8,13-14}
 // tailwind.config.js
-import {nextui} from "@tera-ui/react";
+import {teraui} from "@tera-ui/react";
 
 /** @type {import('tailwindcss').Config} */
 const config = {
@@ -74,7 +74,7 @@ const config = {
     extend: {},
   },
   darkMode: "class",
-  plugins: [nextui()]
+  plugins: [teraui()]
 }
 
 export default config;
@@ -82,19 +82,19 @@ export default config;
 
 ### Setup Provider
 
-Go to your `app/providers.tsx` or `app/providers.jsx` (create it if it doesn't exist) and wrap the Component with the `NextUIProvider`:
+Go to your `app/providers.tsx` or `app/providers.jsx` (create it if it doesn't exist) and wrap the Component with the `TeraUIProvider`:
 
 ```jsx
 // app/providers.tsx
 'use client'
 
-import {NextUIProvider} from '@tera-ui/react'
+import {TeraUIProvider} from '@tera-ui/react'
 
 export function Providers({children}: { children: React.ReactNode }) {
   return (
-    <NextUIProvider>
+    <TeraUIProvider>
       {children}
-    </NextUIProvider>
+    </TeraUIProvider>
   )
 }
 ```
@@ -120,13 +120,13 @@ export default function RootLayout({children}: { children: React.ReactNode }) {
 }
 ```
 
-> **Note**: NextUI automatically adds two themes, `light` and `dark`, to your application. You can use any
+> **Note**: TeraUI automatically adds two themes, `light` and `dark`, to your application. You can use any
 of them by adding the `dark`/`light` class to the `html` tag. See the [theme docs](/docs/customization/customize-theme) for more details.
 
 
-### Use NextUI Components
+### Use TeraUI Components
 
-Now you can import any NextUI component directly in your Server Components without needing to use
+Now you can import any TeraUI component directly in your Server Components without needing to use
 the `use client;` directive:
 
 ```jsx {2}
@@ -164,13 +164,13 @@ If you are using the `/pages` Next.js project structure, you need to follow the 
 
 ### create-next-app
 
-If you are starting a new project, you can run one of the following commands to create a Next.js project pre-configured with NextUI:
+If you are starting a new project, you can run one of the following commands to create a Next.js project pre-configured with TeraUI:
 
 <PackageManagers
   commands={{
-    npm: 'npx create-next-app -e https://github.com/nextui-org/next-pages-template',
-    yarn: 'yarn create next-app -e https://github.com/nextui-org/next-pages-template',
-    pnpm: 'pnpm create next-app -e https://github.com/nextui-org/next-pages-template'
+    npm: 'npx create-next-app -e https://github.com/teraui-org/next-pages-template',
+    yarn: 'yarn create next-app -e https://github.com/teraui-org/next-pages-template',
+    pnpm: 'pnpm create next-app -e https://github.com/teraui-org/next-pages-template'
   }}
 />
 
@@ -180,7 +180,7 @@ If you are starting a new project, you can run one of the following commands to 
 
 ### Add dependencies
 
-In your Next.js project, run one of the following commands to install NextUI:
+In your Next.js project, run one of the following commands to install TeraUI:
 
 <PackageManagers
   commands={{
@@ -192,14 +192,14 @@ In your Next.js project, run one of the following commands to install NextUI:
 
 ### Tailwind CSS Setup
 
-NextUI is built on top of Tailwind CSS, so you need to install Tailwind CSS first. You can follow the official
+TeraUI is built on top of Tailwind CSS, so you need to install Tailwind CSS first. You can follow the official
 [installation guide](https://tailwindcss.com/docs/guides/nextjs) to install Tailwind CSS. Then you need to add
 the following code to your `tailwind.config.js` file:
 
 
 ```js {8,13-14}
 // tailwind.config.js
-import {nextui} from "@tera-ui/react";
+import {teraui} from "@tera-ui/react";
 
 /** @type {import('tailwindcss').Config} */
 const config = {
@@ -211,7 +211,7 @@ const config = {
     extend: {},
   },
   darkMode: "class",
-  plugins: [nextui()]
+  plugins: [teraui()]
 }
 
 export default config;
@@ -219,26 +219,26 @@ export default config;
 
 ### Setup Provider
 
-Go to pages`/_app.js` or `pages/_app.tsx` (create it if it doesn't exist) and wrap the Component with the `NextUIProvider`:
+Go to pages`/_app.js` or `pages/_app.tsx` (create it if it doesn't exist) and wrap the Component with the `TeraUIProvider`:
 
 ```jsx
 // pages/_app.js
-import {NextUIProvider} from '@tera-ui/react'
+import {TeraUIProvider} from '@tera-ui/react'
 
 function MyApp({ Component, pageProps }) {
   return (
-    <NextUIProvider>
+    <TeraUIProvider>
       <Component {...pageProps} />
-    </NextUIProvider>
+    </TeraUIProvider>
   )
 }
 
 export default MyApp;
 ```
 
-### Use NextUI Components
+### Use TeraUI Components
 
-Now you can import any NextUI component wherever you want:
+Now you can import any TeraUI component wherever you want:
 
 ```jsx
 import {Button} from '@tera-ui/react'
@@ -267,5 +267,5 @@ After modifying the `.npmrc` file, you must run `pnpm install` again to ensure t
 <Blockquote
  color="warning"
 >
-  Version 2 is only compatible with React 18 or later. If you are using React 17 or earlier, please use <Link href="https://v1.nextui.org/docs/getting-started" isExternal>version 1 of NextUI</Link>.
+  Version 2 is only compatible with React 18 or later. If you are using React 17 or earlier, please use <Link href="https://v1.teraui.org/docs/getting-started" isExternal>version 1 of TeraUI</Link>.
 </Blockquote>

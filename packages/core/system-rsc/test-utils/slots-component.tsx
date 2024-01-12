@@ -1,4 +1,4 @@
-import type {HTMLNextUIProps} from "../src/types";
+import type {HTMLTeraUIProps} from "../src/types";
 
 import React, {useMemo} from "react";
 import {SlotsToClasses, tv, type VariantProps} from "@tera-ui/theme";
@@ -155,7 +155,7 @@ const card = tv({
 type CardVariantProps = VariantProps<typeof card>;
 type CardSlots = keyof ReturnType<typeof card>;
 
-interface CardProps extends HTMLNextUIProps, CardVariantProps {
+interface CardProps extends HTMLTeraUIProps, CardVariantProps {
   header?: React.ReactNode;
   footer?: React.ReactNode;
   children: React.ReactNode;

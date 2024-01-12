@@ -48,7 +48,7 @@ async function redirect() {
     },
     {
       source: "/v2",
-      destination: "/blog/nextui-v2",
+      destination: "/blog/teraui-v2",
       permanent: true,
     },
     {
@@ -123,7 +123,7 @@ async function redirect() {
       permanent: true,
     },
     {
-      source: "/docs/guide/nextui-plus-nextjs",
+      source: "/docs/guide/teraui-plus-nextjs",
       destination: "/docs/frameworks/nextjs",
       permanent: true,
     },

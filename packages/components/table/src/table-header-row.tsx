@@ -1,6 +1,6 @@
 import type {GridNode} from "@react-types/grid";
 
-import {forwardRef, HTMLNextUIProps} from "@tera-ui/system";
+import {forwardRef, HTMLTeraUIProps} from "@tera-ui/system";
 import {useDOMRef, filterDOMProps} from "@tera-ui/react-utils";
 import {clsx} from "@tera-ui/shared-utils";
 import {useTableHeaderRow} from "@react-aria/table";
@@ -9,7 +9,7 @@ import {mergeProps} from "@react-aria/utils";
 import {ValuesType} from "./use-table";
 
 // @internal
-export interface TableHeaderRowProps<T = object> extends HTMLNextUIProps<"tr"> {
+export interface TableHeaderRowProps<T = object> extends HTMLTeraUIProps<"tr"> {
   /**
    * The table node to render.
    */
@@ -47,6 +47,6 @@ const TableHeaderRow = forwardRef<"tr", TableHeaderRowProps>((props, ref) => {
   );
 });
 
-TableHeaderRow.displayName = "NextUI.TableHeaderRow";
+TableHeaderRow.displayName = "TeraUI.TableHeaderRow";
 
 export default TableHeaderRow;

@@ -1,4 +1,4 @@
-import {forwardRef, HTMLNextUIProps} from "@tera-ui/system";
+import {forwardRef, HTMLTeraUIProps} from "@tera-ui/system";
 import {useDOMRef} from "@tera-ui/react-utils";
 import {clsx} from "@tera-ui/shared-utils";
 import {useTableRowGroup} from "@react-aria/table";
@@ -6,7 +6,7 @@ import {mergeProps} from "@react-aria/utils";
 
 import {ValuesType} from "./use-table";
 
-export interface TableRowGroupProps extends HTMLNextUIProps<"thead"> {
+export interface TableRowGroupProps extends HTMLTeraUIProps<"thead"> {
   slots: ValuesType["slots"];
   classNames?: ValuesType["classNames"];
 }
@@ -32,6 +32,6 @@ const TableRowGroup = forwardRef<"thead", TableRowGroupProps>((props, ref) => {
   );
 });
 
-TableRowGroup.displayName = "NextUI.TableRowGroup";
+TableRowGroup.displayName = "TeraUI.TableRowGroup";
 
 export default TableRowGroup;

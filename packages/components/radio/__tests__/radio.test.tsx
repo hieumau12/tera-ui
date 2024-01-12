@@ -1,5 +1,6 @@
 import * as React from "react";
 import {act, render} from "@testing-library/react";
+import ReactDOM from "react-dom/client";
 
 import {RadioGroup, Radio, RadioGroupProps} from "../src";
 
@@ -144,14 +145,18 @@ describe("Radio", () => {
   });
 
   it('should work correctly with "isRequired" prop', () => {
-    const {container} = render(
-      <RadioGroup isRequired label="Options">
-        <Radio value="1">Option 1</Radio>
-        <Radio className="radio-test-2" value="2">
-          Option 2
-        </Radio>
-      </RadioGroup>,
-    );
+    const container = document.createElement("div");
+
+    act(() => {
+      ReactDOM.createRoot(container).render(
+        <RadioGroup isRequired label="Options">
+          <Radio value="1">Option 1</Radio>
+          <Radio className="radio-test-2" value="2">
+            Option 2
+          </Radio>
+        </RadioGroup>,
+      );
+    });
 
     let radio2 = container
       .querySelector(".radio-test-2")

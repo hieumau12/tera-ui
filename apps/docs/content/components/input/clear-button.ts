@@ -8,7 +8,7 @@ export default function App() {
       label="Email"
       variant="bordered"
       placeholder="Enter your email"
-      defaultValue="junior@nextui.org"
+      defaultValue="junior@teraui.org"
       onClear={() => console.log("input cleared")}
       className="max-w-xs"
     />

@@ -1,7 +1,7 @@
 const App = `import {Input} from "@tera-ui/react";
 
 export default function App() {
-  const [value, setValue] = React.useState("junior2nextui.org");
+  const [value, setValue] = React.useState("junior2teraui.org");
 
   const validateEmail = (value) => value.match(/^[A-Z0-9._%+-]+@[A-Z0-9.-]+.[A-Z]{2,4}$/i);
 

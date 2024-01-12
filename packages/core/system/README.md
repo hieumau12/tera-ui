@@ -1,8 +1,8 @@
 # @tera-ui/system
 
-NextUI system primitives, here you can find the `extendVariants` utility, `NextUIProvider` and some other utilities.
+TeraUI system primitives, here you can find the `extendVariants` utility, `TeraUIProvider` and some other utilities.
 
-Please refer to the [documentation](https://nextui.org) for more information.
+Please refer to the [documentation](https://teraui.org) for more information.
 
 ## Installation
 

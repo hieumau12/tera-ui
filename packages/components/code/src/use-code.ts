@@ -1,12 +1,12 @@
 import type {CodeVariantProps} from "@tera-ui/theme";
-import type {HTMLNextUIProps, PropGetter} from "@tera-ui/system-rsc";
+import type {HTMLTeraUIProps, PropGetter} from "@tera-ui/system-rsc";
 
 import {code} from "@tera-ui/theme";
 import {mapPropsVariants} from "@tera-ui/system-rsc";
 import {ReactRef} from "@tera-ui/react-utils";
 import {useMemo} from "react";
 
-export interface UseCodeProps extends HTMLNextUIProps<"code">, CodeVariantProps {
+export interface UseCodeProps extends HTMLTeraUIProps<"code">, CodeVariantProps {
   /**
    * Ref to the DOM node.
    */

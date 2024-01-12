@@ -124,6 +124,6 @@ const Input = forwardRef<"input", InputProps>((props, ref) => {
   );
 });
 
-Input.displayName = "NextUI.Input";
+Input.displayName = "TeraUI.Input";
 
 export default Input;

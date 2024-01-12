@@ -7569,14 +7569,14 @@
     }
   },
   {
-    "content": "Use NextUI Components",
+    "content": "Use TeraUI Components",
     "objectID": "9ed24a2e-7a06-4105-9af6-300ce5e2c9b4",
     "type": "lvl3",
-    "url": "/docs/frameworks/nextjs#use-nextui-components",
+    "url": "/docs/frameworks/nextjs#use-teraui-components",
     "hierarchy": {
       "lvl1": "Next.js",
       "lvl2": "Add Provider to Root",
-      "lvl3": "Use NextUI Components"
+      "lvl3": "Use TeraUI Components"
     }
   },
   {
@@ -7586,7 +7586,7 @@
     "url": "/docs/frameworks/nextjs#setup-pnpm-optional",
     "hierarchy": {
       "lvl1": "Next.js",
-      "lvl2": "Use NextUI Components",
+      "lvl2": "Use TeraUI Components",
       "lvl3": "Setup pnpm (optional)"
     }
   },
@@ -7657,14 +7657,14 @@
     }
   },
   {
-    "content": "Use NextUI Components",
+    "content": "Use TeraUI Components",
     "objectID": "e8a271d3-be30-40d5-87c7-850a0a613b4e",
     "type": "lvl3",
-    "url": "/docs/frameworks/nextjs#use-nextui-components-1",
+    "url": "/docs/frameworks/nextjs#use-teraui-components-1",
     "hierarchy": {
       "lvl1": "Next.js",
       "lvl2": "Setup Provider",
-      "lvl3": "Use NextUI Components"
+      "lvl3": "Use TeraUI Components"
     }
   },
   {
@@ -7674,7 +7674,7 @@
     "url": "/docs/frameworks/nextjs#setup-pnpm-optional-1",
     "hierarchy": {
       "lvl1": "Next.js",
-      "lvl2": "Use NextUI Components",
+      "lvl2": "Use TeraUI Components",
       "lvl3": "Setup pnpm (optional)"
     }
   },
@@ -8003,13 +8003,13 @@
     "hierarchy": { "lvl1": "Introduction" }
   },
   {
-    "content": "What is NextUI?",
+    "content": "What is TeraUI?",
     "objectID": "1b056bf9-e80d-4585-a338-5f7ec0e7d34d",
     "type": "lvl2",
-    "url": "/docs/guide/introduction#what-is-nextui",
+    "url": "/docs/guide/introduction#what-is-teraui",
     "hierarchy": {
       "lvl1": "Introduction",
-      "lvl2": "What is NextUI?",
+      "lvl2": "What is TeraUI?",
       "lvl3": null
     }
   },
@@ -8021,91 +8021,91 @@
     "hierarchy": { "lvl1": "Introduction", "lvl2": "FAQ", "lvl3": null }
   },
   {
-    "content": "Is NextUI a Vercel related project?",
+    "content": "Is TeraUI a Vercel related project?",
     "objectID": "78fdc213-271c-4909-a842-3fda85d19e44",
     "type": "lvl3",
-    "url": "/docs/guide/introduction#is-nextui-a-vercel-related-project",
+    "url": "/docs/guide/introduction#is-teraui-a-vercel-related-project",
     "hierarchy": {
       "lvl1": "Introduction",
       "lvl2": "FAQ",
-      "lvl3": "Is NextUI a Vercel related project?"
+      "lvl3": "Is TeraUI a Vercel related project?"
     }
   },
   {
-    "content": "How is NextUI different from TailwindCSS?",
+    "content": "How is TeraUI different from TailwindCSS?",
     "objectID": "d4c31e84-4b5f-4a74-bf05-55281468f0a1",
     "type": "lvl3",
-    "url": "/docs/guide/introduction#how-is-nextui-different-from-tailwindcss",
+    "url": "/docs/guide/introduction#how-is-teraui-different-from-tailwindcss",
     "hierarchy": {
       "lvl1": "Introduction",
-      "lvl2": "Is NextUI a Vercel related project?",
-      "lvl3": "How is NextUI different from TailwindCSS?"
+      "lvl2": "Is TeraUI a Vercel related project?",
+      "lvl3": "How is TeraUI different from TailwindCSS?"
     }
   },
   {
-    "content": "How is NextUI different from TailwindCSS components libraries?",
+    "content": "How is TeraUI different from TailwindCSS components libraries?",
     "objectID": "cd306189-26b3-4820-93fc-8b23d6120f57",
     "type": "lvl3",
-    "url": "/docs/guide/introduction#how-is-nextui-different-from-tailwindcss-components-libraries",
+    "url": "/docs/guide/introduction#how-is-teraui-different-from-tailwindcss-components-libraries",
     "hierarchy": {
       "lvl1": "Introduction",
-      "lvl2": "How is NextUI different from TailwindCSS?",
-      "lvl3": "How is NextUI different from TailwindCSS components libraries?"
+      "lvl2": "How is TeraUI different from TailwindCSS?",
+      "lvl3": "How is TeraUI different from TailwindCSS components libraries?"
     }
   },
   {
-    "content": "How NextUI deals with TailwindCSS classes conflicts?",
+    "content": "How TeraUI deals with TailwindCSS classes conflicts?",
     "objectID": "eaea6c95-bc17-4a2b-969b-c43ea134c1c4",
     "type": "lvl3",
-    "url": "/docs/guide/introduction#how-nextui-deals-with-tailwindcss-classes-conflicts",
+    "url": "/docs/guide/introduction#how-teraui-deals-with-tailwindcss-classes-conflicts",
     "hierarchy": {
       "lvl1": "Introduction",
-      "lvl2": "How is NextUI different from TailwindCSS components libraries?",
-      "lvl3": "How NextUI deals with TailwindCSS classes conflicts?"
+      "lvl2": "How is TeraUI different from TailwindCSS components libraries?",
+      "lvl3": "How TeraUI deals with TailwindCSS classes conflicts?"
     }
   },
   {
-    "content": "Does NextUI use runtime CSS?",
+    "content": "Does TeraUI use runtime CSS?",
     "objectID": "15274277-e377-4294-9151-0c3ac9b1f566",
     "type": "lvl3",
-    "url": "/docs/guide/introduction#does-nextui-use-runtime-css",
+    "url": "/docs/guide/introduction#does-teraui-use-runtime-css",
     "hierarchy": {
       "lvl1": "Introduction",
-      "lvl2": "How NextUI deals with TailwindCSS classes conflicts?",
-      "lvl3": "Does NextUI use runtime CSS?"
+      "lvl2": "How TeraUI deals with TailwindCSS classes conflicts?",
+      "lvl3": "Does TeraUI use runtime CSS?"
     }
   },
   {
-    "content": "Does NextUI support TypeScript?",
+    "content": "Does TeraUI support TypeScript?",
     "objectID": "52f3454b-620f-4c72-98eb-2f91ff8828ca",
     "type": "lvl3",
-    "url": "/docs/guide/introduction#does-nextui-support-typescript",
+    "url": "/docs/guide/introduction#does-teraui-support-typescript",
     "hierarchy": {
       "lvl1": "Introduction",
-      "lvl2": "Does NextUI use runtime CSS?",
-      "lvl3": "Does NextUI support TypeScript?"
+      "lvl2": "Does TeraUI use runtime CSS?",
+      "lvl3": "Does TeraUI support TypeScript?"
     }
   },
   {
-    "content": "Can I use NextUI with other front-end frameworks or libraries, such as Vue or Angular?",
+    "content": "Can I use TeraUI with other front-end frameworks or libraries, such as Vue or Angular?",
     "objectID": "5db21ede-c294-4629-b351-0a63607a80a2",
     "type": "lvl3",
-    "url": "/docs/guide/introduction#can-i-use-nextui-with-other-front-end-frameworks-or-libraries-such-as-vue-or-angular",
+    "url": "/docs/guide/introduction#can-i-use-teraui-with-other-front-end-frameworks-or-libraries-such-as-vue-or-angular",
     "hierarchy": {
       "lvl1": "Introduction",
-      "lvl2": "Does NextUI support TypeScript?",
-      "lvl3": "Can I use NextUI with other front-end frameworks or libraries, such as Vue or Angular?"
+      "lvl2": "Does TeraUI support TypeScript?",
+      "lvl3": "Can I use TeraUI with other front-end frameworks or libraries, such as Vue or Angular?"
     }
   },
   {
-    "content": "Why NextUI uses Framer Motion?",
+    "content": "Why TeraUI uses Framer Motion?",
     "objectID": "55090f13-5963-47e9-bca3-23aea9f10a29",
     "type": "lvl3",
-    "url": "/docs/guide/introduction#why-nextui-uses-framer-motion",
+    "url": "/docs/guide/introduction#why-teraui-uses-framer-motion",
     "hierarchy": {
       "lvl1": "Introduction",
-      "lvl2": "Can I use NextUI with other front-end frameworks or libraries, such as Vue or Angular?",
-      "lvl3": "Why NextUI uses Framer Motion?"
+      "lvl2": "Can I use TeraUI with other front-end frameworks or libraries, such as Vue or Angular?",
+      "lvl3": "Why TeraUI uses Framer Motion?"
     }
   },
   {
@@ -8141,14 +8141,14 @@
     "hierarchy": { "lvl1": "Routing", "lvl2": "Introduction", "lvl3": null }
   },
   {
-    "content": "NextUIProvider Setup",
+    "content": "TeraUIProvider Setup",
     "objectID": "b23a5eae-58bf-4c10-8672-55a2fb42bb54",
     "type": "lvl3",
-    "url": "/docs/guide/routing#nextuiprovider-setup",
+    "url": "/docs/guide/routing#terauiprovider-setup",
     "hierarchy": {
       "lvl1": "Routing",
       "lvl2": "Introduction",
-      "lvl3": "NextUIProvider Setup"
+      "lvl3": "TeraUIProvider Setup"
     }
   },
   {
@@ -8158,7 +8158,7 @@
     "url": "/docs/guide/routing#nextjs",
     "hierarchy": {
       "lvl1": "Routing",
-      "lvl2": "NextUIProvider Setup",
+      "lvl2": "TeraUIProvider Setup",
       "lvl3": "Next.js"
     }
   },
@@ -8301,14 +8301,14 @@
     }
   },
   {
-    "content": "Use NextUI Components",
+    "content": "Use TeraUI Components",
     "objectID": "e9c278a1-a594-4961-85e5-2ddda9293c9f",
     "type": "lvl3",
-    "url": "/docs/guide/upgrade-to-v2#use-nextui-components",
+    "url": "/docs/guide/upgrade-to-v2#use-teraui-components",
     "hierarchy": {
       "lvl1": "Upgrade to v2",
       "lvl2": "Add Provider to Root",
-      "lvl3": "Use NextUI Components"
+      "lvl3": "Use TeraUI Components"
     }
   },
   {
@@ -8318,7 +8318,7 @@
     "url": "/docs/guide/upgrade-to-v2#setup-pnpm-optional",
     "hierarchy": {
       "lvl1": "Upgrade to v2",
-      "lvl2": "Use NextUI Components",
+      "lvl2": "Use TeraUI Components",
       "lvl3": "Setup pnpm (optional)"
     }
   },
@@ -8367,14 +8367,14 @@
     }
   },
   {
-    "content": "Use NextUI Components",
+    "content": "Use TeraUI Components",
     "objectID": "dcd8eb18-4961-4fbf-a749-5b088c0f7860",
     "type": "lvl3",
-    "url": "/docs/guide/upgrade-to-v2#use-nextui-components-1",
+    "url": "/docs/guide/upgrade-to-v2#use-teraui-components-1",
     "hierarchy": {
       "lvl1": "Upgrade to v2",
       "lvl2": "Setup Provider",
-      "lvl3": "Use NextUI Components"
+      "lvl3": "Use TeraUI Components"
     }
   },
   {
@@ -8384,7 +8384,7 @@
     "url": "/docs/guide/upgrade-to-v2#setup-pnpm-optional-1",
     "hierarchy": {
       "lvl1": "Upgrade to v2",
-      "lvl2": "Use NextUI Components",
+      "lvl2": "Use TeraUI Components",
       "lvl3": "Setup pnpm (optional)"
     }
   },
@@ -8444,14 +8444,14 @@
     }
   },
   {
-    "content": "Use NextUI Components",
+    "content": "Use TeraUI Components",
     "objectID": "060edb9d-07a8-40f2-aae3-fcd3aeac501a",
     "type": "lvl3",
-    "url": "/docs/guide/upgrade-to-v2#use-nextui-components-2",
+    "url": "/docs/guide/upgrade-to-v2#use-teraui-components-2",
     "hierarchy": {
       "lvl1": "Upgrade to v2",
       "lvl2": "Provider Setup",
-      "lvl3": "Use NextUI Components"
+      "lvl3": "Use TeraUI Components"
     }
   },
   {
@@ -8461,7 +8461,7 @@
     "url": "/docs/guide/upgrade-to-v2#setup-pnpm-optional-2",
     "hierarchy": {
       "lvl1": "Upgrade to v2",
-      "lvl2": "Use NextUI Components",
+      "lvl2": "Use TeraUI Components",
       "lvl3": "Setup pnpm (optional)"
     }
   }

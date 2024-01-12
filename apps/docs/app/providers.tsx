@@ -1,7 +1,7 @@
 "use client";
 
 import * as React from "react";
-import {NextUIProvider} from "@tera-ui/react";
+import {TeraUIProvider} from "@tera-ui/react";
 import {ThemeProvider as NextThemesProvider} from "next-themes";
 import {ThemeProviderProps} from "next-themes/dist/types";
 import {useRouter} from "next/navigation";
@@ -15,8 +15,8 @@ export function Providers({children, themeProps}: ProvidersProps) {
   const router = useRouter();
 
   return (
-    <NextUIProvider navigate={router.push}>
+    <TeraUIProvider navigate={router.push}>
       <NextThemesProvider {...themeProps}>{children}</NextThemesProvider>
-    </NextUIProvider>
+    </TeraUIProvider>
   );
 }

@@ -156,6 +156,6 @@ const Textarea = forwardRef<"textarea", TextAreaProps>(
   },
 );
 
-Textarea.displayName = "NextUI.Textarea";
+Textarea.displayName = "TeraUI.Textarea";
 
 export default Textarea;

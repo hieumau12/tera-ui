@@ -48,6 +48,6 @@ const Switch = forwardRef<"input", SwitchProps>((props, ref) => {
   );
 });
 
-Switch.displayName = "NextUI.Switch";
+Switch.displayName = "TeraUI.Switch";
 
 export default Switch;

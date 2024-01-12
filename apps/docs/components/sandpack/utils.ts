@@ -71,7 +71,7 @@ export const getId = () => {
   return Math.random().toString(32).slice(2, 10);
 };
 
-export function getNextUIComponents(files: SandpackFiles): {[filePath: string]: string} {
+export function getTeraUIComponents(files: SandpackFiles): {[filePath: string]: string} {
   const output: {[filePath: string]: string} = {};
 
   for (const filePath in files) {
@@ -79,7 +79,7 @@ export function getNextUIComponents(files: SandpackFiles): {[filePath: string]: 
     const code = typeof file === "string" ? file : file.code;
 
     // Extract the import statements
-    const importStatements = extractNextUIImport(code);
+    const importStatements = extractTeraUIImport(code);
 
     // Convert the import statements
     const convertedImports = importStatements.map(convertImportStatement);
@@ -91,7 +91,7 @@ export function getNextUIComponents(files: SandpackFiles): {[filePath: string]: 
   return output;
 }
 
-export function extractNextUIImport(code: string): string[] {
+export function extractTeraUIImport(code: string): string[] {
   // Split the code into lines
   const lines = code.split("\n");
 

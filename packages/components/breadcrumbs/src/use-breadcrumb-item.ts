@@ -2,7 +2,7 @@ import type {BreadcrumbItemVariantProps, SlotsToClasses, BreadcrumbItemSlots} fr
 import type {ReactNode} from "react";
 import type {BreadcrumbItemProps as AriaBreadcrumbItemProps} from "@react-types/breadcrumbs";
 
-import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
+import {HTMLTeraUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
 import {useFocusRing} from "@react-aria/focus";
 import {breadcrumbItem} from "@tera-ui/theme";
 import {filterDOMProps, ReactRef, useDOMRef} from "@tera-ui/react-utils";
@@ -12,7 +12,7 @@ import {useMemo} from "react";
 import {mergeProps} from "@react-aria/utils";
 
 interface Props
-  extends Omit<HTMLNextUIProps<"li">, keyof AriaBreadcrumbItemProps>,
+  extends Omit<HTMLTeraUIProps<"li">, keyof AriaBreadcrumbItemProps>,
     AriaBreadcrumbItemProps {
   /**
    * Ref to the DOM node.

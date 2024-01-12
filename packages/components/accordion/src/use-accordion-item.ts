@@ -1,4 +1,4 @@
-import {HTMLNextUIProps, PropGetter} from "@tera-ui/system";
+import {HTMLTeraUIProps, PropGetter} from "@tera-ui/system";
 import {useFocusRing} from "@react-aria/focus";
 import {accordionItem} from "@tera-ui/theme";
 import {clsx, callAllHandlers, dataAttr} from "@tera-ui/shared-utils";
@@ -13,7 +13,7 @@ import {TreeState} from "@react-stately/tree";
 
 import {AccordionItemBaseProps} from "./base/accordion-item-base";
 
-export interface Props<T extends object> extends HTMLNextUIProps<"div"> {
+export interface Props<T extends object> extends HTMLTeraUIProps<"div"> {
   /**
    * Ref to the DOM node.
    */

@@ -28,6 +28,6 @@ const Link = forwardRef<"a", LinkProps>((props, ref) => {
   );
 });
 
-Link.displayName = "NextUI.Link";
+Link.displayName = "TeraUI.Link";
 
 export default Link;

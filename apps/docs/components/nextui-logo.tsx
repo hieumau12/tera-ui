@@ -46,7 +46,7 @@ export const LargeLogo: React.FC<LogoProps> = ({auto, className, ...props}) => (
   </svg>
 );
 
-export const NextUILogo: React.FC<LogoProps> = ({auto, small, ...props}) => {
+export const TeraUILogo: React.FC<LogoProps> = ({auto, small, ...props}) => {
   if (auto) {
     return (
       <div>

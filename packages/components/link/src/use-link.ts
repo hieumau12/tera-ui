@@ -3,7 +3,7 @@ import type {LinkVariantProps} from "@tera-ui/theme";
 
 import {link} from "@tera-ui/theme";
 import {useAriaLink} from "@tera-ui/use-aria-link";
-import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
+import {HTMLTeraUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
 import {useDOMRef} from "@tera-ui/react-utils";
 import {useFocusRing} from "@react-aria/focus";
 import {dataAttr} from "@tera-ui/shared-utils";
@@ -11,7 +11,7 @@ import {ReactRef} from "@tera-ui/react-utils";
 import {useMemo, useCallback} from "react";
 import {mergeProps} from "@react-aria/utils";
 
-interface Props extends HTMLNextUIProps<"a">, LinkVariantProps {
+interface Props extends HTMLTeraUIProps<"a">, LinkVariantProps {
   /**
    * Ref to the DOM node.
    */

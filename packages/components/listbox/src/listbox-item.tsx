@@ -62,6 +62,6 @@ const ListboxItem = forwardRef<"li", ListboxItemProps>((props, _) => {
   );
 });
 
-ListboxItem.displayName = "NextUI.ListboxItem";
+ListboxItem.displayName = "TeraUI.ListboxItem";
 
 export default ListboxItem;

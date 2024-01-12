@@ -3,10 +3,10 @@ import type {ReactRef} from "@tera-ui/react-utils";
 import type {ButtonGroupVariantProps} from "@tera-ui/theme";
 
 import {buttonGroup} from "@tera-ui/theme";
-import {HTMLNextUIProps, PropGetter, mapPropsVariants} from "@tera-ui/system";
+import {HTMLTeraUIProps, PropGetter, mapPropsVariants} from "@tera-ui/system";
 import {useDOMRef} from "@tera-ui/react-utils";
 import {useMemo, useCallback} from "react";
-interface Props extends HTMLNextUIProps, ButtonGroupVariantProps {
+interface Props extends HTMLTeraUIProps, ButtonGroupVariantProps {
   /**
    * Ref to the DOM node.
    */

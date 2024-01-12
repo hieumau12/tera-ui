@@ -1,11 +1,11 @@
 import {useEffect} from "react";
-import {forwardRef, HTMLNextUIProps} from "@tera-ui/system";
+import {forwardRef, HTMLTeraUIProps} from "@tera-ui/system";
 import {useDOMRef} from "@tera-ui/react-utils";
 import {clsx} from "@tera-ui/shared-utils";
 
 import {useModalContext} from "./modal-context";
 
-export interface ModalHeaderProps extends HTMLNextUIProps<"header"> {}
+export interface ModalHeaderProps extends HTMLTeraUIProps<"header"> {}
 
 const ModalHeader = forwardRef<"header", ModalHeaderProps>((props, ref) => {
   const {as, children, className, ...otherProps} = props;
@@ -38,6 +38,6 @@ const ModalHeader = forwardRef<"header", ModalHeaderProps>((props, ref) => {
   );
 });
 
-ModalHeader.displayName = "NextUI.ModalHeader";
+ModalHeader.displayName = "TeraUI.ModalHeader";
 
 export default ModalHeader;

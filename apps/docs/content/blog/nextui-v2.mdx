@@ -1,9 +1,9 @@
 ---
-title: "Introducing NextUI Version 2.0"
-description: "Discover NextUI v2.0 TailwindCSS integration, enhanced theming, improved animations, and more."
+title: "Introducing TeraUI Version 2.0"
+description: "Discover TeraUI v2.0 TailwindCSS integration, enhanced theming, improved animations, and more."
 date: "2023-07-31"
-image: "/blog/nextuiv2.jpg"
-tags: ["nextui", "tailwindcss", "react", "nextjs", "react-server-components"]
+image: "/blog/terauiv2.jpg"
+tags: ["teraui", "tailwindcss", "react", "nextjs", "react-server-components"]
 author:
   name: "Junior Garcia"
   username: "@jrgarciadev"
@@ -12,14 +12,14 @@ author:
 ---
 
 <img
-  src="/blog/nextuiv2.jpg"
+  src="/blog/terauiv2.jpg"
   width={700}
   height={350}
-  alt="NextUI v2"
+  alt="TeraUI v2"
   className="w-full border border-transparent dark:border-default-200/50 object-fit rounded-xl shadow-lg"
 />
 
-We're thrilled to announce the release of **NextUI v2.0**. Our mission has always been to create a more
+We're thrilled to announce the release of **TeraUI v2.0**. Our mission has always been to create a more
 efficient, flexible, **beautiful** and customizable UI library for you. And, this update is a huge leap
 towards achieving that.
 
@@ -40,7 +40,7 @@ towards achieving that.
 - [Dark Mode Support](#dark-mode-support) - Easier implementation of dark mode.
 - [New Components](#new-components) - Six new components added.
 - [Figma Community File](#figma-community-file) - Streamlining design-to-development process.
-- [Get Started](#get-started) - Get on board with NextUI v2.0.
+- [Get Started](#get-started) - Get on board with TeraUI v2.0.
 
 <Spacer y={4} />
 
@@ -52,17 +52,17 @@ towards achieving that.
 
 We've transitioned from [Stitches](https://stitches.dev/) to [TailwindCSS](https://tailwindcss.com/),
 eliminating runtime styles and bringing you a more flexible and customizable UI library. This change allows
-you to use NextUI v2 with the latest versions of [React](https://reactjs.org/) and [Next.js](https://nextjs.org/) without running
+you to use TeraUI v2 with the latest versions of [React](https://reactjs.org/) and [Next.js](https://nextjs.org/) without running
 into React Server Components issues.
 
 ### TailwindCSS Plugin
 
-NextUI v2.0 comes with a TailwindCSS plugin that enables the customization and addition of default themes.
-This plugin allows you to customize colors and layouts tokens that are used by NextUI components.
+TeraUI v2.0 comes with a TailwindCSS plugin that enables the customization and addition of default themes.
+This plugin allows you to customize colors and layouts tokens that are used by TeraUI components.
 
 ```js {8,13-14}
 // tailwind.config.js
-const {nextui} = require("@tera-ui/react");
+const {teraui} = require("@tera-ui/react");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -74,7 +74,7 @@ module.exports = {
     extend: {},
   },
   darkMode: "class",
-  plugins: [nextui()],
+  plugins: [teraui()],
 };
 ```
 
@@ -82,11 +82,11 @@ module.exports = {
 
 ### React Server Components Support
 
-Thanks to the switch to TailwindCSS, **NextUI v2.0** now supports React Server Components by default. This
+Thanks to the switch to TailwindCSS, **TeraUI v2.0** now supports React Server Components by default. This
 improves performance and allows you to use it with the latest versions of [React](https://reactjs.org/) and
 [Next.js](https://nextjs.org/).
 
-NextUI components already include the `use client;` directive so you can import them directly
+TeraUI components already include the `use client;` directive so you can import them directly
 in your React Server Components (RSC).
 
 ```jsx
@@ -104,13 +104,13 @@ export default function Page() {
 
 ### Custom Themes, Layouts and Colors
 
-The `nextui` TailwindCSS plugin allows you to customize the default themes, layouts and colors tokens. It
+The `teraui` TailwindCSS plugin allows you to customize the default themes, layouts and colors tokens. It
 also allows you to add new themes and customize them.
 
 ```js
 module.exports = {
   plugins: [
-    nextui({
+    teraui({
       themes: {
         light: {
           layout: {}, // light theme layout tokens
@@ -166,7 +166,7 @@ installation guides, are introduced to aid your app creation process.
 
 ### Custom Variants
 
-We've added a new function, `extendVariants`, that allows you to customize any NextUI components's variants.
+We've added a new function, `extendVariants`, that allows you to customize any TeraUI components's variants.
 
 <VideoInView
   src="https://d2u8k2ocievbld.cloudfront.net/custom-variants.mp4"
@@ -195,7 +195,7 @@ With the new slots model, you can style every part of your components effortless
 ### Tailwind Variants
 
 Our new library, [Tailwind Variants](https://tailwind-variants.org), allows you to write TailwindCSS for large components in a reusable
-and clear way. It automatically handles TailwindCSS class conflicts and all NextUI components are built on top of it.
+and clear way. It automatically handles TailwindCSS class conflicts and all TeraUI components are built on top of it.
 
 > Check out the [Tailwind Variants](https://tailwind-variants.org) documentation for more information.
 
@@ -233,24 +233,24 @@ you're actually using.
 
 ### Dark Mode Support
 
-Implementing dark mode has never been easier. Thanks to the `nextui` TailwindCSS plugin, you can now use the `dark` theme
+Implementing dark mode has never been easier. Thanks to the `teraui` TailwindCSS plugin, you can now use the `dark` theme
 by just adding the `dark` class to the `body` / `html` or `main` tag.
 
 ```jsx {11}
 // main.tsx or main.jsx
 import React from "react";
 import ReactDOM from "react-dom/client";
-import {NextUIProvider} from "@tera-ui/react";
+import {TeraUIProvider} from "@tera-ui/react";
 import App from "./App";
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <NextUIProvider>
+    <TeraUIProvider>
       <main className="dark text-foreground bg-background">
         <App />
       </main>
-    </NextUIProvider>
+    </TeraUIProvider>
   </React.StrictMode>,
 );
 ```
@@ -278,7 +278,7 @@ We've added 6 new components, expanding the possibilities of what you can create
 ## Figma Community File
 
 We're excited to also announce our **Figma Community File**. This file will enable you to easily translate
-your designs into NextUI components. Whether you're a solo developer or working with a design team, our Figma
+your designs into TeraUI components. Whether you're a solo developer or working with a design team, our Figma
 file helps streamline the process of transforming design ideas into functioning UI components.
 
 <Blockquote color="warning">
@@ -288,7 +288,7 @@ file helps streamline the process of transforming design ideas into functioning 
 <iframe
   height="600"
   width="800"
-  src="https://embed.figma.com/file/1267584376234254760/hf_embed?community_viewer=true&embed_host=nextui"
+  src="https://embed.figma.com/file/1267584376234254760/hf_embed?community_viewer=true&embed_host=teraui"
   className="aspect-video w-full border border-transparent dark:border-default-200/50 object-fit rounded-xl shadow-lg"
 />
 
@@ -307,19 +307,19 @@ file helps streamline the process of transforming design ideas into functioning 
 
 ## Get Started
 
-To start using **NextUI v2.0**, head over to our [installation guide](/docs/guide/installation).
+To start using **TeraUI v2.0**, head over to our [installation guide](/docs/guide/installation).
 
-We can't wait to see the amazing things you'll build with **NextUI v2.0**!
+We can't wait to see the amazing things you'll build with **TeraUI v2.0**!
 
 ---
 
 ## Community
 
-We're excited to see the community adopt NextUI, raise issues, and provide feedback.
+We're excited to see the community adopt TeraUI, raise issues, and provide feedback.
 Whether it's a feature request, bug report, or a project to showcase, please get involved!
 
 <Community />
 
 ## Contributing
 
-PR's on NextUI are always welcome, please see our [contribution guidelines](https://github.com/hieumau12/tera-ui/blob/main/CONTRIBUTING.md) to learn how you can contribute to this project.
+PR's on TeraUI are always welcome, please see our [contribution guidelines](https://github.com/hieumau12/tera-ui/blob/main/CONTRIBUTING.md) to learn how you can contribute to this project.

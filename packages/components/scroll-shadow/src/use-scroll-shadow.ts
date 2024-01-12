@@ -1,12 +1,12 @@
 import type {ScrollShadowVariantProps} from "@tera-ui/theme";
 
-import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
+import {HTMLTeraUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
 import {scrollShadow} from "@tera-ui/theme";
 import {ReactRef, useDOMRef} from "@tera-ui/react-utils";
 import {useDataScrollOverflow, UseDataScrollOverflowProps} from "@tera-ui/use-data-scroll-overflow";
 import {useMemo} from "react";
 
-interface Props extends HTMLNextUIProps<"div">, Omit<UseDataScrollOverflowProps, "domRef"> {
+interface Props extends HTMLTeraUIProps<"div">, Omit<UseDataScrollOverflowProps, "domRef"> {
   /**
    * Ref to the DOM node.
    */

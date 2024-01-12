@@ -1,7 +1,7 @@
 import type {SelectSlots, SelectVariantProps, SlotsToClasses} from "@tera-ui/theme";
 import type {HiddenSelectProps} from "./hidden-select";
 
-import {DOMAttributes, HTMLNextUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
+import {DOMAttributes, HTMLTeraUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
 import {select} from "@tera-ui/theme";
 import {ReactRef, useDOMRef, filterDOMProps} from "@tera-ui/react-utils";
 import {useMemo, useCallback, useRef, Key, ReactNode, useEffect} from "react";
@@ -36,7 +36,7 @@ export type SelectedItemProps<T = object> = {
 
 export type SelectedItems<T = object> = Array<SelectedItemProps<T>>;
 
-interface Props<T> extends Omit<HTMLNextUIProps<"select">, keyof SelectVariantProps> {
+interface Props<T> extends Omit<HTMLTeraUIProps<"select">, keyof SelectVariantProps> {
   /**
    * Ref to the DOM node.
    */

@@ -1,17 +1,17 @@
 export const rootFile = `
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { NextUIProvider } from "@tera-ui/react";
+import { TeraUIProvider } from "@tera-ui/react";
 import App from "./App";
 import "./styles.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <NextUIProvider>
+    <TeraUIProvider>
       <div className="w-screen h-screen p-8 flex items-start justify-center">
         <App />
       </div>  
-    </NextUIProvider>
+    </TeraUIProvider>
   </React.StrictMode>
 );`;
 
@@ -28,7 +28,7 @@ export const getHtmlFile = (theme: string, entryFile: string) => `<!DOCTYPE html
   </body>
 </html>`;
 
-export const tailwindConfig = `const { nextui } = require("@tera-ui/react");
+export const tailwindConfig = `const { teraui } = require("@tera-ui/react");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -41,7 +41,7 @@ module.exports = {
     extend: {},
   },
   darkMode: "class",
-  plugins: [nextui()],
+  plugins: [teraui()],
 };`;
 
 export const postcssConfig = `module.exports = {

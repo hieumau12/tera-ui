@@ -187,7 +187,7 @@ export const MDXComponents = {
    */
   NextImage,
   /**
-   * NextUI components
+   * TeraUI components
    */
   ...Components,
   /**
