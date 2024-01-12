@@ -43,14 +43,14 @@
     "@tera-ui/react-utils": "workspace:*",
     "@tera-ui/shared-icons": "workspace:*",
     "@tera-ui/shared-utils": "workspace:*",
-    "@react-aria/focus": "^3.14.3",
-    "@react-aria/interactions": "^3.19.1",
-    "@react-aria/textfield": "^3.12.2",
-    "@react-aria/utils": "^3.21.1",
-    "@react-stately/utils": "^3.8.0",
-    "@react-types/shared": "^3.21.0",
-    "@react-types/textfield": "^3.8.1",
-    "react-textarea-autosize": "^8.5.2"
+    "@react-aria/focus": "3.14.3",
+    "@react-aria/interactions": "3.19.1",
+    "@react-aria/textfield": "3.12.2",
+    "@react-aria/utils": "3.21.1",
+    "@react-stately/utils": "3.8.0",
+    "@react-types/shared": "3.21.0",
+    "@react-types/textfield": "3.8.1",
+    "react-textarea-autosize": "8.5.2"
   },
   "devDependencies": {
     "@tera-ui/theme": "workspace:*",

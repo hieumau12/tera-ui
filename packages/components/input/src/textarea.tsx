@@ -4,7 +4,7 @@ import {mergeProps} from "@react-aria/utils";
 import {useMemo, useState} from "react";
 import TextareaAutosize from "react-textarea-autosize";
 
-import {UseInputProps, useInput} from "./use-input";
+import {useInput, UseInputProps} from "./use-input";
 
 type NativeTextareaProps = React.TextareaHTMLAttributes<HTMLTextAreaElement>;
 type TextareaAutoSizeStyle = Omit<
@@ -145,7 +145,9 @@ const Textarea = forwardRef<"textarea", TextAreaProps>(
         {hasHelper ? (
           <div {...getHelperWrapperProps()}>
             {errorMessage ? (
-              <div {...getErrorMessageProps()}>{errorMessage}</div>
+              <div {...getErrorMessageProps()}>
+                <>{errorMessage}</>
+              </div>
             ) : description ? (
               <div {...getDescriptionProps()}>{description}</div>
             ) : null}

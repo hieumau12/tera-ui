@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "@tera-ui/use-callback-ref": "workspace:*",
-    "@react-stately/utils": "^3.8.0",
+    "@react-stately/utils": "3.8.0",
     "@react-aria/utils": "^3.21.1"
   },
   "devDependencies": {

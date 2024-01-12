@@ -26,7 +26,9 @@ const CheckboxGroup = forwardRef<"div", CheckboxGroupProps>((props, ref) => {
         <CheckboxGroupProvider value={context}>{children}</CheckboxGroupProvider>
       </div>
       {errorMessage ? (
-        <div {...getErrorMessageProps()}>{errorMessage}</div>
+        <div {...getErrorMessageProps()}>
+          <>{errorMessage}</>
+        </div>
       ) : description ? (
         <div {...getDescriptionProps()}>{description}</div>
       ) : null}

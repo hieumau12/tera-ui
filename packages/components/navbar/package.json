@@ -50,7 +50,7 @@
     "@react-aria/interactions": "^3.19.1",
     "@react-aria/utils": "^3.21.1",
     "@react-stately/toggle": "^3.6.3",
-    "@react-stately/utils": "^3.8.0",
+    "@react-stately/utils": "3.8.0",
     "@react-aria/overlays": "^3.18.1",
     "react-remove-scroll": "^2.5.6"
   },

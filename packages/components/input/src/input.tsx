@@ -2,7 +2,7 @@ import {CloseFilledIcon} from "@tera-ui/shared-icons";
 import {useMemo} from "react";
 import {forwardRef} from "@tera-ui/system";
 
-import {UseInputProps, useInput} from "./use-input";
+import {useInput, UseInputProps} from "./use-input";
 
 export interface InputProps extends Omit<UseInputProps, "isMultiline"> {}
 
@@ -47,7 +47,9 @@ const Input = forwardRef<"input", InputProps>((props, ref) => {
     return (
       <div {...getHelperWrapperProps()}>
         {errorMessage ? (
-          <div {...getErrorMessageProps()}>{errorMessage}</div>
+          <div {...getErrorMessageProps()}>
+            <>{errorMessage}</>
+          </div>
         ) : description ? (
           <div {...getDescriptionProps()}>{description}</div>
         ) : null}
