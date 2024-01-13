@@ -1,6 +1,6 @@
 {
   "name": "@tera-ui/modal",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Displays a dialog with a custom content that requires attention or provides additional information.",
   "keywords": [
     "modal"

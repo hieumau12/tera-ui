@@ -1,5 +1,17 @@
 # @tera-ui/link
 
+## 1.1.1
+
+### Patch Changes
+
+- build dist folder
+
+- Updated dependencies []:
+  - @tera-ui/use-aria-link@1.1.1
+  - @tera-ui/react-utils@1.1.1
+  - @tera-ui/shared-icons@1.1.1
+  - @tera-ui/shared-utils@1.1.1
+
 ## 1.1.0
 
 ### Minor Changes

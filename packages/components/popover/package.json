@@ -1,6 +1,6 @@
 {
   "name": "@tera-ui/popover",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A popover is an overlay element positioned relative to a trigger.",
   "keywords": [
     "popover"

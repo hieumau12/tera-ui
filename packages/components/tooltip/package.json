@@ -1,6 +1,6 @@
 {
   "name": "@tera-ui/tooltip",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A React Component for rendering dynamically positioned Tooltips",
   "keywords": [
     "tooltip"

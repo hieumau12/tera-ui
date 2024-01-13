@@ -1,6 +1,6 @@
 {
   "name": "@tera-ui/use-aria-accordion",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "React-aria useAccordion hooks with custom implementations",
   "keywords": [
     "use-aria-accordion"

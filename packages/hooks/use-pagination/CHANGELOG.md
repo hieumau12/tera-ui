@@ -1,5 +1,14 @@
 # @tera-ui/use-pagination
 
+## 1.1.1
+
+### Patch Changes
+
+- build dist folder
+
+- Updated dependencies []:
+  - @tera-ui/shared-utils@1.1.1
+
 ## 1.1.0
 
 ### Minor Changes

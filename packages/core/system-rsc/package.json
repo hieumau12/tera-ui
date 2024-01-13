@@ -1,6 +1,6 @@
 {
   "name": "@tera-ui/system-rsc",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "TeraUI system primitives compatibles with RSC imports",
   "keywords": [
     "system-rsc"
