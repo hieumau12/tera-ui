@@ -1,5 +1,17 @@
 # @tera-ui/chip
 
+## 1.2.1
+
+### Patch Changes
+
+- change button loading position
+
+- Updated dependencies []:
+  - @tera-ui/use-aria-press@1.2.1
+  - @tera-ui/react-utils@1.2.1
+  - @tera-ui/shared-icons@1.2.1
+  - @tera-ui/shared-utils@1.2.1
+
 ## 1.2.0
 
 ### Minor Changes

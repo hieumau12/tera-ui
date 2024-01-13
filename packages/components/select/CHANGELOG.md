@@ -1,5 +1,23 @@
 # @tera-ui/select
 
+## 1.2.1
+
+### Patch Changes
+
+- change button loading position
+
+- Updated dependencies []:
+  - @tera-ui/listbox@1.2.1
+  - @tera-ui/popover@1.2.1
+  - @tera-ui/scroll-shadow@1.2.1
+  - @tera-ui/spinner@1.2.1
+  - @tera-ui/use-aria-button@1.2.1
+  - @tera-ui/use-aria-multiselect@1.2.1
+  - @tera-ui/aria-utils@1.2.1
+  - @tera-ui/react-utils@1.2.1
+  - @tera-ui/shared-icons@1.2.1
+  - @tera-ui/shared-utils@1.2.1
+
 ## 1.2.0
 
 ### Minor Changes

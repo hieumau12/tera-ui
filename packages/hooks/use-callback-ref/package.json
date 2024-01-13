@@ -1,6 +1,6 @@
 {
   "name": "@tera-ui/use-callback-ref",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "React hook to persist any value between renders, but keeps it up-to-date if it changes.",
   "keywords": [
     "use-callback-ref"

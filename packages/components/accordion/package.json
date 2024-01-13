@@ -1,6 +1,6 @@
 {
   "name": "@tera-ui/accordion",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Collapse display a list of high-level options that can expand/collapse to reveal more information.",
   "keywords": [
     "react",

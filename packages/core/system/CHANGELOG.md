@@ -1,5 +1,14 @@
 # @tera-ui/system
 
+## 1.2.1
+
+### Patch Changes
+
+- change button loading position
+
+- Updated dependencies []:
+  - @tera-ui/system-rsc@1.2.1
+
 ## 1.2.0
 
 ### Minor Changes

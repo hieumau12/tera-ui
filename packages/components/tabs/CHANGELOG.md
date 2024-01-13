@@ -1,5 +1,19 @@
 # @tera-ui/tabs
 
+## 1.2.1
+
+### Patch Changes
+
+- change button loading position
+
+- Updated dependencies []:
+  - @tera-ui/use-is-mounted@1.2.1
+  - @tera-ui/use-update-effect@1.2.1
+  - @tera-ui/aria-utils@1.2.1
+  - @tera-ui/framer-transitions@1.2.1
+  - @tera-ui/react-utils@1.2.1
+  - @tera-ui/shared-utils@1.2.1
+
 ## 1.2.0
 
 ### Minor Changes

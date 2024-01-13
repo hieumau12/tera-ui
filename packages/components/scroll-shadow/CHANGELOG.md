@@ -1,5 +1,16 @@
 # @tera-ui/scroll-shadow
 
+## 1.2.1
+
+### Patch Changes
+
+- change button loading position
+
+- Updated dependencies []:
+  - @tera-ui/use-data-scroll-overflow@1.2.1
+  - @tera-ui/react-utils@1.2.1
+  - @tera-ui/shared-utils@1.2.1
+
 ## 1.2.0
 
 ### Minor Changes

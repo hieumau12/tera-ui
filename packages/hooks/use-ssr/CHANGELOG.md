@@ -1,5 +1,11 @@
 # @tera-ui/use-ssr
 
+## 1.2.1
+
+### Patch Changes
+
+- change button loading position
+
 ## 1.2.0
 
 ### Minor Changes

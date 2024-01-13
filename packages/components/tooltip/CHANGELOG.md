@@ -1,5 +1,18 @@
 # @tera-ui/tooltip
 
+## 1.2.1
+
+### Patch Changes
+
+- change button loading position
+
+- Updated dependencies []:
+  - @tera-ui/use-safe-layout-effect@1.2.1
+  - @tera-ui/aria-utils@1.2.1
+  - @tera-ui/framer-transitions@1.2.1
+  - @tera-ui/react-utils@1.2.1
+  - @tera-ui/shared-utils@1.2.1
+
 ## 1.2.0
 
 ### Minor Changes

@@ -1,6 +1,6 @@
 {
   "name": "@tera-ui/code",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Code is a component used to display inline code.",
   "keywords": [
     "code"
