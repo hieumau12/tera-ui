@@ -57,6 +57,11 @@ interface Props extends HTMLTeraUIProps<"button"> {
    * use `onPress` instead.
    */
   onClick?: MouseEventHandler<HTMLButtonElement>;
+
+  /**
+   * Auto uppercase button text content
+   */
+  uppercase?: boolean;
 }
 
 export type UseButtonProps = Props &
@@ -89,6 +94,7 @@ export function useButton(props: UseButtonProps) {
     spinnerPlacement = "start",
     onPress,
     onClick,
+    uppercase = false,
     ...otherProps
   } = props;
 
@@ -115,6 +121,7 @@ export function useButton(props: UseButtonProps) {
         isInGroup,
         disableAnimation,
         isIconOnly,
+        uppercase,
         className,
       }),
     [
@@ -127,6 +134,7 @@ export function useButton(props: UseButtonProps) {
       isInGroup,
       isIconOnly,
       disableAnimation,
+      uppercase,
       className,
     ],
   );
@@ -230,6 +238,7 @@ export function useButton(props: UseButtonProps) {
     getButtonProps,
     getRippleProps,
     isIconOnly,
+    uppercase,
   };
 }
 

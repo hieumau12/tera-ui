@@ -59,6 +59,11 @@ export default {
         type: "boolean",
       },
     },
+    uppercase: {
+      control: {
+        type: "boolean",
+      },
+    },
   },
 } as Meta<typeof Button>;
 
@@ -157,5 +162,12 @@ export const CustomWithClassNames = {
     ...defaultProps,
     radius: "full",
     className: "bg-gradient-to-tr from-pink-500 to-yellow-500 text-white shadow-lg",
+  },
+};
+
+export const Uppercase = {
+  args: {
+    ...defaultProps,
+    uppercase: true,
   },
 };

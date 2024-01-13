@@ -88,6 +88,9 @@ const button = tv({
       false:
         "data-[pressed=true]:scale-[0.97] transition-transform-colors-opacity motion-reduce:transition-none",
     },
+    uppercase: {
+      true: "uppercase",
+    },
   },
   defaultVariants: {
     size: "md",
