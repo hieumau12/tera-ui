@@ -78,9 +78,23 @@ const StateTemplate = (args: ButtonProps) => {
   };
 
   return (
-    <Button {...args} aria-label="Open" aria-pressed={isOpen} onPress={handlePress}>
-      {isOpen ? "Close" : "Open"}
-    </Button>
+    <>
+      <Button {...args} aria-label="Open" aria-pressed={isOpen} onPress={handlePress}>
+        {isOpen ? "Close" : "Open"}
+      </Button>
+    </>
+  );
+};
+
+const IsLoadingTemplate = (args: ButtonProps) => {
+  return (
+    <>
+      <Button {...args}>Loading with icon</Button>
+
+      <Button {...args} className={"ml-4"} startContent={<Notification className="fill-current" />}>
+        Loading with icon
+      </Button>
+    </>
   );
 };
 
@@ -129,6 +143,8 @@ export const IconButton = {
 };
 
 export const IsLoading = {
+  render: IsLoadingTemplate,
+
   args: {
     ...defaultProps,
     color: "primary",

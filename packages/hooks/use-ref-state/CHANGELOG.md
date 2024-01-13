@@ -1,5 +1,11 @@
 # @tera-ui/use-ref-state
 
+## 1.2.0
+
+### Minor Changes
+
+- fixed issue 'use client' not in the first line of code in production build
+
 ## 1.1.1
 
 ### Patch Changes

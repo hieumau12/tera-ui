@@ -1,6 +1,6 @@
 {
   "name": "@tera-ui/radio",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Radios allow users to select a single option from a list of mutually exclusive options.",
   "keywords": [
     "radio"

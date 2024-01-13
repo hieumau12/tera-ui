@@ -26,11 +26,11 @@ const Button = forwardRef<"button", ButtonProps>((props, ref) => {
 
   return (
     <Component ref={domRef} className={styles} {...getButtonProps()}>
-      {startContent}
       {isLoading && spinnerPlacement === "start" && spinner}
+      {startContent}
       {isLoading && isIconOnly ? null : children}
-      {isLoading && spinnerPlacement === "end" && spinner}
       {endContent}
+      {isLoading && spinnerPlacement === "end" && spinner}
       {!disableRipple && <Ripple {...getRippleProps()} />}
     </Component>
   );

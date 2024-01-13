@@ -179,7 +179,7 @@ export function useInput<T extends HTMLInputElement | HTMLTextAreaElement = HTML
       return "outside";
     }
 
-    return originalProps.labelPlacement ?? "inside";
+    return originalProps.labelPlacement ?? "outside";
   }, [originalProps.labelPlacement, label]);
 
   const isClearable = !!onClear || originalProps.isClearable;

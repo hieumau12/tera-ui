@@ -1,6 +1,6 @@
 {
   "name": "@tera-ui/use-aria-modal-overlay",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "A custom implementation of react aria modal overlay, this removes the prevent scroll",
   "keywords": [
     "use-aria-modal-overlay"

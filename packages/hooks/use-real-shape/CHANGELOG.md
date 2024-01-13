@@ -1,5 +1,16 @@
 # @tera-ui/use-real-shape
 
+## 1.2.0
+
+### Minor Changes
+
+- fixed issue 'use client' not in the first line of code in production build
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @tera-ui/react-utils@1.2.0
+
 ## 1.1.1
 
 ### Patch Changes
