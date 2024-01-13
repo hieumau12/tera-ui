@@ -1,5 +1,11 @@
 # @tera-ui/use-aria-modal-overlay
 
+## 1.2.2
+
+### Patch Changes
+
+- Add uppercase params in button component
+
 ## 1.2.1
 
 ### Patch Changes

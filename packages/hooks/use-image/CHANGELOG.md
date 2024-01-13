@@ -1,5 +1,14 @@
 # @tera-ui/use-image
 
+## 1.2.2
+
+### Patch Changes
+
+- Add uppercase params in button component
+
+- Updated dependencies []:
+  - @tera-ui/use-safe-layout-effect@1.2.2
+
 ## 1.2.1
 
 ### Patch Changes

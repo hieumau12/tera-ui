@@ -1,5 +1,16 @@
 # @tera-ui/aria-utils
 
+## 1.2.2
+
+### Patch Changes
+
+- Add uppercase params in button component
+
+- Updated dependencies []:
+  - @tera-ui/system@1.2.2
+  - @tera-ui/react-rsc-utils@1.2.2
+  - @tera-ui/shared-utils@1.2.2
+
 ## 1.2.1
 
 ### Patch Changes

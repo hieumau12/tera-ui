@@ -1,5 +1,14 @@
 # @tera-ui/use-disclosure
 
+## 1.2.2
+
+### Patch Changes
+
+- Add uppercase params in button component
+
+- Updated dependencies []:
+  - @tera-ui/use-callback-ref@1.2.2
+
 ## 1.2.1
 
 ### Patch Changes

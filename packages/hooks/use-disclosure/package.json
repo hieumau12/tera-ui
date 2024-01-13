@@ -1,6 +1,6 @@
 {
   "name": "@tera-ui/use-disclosure",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "The hook in charge of managing modals",
   "keywords": [
     "use-disclosure"

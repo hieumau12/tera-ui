@@ -1,5 +1,16 @@
 # @tera-ui/checkbox
 
+## 1.2.2
+
+### Patch Changes
+
+- Add uppercase params in button component
+
+- Updated dependencies []:
+  - @tera-ui/use-aria-press@1.2.2
+  - @tera-ui/react-utils@1.2.2
+  - @tera-ui/shared-utils@1.2.2
+
 ## 1.2.1
 
 ### Patch Changes

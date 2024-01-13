@@ -1,5 +1,14 @@
 # @tera-ui/system
 
+## 1.2.2
+
+### Patch Changes
+
+- Add uppercase params in button component
+
+- Updated dependencies []:
+  - @tera-ui/system-rsc@1.2.2
+
 ## 1.2.1
 
 ### Patch Changes

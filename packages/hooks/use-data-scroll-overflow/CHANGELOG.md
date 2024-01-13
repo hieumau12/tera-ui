@@ -1,5 +1,14 @@
 # @tera-ui/use-data-scroll-overflow
 
+## 1.2.2
+
+### Patch Changes
+
+- Add uppercase params in button component
+
+- Updated dependencies []:
+  - @tera-ui/shared-utils@1.2.2
+
 ## 1.2.1
 
 ### Patch Changes

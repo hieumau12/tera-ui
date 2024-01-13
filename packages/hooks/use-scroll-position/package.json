@@ -1,6 +1,6 @@
 {
   "name": "@tera-ui/use-scroll-position",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Provides the logic to control the scroll over an element",
   "keywords": [
     "use-scroll-position"

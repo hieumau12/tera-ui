@@ -1,5 +1,14 @@
 # @tera-ui/use-real-shape
 
+## 1.2.2
+
+### Patch Changes
+
+- Add uppercase params in button component
+
+- Updated dependencies []:
+  - @tera-ui/react-utils@1.2.2
+
 ## 1.2.1
 
 ### Patch Changes

@@ -1,5 +1,14 @@
 # @tera-ui/use-aria-link
 
+## 1.2.2
+
+### Patch Changes
+
+- Add uppercase params in button component
+
+- Updated dependencies []:
+  - @tera-ui/use-aria-press@1.2.2
+
 ## 1.2.1
 
 ### Patch Changes

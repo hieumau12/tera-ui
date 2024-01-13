@@ -1,5 +1,11 @@
 # @tera-ui/react-rsc-utils
 
+## 1.2.2
+
+### Patch Changes
+
+- Add uppercase params in button component
+
 ## 1.2.1
 
 ### Patch Changes

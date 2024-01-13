@@ -1,5 +1,19 @@
 # @tera-ui/tabs
 
+## 1.2.2
+
+### Patch Changes
+
+- Add uppercase params in button component
+
+- Updated dependencies []:
+  - @tera-ui/use-is-mounted@1.2.2
+  - @tera-ui/use-update-effect@1.2.2
+  - @tera-ui/aria-utils@1.2.2
+  - @tera-ui/framer-transitions@1.2.2
+  - @tera-ui/react-utils@1.2.2
+  - @tera-ui/shared-utils@1.2.2
+
 ## 1.2.1
 
 ### Patch Changes
