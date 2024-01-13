@@ -64,4 +64,14 @@ describe("Button", () => {
 
     expect(wrapper.getByRole("button")).toHaveAttribute("type", "submit");
   });
+
+  it("should uppercase text inside", () => {
+    const wrapper = render(<Button uppercase={true}>Button</Button>);
+
+    expect(wrapper.getAllByRole("button")[0]).toHaveClass("uppercase");
+
+    const wrapper2 = render(<Button uppercase={false}>Button</Button>);
+
+    expect(wrapper2.getAllByRole("button")[1]).not.toHaveClass("uppercase");
+  });
 });
