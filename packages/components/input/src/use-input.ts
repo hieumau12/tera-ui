@@ -359,7 +359,7 @@ export function useInput<T extends HTMLInputElement | HTMLTextAreaElement = HTML
           }
         },
         className: slots.innerWrapper({
-          class: clsx(classNames?.innerWrapper, props?.className).replace(" h-unit-10 ", ""),
+          class: clsx(classNames?.innerWrapper, props?.className),
         }),
       };
     },

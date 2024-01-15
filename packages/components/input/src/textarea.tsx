@@ -138,7 +138,11 @@ const Textarea = forwardRef<"textarea", TextAreaProps>(
     return (
       <Component {...getBaseProps()}>
         {shouldLabelBeOutside ? labelContent : null}
-        <div {...getInputWrapperProps()} data-has-multiple-rows={dataAttr(hasMultipleRows)}>
+        <div
+          {...getInputWrapperProps()}
+          className={getInputWrapperProps().className.replace(" h-unit-10 ", "")}
+          data-has-multiple-rows={dataAttr(hasMultipleRows)}
+        >
           {shouldLabelBeInside ? labelContent : null}
           {innerWrapper}
         </div>
