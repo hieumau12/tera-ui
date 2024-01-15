@@ -1,14 +1,14 @@
-import type {InputVariantProps, SlotsToClasses, InputSlots} from "@tera-ui/theme";
+import type {InputSlots, InputVariantProps, SlotsToClasses} from "@tera-ui/theme";
 
+import {input} from "@tera-ui/theme";
 import {HTMLTeraUIProps, mapPropsVariants, PropGetter} from "@tera-ui/system";
 import {AriaTextFieldProps} from "@react-types/textfield";
 import {useFocusRing} from "@react-aria/focus";
-import {input} from "@tera-ui/theme";
-import {useDOMRef, filterDOMProps} from "@tera-ui/react-utils";
+import {filterDOMProps, useDOMRef} from "@tera-ui/react-utils";
 import {useFocusWithin, useHover, usePress} from "@react-aria/interactions";
 import {clsx, dataAttr, safeAriaLabel} from "@tera-ui/shared-utils";
 import {useControlledState} from "@react-stately/utils";
-import {useMemo, Ref, useCallback, useState} from "react";
+import {Ref, useCallback, useMemo, useState} from "react";
 import {chain, mergeProps} from "@react-aria/utils";
 import {useTextField} from "@react-aria/textfield";
 
@@ -359,7 +359,7 @@ export function useInput<T extends HTMLInputElement | HTMLTextAreaElement = HTML
           }
         },
         className: slots.innerWrapper({
-          class: clsx(classNames?.innerWrapper, props?.className),
+          class: clsx(classNames?.innerWrapper, props?.className).replace(" h-unit-10 ", ""),
         }),
       };
     },
