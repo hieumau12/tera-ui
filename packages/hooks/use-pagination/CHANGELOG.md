@@ -1,5 +1,14 @@
 # @tera-ui/use-pagination
 
+## 1.2.3
+
+### Patch Changes
+
+- fix bug conflict heigh in textarea component
+
+- Updated dependencies []:
+  - @tera-ui/shared-utils@1.2.3
+
 ## 1.2.2
 
 ### Patch Changes

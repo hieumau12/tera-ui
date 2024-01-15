@@ -1,6 +1,6 @@
 {
   "name": "@tera-ui/pagination",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "The Pagination component allows you to display active page and navigate between multiple pages.",
   "keywords": [
     "pagination"

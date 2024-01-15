@@ -1,6 +1,6 @@
 {
   "name": "@tera-ui/tabs",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Tabs organize content into multiple sections and allow users to navigate between them.",
   "keywords": [
     "tabs"

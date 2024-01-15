@@ -1,6 +1,6 @@
 {
   "name": "@tera-ui/spinner",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Loaders express an unspecified wait time or display the length of a process.",
   "keywords": [
     "loading",

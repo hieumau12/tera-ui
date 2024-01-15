@@ -1,6 +1,6 @@
 {
   "name": "@tera-ui/progress",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Progress bars show either determinate or indeterminate progress of an operation over time.",
   "keywords": [
     "progress"

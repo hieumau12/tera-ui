@@ -1,6 +1,6 @@
 {
   "name": "@tera-ui/use-aria-accordion-item",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Internal impl for react aria accordion item",
   "keywords": [
     "use-aria-accordion-item"

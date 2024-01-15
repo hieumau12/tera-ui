@@ -1,5 +1,52 @@
 # @tera-ui/react
 
+## 1.2.3
+
+### Patch Changes
+
+- fix bug conflict heigh in textarea component
+
+- Updated dependencies []:
+  - @tera-ui/accordion@1.2.3
+  - @tera-ui/autocomplete@1.2.3
+  - @tera-ui/avatar@1.2.3
+  - @tera-ui/badge@1.2.3
+  - @tera-ui/breadcrumbs@1.2.3
+  - @tera-ui/button@1.2.3
+  - @tera-ui/card@1.2.3
+  - @tera-ui/checkbox@1.2.3
+  - @tera-ui/chip@1.2.3
+  - @tera-ui/code@1.2.3
+  - @tera-ui/divider@1.2.3
+  - @tera-ui/dropdown@1.2.3
+  - @tera-ui/image@1.2.3
+  - @tera-ui/input@1.2.3
+  - @tera-ui/kbd@1.2.3
+  - @tera-ui/link@1.2.3
+  - @tera-ui/listbox@1.2.3
+  - @tera-ui/menu@1.2.3
+  - @tera-ui/modal@1.2.3
+  - @tera-ui/navbar@1.2.3
+  - @tera-ui/pagination@1.2.3
+  - @tera-ui/popover@1.2.3
+  - @tera-ui/progress@1.2.3
+  - @tera-ui/radio@1.2.3
+  - @tera-ui/ripple@1.2.3
+  - @tera-ui/scroll-shadow@1.2.3
+  - @tera-ui/select@1.2.3
+  - @tera-ui/skeleton@1.2.3
+  - @tera-ui/slider@1.2.3
+  - @tera-ui/snippet@1.2.3
+  - @tera-ui/spacer@1.2.3
+  - @tera-ui/spinner@1.2.3
+  - @tera-ui/switch@1.2.3
+  - @tera-ui/table@1.2.3
+  - @tera-ui/tabs@1.2.3
+  - @tera-ui/tooltip@1.2.3
+  - @tera-ui/user@1.2.3
+  - @tera-ui/system@1.2.3
+  - @tera-ui/theme@1.2.3
+
 ## 1.2.2
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # @tera-ui/use-infinite-scroll
 
+## 1.2.3
+
+### Patch Changes
+
+- fix bug conflict heigh in textarea component
+
 ## 1.2.2
 
 ### Patch Changes

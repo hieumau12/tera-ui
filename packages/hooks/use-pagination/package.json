@@ -1,6 +1,6 @@
 {
   "name": "@tera-ui/use-pagination",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "State management hook for Pagination component, it lets you manage pagination with controlled and uncontrolled state",
   "keywords": [
     "use-pagination"
