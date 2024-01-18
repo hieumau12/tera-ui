@@ -1,6 +1,6 @@
 {
   "name": "@tera-ui/use-aria-link",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "Internal hook to handle link a11y and events, this is based on react-aria link hook but without the onClick warning",
   "keywords": [
     "use-aria-link"

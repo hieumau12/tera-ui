@@ -1178,13 +1178,9 @@ importers:
       '@tera-ui/system-rsc':
         specifier: workspace:*
         version: link:../../core/system-rsc
-    devDependencies:
       '@tera-ui/theme':
-        specifier: workspace:*
+        specifier: '>=1.0.0'
         version: link:../../core/theme
-      clean-package:
-        specifier: 2.2.0
-        version: 2.2.0
       react:
         specifier: ^18.2.0
         version: 18.2.0
@@ -2243,13 +2239,9 @@ importers:
       '@tera-ui/system-rsc':
         specifier: workspace:*
         version: link:../../core/system-rsc
-    devDependencies:
       '@tera-ui/theme':
-        specifier: workspace:*
+        specifier: '>=1.0.0'
         version: link:../../core/theme
-      clean-package:
-        specifier: 2.2.0
-        version: 2.2.0
       react:
         specifier: ^18.2.0
         version: 18.2.0
@@ -2286,22 +2278,15 @@ importers:
       '@tera-ui/shared-utils':
         specifier: workspace:*
         version: link:../../utilities/shared-utils
+      '@tera-ui/system':
+        specifier: '>=1.0.0'
+        version: link:../../core/system
+      '@tera-ui/theme':
+        specifier: '>=1.0.0'
+        version: link:../../core/theme
       '@tera-ui/use-aria-press':
         specifier: workspace:*
         version: link:../../hooks/use-aria-press
-    devDependencies:
-      '@tera-ui/shared-icons':
-        specifier: workspace:*
-        version: link:../../utilities/shared-icons
-      '@tera-ui/system':
-        specifier: workspace:*
-        version: link:../../core/system
-      '@tera-ui/theme':
-        specifier: workspace:*
-        version: link:../../core/theme
-      clean-package:
-        specifier: 2.2.0
-        version: 2.2.0
       react:
         specifier: ^18.2.0
         version: 18.2.0

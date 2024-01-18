@@ -1,6 +1,6 @@
 {
   "name": "@tera-ui/switch",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "A switch is similar to a checkbox, but represents on/off values as opposed to selection.",
   "keywords": [
     "switch"
@@ -8,7 +8,7 @@
   "author": "Tera Research Lab",
   "homepage": "https://tera-ui-storybook.vercel.app",
   "license": "MIT",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
   "sideEffects": false,
   "files": [
     "dist"
@@ -51,13 +51,15 @@
     "@react-stately/toggle": "^3.6.3",
     "@react-types/shared": "^3.21.0"
   },
-  "devDependencies": {
-    "@tera-ui/theme": "workspace:*",
-    "@tera-ui/system": "workspace:*",
-    "@tera-ui/shared-icons": "workspace:*",
-    "clean-package": "2.2.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
-  },
-  "clean-package": "../../../clean-package.config.json"
+  "clean-package": "../../../clean-package.config.json",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  }
 }

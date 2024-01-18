@@ -1,5 +1,16 @@
 # @tera-ui/divider
 
+## 1.3.1
+
+### Patch Changes
+
+- update build source
+
+- Updated dependencies []:
+  - @tera-ui/system-rsc@1.3.1
+  - @tera-ui/react-rsc-utils@1.3.1
+  - @tera-ui/shared-utils@1.3.1
+
 ## 1.3.0
 
 ### Minor Changes

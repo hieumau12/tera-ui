@@ -1,5 +1,18 @@
 # @tera-ui/pagination
 
+## 1.3.1
+
+### Patch Changes
+
+- update build source
+
+- Updated dependencies []:
+  - @tera-ui/use-aria-press@1.3.1
+  - @tera-ui/use-pagination@1.3.1
+  - @tera-ui/react-utils@1.3.1
+  - @tera-ui/shared-icons@1.3.1
+  - @tera-ui/shared-utils@1.3.1
+
 ## 1.3.0
 
 ### Minor Changes

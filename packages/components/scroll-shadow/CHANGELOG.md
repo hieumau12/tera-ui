@@ -1,5 +1,16 @@
 # @tera-ui/scroll-shadow
 
+## 1.3.1
+
+### Patch Changes
+
+- update build source
+
+- Updated dependencies []:
+  - @tera-ui/use-data-scroll-overflow@1.3.1
+  - @tera-ui/react-utils@1.3.1
+  - @tera-ui/shared-utils@1.3.1
+
 ## 1.3.0
 
 ### Minor Changes

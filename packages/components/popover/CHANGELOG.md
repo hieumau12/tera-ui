@@ -1,5 +1,19 @@
 # @tera-ui/popover
 
+## 1.3.1
+
+### Patch Changes
+
+- update build source
+
+- Updated dependencies []:
+  - @tera-ui/button@1.3.1
+  - @tera-ui/use-aria-button@1.3.1
+  - @tera-ui/aria-utils@1.3.1
+  - @tera-ui/framer-transitions@1.3.1
+  - @tera-ui/react-utils@1.3.1
+  - @tera-ui/shared-utils@1.3.1
+
 ## 1.3.0
 
 ### Minor Changes

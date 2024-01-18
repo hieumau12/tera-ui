@@ -1,6 +1,6 @@
 {
   "name": "@tera-ui/autocomplete",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "An autocomplete combines a text input with a listbox, allowing users to filter a list of options to items matching a query.",
   "keywords": [
     "autocomplete"

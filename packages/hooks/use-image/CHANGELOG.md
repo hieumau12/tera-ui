@@ -1,5 +1,14 @@
 # @tera-ui/use-image
 
+## 1.3.1
+
+### Patch Changes
+
+- update build source
+
+- Updated dependencies []:
+  - @tera-ui/use-safe-layout-effect@1.3.1
+
 ## 1.3.0
 
 ### Minor Changes

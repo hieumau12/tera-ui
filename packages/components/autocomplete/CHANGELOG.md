@@ -1,5 +1,24 @@
 # @tera-ui/autocomplete
 
+## 1.3.1
+
+### Patch Changes
+
+- update build source
+
+- Updated dependencies []:
+  - @tera-ui/button@1.3.1
+  - @tera-ui/input@1.3.1
+  - @tera-ui/listbox@1.3.1
+  - @tera-ui/popover@1.3.1
+  - @tera-ui/scroll-shadow@1.3.1
+  - @tera-ui/spinner@1.3.1
+  - @tera-ui/use-aria-button@1.3.1
+  - @tera-ui/aria-utils@1.3.1
+  - @tera-ui/react-utils@1.3.1
+  - @tera-ui/shared-icons@1.3.1
+  - @tera-ui/shared-utils@1.3.1
+
 ## 1.3.0
 
 ### Minor Changes

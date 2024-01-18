@@ -1,5 +1,20 @@
 # @tera-ui/modal
 
+## 1.3.1
+
+### Patch Changes
+
+- update build source
+
+- Updated dependencies []:
+  - @tera-ui/use-aria-button@1.3.1
+  - @tera-ui/use-aria-modal-overlay@1.3.1
+  - @tera-ui/use-disclosure@1.3.1
+  - @tera-ui/framer-transitions@1.3.1
+  - @tera-ui/react-utils@1.3.1
+  - @tera-ui/shared-icons@1.3.1
+  - @tera-ui/shared-utils@1.3.1
+
 ## 1.3.0
 
 ### Minor Changes
