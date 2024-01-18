@@ -238,10 +238,11 @@ const input = tv({
     color: "default",
     size: "md",
     fullWidth: true,
-    labelPlacement: "inside",
+    labelPlacement: "outside",
     isDisabled: false,
     isMultiline: false,
     disableAnimation: false,
+    radius: "full",
   },
   compoundVariants: [
     // flat & color

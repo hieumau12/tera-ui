@@ -202,12 +202,14 @@ const select = tv({
     variant: "flat",
     color: "default",
     size: "md",
-    labelPlacement: "inside",
+    labelPlacement: "outside",
     fullWidth: true,
     isDisabled: false,
     isMultiline: false,
     disableAnimation: false,
     disableSelectorIconRotation: false,
+    radius: "full",
+    disallowEmptySelection: true,
   },
   compoundVariants: [
     // flat & color
