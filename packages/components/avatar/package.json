@@ -1,6 +1,6 @@
 {
   "name": "@tera-ui/avatar",
-  "version": "1.2.3",
+  "version": "1.3.0",
   "description": "The Avatar component is used to represent a user, and displays the profile picture, initials or fallback icon.",
   "keywords": [
     "avatar"

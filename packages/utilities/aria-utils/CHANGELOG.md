@@ -1,5 +1,22 @@
 # @tera-ui/aria-utils
 
+## 1.3.0
+
+### Minor Changes
+
+- - move labelPlacement default is outside
+  - make button bold
+  - make label bold
+  - full border radius in Select input
+  - change disallowEmptySelection in Selection default value to true. current is false
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @tera-ui/system@1.3.0
+  - @tera-ui/react-rsc-utils@1.3.0
+  - @tera-ui/shared-utils@1.3.0
+
 ## 1.2.3
 
 ### Patch Changes

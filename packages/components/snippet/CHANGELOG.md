@@ -1,5 +1,25 @@
 # @tera-ui/snippet
 
+## 1.3.0
+
+### Minor Changes
+
+- - move labelPlacement default is outside
+  - make button bold
+  - make label bold
+  - full border radius in Select input
+  - change disallowEmptySelection in Selection default value to true. current is false
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @tera-ui/button@1.3.0
+  - @tera-ui/tooltip@1.3.0
+  - @tera-ui/use-clipboard@1.3.0
+  - @tera-ui/react-utils@1.3.0
+  - @tera-ui/shared-icons@1.3.0
+  - @tera-ui/shared-utils@1.3.0
+
 ## 1.2.3
 
 ### Patch Changes

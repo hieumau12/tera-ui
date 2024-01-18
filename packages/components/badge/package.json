@@ -1,6 +1,6 @@
 {
   "name": "@tera-ui/badge",
-  "version": "1.2.3",
+  "version": "1.3.0",
   "description": "Badges are used as a small numerical value or status descriptor for UI elements.",
   "keywords": [
     "badge"
