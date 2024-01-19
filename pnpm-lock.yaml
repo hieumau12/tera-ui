@@ -2275,6 +2275,9 @@ importers:
       '@tera-ui/react-utils':
         specifier: workspace:*
         version: link:../../utilities/react-utils
+      '@tera-ui/shared-icons':
+        specifier: workspace:*
+        version: link:../../utilities/shared-icons
       '@tera-ui/shared-utils':
         specifier: workspace:*
         version: link:../../utilities/shared-utils

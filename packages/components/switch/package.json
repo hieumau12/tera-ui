@@ -41,6 +41,7 @@
   },
   "dependencies": {
     "@tera-ui/shared-utils": "workspace:*",
+    "@tera-ui/shared-icons": "workspace:*",
     "@tera-ui/react-utils": "workspace:*",
     "@tera-ui/use-aria-press": "workspace:*",
     "@react-aria/focus": "^3.14.3",
