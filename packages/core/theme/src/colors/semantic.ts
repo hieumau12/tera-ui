@@ -86,13 +86,13 @@ export const themeColorsLight: ThemeColors = {
   },
   primary: {
     ...common.blue,
-    foreground: readableColor(common.blue[500]),
+    foreground: common.white,
     DEFAULT: common.blue[500],
   },
   secondary: {
-    ...common.purple,
-    foreground: readableColor(common.purple[500]),
-    DEFAULT: common.purple[500],
+    ...common.orange,
+    foreground: common.white,
+    DEFAULT: common.orange[500],
   },
   success: {
     ...common.green,
