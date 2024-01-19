@@ -1,5 +1,13 @@
 # @tera-ui/snippet
 
+## 1.3.2
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @tera-ui/button@1.3.2
+  - @tera-ui/tooltip@1.3.1
+
 ## 1.3.1
 
 ### Patch Changes

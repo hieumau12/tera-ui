@@ -1,5 +1,27 @@
 # @tera-ui/react
 
+## 1.3.3
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @tera-ui/button@1.3.2
+  - @tera-ui/accordion@1.3.1
+  - @tera-ui/autocomplete@1.3.2
+  - @tera-ui/breadcrumbs@1.3.1
+  - @tera-ui/card@1.3.1
+  - @tera-ui/dropdown@1.3.2
+  - @tera-ui/modal@1.3.1
+  - @tera-ui/navbar@1.3.1
+  - @tera-ui/popover@1.3.2
+  - @tera-ui/radio@1.3.1
+  - @tera-ui/select@1.3.2
+  - @tera-ui/skeleton@1.3.1
+  - @tera-ui/snippet@1.3.2
+  - @tera-ui/table@1.3.1
+  - @tera-ui/tabs@1.3.1
+  - @tera-ui/tooltip@1.3.1
+
 ## 1.3.2
 
 ### Patch Changes

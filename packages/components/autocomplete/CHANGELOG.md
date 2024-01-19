@@ -1,5 +1,13 @@
 # @tera-ui/autocomplete
 
+## 1.3.2
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @tera-ui/button@1.3.2
+  - @tera-ui/popover@1.3.2
+
 ## 1.3.1
 
 ### Patch Changes
