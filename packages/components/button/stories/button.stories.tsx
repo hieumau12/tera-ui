@@ -64,6 +64,11 @@ export default {
         type: "boolean",
       },
     },
+    bold: {
+      control: {
+        type: "boolean",
+      },
+    },
   },
 } as Meta<typeof Button>;
 
@@ -169,5 +174,12 @@ export const Uppercase = {
   args: {
     ...defaultProps,
     uppercase: true,
+  },
+};
+
+export const Bold = {
+  args: {
+    ...defaultProps,
+    bold: true,
   },
 };

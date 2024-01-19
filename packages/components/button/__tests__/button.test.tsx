@@ -74,4 +74,14 @@ describe("Button", () => {
 
     expect(wrapper2.getAllByRole("button")[1]).not.toHaveClass("uppercase");
   });
+
+  it("should bold text inside", () => {
+    const wrapper = render(<Button bold={true}>Button</Button>);
+
+    expect(wrapper.getAllByRole("button")[0]).toHaveClass("font-bold");
+
+    const wrapper2 = render(<Button bold={false}>Button</Button>);
+
+    expect(wrapper2.getAllByRole("button")[1]).toHaveClass("font-normal");
+  });
 });

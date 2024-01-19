@@ -4,18 +4,16 @@ import type {HTMLTeraUIProps, PropGetter} from "@tera-ui/system";
 import type {ReactNode} from "react";
 import type {RippleProps} from "@tera-ui/ripple";
 
+import {cloneElement, isValidElement, MouseEventHandler, useCallback, useMemo} from "react";
+import {useAriaButton} from "@tera-ui/use-aria-button";
+import {button} from "@tera-ui/theme";
+import {useRipple} from "@tera-ui/ripple";
 import {dataAttr} from "@tera-ui/shared-utils";
-import {ReactRef} from "@tera-ui/react-utils";
-import {MouseEventHandler, useCallback} from "react";
+import {filterDOMProps, ReactRef, useDOMRef} from "@tera-ui/react-utils";
 import {useFocusRing} from "@react-aria/focus";
 import {chain, mergeProps} from "@react-aria/utils";
-import {useDOMRef, filterDOMProps} from "@tera-ui/react-utils";
-import {button} from "@tera-ui/theme";
-import {isValidElement, cloneElement, useMemo} from "react";
-import {useAriaButton} from "@tera-ui/use-aria-button";
 import {useHover} from "@react-aria/interactions";
 import {SpinnerProps} from "@tera-ui/spinner";
-import {useRipple} from "@tera-ui/ripple";
 
 import {useButtonGroupContext} from "./button-group-context";
 
@@ -62,6 +60,11 @@ interface Props extends HTMLTeraUIProps<"button"> {
    * Auto uppercase button text content
    */
   uppercase?: boolean;
+
+  /**
+   * Auto apply font bold for text content
+   */
+  bold?: boolean;
 }
 
 export type UseButtonProps = Props &
@@ -95,6 +98,7 @@ export function useButton(props: UseButtonProps) {
     onPress,
     onClick,
     uppercase = false,
+    bold = true,
     ...otherProps
   } = props;
 
@@ -122,6 +126,7 @@ export function useButton(props: UseButtonProps) {
         disableAnimation,
         isIconOnly,
         uppercase,
+        bold,
         className,
       }),
     [
@@ -135,6 +140,7 @@ export function useButton(props: UseButtonProps) {
       isIconOnly,
       disableAnimation,
       uppercase,
+      bold,
       className,
     ],
   );
@@ -239,6 +245,7 @@ export function useButton(props: UseButtonProps) {
     getRippleProps,
     isIconOnly,
     uppercase,
+    bold,
   };
 }
 

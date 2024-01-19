@@ -91,6 +91,10 @@ const button = tv({
     uppercase: {
       true: "uppercase",
     },
+    bold: {
+      true: "font-bold",
+      false: "font-normal",
+    },
   },
   defaultVariants: {
     size: "md",
@@ -101,6 +105,7 @@ const button = tv({
     isInGroup: false,
     disableAnimation: false,
     radius: "full",
+    bold: true,
   },
   compoundVariants: [
     // solid / color
