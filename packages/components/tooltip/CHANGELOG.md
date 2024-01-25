@@ -1,5 +1,18 @@
 # @tera-ui/tooltip
 
+## 1.3.2
+
+### Patch Changes
+
+- fix dist build
+
+- Updated dependencies []:
+  - @tera-ui/use-safe-layout-effect@1.3.2
+  - @tera-ui/aria-utils@1.3.2
+  - @tera-ui/framer-transitions@1.3.2
+  - @tera-ui/react-utils@1.3.2
+  - @tera-ui/shared-utils@1.3.2
+
 ## 1.3.1
 
 ### Patch Changes

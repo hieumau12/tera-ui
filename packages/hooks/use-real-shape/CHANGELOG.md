@@ -1,5 +1,14 @@
 # @tera-ui/use-real-shape
 
+## 1.3.2
+
+### Patch Changes
+
+- fix dist build
+
+- Updated dependencies []:
+  - @tera-ui/react-utils@1.3.2
+
 ## 1.3.1
 
 ### Patch Changes

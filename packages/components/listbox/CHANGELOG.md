@@ -1,5 +1,19 @@
 # @tera-ui/listbox
 
+## 1.3.2
+
+### Patch Changes
+
+- fix dist build
+
+- Updated dependencies []:
+  - @tera-ui/divider@1.3.2
+  - @tera-ui/use-aria-press@1.3.2
+  - @tera-ui/use-is-mobile@1.3.2
+  - @tera-ui/aria-utils@1.3.2
+  - @tera-ui/react-utils@1.3.2
+  - @tera-ui/shared-utils@1.3.2
+
 ## 1.3.1
 
 ### Patch Changes

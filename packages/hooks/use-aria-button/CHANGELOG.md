@@ -1,5 +1,14 @@
 # @tera-ui/use-aria-button
 
+## 1.3.2
+
+### Patch Changes
+
+- fix dist build
+
+- Updated dependencies []:
+  - @tera-ui/use-aria-press@1.3.2
+
 ## 1.3.1
 
 ### Patch Changes

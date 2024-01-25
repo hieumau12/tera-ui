@@ -1,5 +1,16 @@
 # @tera-ui/radio
 
+## 1.3.2
+
+### Patch Changes
+
+- fix dist build
+
+- Updated dependencies []:
+  - @tera-ui/use-aria-press@1.3.2
+  - @tera-ui/react-utils@1.3.2
+  - @tera-ui/shared-utils@1.3.2
+
 ## 1.3.1
 
 ### Patch Changes

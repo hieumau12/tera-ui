@@ -1,5 +1,15 @@
 # @tera-ui/framer-transitions
 
+## 1.3.2
+
+### Patch Changes
+
+- fix dist build
+
+- Updated dependencies []:
+  - @tera-ui/system@1.3.2
+  - @tera-ui/shared-utils@1.3.2
+
 ## 1.3.1
 
 ### Patch Changes

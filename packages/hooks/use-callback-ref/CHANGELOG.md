@@ -1,5 +1,14 @@
 # @tera-ui/use-callback-ref
 
+## 1.3.2
+
+### Patch Changes
+
+- fix dist build
+
+- Updated dependencies []:
+  - @tera-ui/use-safe-layout-effect@1.3.2
+
 ## 1.3.1
 
 ### Patch Changes
