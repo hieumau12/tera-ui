@@ -180,7 +180,7 @@ const modal = tv({
     shadow: "sm",
     placement: "auto",
     backdrop: "opaque",
-    scrollBehavior: "normal",
+    scrollBehavior: "inside",
   },
   compoundVariants: [
     // backdrop (opaque/blur)
